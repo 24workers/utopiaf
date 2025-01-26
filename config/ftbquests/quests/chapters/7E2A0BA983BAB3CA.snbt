@@ -1,0 +1,89 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "7E2A0BA983BAB3CA"
+	group: "4042212D3F461FE3"
+	id: "7E2A0BA983BAB3CA"
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			id: "415A58E88B0FD2DD"
+			tasks: [{
+				id: "67EC10C145B36537"
+				item: "jewelry:jewelers_kit"
+				type: "item"
+			}]
+			title: "珠宝商人村民"
+			x: -10.5d
+			y: -1.0d
+		}
+		{
+			id: "4C2CBFE16FF080B8"
+			tasks: [{
+				id: "7CEC07723E2EBB93"
+				item: "betterarcheology:archeology_table"
+				type: "item"
+			}]
+			title: "考古学家村民"
+			x: -9.5d
+			y: -1.0d
+		}
+		{
+			id: "7D5C6F37E5659DFC"
+			tasks: [{
+				id: "7C95B91A702BF94D"
+				item: "villagersplus:oak_horticulturist_table"
+				type: "item"
+			}]
+			title: "植物学家村民"
+			x: -8.5d
+			y: -1.0d
+		}
+		{
+			id: "3CE89996F3871C5F"
+			tasks: [{
+				id: "71D81C1AF1A6B17E"
+				item: "villagersplus:oceanographer_table"
+				type: "item"
+			}]
+			title: "海洋学家村民"
+			x: -7.5d
+			y: -1.0d
+		}
+		{
+			id: "70C42BCDC0BB6DAB"
+			tasks: [{
+				id: "62B86201B4A2D2FA"
+				item: "villagersplus:alchemist_table"
+				type: "item"
+			}]
+			title: "炼金术士村民"
+			x: -6.5d
+			y: -1.0d
+		}
+		{
+			id: "6272EC66BF45DCB5"
+			tasks: [{
+				id: "7B050621206528D0"
+				item: "minecraft:beehive"
+				type: "item"
+			}]
+			title: "养蜂人村民"
+			x: -5.5d
+			y: -1.0d
+		}
+		{
+			id: "06086B7F0F96DDFA"
+			tasks: [{
+				id: "0ED76D3974DE4636"
+				item: "paladins:monk_workbench"
+				type: "item"
+			}]
+			title: "修士村民"
+			x: -4.5d
+			y: -1.0d
+		}
+	]
+	title: "村民职业功能方块"
+}

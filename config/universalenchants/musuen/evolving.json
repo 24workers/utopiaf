@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:musuen_tool"
+  ],
+  "incompatible": [
+    "minecraft:efficiency",
+    "musuen:skewering",
+    "musuen:unearthing",
+    "musuen:overcharged",
+    "musuen:vein_miner",
+    "minecraft:impaling",
+    "musuen:laceration",
+    "minecraft:smite",
+    "minecraft:power",
+    "deeperdarker:sculk_smite",
+    "minecraft:sharpness",
+    "minecraft:bane_of_arthropods",
+    "musuen:berserker"
+  ]
+}

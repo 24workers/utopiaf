@@ -1,0 +1,769 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "043CFE49EEE33C8F"
+	group: "79BDAE92E48D450B"
+	icon: "plushies:wandering_trader_plushie"
+	id: "043CFE49EEE33C8F"
+	images: [{
+		height: 20.0d
+		image: "minecraft:textures/huojia6.png"
+		rotation: 0.0d
+		width: 20.0d
+		x: -3.5d
+		y: -1.5d
+	}]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "meadow:fur_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "4D12B7D00084027A"
+			rewards: [
+				{
+					id: "306557BA98497E50"
+					item: {
+						Count: 1
+						id: "meadow:fur_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "49833F10A5DCFD86"
+					item: {
+						Count: 1
+						id: "meadow:fur_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1CD2DCBF3E03E522"
+					item: {
+						Count: 1
+						id: "meadow:fur_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "57B58676BDA55ED7"
+					item: {
+						Count: 1
+						id: "meadow:fur_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				consume_items: true
+				count: 40L
+				id: "0B7FF34D74FFD150"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			title: "毛皮衣服"
+			x: -6.5d
+			y: -4.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: "betterend:end_lotus_seed"
+			id: "679BABE68FC67E0F"
+			rewards: [
+				{
+					id: "30CCAC1403909ACD"
+					item: "betterend:end_lotus_seed"
+					type: "item"
+				}
+				{
+					id: "50F1249E634A0A19"
+					item: "betterend:end_lily_seed"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				consume_items: true
+				count: 10L
+				id: "4315919E551653B4"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			title: "末地莲种子"
+			x: -9.5d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: "simplehats:hatbag_common"
+			id: "25BCE4D6A492CB30"
+			rewards: [{
+				id: "5E0DF2612E1C2A25"
+				item: "simplehats:hatbag_common"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				consume_items: true
+				count: 9L
+				id: "69B3BE426A82D5C3"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			title: "普通帽子袋"
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: "simplehats:hatbag_uncommon"
+			id: "3AB912C7CC95ED7B"
+			rewards: [{
+				id: "07CAE8631F57C841"
+				item: "simplehats:hatbag_uncommon"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				consume_items: true
+				count: 18L
+				id: "35F868D52EEAFB88"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			title: "罕见帽子袋"
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: "simplehats:hatbag_rare"
+			id: "3C6B714198B1FBBB"
+			rewards: [{
+				id: "2025CC3242B1EA3A"
+				item: "simplehats:hatbag_rare"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				consume_items: true
+				count: 27L
+				id: "33944A64D59B1912"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			title: "稀有帽子袋"
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: "simplehats:hatbag_epic"
+			id: "7D4281930A913218"
+			rewards: [{
+				id: "2F2181AC6885BAEB"
+				item: "simplehats:hatbag_epic"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				consume_items: true
+				count: 36L
+				id: "22785B4D107B0E3F"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			title: "史诗帽子袋"
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: "simplehats:hatbag_easter"
+			id: "7E08DBB24325DEBD"
+			rewards: [{
+				id: "6C391CE170DF8F0A"
+				item: "simplehats:hatbag_easter"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				consume_items: true
+				count: 18L
+				id: "178DA8B010D235BB"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			title: "复活节帽子袋"
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: "simplehats:hatbag_summer"
+			id: "1C4B565E5E6E0F89"
+			rewards: [{
+				id: "6611DBA81F00A51B"
+				item: "simplehats:hatbag_summer"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				consume_items: true
+				count: 18L
+				id: "3266CBD5D3042525"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			title: "夏季帽子袋"
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: "simplehats:hatbag_halloween"
+			id: "3AC9644C65E7B37F"
+			rewards: [{
+				id: "77F645010C8A8670"
+				item: "simplehats:hatbag_halloween"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				consume_items: true
+				count: 18L
+				id: "4E6A20BC06E464EB"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			title: "万圣节帽子袋"
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: "simplehats:hatbag_festive"
+			id: "29EAF3AE7EA8AEA4"
+			rewards: [{
+				id: "215A8D4E6C3C8AC8"
+				item: "simplehats:hatbag_festive"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				consume_items: true
+				count: 18L
+				id: "61646157169E2BDA"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			title: "节日帽子袋"
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "automobility:automobile_engine"
+				tag: {
+					engine: "automobility:creative"
+				}
+			}
+			id: "22A6A047DE810497"
+			rewards: [{
+				id: "2219A7A31B786EDF"
+				item: {
+					Count: 1
+					id: "automobility:automobile_engine"
+					tag: {
+						engine: "automobility:creative"
+					}
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				consume_items: true
+				id: "03AC279AFABE406F"
+				item: "compressedblocks:compressed_emerald_x1"
+				type: "item"
+			}]
+			title: "最好的机动车引擎"
+			x: -3.5d
+			y: -4.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: "minecraft:heart_of_the_sea"
+			id: "1BB573BFBACC76F0"
+			rewards: [{
+				id: "4BAAEB83576B96FF"
+				item: "minecraft:heart_of_the_sea"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				consume_items: true
+				id: "5CA114CD7F598A0A"
+				item: "compressedblocks:compressed_emerald_x2"
+				type: "item"
+			}]
+			title: "海洋之心"
+			x: -9.5d
+			y: -4.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "minecraft:elytra"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "25C45E8FBDB8D1F5"
+			rewards: [{
+				id: "73D6730B58B70C72"
+				item: {
+					Count: 1
+					id: "minecraft:elytra"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				consume_items: true
+				id: "76FE01E9540A366A"
+				item: "compressedblocks:compressed_emerald_x2"
+				type: "item"
+			}]
+			title: "鞘翅"
+			x: -8.5d
+			y: -4.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: "artifacts:night_vision_goggles"
+			id: "41A935DC46B97B61"
+			rewards: [{
+				id: "30CC577A014CB1FE"
+				item: "artifacts:night_vision_goggles"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				consume_items: true
+				id: "0C87CDD074D4BCBF"
+				item: "compressedblocks:compressed_emerald_x2"
+				type: "item"
+			}]
+			title: "夜视仪"
+			x: -7.5d
+			y: -4.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: "the_bumblezone:royal_jelly_bucket"
+			id: "29AB84FFD9AFD1C1"
+			rewards: [{
+				id: "43D3CA00E3528047"
+				item: "the_bumblezone:royal_jelly_bucket"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "13F79396ED0197BD"
+				item: "compressedblocks:compressed_emerald_x2"
+				type: "item"
+			}]
+			title: "蜂王浆"
+			x: -5.5d
+			y: -4.0d
+		}
+		{
+			can_repeat: true
+			description: [
+				"&e大型蜗牛&r：可以骑，长大后它们可以&e装备箱子&r来提供库存，还可以&e装备末影宝箱&r来提供便携式末影宝箱。"
+				"驯服食物：请去&e坐骑and动物繁殖食物&r章节查询。"
+			]
+			disable_toast: true
+			icon: "lovely_snails:snail_spawn_egg"
+			id: "1DEA1EE8F91C3DF6"
+			rewards: [{
+				id: "2CCBA636A8C6ECD0"
+				item: "lovely_snails:snail_spawn_egg"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				consume_items: true
+				id: "35858B121158E71A"
+				item: "compressedblocks:compressed_emerald_x1"
+				type: "item"
+			}]
+			title: "大型蜗牛刷怪蛋"
+			x: -2.5d
+			y: -4.0d
+		}
+		{
+			can_repeat: true
+			description: ["驯服食物：请去&e坐骑and动物繁殖食物&r章节查询。"]
+			disable_toast: true
+			icon: "sprout:elephant_spawn_egg"
+			id: "194A1F3912758FFA"
+			rewards: [{
+				id: "0799E6A4B1663B1B"
+				item: "sprout:elephant_spawn_egg"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				consume_items: true
+				id: "2333B530A06EC511"
+				item: "compressedblocks:compressed_emerald_x1"
+				type: "item"
+			}]
+			title: "灌溉小象刷怪蛋"
+			x: -1.5d
+			y: -4.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "xercapaint:item_palette"
+				tag: {
+					basic: [B;
+						1b
+						1b
+						1b
+						1b
+						1b
+						1b
+						1b
+						1b
+						1b
+						1b
+						1b
+						1b
+						1b
+						1b
+						1b
+						1b
+					]
+				}
+			}
+			id: "6DACEC4C48184B4D"
+			rewards: [{
+				id: "2BEE1A3FC3A7CC9F"
+				item: {
+					Count: 1
+					id: "xercapaint:item_palette"
+					tag: {
+						basic: [B;
+							1b
+							1b
+							1b
+							1b
+							1b
+							1b
+							1b
+							1b
+							1b
+							1b
+							1b
+							1b
+							1b
+							1b
+							1b
+							1b
+						]
+					}
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				consume_items: true
+				id: "72C82D409E4BD4FD"
+				item: "compressedblocks:compressed_emerald_x1"
+				type: "item"
+			}]
+			title: "16基础色调色板"
+			x: -0.5d
+			y: -4.0d
+		}
+		{
+			can_repeat: true
+			description: [""]
+			disable_toast: true
+			icon: "staffofbuilding:infinite_builder_staff"
+			id: "4339FB9B4C672D8C"
+			rewards: [{
+				id: "047925851C979700"
+				item: "staffofbuilding:infinite_builder_staff"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				consume_items: true
+				id: "2D37585C5F431D69"
+				item: "compressedblocks:compressed_netherite_x2"
+				type: "item"
+			}]
+			title: "无限建筑之杖"
+			x: -6.0d
+			y: -1.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: "farmersdelight:rich_soil"
+			id: "4464423110D43D74"
+			rewards: [{
+				id: "2D6BCE4F8839C56E"
+				item: "farmersdelight:rich_soil"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "7CD6DA3EBC9ED231"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			title: "沃土"
+			x: -9.0d
+			y: -1.0d
+		}
+		{
+			can_repeat: true
+			description: [
+				"肥沃灵魂土无法被直接制作，只能通过分解灵魂堆肥获得。将灵魂堆肥放置于世界中，一段时间后将会自行分解为肥沃灵魂土。"
+				""
+				"可以为下界疣种植提供土壤，并将其上种植的&e下界疣&r生长过程&e随机加速&r。"
+				"可在其上方种植&e甘蔗&r，&e仙人掌&r与&e枪药草茎&r，种植甘蔗时周围不需要有水源。"
+				"为菌类生长为菌群提供基础。肥沃灵魂土上的菌类一段时间后最终会生长为菌群。"
+				"在黑暗环境下（方块光不大于1）时上方会随机生成&b拟康乃馨&r。"
+			]
+			disable_toast: true
+			icon: "nethersdelight:rich_soul_soil"
+			id: "3B63757CBF56F21C"
+			rewards: [{
+				id: "76F42C8147F4333A"
+				item: "nethersdelight:rich_soul_soil"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				consume_items: true
+				id: "409EA613C501DF21"
+				item: "compressedblocks:compressed_emerald_x1"
+				type: "item"
+			}]
+			title: "灵魂沃土"
+			x: -8.0d
+			y: -1.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: "minecraft:dragon_egg"
+			id: "16A64F78857FF6AF"
+			rewards: [{
+				id: "7A3137A77ECA15D7"
+				item: "minecraft:dragon_egg"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				consume_items: true
+				id: "5991DAE964910A2A"
+				item: "compressedblocks:compressed_emerald_x2"
+				type: "item"
+			}]
+			title: "龙蛋"
+			x: -8.5d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: "minecraft:dragon_breath"
+			id: "2E3951011D838B3A"
+			rewards: [{
+				id: "16D4503DE7156F73"
+				item: "minecraft:dragon_breath"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				consume_items: true
+				id: "0784B263F2C7944A"
+				item: "compressedblocks:compressed_emerald_x1"
+				type: "item"
+			}]
+			title: "龙息"
+			x: -7.5d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			description: [""]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "staffofbuilding:netherite_builder_staff"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "210E85427918680B"
+			rewards: [{
+				id: "458E128BC59FE0EA"
+				item: {
+					Count: 1
+					id: "staffofbuilding:netherite_builder_staff"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				consume_items: true
+				id: "5E226A1819E9E5FD"
+				item: "compressedblocks:compressed_netherite_x1"
+				type: "item"
+			}]
+			title: "下界合金建筑之杖"
+			x: -7.0d
+			y: -1.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: "xercamusic:god"
+			id: "603F68898D42788B"
+			rewards: [{
+				id: "7A1C8AB846C3B90F"
+				item: "xercamusic:god"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				consume_items: true
+				id: "764EC62964CAA8EC"
+				item: "compressedblocks:compressed_emerald_x1"
+				type: "item"
+			}]
+			title: "上帝之音"
+			x: 0.5d
+			y: -4.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: "brewery:beer_elemental_spawn_egg"
+			id: "0025AB3FC9CD5B8B"
+			rewards: [{
+				id: "3AC3F87203047BC0"
+				item: "brewery:beer_elemental_spawn_egg"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				consume_items: true
+				count: 10L
+				id: "2DB176B821A5990B"
+				item: "brewery:beer_wheat"
+				type: "item"
+			}]
+			title: "啤酒人刷怪“桶”"
+			x: 1.5d
+			y: -4.0d
+		}
+		{
+			can_repeat: true
+			description: [""]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "wands:creative_wand"
+				tag: {
+					Damage: 0
+					multiplier: 1
+					target_air: 0b
+				}
+			}
+			id: "7F7D202F268D2F40"
+			rewards: [{
+				id: "203A792A9F01D520"
+				item: {
+					Count: 1
+					id: "wands:creative_wand"
+					tag: {
+						Damage: 0
+						multiplier: 1
+						target_air: 0b
+					}
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				consume_items: true
+				id: "418C94221D07A592"
+				item: "compressedblocks:compressed_netherite_x3"
+				type: "item"
+			}]
+			title: "创造模式建筑杖"
+			x: -5.0d
+			y: -1.0d
+		}
+	]
+	title: "纪念品商店（更新中）"
+}

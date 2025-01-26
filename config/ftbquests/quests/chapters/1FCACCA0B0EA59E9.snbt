@@ -1,0 +1,2430 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "1FCACCA0B0EA59E9"
+	group: "50272B04D9728AF0"
+	icon: "plushies:axolotl_plushie"
+	id: "1FCACCA0B0EA59E9"
+	images: [
+		{
+			height: 10.0d
+			image: "minecraft:textures/jewelry_full_275.png"
+			rotation: 0.0d
+			width: 12.5d
+			x: -31.0d
+			y: -4.0d
+		}
+		{
+			height: 5.0d
+			image: "minecraft:textures/qingwa.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: -24.0d
+			y: -8.5d
+		}
+		{
+			height: 6.0d
+			image: "minecraft:textures/huli.png"
+			rotation: 0.0d
+			width: 6.0d
+			x: -19.0d
+			y: -8.5d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:textures/shiping.png"
+			rotation: 0.0d
+			width: 15.51d
+			x: -30.5d
+			y: 13.5d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "3021C736BC93686D"
+			tasks: [{
+				id: "20A631C519F9FC86"
+				item: "jewelry:copper_ring"
+				type: "item"
+			}]
+			x: -31.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3021C736BC93686D"]
+			id: "36090DC85DF6F947"
+			tasks: [
+				{
+					id: "75A3D46F50E13A95"
+					item: "jewelry:iron_ring"
+					type: "item"
+				}
+				{
+					id: "2570416153025ABD"
+					item: "jewelry:gold_ring"
+					type: "item"
+				}
+				{
+					id: "0BA70B6FBBFF89B8"
+					item: "jewelry:ruby_ring"
+					type: "item"
+				}
+				{
+					id: "35E77779C6ADF20E"
+					item: "jewelry:topaz_ring"
+					type: "item"
+				}
+				{
+					id: "077D3B9E52D260DE"
+					item: "jewelry:citrine_ring"
+					type: "item"
+				}
+				{
+					id: "7817B017AC82923E"
+					item: "jewelry:jade_ring"
+					type: "item"
+				}
+				{
+					id: "175C1AB6E1436484"
+					item: "jewelry:sapphire_ring"
+					type: "item"
+				}
+				{
+					id: "2AC2242F58656B02"
+					item: "jewelry:tanzanite_ring"
+					type: "item"
+				}
+				{
+					id: "3AC27AA317A1F1A1"
+					item: "jewelry:netherite_ruby_ring"
+					type: "item"
+				}
+				{
+					id: "1CC48CC0CC313E6A"
+					item: "jewelry:netherite_topaz_ring"
+					type: "item"
+				}
+				{
+					id: "36F61BF15B288D58"
+					item: "jewelry:netherite_citrine_ring"
+					type: "item"
+				}
+				{
+					id: "60B4798F27BC49E3"
+					item: "jewelry:netherite_jade_ring"
+					type: "item"
+				}
+				{
+					id: "7371FE0F55882E56"
+					item: "jewelry:netherite_sapphire_ring"
+					type: "item"
+				}
+				{
+					id: "0D126B11ECA6F71A"
+					item: "jewelry:netherite_tanzanite_ring"
+					type: "item"
+				}
+				{
+					id: "50255BF25EB9992D"
+					item: {
+						Count: 1
+						id: "candlelight:gold_ring"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -32.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3021C736BC93686D"]
+			id: "4AE4CE2E205EBE49"
+			tasks: [
+				{
+					id: "7A31315AB9FF745F"
+					item: "jewelry:emerald_necklace"
+					type: "item"
+				}
+				{
+					id: "0CFDF1880DE2B954"
+					item: "jewelry:diamond_necklace"
+					type: "item"
+				}
+				{
+					id: "7E64D218FC566FC9"
+					item: "jewelry:ruby_necklace"
+					type: "item"
+				}
+				{
+					id: "7D80F794218DF01D"
+					item: "jewelry:topaz_necklace"
+					type: "item"
+				}
+				{
+					id: "1BFA7ED872B0D0AA"
+					item: "jewelry:citrine_necklace"
+					type: "item"
+				}
+				{
+					id: "22CF00B6FDDB82C0"
+					item: "jewelry:jade_necklace"
+					type: "item"
+				}
+				{
+					id: "05C3C7FBE07C87F9"
+					item: "jewelry:sapphire_necklace"
+					type: "item"
+				}
+				{
+					id: "5FF9AF29DA8A34E6"
+					item: "jewelry:tanzanite_necklace"
+					type: "item"
+				}
+				{
+					id: "58B1EC60CD28D6C1"
+					item: "jewelry:netherite_ruby_necklace"
+					type: "item"
+				}
+				{
+					id: "6988B9FBF1DCFAE1"
+					item: "jewelry:netherite_topaz_necklace"
+					type: "item"
+				}
+				{
+					id: "0F8926D6DBE780C0"
+					item: "jewelry:netherite_citrine_necklace"
+					type: "item"
+				}
+				{
+					id: "0571AE2A6B75C268"
+					item: "jewelry:netherite_jade_necklace"
+					type: "item"
+				}
+				{
+					id: "67EE402900CE75D3"
+					item: "jewelry:netherite_sapphire_necklace"
+					type: "item"
+				}
+				{
+					id: "53C11EE3C7C18CDA"
+					item: "jewelry:netherite_tanzanite_necklace"
+					type: "item"
+				}
+			]
+			x: -29.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4AE4CE2E205EBE49"]
+			id: "7847B76348BA4409"
+			tasks: [
+				{
+					id: "508E19159CF570FB"
+					item: "jewelry:unique_dex_necklace"
+					type: "item"
+				}
+				{
+					id: "71C71943F50AE8E0"
+					item: "jewelry:unique_fire_ring"
+					type: "item"
+				}
+				{
+					id: "1CEDFD5AC968C515"
+					item: "jewelry:unique_attack_ring"
+					type: "item"
+				}
+				{
+					id: "751C3197663DEEF7"
+					item: "jewelry:unique_archer_ring"
+					type: "item"
+				}
+				{
+					id: "79779AE116F27F0C"
+					item: "jewelry:unique_tank_ring"
+					type: "item"
+				}
+				{
+					id: "012F42E81170D62F"
+					item: "jewelry:unique_dex_ring"
+					type: "item"
+				}
+				{
+					id: "4F236C223BBC8D31"
+					item: "jewelry:unique_arcane_ring"
+					type: "item"
+				}
+				{
+					id: "5CF1D15BF10B0743"
+					item: "jewelry:unique_frost_ring"
+					type: "item"
+				}
+				{
+					id: "0C08B0E50F558748"
+					item: "jewelry:unique_frost_necklace"
+					type: "item"
+				}
+				{
+					id: "2BC5FBB273EA3497"
+					item: "jewelry:unique_healing_ring"
+					type: "item"
+				}
+			]
+			x: -29.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["36090DC85DF6F947"]
+			id: "0F0A02276E3291E8"
+			tasks: [
+				{
+					id: "695355E6C3EF02E0"
+					item: "jewelry:unique_attack_necklace"
+					type: "item"
+				}
+				{
+					id: "496863D44484BA5F"
+					item: "jewelry:unique_tank_necklace"
+					type: "item"
+				}
+				{
+					id: "0C30A2A58199C98F"
+					item: "jewelry:unique_archer_necklace"
+					type: "item"
+				}
+				{
+					id: "7C6E676CF591A417"
+					item: "jewelry:unique_arcane_necklace"
+					type: "item"
+				}
+			]
+			x: -32.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["08C1EA027FC433A5"]
+			id: "4A86D89F4224B068"
+			tasks: [{
+				id: "68D860ACA8A4FFDF"
+				item: "artifacts:cloud_in_a_bottle"
+				type: "item"
+			}]
+			x: -32.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["08C1EA027FC433A5"]
+			description: [
+				"&e使用&r：用于打开和解绑与之绑定的方块、箱子或门。"
+				"只要在物品栏或饰品栏中就可以发挥作用。"
+				"&e绑定&r：目前可以绑定的有：保险箱、下界合金门、下界合金活板门、锁方块。"
+				"&e附魔&r：钥匙可以附魔消失诅咒，死亡时消失，防止被偷。"
+			]
+			id: "07D3195CE2C581D1"
+			tasks: [{
+				id: "3ACEF192A3078437"
+				item: "supplementaries:key"
+				type: "item"
+			}]
+			title: "防火防盗防外星人"
+			x: -30.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["08C1EA027FC433A5"]
+			description: [
+				"&e使用&r：以发射任意可以放置的物品并放置在落地位置，也可以种植种子。"
+				"当对准末影人发射物品时，末影人会接住这个物品，手上是这个物品放置下来的状态。"
+			]
+			id: "32E7DA7200595148"
+			tasks: [{
+				id: "6AB50EA659C71829"
+				item: {
+					Count: 1
+					id: "supplementaries:slingshot"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -29.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["08C1EA027FC433A5"]
+			description: ["&e获取&r：野外树木燃烧获得，你也可以用打火石点燃一棵树，待燃烧殆尽用铲子收集。"]
+			id: "2EF6A79F87B954CA"
+			tasks: [{
+				id: "4B6ADA2D18A7822C"
+				item: "supplementaries:ash"
+				type: "item"
+			}]
+			x: -28.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["08C1EA027FC433A5"]
+			id: "33F1F70A3AF88564"
+			tasks: [
+				{
+					id: "6ED747F3171D0A85"
+					item: "things:mining_gloves"
+					type: "item"
+				}
+				{
+					id: "6C8B289920E16EAA"
+					item: "things:riot_gauntlet"
+					type: "item"
+				}
+				{
+					id: "14B8B352B3460C1C"
+					item: "things:arm_extender"
+					type: "item"
+				}
+				{
+					id: "4083B6704D8F5159"
+					item: "things:broken_watch"
+					type: "item"
+				}
+				{
+					id: "449D6FCF5504AD46"
+					item: "artifacts:digging_claws"
+					type: "item"
+				}
+				{
+					id: "063DF66A23C6D963"
+					item: "artifacts:fire_gauntlet"
+					type: "item"
+				}
+				{
+					id: "4025580DAB844906"
+					item: "artifacts:pocket_piston"
+					type: "item"
+				}
+				{
+					id: "1C7400280BF31C64"
+					item: "artifacts:power_glove"
+					type: "item"
+				}
+				{
+					id: "5EF58E588AB7142E"
+					item: "artifacts:vampiric_glove"
+					type: "item"
+				}
+			]
+			x: -33.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["08C1EA027FC433A5"]
+			id: "5B73D628EE43EBC6"
+			tasks: [{
+				id: "4C397EB35BCE6227"
+				item: {
+					Count: 1
+					id: "things:infernal_scepter"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -33.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["08C1EA027FC433A5"]
+			id: "6272C5E80B365E2B"
+			tasks: [
+				{
+					id: "6FEE296071A88077"
+					item: "supplementaries:soap"
+					type: "item"
+				}
+				{
+					id: "0884FD3B460CB803"
+					item: {
+						Count: 1
+						id: "supplementaries:bubble_blower"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "吹泡泡"
+			x: -27.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["08C1EA027FC433A5"]
+			description: [
+				"&e水龙头使用&r：把水龙头放在炼药锅、水源或含水方块前，打开它就会产生流水效果，流水颜色取决于背后液体的颜色。"
+				"可以用水龙头来将液体倒入或倒出罐子，同样也适用于其他盛装液体的容器（如炼药锅）。"
+				"水龙头还可以与蜂巢和混凝土粉末等其他方块相互作用，可以产出蜂蜜（放置在蜂箱、蜂巢上并用玻璃罐收集）"
+				"你也可以通过右击流水的水龙头下方喝水、罐满玻璃瓶或者将玻璃瓶中的液体灌回容器。"
+				"&e玻璃罐使用&r：一个玻璃罐可以储存&e4桶、12瓶或6碗&r任何原版液体，如水&e、蜂蜜、牛奶、熔岩、汤、药剂、汤和炖菜、龙息、细雪、甚至经验、泥土。&r"
+				"&e饼干、粘液球、岩浆膏、恶魂之泪和桶装鱼&r也可以储存在罐子里。"
+				"手持玻璃罐可以右键捕捉小生物，默认有最小的&e史莱姆、蜜蜂、萤火虫、鱼或者一些其他模组的鱼等小生物&r。"
+				"也可以用罐捕捉&e恼鬼和末影螨&r。"
+				"潜行并右键可以将装着小动物的罐子放置下来，直接右键则会释放小动物。如果是鱼，那么会直接放出鱼而不是连鱼带水一起放出，但同时玻璃罐里不会留下水。"
+			]
+			id: "15964AB5E91DCA38"
+			tasks: [
+				{
+					id: "3B19CAEC0D317BB2"
+					item: "supplementaries:faucet"
+					type: "item"
+				}
+				{
+					id: "562A54F417CF1979"
+					item: "supplementaries:jar"
+					type: "item"
+				}
+			]
+			x: -33.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["08C1EA027FC433A5"]
+			description: [
+				"&e获取&r“地球仪是一种装饰品，只能从流浪的商人那里用10个绿宝石的价格买到，售卖地球仪的流浪商人只有两个存货。"
+				"&e使用&r：地球仪的外观是随机生成的，每个世界种子都是独一无二的。如果你右键单击它或给它一个红石脉冲，它会旋转和显示玩家当前的坐标。"
+				"它还可以被比较器检测，根据当前转到的面提供1-4格强度的红石信号，并在旋转时提供完整的强度信号。"
+				"&e更多玩法&r：在铁砧中将其命名为“flat”（不带双引号），会使放下来的地球仪变平；命名为“earth”则会使地球仪上的图案变为现实中的世界地图；命名为“moon”会使图案变为月球；命名为“sun”会使图案变为太阳。"
+				"&e放置&r：下方必须有方块才能放置，否则将变为掉落物。"
+				"&e进度&r：以最快的速度旋转地球仪时，会取得进度[&e你抱着我旋转不止&r]。"
+			]
+			id: "6CBA5267CBC18EB6"
+			tasks: [{
+				id: "442B83D4C3A71558"
+				item: "supplementaries:globe"
+				type: "item"
+			}]
+			x: -33.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["08C1EA027FC433A5"]
+			id: "49E0F75A5185C73E"
+			tasks: [
+				{
+					id: "3B7A1DB791904E6D"
+					item: "artifacts:charm_of_sinking"
+					type: "item"
+				}
+				{
+					id: "44472075DA6FCB4D"
+					item: "artifacts:cross_necklace"
+					type: "item"
+				}
+				{
+					id: "6639B2C764BDE57A"
+					item: "artifacts:flame_pendant"
+					type: "item"
+				}
+				{
+					id: "23C58B65EEC0903C"
+					item: "artifacts:panic_necklace"
+					type: "item"
+				}
+				{
+					id: "598C4FE9910E89A2"
+					item: "artifacts:shock_pendant"
+					type: "item"
+				}
+				{
+					id: "160B1799B096356E"
+					item: "artifacts:thorn_pendant"
+					type: "item"
+				}
+			]
+			x: -33.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["08C1EA027FC433A5"]
+			id: "5045B5686F07B5A4"
+			tasks: [{
+				id: "388BCD87AD2D3752"
+				item: "artifacts:whoopee_cushion"
+				type: "item"
+			}]
+			x: -31.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["08C1EA027FC433A5"]
+			id: "6AB18F0D291AA005"
+			tasks: [{
+				id: "1F4A3FA979E3E720"
+				item: "artifacts:universal_attractor"
+				type: "item"
+			}]
+			x: -33.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["08C1EA027FC433A5"]
+			id: "0D9E753B78F5F0B7"
+			tasks: [{
+				id: "25ED41E0D9727CBA"
+				item: "artifacts:crystal_heart"
+				type: "item"
+			}]
+			x: -29.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["08C1EA027FC433A5"]
+			id: "36AE3C351219CB5A"
+			tasks: [
+				{
+					id: "2AA27B61A7500318"
+					item: "artifacts:lucky_scarf"
+					type: "item"
+				}
+				{
+					id: "09DB40E4C08F5C79"
+					item: "artifacts:scarf_of_invisibility"
+					type: "item"
+				}
+			]
+			x: -30.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["08C1EA027FC433A5"]
+			id: "0D8BB59C27EEBD86"
+			tasks: [{
+				id: "24F1BFC09B014EA0"
+				item: "things:luck_of_the_irish"
+				type: "item"
+			}]
+			x: -31.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["08C1EA027FC433A5"]
+			description: [
+				"&e使用&r：可以用任何甚至是其它模组的沙子、粉尘或粉末填充它，并使它像真正的沙漏一样工作。沙漏中粉末漏下的消耗的时间取决于粉末的类型，例如&e糖&r将是最快的，&e红石粉&r是最慢的。"
+				"可以使用一个比较器来获得一个取决于漏下时间的红石信号。"
+				"可以使用漏斗或发射器重置沙漏，或者可以使用一个侧放的转盘来旋转它。"
+			]
+			id: "4B8F0F5549DD3A3C"
+			tasks: [{
+				id: "10FE1AD22ECD19B9"
+				item: "supplementaries:hourglass"
+				type: "item"
+			}]
+			x: -32.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["08C1EA027FC433A5"]
+			id: "390EA91A58F91645"
+			tasks: [
+				{
+					id: "5E2DE9B94B2082BC"
+					item: "things:hades_crystal"
+					type: "item"
+				}
+				{
+					id: "72939C37267832B9"
+					item: "things:enchanted_wax_gland"
+					type: "item"
+				}
+			]
+			x: -33.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["08C1EA027FC433A5"]
+			id: "0B16AAD28205599D"
+			tasks: [{
+				id: "6B9C1D819999CDF1"
+				item: "things:rabbit_foot_charm"
+				type: "item"
+			}]
+			x: -28.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["08C1EA027FC433A5"]
+			id: "23110F97F9386A3B"
+			tasks: [
+				{
+					id: "12FC7505A68EAE5F"
+					item: "things:socks"
+					type: "item"
+				}
+				{
+					id: "1FF8DA519F660BF4"
+					item: "things:shock_absorber"
+					type: "item"
+				}
+				{
+					id: "24062CC76AEBACF0"
+					item: "artifacts:aqua_dashers"
+					type: "item"
+				}
+				{
+					id: "17EFD7F240AE979A"
+					item: "artifacts:bunny_hoppers"
+					type: "item"
+				}
+				{
+					id: "56EF5EF8C2C1EB3C"
+					item: "artifacts:flippers"
+					type: "item"
+				}
+				{
+					id: "4096B6C2414C798B"
+					item: "artifacts:kitty_slippers"
+					type: "item"
+				}
+				{
+					id: "3F61322B6A7CF1D8"
+					item: "artifacts:running_shoes"
+					type: "item"
+				}
+				{
+					id: "6CF586E613BB3016"
+					item: "artifacts:steadfast_spikes"
+					type: "item"
+				}
+			]
+			x: -27.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["08C1EA027FC433A5"]
+			id: "7359543096C9D2B4"
+			tasks: [{
+				id: "4EC737BA7D244A09"
+				item: "artifacts:helium_flamingo"
+				type: "item"
+			}]
+			x: -31.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["08C1EA027FC433A5"]
+			id: "631BD92AE031F1E6"
+			tasks: [{
+				id: "6361E69DCD85A49F"
+				item: "artifacts:night_vision_goggles"
+				type: "item"
+			}]
+			x: -31.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["08C1EA027FC433A5"]
+			id: "27ADE95226EEC019"
+			tasks: [
+				{
+					id: "1FDA60A987BEFB65"
+					item: "artifacts:novelty_drinking_hat"
+					type: "item"
+				}
+				{
+					id: "36FBFA91D4EBD96D"
+					item: "artifacts:plastic_drinking_hat"
+					type: "item"
+				}
+			]
+			x: -31.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["08C1EA027FC433A5"]
+			description: [
+				"可以将&e两个饰品组合&r起来，这两个饰品占用的饰品槽&e至少有一个是相同的&r。"
+				"比如：饰品A可装备于面部饰品槽，饰品B可装备于面部饰品槽，那么这两个饰品可以组合。"
+				"使用方式：将符合使用条件的饰品A、饰品B和空聚合物一起无序放进工作台即可。"
+				"组合过程不可逆，请慎重选择需要组合的饰品。"
+			]
+			id: "1DE278091ADAE313"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4822B1F1DC1B776A"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0D6A43F1A1D741B6"
+				item: "things:empty_agglomeration"
+				type: "item"
+			}]
+			x: -27.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["08C1EA027FC433A5"]
+			id: "05237836FE91CC40"
+			tasks: [{
+				id: "71B9EF4C92343188"
+				item: "artifacts:antidote_vessel"
+				type: "item"
+			}]
+			x: -27.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["08C1EA027FC433A5"]
+			id: "5F17EA70875352C0"
+			tasks: [{
+				id: "5C3A6FAA9296D440"
+				item: "artifacts:obsidian_skull"
+				type: "item"
+			}]
+			x: -30.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["08C1EA027FC433A5"]
+			id: "56CC73CA1E390735"
+			tasks: [{
+				id: "54903FBA56B96BB4"
+				item: "artifacts:golden_hook"
+				type: "item"
+			}]
+			x: -27.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["08C1EA027FC433A5"]
+			id: "59876C291E37A5D1"
+			tasks: [{
+				id: "143CE99D0649E8B5"
+				item: "artifacts:snorkel"
+				type: "item"
+			}]
+			x: -29.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["08C1EA027FC433A5"]
+			id: "6FFDA86CDAF10FB1"
+			tasks: [{
+				id: "2A5E35841D0656A0"
+				item: "artifacts:umbrella"
+				type: "item"
+			}]
+			x: -28.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["08C1EA027FC433A5"]
+			id: "0C706A7124C76BF6"
+			tasks: [
+				{
+					id: "726C3765F6FA9E1C"
+					item: "artifacts:superstitious_hat"
+					type: "item"
+				}
+				{
+					id: "6CE50028F3DD34B3"
+					item: "artifacts:villager_hat"
+					type: "item"
+				}
+			]
+			x: -27.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["7E93FCC8C6D2CAEC"]
+			id: "5804BFBE679EC62C"
+			tasks: [{
+				id: "3F9C0BDA89041489"
+				item: "plushables:sea_bunny_plushable"
+				type: "item"
+			}]
+			x: -15.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7E93FCC8C6D2CAEC"]
+			id: "07FFFB1D1AD0E7C5"
+			tasks: [{
+				id: "2C4AFB0AC0D955F4"
+				item: "plushables:owl_plushable"
+				type: "item"
+			}]
+			x: -15.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["7E93FCC8C6D2CAEC"]
+			id: "1FA3AFC8D622E91F"
+			tasks: [{
+				id: "4658C9A3C56809F1"
+				item: "plushables:orangutan_plushable"
+				type: "item"
+			}]
+			x: -15.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["7E93FCC8C6D2CAEC"]
+			id: "23FA259B23321F9F"
+			tasks: [{
+				id: "6FC035AFAE985C3C"
+				item: "plushables:rupert_plushable"
+				type: "item"
+			}]
+			x: -15.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["7E93FCC8C6D2CAEC"]
+			id: "45E765FDDB9AB004"
+			tasks: [{
+				id: "2498F14A9C9329AB"
+				item: "plushables:clucky_plushable"
+				type: "item"
+			}]
+			x: -15.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["7E93FCC8C6D2CAEC"]
+			id: "7FA1471B8903A62D"
+			tasks: [{
+				id: "21F39CC58E0ABB1C"
+				item: "plushables:dragon_plushable"
+				type: "item"
+			}]
+			x: -15.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["7E93FCC8C6D2CAEC"]
+			id: "2F1388BA78591CEF"
+			tasks: [{
+				id: "546910C19F7A16D7"
+				item: "plushables:statuette_plushable"
+				type: "item"
+			}]
+			x: -15.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["7E93FCC8C6D2CAEC"]
+			id: "445879E9CAA62535"
+			tasks: [{
+				id: "12BBC6897608B798"
+				item: "plushables:fox_plushable"
+				type: "item"
+			}]
+			x: -17.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["7E93FCC8C6D2CAEC"]
+			id: "3D2582C83B3FC431"
+			tasks: [{
+				id: "1AE2941F04C43B50"
+				item: "plushables:froglin_plushable"
+				type: "item"
+			}]
+			x: -15.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["7E93FCC8C6D2CAEC"]
+			id: "16AA932DB82C4E84"
+			tasks: [{
+				id: "28D63F0E1A4CB3EB"
+				item: "plushables:penguin_plushable"
+				type: "item"
+			}]
+			x: -18.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["7E93FCC8C6D2CAEC"]
+			id: "72F3053B1F3476CC"
+			tasks: [{
+				id: "223F9823B41A8A0F"
+				item: "plushables:mammoth_plushable"
+				type: "item"
+			}]
+			x: -16.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7E93FCC8C6D2CAEC"]
+			id: "514F07D407A490FF"
+			tasks: [{
+				id: "61E4F217950A61D5"
+				item: "plushables:tiger_plushable"
+				type: "item"
+			}]
+			x: -21.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7E93FCC8C6D2CAEC"]
+			id: "1D5547BFE718DCA9"
+			tasks: [{
+				id: "55B4B0C51B5A8A0E"
+				item: "plushables:wizard_plushable"
+				type: "item"
+			}]
+			x: -15.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["7E93FCC8C6D2CAEC"]
+			id: "5D639BE4DA243E5D"
+			tasks: [{
+				id: "2D82CEBDB874659E"
+				item: "plushables:raptor_plushable"
+				type: "item"
+			}]
+			x: -17.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["7E93FCC8C6D2CAEC"]
+			id: "36A1FAE254453ECD"
+			tasks: [{
+				id: "0BE42B8659DC7A7F"
+				item: "plushables:whelpling_plushable"
+				type: "item"
+			}]
+			x: -23.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7E93FCC8C6D2CAEC"]
+			id: "48A9C429BA34D4BF"
+			tasks: [{
+				id: "3AA94528F19331C4"
+				item: "plushables:pig_plushable"
+				type: "item"
+			}]
+			x: -17.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["7E93FCC8C6D2CAEC"]
+			id: "43468C6BAABBF9EE"
+			tasks: [{
+				id: "1D61F70E59C2745A"
+				item: "plushables:unicorn_plushable"
+				type: "item"
+			}]
+			x: -21.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["7E93FCC8C6D2CAEC"]
+			id: "67DC6229CE12AE58"
+			tasks: [{
+				id: "113E49A8A177DD1E"
+				item: "plushables:truffles_plushable"
+				type: "item"
+			}]
+			x: -23.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["7E93FCC8C6D2CAEC"]
+			id: "06913FCE960C3785"
+			tasks: [{
+				id: "66011D184AF63734"
+				item: "plushables:djungelskog_plushable"
+				type: "item"
+			}]
+			x: -16.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["7E93FCC8C6D2CAEC"]
+			id: "067E90C279CB023F"
+			tasks: [{
+				id: "50B0ED113F292211"
+				item: "plushables:rattiam_plushable"
+				type: "item"
+			}]
+			x: -18.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7E93FCC8C6D2CAEC"]
+			id: "789247B308D305B4"
+			tasks: [{
+				id: "48C65F5906962277"
+				item: "plushables:triceratops_plushable"
+				type: "item"
+			}]
+			x: -17.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["7E93FCC8C6D2CAEC"]
+			id: "3A479F1C18B96CC4"
+			tasks: [{
+				id: "5921EFB1142857D3"
+				item: "plushables:beaux_plushable"
+				type: "item"
+			}]
+			x: -19.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7E93FCC8C6D2CAEC"]
+			id: "327FFECE3713A690"
+			tasks: [{
+				id: "5B50829A6BBABDAC"
+				item: "plushables:goblin_plushable"
+				type: "item"
+			}]
+			x: -20.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7E93FCC8C6D2CAEC"]
+			id: "4D9493661E75D098"
+			tasks: [{
+				id: "11F9C0D360ED13EC"
+				item: "plushables:big_tater_plushable"
+				type: "item"
+			}]
+			x: -17.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7E93FCC8C6D2CAEC"]
+			id: "4DB4ACE17A43C5E5"
+			tasks: [{
+				id: "0EE5B4C7BDF3FF3B"
+				item: "plushables:big_irritater_plushable"
+				type: "item"
+			}]
+			x: -20.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["7E93FCC8C6D2CAEC"]
+			id: "65094319DF1447CE"
+			tasks: [{
+				id: "1E18F75D21AD634E"
+				item: "plushables:otter_plushable"
+				type: "item"
+			}]
+			x: -18.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["7E93FCC8C6D2CAEC"]
+			id: "7511B5744682FB6F"
+			tasks: [{
+				id: "69FF9791DB18B09E"
+				item: "plushables:shrump_plushable"
+				type: "item"
+			}]
+			x: -22.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7E93FCC8C6D2CAEC"]
+			id: "74946EADB249739B"
+			tasks: [{
+				id: "7A159739F113C6F3"
+				item: "plushables:walrus_plushable"
+				type: "item"
+			}]
+			x: -19.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["7E93FCC8C6D2CAEC"]
+			id: "06D4A3407BB7BE0F"
+			tasks: [{
+				id: "72BF8B235F3434CC"
+				item: "plushables:dormouse_plushable"
+				type: "item"
+			}]
+			x: -21.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["7E93FCC8C6D2CAEC"]
+			id: "1CD10DE3403A78F8"
+			tasks: [{
+				id: "0559A205DC7D4789"
+				item: "plushables:conductor_plushable"
+				type: "item"
+			}]
+			x: -20.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["7E93FCC8C6D2CAEC"]
+			id: "6C6391366AD1C987"
+			tasks: [{
+				id: "226EA4E27DBBF11C"
+				item: "plushables:hampter_plushable"
+				type: "item"
+			}]
+			x: -23.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["7E93FCC8C6D2CAEC"]
+			id: "66C8DE39AB9AFDDA"
+			tasks: [{
+				id: "43AA014A90ED648B"
+				item: "plushables:trater_plushable"
+				type: "item"
+			}]
+			x: -23.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["7E93FCC8C6D2CAEC"]
+			id: "30BB35DAEF66FCDE"
+			tasks: [{
+				id: "74075D2A7DA84275"
+				item: "plushables:froge_plushable"
+				type: "item"
+			}]
+			x: -23.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["7E93FCC8C6D2CAEC"]
+			id: "74759859067A57CA"
+			tasks: [{
+				id: "67B05AE91750E4D8"
+				item: "plushables:moobloom_plushable"
+				type: "item"
+			}]
+			x: -22.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["7E93FCC8C6D2CAEC"]
+			id: "70D69F7EEAD7B3ED"
+			tasks: [{
+				id: "041FDB596EAD7184"
+				item: "plushables:goldfish_plushable"
+				type: "item"
+			}]
+			x: -23.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["7E93FCC8C6D2CAEC"]
+			id: "5E7D170427C3EEBF"
+			tasks: [{
+				id: "766F652DEE499084"
+				item: "plushables:whale_plushable"
+				type: "item"
+			}]
+			x: -23.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["7E93FCC8C6D2CAEC"]
+			id: "4ABE1332755B6003"
+			tasks: [{
+				id: "1995AC947EEF625B"
+				item: "plushables:animatronic_plushable"
+				type: "item"
+			}]
+			x: -21.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["7E93FCC8C6D2CAEC"]
+			id: "78465D18CDC9F124"
+			tasks: [{
+				id: "49BF203835535C96"
+				item: "plushables:snail_plushable"
+				type: "item"
+			}]
+			x: -21.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["7E93FCC8C6D2CAEC"]
+			id: "1EBA60C62983E7F8"
+			tasks: [{
+				id: "4866C5E6D50CCD61"
+				item: "plushables:capybara_plushable"
+				type: "item"
+			}]
+			x: -17.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["7E93FCC8C6D2CAEC"]
+			id: "1C67EFFE647D97E3"
+			tasks: [{
+				id: "7A9E28281D78A334"
+				item: "plushables:octoplush_plushable"
+				type: "item"
+			}]
+			x: -19.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["310F02B06CF11B0E"]
+			id: "4E823C67BD607444"
+			tasks: [{
+				id: "00ADA29E2B5EDEC2"
+				item: "plushies:parrot_plushie"
+				type: "item"
+			}]
+			x: -17.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["310F02B06CF11B0E"]
+			id: "1E714E069C5C944E"
+			tasks: [{
+				id: "6B8459EB8FB73E20"
+				item: "plushies:panda_plushie"
+				type: "item"
+			}]
+			x: -17.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["310F02B06CF11B0E"]
+			id: "0B3D2BE93EAC8BB4"
+			tasks: [{
+				id: "467F3BBCB80D6160"
+				item: "plushies:llama_plushie"
+				type: "item"
+			}]
+			x: -20.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["310F02B06CF11B0E"]
+			id: "2FFE8ACD63036500"
+			tasks: [{
+				id: "00BBABCD6E3F1366"
+				item: "plushies:camel_plushie"
+				type: "item"
+			}]
+			x: -19.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["310F02B06CF11B0E"]
+			id: "155D59DAC95E5CD1"
+			tasks: [{
+				id: "4E709099E7668546"
+				item: "plushies:cow_plushie"
+				type: "item"
+			}]
+			x: -20.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["310F02B06CF11B0E"]
+			id: "0105BB33881B1434"
+			tasks: [{
+				id: "09C71615D73E07B3"
+				item: "plushies:mooshroom_plushie"
+				type: "item"
+			}]
+			x: -21.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["310F02B06CF11B0E"]
+			id: "139C8EB405EB5101"
+			tasks: [{
+				id: "4D3B273FEE26B071"
+				item: "plushies:sheep_plushie"
+				type: "item"
+			}]
+			x: -21.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["310F02B06CF11B0E"]
+			id: "7A1F96626A859549"
+			tasks: [{
+				id: "05DE727C011E8CCD"
+				item: "plushies:goat_plushie"
+				type: "item"
+			}]
+			x: -21.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["310F02B06CF11B0E"]
+			id: "6DA345FD7C554D59"
+			tasks: [{
+				id: "7A54DBEE48004513"
+				item: "plushies:wolf_plushie"
+				type: "item"
+			}]
+			x: -18.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["310F02B06CF11B0E"]
+			id: "6121A085565E1082"
+			tasks: [{
+				id: "68A37A07AC451785"
+				item: "plushies:chicken_plushie"
+				type: "item"
+			}]
+			x: -19.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["310F02B06CF11B0E"]
+			id: "7D7C435FCE5C2D20"
+			tasks: [{
+				id: "631384EC2F6585FD"
+				item: "plushies:cat_plushie"
+				type: "item"
+			}]
+			x: -18.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["310F02B06CF11B0E"]
+			id: "6A1AC3F20BE48441"
+			tasks: [{
+				id: "59B0622B4B7BCC03"
+				item: "plushies:bee_plushie"
+				type: "item"
+			}]
+			x: -15.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["310F02B06CF11B0E"]
+			id: "486B810B00E20DD9"
+			tasks: [{
+				id: "0E242456F80051A3"
+				item: "plushies:horse_plushie"
+				type: "item"
+			}]
+			x: -17.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["310F02B06CF11B0E"]
+			id: "6458579DFA0C6E97"
+			tasks: [{
+				id: "09A162875DC49626"
+				item: "plushies:pig_plushie"
+				type: "item"
+			}]
+			x: -18.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["310F02B06CF11B0E"]
+			id: "0B93A7EE999EC6C5"
+			tasks: [{
+				id: "47310E31B90E2434"
+				item: "plushies:white_fox_plushie"
+				type: "item"
+			}]
+			x: -17.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["310F02B06CF11B0E"]
+			id: "7355D275A70DA82F"
+			tasks: [{
+				id: "6208711D5FA9E2EF"
+				item: "plushies:red_fox_plushie"
+				type: "item"
+			}]
+			x: -15.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["310F02B06CF11B0E"]
+			id: "388C7623A975F100"
+			tasks: [{
+				id: "148995F3D90D468E"
+				item: "plushies:snow_golem_plushie"
+				type: "item"
+			}]
+			x: -17.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["310F02B06CF11B0E"]
+			id: "73D29A8C6C8DEF49"
+			tasks: [{
+				id: "3378247407901347"
+				item: "plushies:polar_bear_plushie"
+				type: "item"
+			}]
+			x: -17.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["310F02B06CF11B0E"]
+			id: "6C7386FBA6AD260E"
+			tasks: [{
+				id: "0322F8E42AF6205F"
+				item: "plushies:sniffer_plushie"
+				type: "item"
+			}]
+			x: -16.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["310F02B06CF11B0E"]
+			id: "2A9D1F584FCE7EE1"
+			tasks: [{
+				id: "495E91F22ED86729"
+				item: "plushies:brown_rabbit_plushie"
+				type: "item"
+			}]
+			x: -17.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["310F02B06CF11B0E"]
+			id: "0BD2F6CBB29D1EF4"
+			tasks: [{
+				id: "6924D1F64BE16880"
+				item: "plushies:white_rabbit_plushie"
+				type: "item"
+			}]
+			x: -21.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["310F02B06CF11B0E"]
+			id: "4FCF1C0BA3E920D0"
+			tasks: [{
+				id: "5731422C4F87CC0D"
+				item: "plushies:allay_plushie"
+				type: "item"
+			}]
+			x: -15.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["310F02B06CF11B0E"]
+			id: "5462B517F48A908C"
+			tasks: [{
+				id: "4FA6C7D67DCB946A"
+				item: "plushies:killer_bunny_plushie"
+				type: "item"
+			}]
+			x: -20.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["310F02B06CF11B0E"]
+			id: "0781969ADDBDF129"
+			tasks: [{
+				id: "28EB308F2B0519C4"
+				item: "plushies:toast_rabbit_plushie"
+				type: "item"
+			}]
+			x: -19.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["310F02B06CF11B0E"]
+			id: "34FBBA42B5F47048"
+			tasks: [{
+				id: "16BE713E8DB66EFD"
+				item: "plushies:salt_rabbit_plushie"
+				type: "item"
+			}]
+			x: -15.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["310F02B06CF11B0E"]
+			id: "0F3437AD280447EB"
+			tasks: [{
+				id: "26751112B584DE7C"
+				item: "plushies:yellow_rabbit_plushie"
+				type: "item"
+			}]
+			x: -15.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["310F02B06CF11B0E"]
+			id: "65CAA4EBADEB2330"
+			tasks: [{
+				id: "6AE7B0C75C999DD8"
+				item: "plushies:white_splotched_rabbit_plushie"
+				type: "item"
+			}]
+			x: -18.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["310F02B06CF11B0E"]
+			id: "63CA8A16261FC0C8"
+			tasks: [{
+				id: "13BC10D046947EBD"
+				item: "plushies:black_rabbit_plushie"
+				type: "item"
+			}]
+			x: -20.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["310F02B06CF11B0E"]
+			id: "01003827FBB93A3F"
+			tasks: [{
+				id: "71A82BB737C092E3"
+				item: "plushies:axolotl_plushie"
+				type: "item"
+			}]
+			x: -23.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["310F02B06CF11B0E"]
+			id: "62AFDA9D8682965C"
+			tasks: [{
+				id: "5FDBD3D0D6B1DB90"
+				item: "plushies:dolphin_plushie"
+				type: "item"
+			}]
+			x: -19.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["310F02B06CF11B0E"]
+			id: "1CBC99C4CDC85711"
+			tasks: [{
+				id: "632CBBFBFE773235"
+				item: "plushies:squid_plushie"
+				type: "item"
+			}]
+			x: -16.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["310F02B06CF11B0E"]
+			id: "155B9963DC34A9CB"
+			tasks: [{
+				id: "4972F6B15047DC30"
+				item: "plushies:glow_squid_plushie"
+				type: "item"
+			}]
+			x: -15.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["310F02B06CF11B0E"]
+			id: "37086A84ECE62CC4"
+			tasks: [{
+				id: "4B04849162CFEC8F"
+				item: "plushies:guardian_plushie"
+				type: "item"
+			}]
+			x: -15.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["310F02B06CF11B0E"]
+			id: "2E9E7B735D3BD836"
+			tasks: [{
+				id: "75A49074A272EE14"
+				item: "plushies:elder_guardian_plushie"
+				type: "item"
+			}]
+			x: -15.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["310F02B06CF11B0E"]
+			id: "6C9F2786F13E6A43"
+			tasks: [{
+				id: "1F1639BC99B0FC99"
+				item: "plushies:turtle_plushie"
+				type: "item"
+			}]
+			x: -15.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["310F02B06CF11B0E"]
+			id: "1CF11FB68C4DBA0E"
+			tasks: [{
+				id: "648BB45377EAFCCA"
+				item: "plushies:enderman_plushie"
+				type: "item"
+			}]
+			x: -23.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["310F02B06CF11B0E"]
+			id: "1AA4832FC938C9BD"
+			tasks: [{
+				id: "3BFC193975618437"
+				item: "plushies:warden_plushie"
+				type: "item"
+			}]
+			x: -23.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["310F02B06CF11B0E"]
+			id: "4F033479E88340CE"
+			tasks: [{
+				id: "2DA3EDDBF1DF9A4A"
+				item: "plushies:strider_plushie"
+				type: "item"
+			}]
+			x: -22.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["310F02B06CF11B0E"]
+			id: "21B7AAF94DAD404E"
+			tasks: [{
+				id: "663B0ACFD7DCDD37"
+				item: "plushies:magma_cube_plushie"
+				type: "item"
+			}]
+			x: -21.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["310F02B06CF11B0E"]
+			id: "4F3CB745ABA31822"
+			tasks: [{
+				id: "559013F1A46F02C8"
+				item: "plushies:slime_plushie"
+				type: "item"
+			}]
+			x: -22.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["310F02B06CF11B0E"]
+			id: "2963D26C6AA5A066"
+			tasks: [{
+				id: "23393218EF9ADE02"
+				item: "plushies:tadpole_plushie"
+				type: "item"
+			}]
+			x: -25.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["310F02B06CF11B0E"]
+			id: "4C8B476CD23787B7"
+			tasks: [{
+				id: "3B277F473A9886DD"
+				item: "plushies:frog_plushie"
+				type: "item"
+			}]
+			x: -24.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["310F02B06CF11B0E"]
+			id: "6FE053D40704B97E"
+			tasks: [{
+				id: "2939CC82E0646428"
+				item: "plushies:endermite_plushie"
+				type: "item"
+			}]
+			x: -25.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["310F02B06CF11B0E"]
+			id: "7746D81E297E547D"
+			tasks: [{
+				id: "3EA7006140116958"
+				item: "plushies:creeper_plushie"
+				type: "item"
+			}]
+			x: -23.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["310F02B06CF11B0E"]
+			id: "350C08AB54B64D91"
+			tasks: [{
+				id: "5B0962CC53577285"
+				item: "plushies:zombie_plushie"
+				type: "item"
+			}]
+			x: -23.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["310F02B06CF11B0E"]
+			id: "77C2EF74DA3845A0"
+			tasks: [{
+				id: "3144D05445729903"
+				item: "plushies:spider_plushie"
+				type: "item"
+			}]
+			x: -25.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["310F02B06CF11B0E"]
+			id: "088C5C1AAC696584"
+			tasks: [{
+				id: "2805DD1B2AA6474B"
+				item: "plushies:dragon_plushie"
+				type: "item"
+			}]
+			x: -25.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["310F02B06CF11B0E"]
+			id: "5AD7185D9E162D3D"
+			tasks: [{
+				id: "5ED5C08033F0E978"
+				item: "plushies:pillager_plushie"
+				type: "item"
+			}]
+			x: -23.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["310F02B06CF11B0E"]
+			id: "6358D6A479B44904"
+			tasks: [{
+				id: "600304128C65CD70"
+				item: "plushies:illusioner_plushie"
+				type: "item"
+			}]
+			x: -21.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["310F02B06CF11B0E"]
+			id: "742170A98DECDC43"
+			tasks: [{
+				id: "23DC6E9CE7E430DA"
+				item: "plushies:vindicator_plushie"
+				type: "item"
+			}]
+			x: -22.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["310F02B06CF11B0E"]
+			id: "53067D0E8C687C77"
+			tasks: [{
+				id: "06A300C56FE60CAB"
+				item: "plushies:vex_plushie"
+				type: "item"
+			}]
+			x: -25.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["310F02B06CF11B0E"]
+			id: "4162D8E719D2536F"
+			tasks: [{
+				id: "1611104256DBD7FB"
+				item: "plushies:ravager_plushie"
+				type: "item"
+			}]
+			x: -25.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["310F02B06CF11B0E"]
+			id: "1890365021EE5281"
+			tasks: [{
+				id: "1585DFB7C1579BCB"
+				item: "plushies:witch_plushie"
+				type: "item"
+			}]
+			x: -23.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["310F02B06CF11B0E"]
+			id: "093495857BEBA235"
+			tasks: [{
+				id: "52AE93A38027BDE3"
+				item: "plushies:evoker_plushie"
+				type: "item"
+			}]
+			x: -23.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5F6EAC8E6C20A6CC"]
+			id: "3F0A15CCD51209AE"
+			tasks: [{
+				id: "67362BBCAA825BF7"
+				item: "hybrid-aquatic:basking_shark_plushie"
+				type: "item"
+			}]
+			x: -32.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5F6EAC8E6C20A6CC"]
+			id: "490219ED58476B7C"
+			tasks: [{
+				id: "7F1C2B0FD07FCC4E"
+				item: "hybrid-aquatic:bull_shark_plushie"
+				type: "item"
+			}]
+			x: -33.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5F6EAC8E6C20A6CC"]
+			id: "15E1A53FD320BEF2"
+			tasks: [{
+				id: "4732411595CBFF78"
+				item: "hybrid-aquatic:frilled_shark_plushie"
+				type: "item"
+			}]
+			x: -33.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5F6EAC8E6C20A6CC"]
+			id: "60C4C7DFDD0F5D5A"
+			tasks: [{
+				id: "24A9D1731875B73B"
+				item: "hybrid-aquatic:great_white_shark_plushie"
+				type: "item"
+			}]
+			x: -29.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5F6EAC8E6C20A6CC"]
+			id: "0EE0451FB1CFCF80"
+			tasks: [{
+				id: "2193E2678B41F915"
+				item: "hybrid-aquatic:hammerhead_shark_plushie"
+				type: "item"
+			}]
+			x: -31.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5F6EAC8E6C20A6CC"]
+			id: "434EEB792E0FA21D"
+			tasks: [{
+				id: "6568787061C8B6C5"
+				item: "hybrid-aquatic:thresher_shark_plushie"
+				type: "item"
+			}]
+			x: -30.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5F6EAC8E6C20A6CC"]
+			id: "7314DECC030FE0E9"
+			tasks: [{
+				id: "1C3F92628AB81B5E"
+				item: "hybrid-aquatic:whale_shark_plushie"
+				type: "item"
+			}]
+			x: -29.0d
+			y: 3.5d
+		}
+		{
+			id: "7E93FCC8C6D2CAEC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "15552F019EF2F456"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [
+				{
+					id: "74CD8C78A772B925"
+					item: "plushables:builder_block"
+					type: "item"
+				}
+				{
+					id: "4999FE2B5DFD1FB2"
+					item: "plushables:heart_of_gold"
+					type: "item"
+				}
+				{
+					id: "7FDF1B85D726F50B"
+					item: "plushables:powered_heart"
+					type: "item"
+				}
+				{
+					id: "3542E340EAFD4E11"
+					item: "plushables:codex"
+					type: "item"
+				}
+				{
+					id: "1E40C442F052EFE9"
+					item: "plushables:basket_block"
+					type: "item"
+				}
+			]
+			x: -19.5d
+			y: 10.0d
+		}
+		{
+			id: "310F02B06CF11B0E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "43887FA841976034"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				count: 24L
+				id: "2D89FFD3A7AFDBD5"
+				item: "minecraft:white_wool"
+				type: "item"
+			}]
+			x: -19.5d
+			y: 0.5d
+		}
+		{
+			id: "5F6EAC8E6C20A6CC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "042B763BF0F3F227"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0B97103EDFE3C3E9"
+				item: "hybrid-aquatic:hybrid_crate"
+				type: "item"
+			}]
+			x: -31.0d
+			y: 4.5d
+		}
+		{
+			description: ["部分饰品在装备栏中&e右键饰品&r可以&e隐藏&r"]
+			id: "08C1EA027FC433A5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "09145A87D17A29B1"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [
+				{
+					entity: "artifacts:mimic"
+					id: "2473DD286A68AA1E"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "5D6CFA9C9AE2EC8B"
+					item: "things:things_almanac"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "43A10D5F5C303564"
+					item: "things:gleaming_powder"
+					type: "item"
+				}
+			]
+			title: "饰品和装饰"
+			x: -29.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["310F02B06CF11B0E"]
+			id: "122530E7AC452CE7"
+			tasks: [
+				{
+					id: "06EF08EA8D22CA5D"
+					item: "luphieclutteredmod:rubiks_cube"
+					type: "item"
+				}
+				{
+					id: "33A49A4993012F3C"
+					item: "luphieclutteredmod:pastel_rubiks_cube"
+					type: "item"
+				}
+				{
+					id: "4F326B32D99041A8"
+					item: "luphieclutteredmod:scrambled_pastel_rubiks_cube"
+					type: "item"
+				}
+				{
+					id: "2D7DB9DA1E1BD79D"
+					item: "luphieclutteredmod:scrambled_rubiks_cube"
+					type: "item"
+				}
+			]
+			x: -25.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["310F02B06CF11B0E"]
+			id: "355B22A029373055"
+			tasks: [{
+				id: "69C48AB6437751D0"
+				item: "luphieclutteredmod:luphiebunny_plushie"
+				type: "item"
+			}]
+			x: -25.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["310F02B06CF11B0E"]
+			id: "133BC75D1341FF32"
+			tasks: [{
+				id: "66321548B0E46DD1"
+				item: "luphieclutteredmod:blue_sand_seal_plush"
+				type: "item"
+			}]
+			x: -25.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["310F02B06CF11B0E"]
+			id: "2B8F61906D9677C7"
+			tasks: [{
+				id: "23078B3379A86D40"
+				item: "luphieclutteredmod:red_sand_seal_plush"
+				type: "item"
+			}]
+			x: -25.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["310F02B06CF11B0E"]
+			id: "2A2790DE9A66F812"
+			tasks: [{
+				id: "319B19EFAF69FFD7"
+				item: "luphieclutteredmod:green_sand_seal_plush"
+				type: "item"
+			}]
+			x: -25.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["08C1EA027FC433A5"]
+			description: [
+				"玩家&e不会&r被其它&e亡灵生物&r主动攻击且&e免疫部分负面&r效果，死后也有&e概率触发复活&r。"
+				"动物和村民(修改了其他机制，村民不会怕你）会变得&e害怕玩家&r，铁傀儡和警卫村民会&e主动攻击玩家&r，玩家受到的&e火焰伤害也会提升&r。"
+				"视玩家是否暴露在阳光期间增减基础攻击力or盔甲值。"
+			]
+			id: "4FAE77FBFB6419FD"
+			tasks: [{
+				id: "1CE9DD9B4AAF3216"
+				item: "lostrelics:cursed_amulet"
+				type: "item"
+			}]
+			x: -26.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["08C1EA027FC433A5"]
+			description: [
+				"装备时：玩家每次受到生物伤害后均有概率向前喷射能够击退前方生物的烟雾；"
+				"&e手持&r使用时：召唤&e四个玩家的分身协助作战&r；"
+				"&eShift + 右键&r使用则会召唤一个更强的玩家分身。"
+			]
+			id: "1696A4D6D30D35DB"
+			tasks: [{
+				id: "1338258943D0D204"
+				item: {
+					Count: 1
+					id: "lostrelics:smoking_mirror"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -25.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["08C1EA027FC433A5"]
+			description: [
+				"&dShift+右键使用&r：吸取目标生物身上所有的&e负面效果&r，并将其存入该物品中；被吸取的效果可通过（手持此物品）攻击生物传播；"
+				"也可以通过合成提取&e污染血晶&r（可用作弓 / 弩的弹药或酿造药水）"
+			]
+			id: "3163669297109F4F"
+			tasks: [
+				{
+					id: "06648A5D8FC8D55B"
+					item: {
+						Count: 1
+						id: "lostrelics:triple_toothed_snake"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "28ADC8A46EE87757"
+					item: "lostrelics:tainted_blood_crystal"
+					type: "item"
+				}
+			]
+			x: -25.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["08C1EA027FC433A5"]
+			description: ["给予范围内所有&e满血生物发光&r效果，这些生物&e受到攻击伤害会提升&r且在&e被攻击后受到削弱&r。"]
+			id: "13CA72607F632355"
+			tasks: [{
+				id: "4BD6D23FECD23451"
+				item: {
+					Count: 1
+					id: "lostrelics:turquoise_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "我去这框，我去这框，真帅吧？"
+			x: -25.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["310F02B06CF11B0E"]
+			id: "0463FB46BB45CA8A"
+			tasks: [{
+				id: "741D591EAE371F97"
+				item: "handcrafted:bear_trophy"
+				type: "item"
+			}]
+			x: -24.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["310F02B06CF11B0E"]
+			id: "078A8171872C82C0"
+			tasks: [{
+				id: "0A1E4C28923DCA66"
+				item: "handcrafted:blaze_trophy"
+				type: "item"
+			}]
+			x: -23.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["310F02B06CF11B0E"]
+			id: "7C307A83EAAE7D52"
+			tasks: [{
+				id: "368FA4BB2299E822"
+				item: "handcrafted:fox_trophy"
+				type: "item"
+			}]
+			x: -22.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["310F02B06CF11B0E"]
+			id: "2388235D25B42732"
+			tasks: [{
+				id: "406A9521B99D7817"
+				item: "handcrafted:goat_trophy"
+				type: "item"
+			}]
+			x: -21.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["310F02B06CF11B0E"]
+			id: "2B520DFB847D5B0C"
+			tasks: [{
+				id: "27FA88AEEDBE676D"
+				item: "handcrafted:pufferfish_trophy"
+				type: "item"
+			}]
+			x: -20.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["310F02B06CF11B0E"]
+			id: "7F277226AB818945"
+			tasks: [{
+				id: "570EB96FCD4A728B"
+				item: "handcrafted:salmon_trophy"
+				type: "item"
+			}]
+			x: -19.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["310F02B06CF11B0E"]
+			id: "458B72D2F0E2C850"
+			tasks: [{
+				id: "56E917796669C1E5"
+				item: "handcrafted:silverfish_trophy"
+				type: "item"
+			}]
+			x: -18.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["310F02B06CF11B0E"]
+			id: "358AECD4D460ABBB"
+			tasks: [{
+				id: "75D16AF39BBB71DF"
+				item: "handcrafted:skeleton_horse_trophy"
+				type: "item"
+			}]
+			x: -17.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["310F02B06CF11B0E"]
+			id: "105DAF882106DAEC"
+			tasks: [{
+				id: "6495C2CE4E1EA5B1"
+				item: "handcrafted:spider_trophy"
+				type: "item"
+			}]
+			x: -16.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["310F02B06CF11B0E"]
+			id: "7EA19A3CD5F8D0AB"
+			tasks: [{
+				id: "35550DA85D295396"
+				item: "handcrafted:tropical_fish_trophy"
+				type: "item"
+			}]
+			x: -15.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["310F02B06CF11B0E"]
+			id: "1E8A8B8ACBCAC2C7"
+			tasks: [{
+				id: "578FA340FACBAF00"
+				item: "handcrafted:wither_skeleton_trophy"
+				type: "item"
+			}]
+			x: -14.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["310F02B06CF11B0E"]
+			id: "7966903EBA6B3FBF"
+			tasks: [{
+				id: "0066C2D5CBFD49BC"
+				item: "handcrafted:wolf_trophy"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["310F02B06CF11B0E"]
+			id: "51F7A1C89A5B9485"
+			tasks: [{
+				id: "7CBCD4960BEE8586"
+				item: "handcrafted:phantom_trophy"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["310F02B06CF11B0E"]
+			id: "6059ED24207722C5"
+			tasks: [{
+				id: "60BE19703C41DC07"
+				item: "handcrafted:creeper_trophy"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["310F02B06CF11B0E"]
+			id: "667957905C4061F8"
+			tasks: [{
+				id: "2DA944F7070A2323"
+				item: "handcrafted:skeleton_trophy"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["310F02B06CF11B0E"]
+			id: "782BB7DDA1BE1D0A"
+			tasks: [{
+				id: "68AF5A4FAA63BF3B"
+				item: "handcrafted:evoker_trophy"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["310F02B06CF11B0E"]
+			id: "40C988DF6DBDD9A1"
+			tasks: [{
+				id: "0FCD836638FA4163"
+				item: "handcrafted:pillager_trophy"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["310F02B06CF11B0E"]
+			id: "12FC03C9D478A401"
+			tasks: [{
+				id: "40D02078F5757830"
+				item: "handcrafted:vindicator_trophy"
+				type: "item"
+			}]
+			x: -13.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["310F02B06CF11B0E"]
+			id: "7B207874D1B3DE87"
+			tasks: [{
+				id: "21C2E03FBAE10700"
+				item: "handcrafted:witch_trophy"
+				type: "item"
+			}]
+			x: -13.5d
+			y: 1.5d
+		}
+	]
+	title: "饰品and毛绒玩具"
+}

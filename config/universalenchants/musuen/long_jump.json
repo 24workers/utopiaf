@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:armor_feet"
+  ],
+  "incompatible": [
+    "musuen:sky_jump",
+    "minecraft:feather_falling"
+  ]
+}

@@ -1,0 +1,2729 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "2168ECBAB0F8FFCF"
+	group: "4042212D3F461FE3"
+	icon: "minecraft:grass_block"
+	id: "2168ECBAB0F8FFCF"
+	images: [
+		{
+			height: 6.0d
+			image: "minecraft:textures/chuansongmen.png"
+			rotation: 0.0d
+			width: 6.0d
+			x: 22.0d
+			y: -24.0d
+		}
+		{
+			dependency: "4C9463B3850FDA21"
+			height: 5.0d
+			image: "minecraft:textures/gao.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: 22.0d
+			y: -42.0d
+		}
+		{
+			dependency: "19B89C9FBEEEF703"
+			height: 5.0d
+			image: "minecraft:textures/jian.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: 22.0d
+			y: -34.0d
+		}
+		{
+			dependency: "10C90FC13C2B1A36"
+			height: 5.0d
+			image: "minecraft:textures/gongzuotai.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: 22.0d
+			y: -19.5d
+		}
+		{
+			dependency: "5943EA94394EA79F"
+			height: 6.0d
+			image: "minecraft:textures/chuang.png"
+			rotation: 0.0d
+			width: 6.0d
+			x: 26.5d
+			y: -19.0d
+		}
+		{
+			dependency: "1F1F85C167DD92F5"
+			height: 5.0d
+			image: "minecraft:textures/beibao.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: 17.0d
+			y: -19.5d
+		}
+		{
+			dependency: "47134C58509E86F7"
+			height: 5.0d
+			image: "minecraft:textures/cunzhuang.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: 17.0d
+			y: -12.5d
+		}
+		{
+			dependency: "5A58898755BCB089"
+			height: 5.0d
+			image: "minecraft:textures/fengchao.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: 12.0d
+			y: -12.5d
+		}
+		{
+			dependency: "3B409A8BC92C6F3F"
+			height: 5.0d
+			image: "minecraft:textures/gui.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: 17.0d
+			y: -33.5d
+		}
+		{
+			dependency: "0BF1AA3B04772270"
+			height: 5.0d
+			image: "minecraft:textures/muzhuang.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: 27.0d
+			y: -12.5d
+		}
+		{
+			dependency: "0C931F266F8F6806"
+			height: 5.0d
+			image: "minecraft:textures/diaosigui.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: 11.5d
+			y: -34.0d
+		}
+		{
+			dependency: "42664C44970070B4"
+			height: 5.0d
+			image: "minecraft:textures/shuazi.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: 27.0d
+			y: -42.0d
+		}
+		{
+			dependency: "21ABBC5B7756C22C"
+			height: 5.0d
+			image: "minecraft:textures/pingguo.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: 32.0d
+			y: -33.5d
+		}
+		{
+			dependency: "0CF470D084F1409C"
+			height: 5.0d
+			image: "minecraft:textures/maozidai.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: 37.0d
+			y: -34.0d
+		}
+		{
+			dependency: "0C8FDC88E8B60D9B"
+			height: 5.0d
+			image: "minecraft:textures/renyu.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: 12.0d
+			y: -6.0d
+		}
+		{
+			dependency: "5FF6AB4BB774BB2F"
+			height: 5.0d
+			image: "minecraft:textures/chuan2.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: 17.0d
+			y: -6.0d
+		}
+		{
+			dependency: "0252543A76A66398"
+			height: 5.0d
+			image: "minecraft:textures/gangqing.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: 32.0d
+			y: -19.5d
+		}
+		{
+			dependency: "620E51005B596B6C"
+			height: 5.0d
+			image: "minecraft:textures/zhenban.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: 7.0d
+			y: -19.0d
+		}
+		{
+			dependency: "0CD6C5534600E345"
+			height: 5.0d
+			image: "minecraft:textures/feiji4.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: 7.0d
+			y: -5.5d
+		}
+		{
+			dependency: "1864A9825CCB73B9"
+			height: 5.0d
+			image: "minecraft:textures/nvpu.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: 32.0d
+			y: -13.0d
+		}
+		{
+			dependency: "0EC29A2F55B6F3A8"
+			height: 3.0d
+			image: "minecraft:textures/modichuansongmen.png"
+			rotation: 0.0d
+			width: 4.8d
+			x: 7.0d
+			y: -12.0d
+		}
+		{
+			dependency: "771F0568365C40EA"
+			height: 5.0d
+			image: "minecraft:textures/huaguan.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: 37.0d
+			y: -13.0d
+		}
+		{
+			dependency: "5276BC1620F5B0DD"
+			height: 5.0d
+			image: "minecraft:textures/diaolingmeigui.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: 7.0d
+			y: -34.0d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [""]
+			icon: "betterend:tenanea_sapling"
+			id: "5B0B15E810D750DE"
+			rewards: [
+				{
+					id: "4252ED6D54AB8865"
+					item: "minecraft:totem_of_undying"
+					type: "item"
+				}
+				{
+					auto: "invisible"
+					command: "/title @s times 40 120 40"
+					elevate_perms: true
+					id: "6699877F463E4DF1"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/title @s title {\"text\":\"欢迎来到\\u00A7a乌托邦探险之旅！\"}"
+					elevate_perms: true
+					id: "08A1E23A6D2DFEE8"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/title @s subtitle {\"text\":\"故事的开始……\"}"
+					elevate_perms: true
+					id: "4F2A789A9E53C19A"
+					type: "command"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				dimension: "minecraft:overworld"
+				id: "51A061888E17B7C2"
+				title: "欢迎来到乌托邦"
+				type: "dimension"
+			}]
+			title: "乌托邦探险之旅启程！"
+			x: 22.0d
+			y: -24.0d
+		}
+		{
+			hide: true
+			id: "10C90FC13C2B1A36"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5B6B7D28D7F98E1C"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [{
+				id: "78A203265C4BBBD1"
+				item: "minecraft:crafting_table"
+				type: "item"
+			}]
+			title: "制作一个“万恶之源”工作台"
+			x: 22.0d
+			y: -17.0d
+		}
+		{
+			dependencies: ["10C90FC13C2B1A36"]
+			description: [
+				"旅行者背包通过&e升级&r以达到其&e最大存储&r和&e流体容量&r。"
+				"（&c锻造台&r&e第一格&r放入&e皮革&r，&e第二格&r放入&e背包&r，&e第三格&r放入&e升级模板&r）"
+				"方法是将&e更高等级的升级&r与&e背包&r相结合。"
+				"并且背包不能直接升级到下界合金等级，必须先从所有&e较低等级依次升级&r。"
+				"要重置升级，请将&e背包放在地上&r，然后按住 &eShift +右键单击&r，同时&e手持空白升级&r。"
+			]
+			hide: true
+			id: "1F1F85C167DD92F5"
+			rewards: [
+				{
+					id: "7F4CF289A18E2EB2"
+					item: "plushies:axolotl_plushie"
+					type: "item"
+				}
+				{
+					icon: "minecraft:experience_bottle"
+					id: "4D6D207C9AE7DE56"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3DBF043558F7146E"
+					table_id: 3438619514375427762L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "2CE18518C1D9EACF"
+					item: {
+						Count: 1
+						id: "travelersbackpack:standard"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "0ACDDED9706D9331"
+					item: "travelersbackpack:blank_upgrade"
+					type: "item"
+				}
+				{
+					id: "454830102583E054"
+					item: "travelersbackpack:iron_tier_upgrade"
+					type: "item"
+				}
+				{
+					id: "73C9C132E4D50FBE"
+					item: "travelersbackpack:crafting_upgrade"
+					type: "item"
+				}
+			]
+			title: "旅行者背包"
+			x: 17.0d
+			y: -17.0d
+		}
+		{
+			description: [
+				"&e控制坐骑行为&r：使用木棍对已驯服的坐骑右键可以让坐骑做出&e闲逛，跟随，坐下&r的行为。"
+				"&e添加/移除物品栏&r：（原版坐骑不支持）坐骑能够通过&e装备箱子&r来给它们的装备界面中&e添加额外的物品栏&r，并能&e通过剪刀卸下&r。坐骑的&e总物品栏容量因坐骑种类而异&r，如果你需要的话，可以通过配置文件修改它。"
+				"&e抚摸坐骑&r：潜行时空手右键坐骑可抚摸它们。"
+				"&e繁殖坐骑&r：满足以下条件的两只同品种坐骑可以进行繁殖：两只坐骑都需要被驯服；两只坐骑都必须为满生命值；两只坐骑都需要被喂食合适的繁殖物品"
+				"&e迷你坐骑&r：如果一个幼年坐骑在长大之前被喂食了&b诡异菌&r，它便会成长为&e迷你坐骑&r。这类坐骑不能让&e正常体型的人骑乘&r，但其他方面则和它们的成年版本一样。幼体的迷你效果能够通过在它们成年之前&4喂食绯红菌来抵消&r。"
+			]
+			hide: true
+			id: "63EBCA3060E76D8E"
+			rewards: [
+				{
+					id: "60D3231A8A5AB1F5"
+					item: "minecraft:stick"
+					type: "item"
+				}
+				{
+					id: "260FF52F2E27972E"
+					item: {
+						Count: 1
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "mythicmounts:mythical_mounts"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "所有坐骑都是空手右键驯服，驯服装备鞍可控制坐骑"
+			tasks: [{
+				id: "25381B524B2F8789"
+				item: "minecraft:saddle"
+				type: "item"
+			}]
+			title: "驯服坐骑"
+			x: 22.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["47134C58509E86F7"]
+			description: ["在野外由石头围起来的小水潭中间生成，平原和热带草原村庄大概率生成。玩家可与女神雕像进行交易。"]
+			icon: "paraglider:goddess_statue"
+			id: "63654D74C8F70917"
+			rewards: [
+				{
+					count: 5
+					id: "7AC3556B29DABE94"
+					item: "paraglider:heart_container"
+					type: "item"
+				}
+				{
+					id: "7A4E4620FA71D834"
+					item: "paraglider:deku_leaf"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1235EEE09C63DCB0"
+					table_id: 2953109549610839980L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					icon: "paraglider:goddess_statue"
+					id: "26144EBE9F187127"
+					observe_type: 0
+					timer: 60L
+					title: "女神像"
+					to_observe: "paraglider:goddess_statue"
+					type: "observation"
+				}
+				{
+					icon: "paraglider:kakariko_goddess_statue"
+					id: "7F895DC0D74DF072"
+					observe_type: 0
+					timer: 60L
+					title: "女神像"
+					to_observe: "paraglider:kakariko_goddess_statue"
+					type: "observation"
+				}
+				{
+					icon: "paraglider:goron_goddess_statue"
+					id: "40E11CAC91524D2E"
+					observe_type: 0
+					timer: 60L
+					title: "女神像"
+					to_observe: "paraglider:goron_goddess_statue"
+					type: "observation"
+				}
+				{
+					icon: "paraglider:rito_goddess_statue"
+					id: "2527D25B4C0D7C3B"
+					observe_type: 0
+					timer: 60L
+					title: "女神像"
+					to_observe: "paraglider:rito_goddess_statue"
+					type: "observation"
+				}
+				{
+					icon: "paraglider:horned_statue"
+					id: "1F1CF3D42BE0DF7E"
+					observe_type: 0
+					timer: 60L
+					title: "带角神像"
+					to_observe: "paraglider:horned_statue"
+					type: "observation"
+				}
+			]
+			title: "观察女神像"
+			x: 18.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["1332A9D049D39985"]
+			description: [
+				"&e右键驯服的宠物绑定&r，如果&e宠物死亡&r，你在下一次&e从床上醒来时&r，你驯服的&e宠物重生&r。"
+				"马，驴，骡子等不会重生，因为严格定义上它们没有主人。"
+			]
+			id: "1F316F8FCB9FB20F"
+			tasks: [{
+				id: "7ECC12600B1C652B"
+				item: "respawnablepets:etheric_gem"
+				type: "item"
+			}]
+			title: "宠物重生"
+			x: 25.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["47134C58509E86F7"]
+			description: [
+				"潜行时空手右键点击&e可存储经验&r，右键点击可以取出。"
+				"在村庄可以找到。"
+			]
+			id: "341FB70C79DFB079"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "491AAE73F825123A"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4FEFFF4ACA73D180"
+				item: "villagersplus:occultist_table"
+				type: "item"
+			}]
+			x: 15.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["1332A9D049D39985"]
+			description: ["可用于将坐骑传送一小段距离。将法杖对坐骑使用可链接它们，再次使用法杖即可召唤它们。（&e坐骑必须在已加载的区块内，并且目标地点需要有足够的空间&r）"]
+			id: "2FAA8A1FDED6408E"
+			tasks: [{
+				id: "7272E9A9FD9F5237"
+				item: "mythicmounts:summoning_staff"
+				type: "item"
+			}]
+			x: 28.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0BF1AA3B04772270"]
+			description: [
+				""
+				"野外可以找到小女仆，也可以在地上&e放置一个蛋糕&r，等待一段时间之后，会&e吸引小女仆&r的到来。"
+				"&e雇佣女仆&r：拿着蛋糕使用鼠标右键就可以雇佣小女仆，&e潜行时&r对着已雇佣的女仆使用&e鼠标右键&r就可以打开她的&e物品栏&r，将物品放入&e左上角&r的&e主手槽&r，即可分配给&e相应的职业&r。"
+				"&e自我治愈&r：如果女仆物品栏中有&e糖&r，女仆在受伤时就会自动吃掉&e回复生命值&r。"
+				"&e职业&r：剑、斧、弓、盾、锄、紫水晶碎片、三叉戟、弩、"
+			]
+			id: "1864A9825CCB73B9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4B29D8DA4AF56379"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "4311C8510B055DC9"
+					item: "minecraft:cake"
+					type: "item"
+				}
+				{
+					id: "27ECB0EA8D73EE80"
+					item: "minecraft:sugar"
+					type: "item"
+				}
+			]
+			title: "雇佣小女仆"
+			x: 32.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["63EBCA3060E76D8E"]
+			description: [
+				"&e使用方法&r：当手持竹笛长按右键时，玩家会吹奏一小段音乐。可以召唤玩家&e64格&r范围（可通过配置文件修改）所有没有坐着的宠物到玩家身边。"
+				"手持竹笛右击或左击某一个宠物与之绑定。绑定的笛子将只召唤与之绑定的宠物，并且无论是否坐着都会召唤。"
+			]
+			hide: true
+			id: "1332A9D049D39985"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4F0157D0FDD17633"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5EC1847D252C33B8"
+				item: {
+					Count: 1
+					id: "supplementaries:flute"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 27.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1332A9D049D39985"]
+			id: "1139C12763116DFD"
+			tasks: [{
+				id: "4D52D8BF5DB945A1"
+				item: "horsearmorstandmod:horsearmorstanditem"
+				type: "item"
+			}]
+			x: 27.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1F1F85C167DD92F5"]
+			description: ["装备后按；打开，（可自行改键）。"]
+			id: "515B52FFBCE092D9"
+			tasks: [{
+				id: "718E0D8303B0A2A8"
+				item: "things:ender_pouch"
+				type: "item"
+			}]
+			x: 17.0d
+			y: -16.0d
+		}
+		{
+			dependencies: ["3B409A8BC92C6F3F"]
+			description: [
+				"&e获取&r：击败墓园的怪物会掉落。"
+				"&e使用&r：&e无名的吊死鬼&r需要它，建议多屯一些。无名吊死鬼在&e一棵枯死的树下&r，白天它享受阳光，&e晚上&r去找它吧。"
+			]
+			id: "3A8279290ECD7C1D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2AA1FC71C187A786"
+					table_id: 3438619514375427762L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "52E3F75BE926797F"
+					table_id: 2953109549610839980L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "23C2984E0629571B"
+				item: "graveyard:corruption"
+				type: "item"
+			}]
+			x: 16.5d
+			y: -30.0d
+		}
+		{
+			dependencies: ["055BD2BC116F4D59"]
+			description: ["可以使用切木机制作更多木制方块"]
+			hide: true
+			id: "0BF1AA3B04772270"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "665B48FC35F5D2DC"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1503260C86F8B0BD"
+				item: "meadow:woodcutter"
+				type: "item"
+			}]
+			x: 27.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["0BF1AA3B04772270"]
+			description: ["附魔台可以花费&1青金石&r&e刷新附魔&r"]
+			id: "17AF422A7346DF11"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0B12D0B6C6E736E5"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "6A5EA7ACC596B0AD"
+					item: "minecraft:enchanting_table"
+					type: "item"
+				}
+				{
+					id: "21DDB5DD3DCB2B9C"
+					item: "enchantinginfuser:enchanting_infuser"
+					type: "item"
+				}
+				{
+					id: "55AACC487DA3C907"
+					item: "enchantinginfuser:advanced_enchanting_infuser"
+					type: "item"
+				}
+			]
+			x: 26.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["0E3CD350055383E0"]
+			description: ["摆放后，测试武器伤害"]
+			id: "10742E52CF8393CE"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2AC2B6330FDF9605"
+					table_id: 3438619514375427762L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5BB40AE46B2B5F6E"
+					table_id: 2953109549610839980L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "31C1A910C0C4B2E9"
+				item: "dummmmmmy:target_dummy"
+				type: "item"
+			}]
+			x: 27.0d
+			y: -30.0d
+		}
+		{
+			dependencies: ["43F2232885D209FA"]
+			description: [
+				"&e基础功能&r：手持笼子，&e右键&r捕捉生物；手持&e含有生物&r的笼子，&e右键其他空笼子以转移生物&r；末影笼内的生物会间歇播放其环境音。可以&e用羽毛右击笼子以静音&r，而&e用音符盒右击以恢复&r。"
+				"&e红石功能&r：若笼子被充能：上方是空气方块：释放内含生物/抓取上方生物；上方是另一个笼子：转移内含生物/攫取上方生物。末影笼上方的记事本将始终播放下方生物的环境音，即使笼子已静音。若笼子含有生物，红石比较器将输出强度15的红石信号，无则0。"
+				"若将一个含有生物的末影笼放在物品展示框中，它会显示生物的模型。若展示框朝上，生物将正常站立。"
+			]
+			id: "3236A41D07AAB692"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "588997EBAE421CC0"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [{
+				id: "40B90C203E5CE87E"
+				item: "endercage:endercage"
+				type: "item"
+			}]
+			x: 32.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1864A9825CCB73B9"]
+			hide: true
+			id: "771F0568365C40EA"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "48E432DB49DB9E11"
+					table_id: 3438619514375427762L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "44203A1DF3D86FCA"
+					table_id: 2953109549610839980L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "5808FADB1C75851A"
+					item: {
+						Count: 1
+						id: "floralench:pink_crown"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3E9367B734DA487F"
+					item: {
+						Count: 1
+						id: "floralench:blue_crown"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "自然与浪漫!"
+			x: 37.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["771F0568365C40EA"]
+			id: "79C3D6D6F731730A"
+			tasks: [
+				{
+					id: "284400DA2BC04EB1"
+					item: {
+						Count: 1
+						id: "floralench:red_crown"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "19DB97565EB8C318"
+					item: {
+						Count: 1
+						id: "floralench:yellow_crown"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1D9A0C305BB5B875"
+					item: {
+						Count: 1
+						id: "floralench:white_crown"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "30E51359BD0ED705"
+					item: {
+						Count: 1
+						id: "floralench:black_crown"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "304DB525987ACC65"
+					item: {
+						Count: 1
+						id: "floralench:tulips_crown"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "更多花冠"
+			x: 36.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["1332A9D049D39985"]
+			description: [
+				"笼子可以用来捕捉小动物，比如鸡和兔子。可以在配置文件中添加更多的生物到白名单中。"
+				"要&e释放生物&r只需在&e地面上点击右键&r。要&e放置笼子&r需要&e潜行并按右键&r。"
+				"笼子里的小动物仍有一些自定义动画和相关行为，例如：兔子和史莱姆会偶尔跳跃，而小鸡会时不时地下蛋。"
+			]
+			hide: true
+			id: "43F2232885D209FA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "23F03A0A41BBBBAE"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [{
+				id: "52DFB5C065401498"
+				item: "supplementaries:cage"
+				type: "item"
+			}]
+			x: 32.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5943EA94394EA79F"]
+			description: ["趁&e灰熊&r打盹，偷偷摸摸剪下它的&e熊毛&r，制作一个泰迪熊。手持它，玩家可以&e无视周围游荡的怪物&r，直接&e睡觉&r。也可以将其&e放置下来作为装饰&r。"]
+			id: "3A31C15D39448E08"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "29D754112ADB9CDF"
+					table_id: 3438619514375427762L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "659252B7C5CE8C88"
+					table_id: 2953109549610839980L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "30C88013646D4D76"
+				item: "naturalist:teddy_bear"
+				type: "item"
+			}]
+			title: "今晚好梦！"
+			x: 24.5d
+			y: -16.0d
+		}
+		{
+			dependencies: ["0C8FDC88E8B60D9B"]
+			description: [
+				"戴上它&b进入水中&r你会变成&e人鱼&r，获得&e无限水下呼吸&r和&e夜视&r效果，上岸恢复正常。"
+				"染色：你可以把海洋项链加&e染料&r进行&e染色&r，项链赋予的&e尾巴颜色也会随之变化&r。"
+				"部分其他模组饰品在装备栏中&e右键饰品&r可以&e隐藏&r，否则进入海里会穿帮（又有鞋子又有鱼尾）"
+			]
+			id: "7BBB77F4EFA5838A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7E57C158C7EEE952"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [{
+				id: "188F1C16B5726504"
+				item: {
+					Count: 1
+					id: "mermod:sea_necklace"
+					tag: {
+						necklace_modifiers: { }
+					}
+				}
+				type: "item"
+			}]
+			title: "美人鱼，海洋中最美丽的存在！"
+			x: 11.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0C8FDC88E8B60D9B"]
+			description: [
+				"在&e工作台&r和&e海洋项链合成&r附加&e额外功能&r："
+				"&e美人鱼胸衣&r(给你的上半身增加一个胸衣装饰)"
+				"&e月岩&r(改变尾巴纹理)"
+				"&e厄休拉的贝壳&r(把你的尾巴变得像小美人鱼)"
+				"&e尾巴渐变&r(可以被染色，让你尾巴从上到下渐变到该颜色)"
+				"&e发光珍珠&r(让你的尾巴像被&e附魔&r一样发光)"
+			]
+			id: "1443EEC9C40378F7"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2B395E9456A5A507"
+					table_id: 2953109549610839980L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "616B0153389D3850"
+					table_id: 7229437663258640740L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "474F47C0D6FBFD79"
+					table_id: 3438619514375427762L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "1F3C8874A25CD3D1"
+					item: "mermod:mermaid_bra_modifier"
+					type: "item"
+				}
+				{
+					id: "323E0FB05F5EAD0D"
+					item: "mermod:tail_gradient_modifier"
+					type: "item"
+				}
+				{
+					id: "56682B0855192CFB"
+					item: "mermod:glowing_pearl_modifier"
+					type: "item"
+				}
+				{
+					id: "1B4B522BA95B144F"
+					item: "mermod:ursula_shell_modifier"
+					type: "item"
+				}
+			]
+			x: 12.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0CF470D084F1409C"]
+			description: ["你会在箱子找到各种奇特的帽子，做一个帽子展示架，将多余的帽子展示。"]
+			id: "25B0EB43D5005412"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5A4C3D209CE3F0BB"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3FAEF6DB2B4EBC35"
+				item: "simplehats:hatdisplay"
+				type: "item"
+			}]
+			x: 37.5d
+			y: -30.0d
+		}
+		{
+			dependencies: ["47134C58509E86F7"]
+			description: ["放置后和附近&e所有的村民&r或者&e流浪商人&r进行&e交易&r。"]
+			id: "0BB5BFD04FDC0FE8"
+			tasks: [{
+				id: "5B39674AB4D0F87B"
+				item: "tradingpost:trading_post"
+				type: "item"
+			}]
+			x: 17.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["771F0568365C40EA"]
+			id: "070E93EDFA9F1885"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "06C339B4F3A67EA8"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			subtitle: "抓蝴蝶"
+			tasks: [{
+				id: "15C62C9E121A4CCA"
+				item: {
+					Count: 1
+					id: "naturalist:bug_net"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 37.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["5943EA94394EA79F"]
+			description: [
+				"绑定一：从其它&e玩家睡过的床&r上&e收集该玩家的头发&r（&e使用剪刀右键枕头区域&r），然后将其与小麦、骨头合成为绑定该玩家的&e巫毒娃娃&r；"
+				""
+				"绑定二：在合成配方中多&e消耗一捆小麦代替玩家的头发&r：制作一个&e不绑定任何玩家的巫毒娃娃&r，然后你便可以使用&e写有某玩家名称的命名牌右键巫毒娃娃&r，让&e巫毒娃娃绑定指定的玩家&r；"
+				"&e成功绑定&r玩家的巫毒娃娃会将自己的&e头颅转化为该玩家（皮肤）的头颅&r：而后，准备好&e各种物品右键巫毒娃娃&r，尽情地进行&e带来欢笑而非伤害恶作剧&r！"
+				"除了用作整蛊外，巫毒娃娃同样是一个不错的&e装饰物品&r，&e空手右键单击&r巫毒娃娃可以&e让它转向你所在的位置&r；"
+				"机制反馈："
+				"直接&e站在巫毒娃娃上&r即可&e借助自己的体重来削弱其它玩家的移速&r；"
+				"手持下列物品&e右键绑定玩家的巫毒娃娃&r，即可&e对该玩家造成对应的效果&r："
+				"&c打火石 / 火焰弹&r：点燃该玩家数秒；"
+				"&b细雪桶&r：冻结该玩家数秒；"
+				"&4TNT&r：在该玩家所在位置进行一次不会破坏方块的引爆；"
+				"&1回响碎片&r：给予该玩家黑暗效果，并在该玩家周围（下述同理）播放监守者出现的音效；"
+				"&6腐肉&r：播放僵尸的音效；"
+				"&f骨头&r：播放骷髅的音效；"
+				"&4火药&r：播放苦力怕的引爆音效；"
+				"&4蜘蛛眼&r：播放蜘蛛的音效；"
+				"&2末影珍珠&r：播放末影人被近距离注视后所产生的诡异音效；"
+				"&e金粒&r：播放猪灵的音效；"
+				"&d龙首&r：播放末影龙的死亡音效。"
+			]
+			id: "50385C61026EC42A"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5A2919E417265BCF"
+					table_id: 3438619514375427762L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "77D40B9DD9E2AB91"
+					table_id: 2953109549610839980L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "544B57C72760B69A"
+				item: "evoodooers:voodoo_doll"
+				type: "item"
+			}]
+			x: 26.5d
+			y: -16.0d
+		}
+		{
+			dependencies: ["1332A9D049D39985"]
+			description: ["和&e鲜活动画资源包不兼容&r，装备盔甲不会随着狼动画改变。"]
+			disable_toast: true
+			id: "07FBDFFA0513C664"
+			tasks: [
+				{
+					id: "4D3E57D46BFB7008"
+					item: {
+						Count: 1
+						id: "pet-armor:leather_wolf_armor"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3D021D25CFD5BB36"
+					item: {
+						Count: 1
+						id: "pet-armor:iron_wolf_armor"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3F725D7BDE4D2A04"
+					item: {
+						Count: 1
+						id: "pet-armor:chainmail_wolf_armor"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "297F0492938A6535"
+					item: {
+						Count: 1
+						id: "pet-armor:golden_wolf_armor"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "134E4C75D88EA67A"
+					item: {
+						Count: 1
+						id: "pet-armor:diamond_wolf_armor"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "417FB541A7888637"
+					item: {
+						Count: 1
+						id: "pet-armor:netherite_wolf_armor"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 26.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5943EA94394EA79F"]
+			description: ["泰拉玩家绝对很熟悉，没错！&e右键&r使用它，可以让你回到最后保存的&e出生点&r。PS：只能在&e主世界&r使用。"]
+			id: "50650A350BD50FD1"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7979BD929BCA62B7"
+					table_id: 3438619514375427762L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "434DF8ED9B78F96B"
+					table_id: 2953109549610839980L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "43439488496D9924"
+					item: "magicmirror:magic_mirror"
+					type: "item"
+				}
+				{
+					id: "158AFB531A667D56"
+					item: "magicmirror:ice_mirror"
+					type: "item"
+				}
+			]
+			x: 25.5d
+			y: -16.0d
+		}
+		{
+			dependencies: ["5FF6AB4BB774BB2F"]
+			description: ["可以在沉船箱子里的藏宝图找到。（请不要破坏&6带有藏宝图&r&e未打开的箱子&r获取箱子里的物品，否则获得的藏宝图会假死，在背包里无法拖动）"]
+			hide: true
+			id: "0C8FDC88E8B60D9B"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "521B66A0BE8F0A4A"
+					table_id: 3438619514375427762L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3BD3E13E64E0EBA0"
+					table_id: 2953109549610839980L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "354E371AA874471E"
+				item: "minecraft:heart_of_the_sea"
+				type: "item"
+			}]
+			title: "化身美人鱼(海底两万里）"
+			x: 12.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["055BD2BC116F4D59"]
+			hide: true
+			id: "47134C58509E86F7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7B7B2EDD00A13A00"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [{
+				icon: "luphieclutteredmod:unpainted_birdhouse"
+				id: "4F2AEEB106D82F0C"
+				structure: "minecraft:village_plains"
+				title: "平原村庄"
+				type: "structure"
+			}]
+			title: "抵达平原村庄"
+			x: 17.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["10C90FC13C2B1A36"]
+			description: [""]
+			hide: true
+			id: "5943EA94394EA79F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4CE7367B124C56B4"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [{
+				id: "170612C0AEB5A919"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:beds"
+					}
+				}
+				title: "制作一张床"
+				type: "item"
+			}]
+			title: "安稳的渡过夜晚"
+			x: 27.0d
+			y: -17.0d
+		}
+		{
+			dependencies: ["63EBCA3060E76D8E"]
+			hide: true
+			id: "5FF6AB4BB774BB2F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1A84C39440A22BA2"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [{
+				id: "30A3039A863BBEB3"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:boats"
+					}
+				}
+				title: "制作任意一个船"
+				type: "item"
+			}]
+			title: "海上漂泊之路。"
+			x: 17.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3B409A8BC92C6F3F"]
+			description: [
+				"到了晚上，准备好堕落精华，他会给你想要的东西......"
+				""
+				"{image:minecraft:textures/diaosiguizhishu.png width:200 height:100 align:1}"
+			]
+			hide: true
+			id: "0C931F266F8F6806"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "05EE74018501BCBA"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [{
+				icon: "mcwholidays:ghost_balloon"
+				id: "010C628728A41250"
+				structure: "graveyard:dead_tree"
+				title: "吊死鬼之树"
+				type: "structure"
+			}]
+			title: "抵达吊死鬼之树"
+			x: 12.0d
+			y: -31.0d
+		}
+		{
+			dependencies: ["21ABBC5B7756C22C"]
+			description: ["在各种结构箱子里可以翻到，也可以通过配置文件修改击败敌人掉落。"]
+			hide: true
+			id: "0CF470D084F1409C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "327A2F3A08EF1F48"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1E6FF18AD105AD39"
+				item: "simplehats:hatbag_common"
+				type: "item"
+			}]
+			x: 37.0d
+			y: -31.0d
+		}
+		{
+			dependencies: ["5FF6AB4BB774BB2F"]
+			description: [
+				"更多船只，请去&6木牛流马（载具仓储）&r任务章节查看"
+				""
+				"&e如何驾驶&r：将船远离你，放入水中（船需要空间来放置）。&e右键单击以坐到船上&r。"
+				"在船上：按“&eR&r”&e展开/收起船帆&r。&e第三人称模式&r下，用&e鼠标滚轮&r更改缩放距离。"
+				"要从船上&e卸下所有实体&r，使用&e潜行（左shift）+右键单击船&r。"
+				"要从船上&e卸下一个实体&r，请使用&e潜行+右键单击该实体&r。"
+				"要从&e外部打开船的货舱&r，请使用&e潜行+右键单击船&r。"
+			]
+			id: "255C35DD755B641A"
+			tasks: [{
+				id: "705715B6EF62C393"
+				item: "smallships:oak_cog"
+				type: "item"
+			}]
+			x: 16.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0C8FDC88E8B60D9B"]
+			description: [""]
+			hide: true
+			id: "0CD6C5534600E345"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4AB5A14D3D0397CD"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "5CE9B238982A2122"
+					item: "immersive_aircraft:airship"
+					type: "item"
+				}
+				{
+					id: "7213044EC5E5E476"
+					item: "minecraft:coal"
+					type: "item"
+				}
+				{
+					id: "2984F2C35C82F478"
+					item: "minecraft:coal_block"
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5943EA94394EA79F"]
+			description: ["在背包（物品栏）里选择唱片右键袖珍唱片机即可播放！"]
+			id: "3863C94EEA53C1C9"
+			rewards: [
+				{
+					id: "4857934DCE064F18"
+					item: "minecraft:music_disc_far"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2E7A24265781518F"
+					table_id: 2953109549610839980L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "602204BF74C9AF5B"
+				item: {
+					Count: 1
+					id: "additionaladditions:pocket_jukebox"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "随身“mp3”"
+			x: 27.5d
+			y: -16.0d
+		}
+		{
+			dependencies: ["4C9463B3850FDA21"]
+			description: [
+				"刷子可以在&e考古工作台&r中使用，鉴定未经鉴定的文物。"
+				"也可以对各种&e可疑的方块&r右键使用，可以刷出各种在历史中的宝藏。"
+			]
+			hide: true
+			id: "42664C44970070B4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "084B86D3EE9F0373"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3AFB5847584693DD"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "c:brushitems"
+					}
+				}
+				title: "制作任意一把刷子"
+				type: "item"
+			}]
+			x: 27.0d
+			y: -39.0d
+		}
+		{
+			dependencies: ["42664C44970070B4"]
+			description: ["鉴定未经鉴定的文物"]
+			hide: true
+			id: "42637A5B9D3B1497"
+			tasks: [{
+				id: "5500621D46781108"
+				item: "betterarcheology:archeology_table"
+				type: "item"
+			}]
+			x: 32.0d
+			y: -39.0d
+		}
+		{
+			dependencies: ["42637A5B9D3B1497"]
+			id: "13E3A01519EE49A2"
+			tasks: [{
+				id: "78AF949A18DDEB91"
+				item: "betterarcheology:unidentified_artifact"
+				type: "item"
+			}]
+			x: 32.0d
+			y: -37.0d
+		}
+		{
+			dependencies: ["42637A5B9D3B1497"]
+			description: ["放入铁砧给工具打上附魔。"]
+			id: "1CF33AAEB158C6AB"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3CC2209787E97226"
+					table_id: 7229437663258640740L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2D6BA43E52FC85F6"
+					table_id: 3438619514375427762L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4E411E303ADF239F"
+					table_id: 2953109549610839980L
+					type: "choice"
+				}
+			]
+			tasks: [
+				{
+					id: "0E5E1DF882E1FD55"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "betterarcheology:penetrating_strike"
+								lvl: 1s
+							}]
+							display: {
+								Name: "{\"translate\":\"item.betterarcheology.identified_artifact\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "70AF142F5B03C213"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "betterarcheology:soaring_winds"
+								lvl: 1s
+							}]
+							display: {
+								Name: "{\"translate\":\"item.betterarcheology.identified_artifact\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "60F634BA4E5D59A5"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "betterarcheology:tunneling"
+								lvl: 1s
+							}]
+							display: {
+								Name: "{\"translate\":\"item.betterarcheology.identified_artifact\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "义眼盯真！鉴定为附魔书！"
+			x: 31.0d
+			y: -38.0d
+		}
+		{
+			dependencies: ["42664C44970070B4"]
+			description: ["海底的结构&e木桶&r里也许能找到"]
+			id: "5589C027A3ACBBB4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5291C249BD257FE3"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [{
+				id: "04EBB89CDC4F9CA4"
+				item: {
+					Count: 1
+					id: "betterarcheology:torrent_totem"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 25.0d
+			y: -38.0d
+		}
+		{
+			dependencies: ["42664C44970070B4"]
+			description: [
+				"庞大的藏宝结构，其规模由地表入口沿螺旋楼梯一路延伸至地下；此结构主要由中心形似繁茂洞穴的宽敞区域 ,在侧墙连接中心的多个小房间组成。存在着&e关押悦灵&r的房间，&e生长图腾&r也会摆放其中。"
+				""
+				"{image:minecraft:textures/guangmingsimiao.png width:200 height:100 align:1}"
+			]
+			id: "5193BE54AC5A4046"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7F9DBCDB239DDCC6"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [{
+				icon: "minecraft:mossy_cobblestone"
+				id: "08BC06DD02C06CF6"
+				structure: "betterarcheology:light_temple"
+				title: "光明寺庙"
+				type: "structure"
+			}]
+			title: "抵达光明寺庙"
+			x: 27.0d
+			y: -38.0d
+		}
+		{
+			dependencies: ["5193BE54AC5A4046"]
+			description: ["{image:minecraft:textures/guangmingsimiao1.png width:200 height:100 align:1}"]
+			id: "7D1216CCF54024E4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6EBD9452D01477D5"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [{
+				id: "16D999CC630E4D30"
+				item: "betterarcheology:growth_totem"
+				type: "item"
+			}]
+			x: 27.0d
+			y: -37.0d
+		}
+		{
+			dependencies: ["42664C44970070B4"]
+			description: [
+				"通过地表隆起的土丘进入此结构，并在其中找到深入规模远比入口庞大的结构下层的活板门入口；内含大量狭窄但物资丰富的房间，同时也包含各种&e红石陷阱&r ，&e怪物刷怪笼&r等潜在威胁；除箱子外，此结构还包含较多的&e古代花瓶&r和一定数量但生成分散的&e村民化石部件&r；最底层同样由活板门入口连接：除战利品箱、饰纹陶罐等寻常资源外，&e光辉图腾&r也会摆放其中。"
+				""
+				"{image:minecraft:textures/dixiamuxue.png width:200 height:100 align:1}"
+			]
+			id: "285EA1863EF1C0ED"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1F9AAB86FB12ADC7"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [{
+				icon: "betterarcheology:chiseled_bone_block"
+				id: "445715CB67A2729D"
+				structure: "betterarcheology:catacombs"
+				title: "地下墓穴"
+				type: "structure"
+			}]
+			title: "抵达地下墓穴"
+			x: 26.0d
+			y: -38.0d
+		}
+		{
+			dependencies: ["285EA1863EF1C0ED"]
+			description: ["{image:minecraft:textures/dixiamuxue1.png width:200 height:100 align:1}"]
+			id: "5FEB7A18ECCAE81D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5FD840C23427726A"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6A564F050236D763"
+				item: "betterarcheology:radiance_totem"
+				type: "item"
+			}]
+			x: 26.0d
+			y: -37.0d
+		}
+		{
+			dependencies: ["42664C44970070B4"]
+			description: [
+				"内部分为入口处的主房间 ,左右两侧的小房间，两个小房间内均包含一个&e尸壳刷怪笼&r，同时还会生成一个&e不完整的凋灵召唤结构&r（仅带有一个凋灵骷髅头颅）"
+				""
+				"{image:minecraft:textures/ediyiji.png width:200 height:100 align:1}"
+			]
+			id: "5FF661C5633AD7D6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7A3E3F4E3EBB3975"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [{
+				icon: "minecraft:chiseled_red_sandstone"
+				id: "0646507071377402"
+				structure: "betterarcheology:mesa_ruins"
+				title: "废弃的恶地遗迹"
+				type: "structure"
+			}]
+			title: "抵达废弃的恶地遗迹"
+			x: 28.0d
+			y: -38.0d
+		}
+		{
+			dependencies: ["42637A5B9D3B1497"]
+			id: "2AABEFB5C0DC830A"
+			tasks: [{
+				id: "69AAFD6864FDE175"
+				item: "betterarcheology:bomb"
+				type: "item"
+			}]
+			x: 33.0d
+			y: -38.0d
+		}
+		{
+			dependencies: ["5FF661C5633AD7D6"]
+			description: ["废弃的恶地遗迹的箱子里有几率可以找到"]
+			id: "49818C3379F4283C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6B8C618F6C5D127C"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6649853543E20DBF"
+				item: {
+					Count: 1
+					id: "betterarcheology:soul_totem"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 28.0d
+			y: -37.0d
+		}
+		{
+			dependencies: ["0CF470D084F1409C"]
+			id: "42DCFD1C714F91F1"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3E7A0B766204A846"
+					table_id: 2953109549610839980L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5100932F7885E4BD"
+					table_id: 3438619514375427762L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7853A5F9FA52BF67"
+					table_id: 7229437663258640740L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "0CB5B8CB8884C51C"
+					item: "simplehats:hatbag_uncommon"
+					type: "item"
+				}
+				{
+					id: "197ECD7CEC375895"
+					item: "simplehats:hatbag_rare"
+					type: "item"
+				}
+				{
+					id: "247CDB2C8A896206"
+					item: "simplehats:hatbag_epic"
+					type: "item"
+				}
+				{
+					id: "4391EBE99EA9E51C"
+					item: "simplehats:hatbag_easter"
+					type: "item"
+				}
+				{
+					id: "37831B74FA2CBA84"
+					item: "simplehats:hatbag_summer"
+					type: "item"
+				}
+				{
+					id: "1DFB9562ACB1B6F7"
+					item: "simplehats:hatbag_halloween"
+					type: "item"
+				}
+				{
+					id: "57E1CE649933160F"
+					item: "simplehats:hatbag_festive"
+					type: "item"
+				}
+			]
+			x: 36.5d
+			y: -30.0d
+		}
+		{
+			description: [""]
+			hide: true
+			id: "055BD2BC116F4D59"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0FFC62270588EA03"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [{
+				id: "05A83524764C9F00"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "c:axes"
+					}
+				}
+				title: "制作任意一把斧头"
+				type: "item"
+			}]
+			x: 22.0d
+			y: -10.0d
+		}
+		{
+			hide: true
+			id: "19B89C9FBEEEF703"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1D221BEC6B394CF4"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [{
+				id: "04A86DD4C72C8DB1"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "bakery:knives"
+					}
+				}
+				title: "制作任意一把冷兵器"
+				type: "item"
+			}]
+			x: 22.0d
+			y: -31.0d
+		}
+		{
+			description: ["连锁方块按~键"]
+			hide: true
+			id: "4C9463B3850FDA21"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6985420BFE0B1540"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1B7E74446887AD3E"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "c:pickaxes"
+					}
+				}
+				title: "制作任意一把镐子"
+				type: "item"
+			}]
+			x: 22.0d
+			y: -39.0d
+		}
+		{
+			dependencies: ["19B89C9FBEEEF703"]
+			hide: true
+			id: "3B409A8BC92C6F3F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5C10BA2C20EBB45C"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "graveyard:ghoul"
+				id: "4EF4BE001653329F"
+				type: "kill"
+				value: 1L
+			}]
+			x: 17.0d
+			y: -31.0d
+		}
+		{
+			dependencies: ["47134C58509E86F7"]
+			description: ["拴绳可以拴住村民，你也可以使用绿宝石或者绿宝石块吸引村民。"]
+			id: "440F69BC4F6FC797"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1E2B1D4AFC88BE27"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "5252CD1E9CE71617"
+					item: "minecraft:lead"
+					type: "item"
+				}
+				{
+					id: "1AC765CDB57D4D67"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "63A3FD8BF3ACEEBA"
+					item: "minecraft:emerald_block"
+					type: "item"
+				}
+			]
+			x: 16.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["0C931F266F8F6806"]
+			description: ["骨灰盒在野外可以找到，使用骨块可以合成&e骷髅装饰物&r。"]
+			id: "29DFC8E9711644CF"
+			rewards: [{
+				count: 3
+				id: "37FE218BE27CF299"
+				item: "minecraft:bone_block"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "graveyard:ossuary"
+				id: "400173F9A03D4B21"
+				observe_type: 0
+				timer: 60L
+				title: "骨灰盒"
+				to_observe: "graveyard:ossuary"
+				type: "observation"
+			}]
+			title: "观察骨灰盒"
+			x: 12.0d
+			y: -30.0d
+		}
+		{
+			dependencies: ["5FF6AB4BB774BB2F"]
+			description: [
+				"&e如何驾驶&r：将船远离你，放入水中（船需要空间来放置）。&e右键单击以坐到船上&r。"
+				"在船上：按“&eR&r”&e展开/收起船帆&r。&e第三人称模式&r下，用&e鼠标滚轮&r更改缩放距离。"
+				"要从船上&e卸下所有实体&r，使用&e潜行（左shift）+右键单击船&r。"
+				"要从船上&e卸下一个实体&r，请使用&e潜行+右键单击该实体&r。"
+				"要从&e外部打开船的货舱&r，请使用&e潜行+右键单击船&r"
+			]
+			id: "0B732124C4B5C694"
+			tasks: [{
+				id: "1B12BDED6E8817FB"
+				item: "smallships:oak_galley"
+				type: "item"
+			}]
+			x: 17.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4C9463B3850FDA21"]
+			hide: true
+			id: "073A70CFB0253A43"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "44B0518DA9048A73"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [{
+				id: "26960CE2FF66AAA4"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "c:raw_ores"
+					}
+				}
+				title: "采集矿物"
+				type: "item"
+			}]
+			x: 17.0d
+			y: -39.0d
+		}
+		{
+			dependencies: ["073A70CFB0253A43"]
+			description: [
+				"药效：能暂时&e高亮&r（透视）附近所有矿物，对挖矿有很大帮助。"
+				"更多药水请去&e酿造药水章节&r。"
+			]
+			id: "30E7840E28BD8928"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3731CF0A37C544E5"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [{
+				id: "668E98F877237BB4"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "spelunker:long_spelunker"
+					}
+				}
+				type: "item"
+			}]
+			x: 16.5d
+			y: -38.0d
+		}
+		{
+			dependencies: ["073A70CFB0253A43"]
+			description: [
+				"药效：能暂时&e高亮&r（透视）附近所有矿物，对挖矿有很大帮助。"
+				"更多药水请去&e酿造药水章节&r。"
+			]
+			id: "7AEDDC05E0D7F604"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "70AA83E237D26E8C"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [{
+				id: "200EC9D551A8C6F8"
+				item: {
+					Count: 1
+					id: "minecraft:splash_potion"
+					tag: {
+						Potion: "spelunker:long_spelunker"
+					}
+				}
+				type: "item"
+			}]
+			x: 17.5d
+			y: -38.0d
+		}
+		{
+			dependencies: ["0CD6C5534600E345"]
+			description: ["更多飞行载具，请去&6木牛流马（载具仓储）&r任务章节查看"]
+			id: "35F1EDE95F4F28F2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1838EF8C5C0B4902"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0168AC06F40911A1"
+				item: "immersive_aircraft:cargo_airship"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0E3CD350055383E0"]
+			description: ["将苹果装备于面部槽位，饿了会自己吃苹果！"]
+			hide: true
+			id: "21ABBC5B7756C22C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5670909982C33F44"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6F0A7F4F76802444"
+				item: "minecraft:apple"
+				type: "item"
+			}]
+			title: "“万有引力”"
+			x: 32.0d
+			y: -31.0d
+		}
+		{
+			dependencies: ["21ABBC5B7756C22C"]
+			id: "2CF953BEF52C8F9C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "66F2F3CBC3D3EBDF"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "22A2FC7DDC0001C2"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+				{
+					id: "601C68A076E1B4F7"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+			]
+			x: 32.0d
+			y: -29.0d
+		}
+		{
+			dependencies: ["21ABBC5B7756C22C"]
+			id: "7D27FD59DC34A993"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4FC1C4B4EF34B53C"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [{
+				id: "72330109F76DB255"
+				item: "diamond_and_netherite_apples:diamondapple"
+				type: "item"
+			}]
+			x: 31.0d
+			y: -29.0d
+		}
+		{
+			dependencies: ["21ABBC5B7756C22C"]
+			id: "06F213ACFF011E75"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1D8A9549E447A9F6"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [{
+				id: "65836BD6EE92725A"
+				item: "diamond_and_netherite_apples:netheriteapple"
+				type: "item"
+			}]
+			x: 33.0d
+			y: -29.0d
+		}
+		{
+			dependencies: ["21ABBC5B7756C22C"]
+			id: "018F8B4E907A28E3"
+			tasks: [{
+				id: "71A9745E7CCD9B05"
+				item: "croptopia:apple_sapling"
+				type: "item"
+			}]
+			x: 32.0d
+			y: -30.0d
+		}
+		{
+			dependencies: ["21ABBC5B7756C22C"]
+			id: "7B08DF15461CCB44"
+			tasks: [{
+				id: "62B8A8CC0825A44F"
+				item: "vinery:apple_tree_sapling"
+				type: "item"
+			}]
+			x: 30.0d
+			y: -30.0d
+		}
+		{
+			dependencies: ["21ABBC5B7756C22C"]
+			id: "708D021940BDDAC5"
+			tasks: [{
+				id: "37264D4DC4E416EC"
+				item: "regions_unexplored:apple_oak_sapling"
+				type: "item"
+			}]
+			x: 33.0d
+			y: -30.0d
+		}
+		{
+			dependencies: ["3B409A8BC92C6F3F"]
+			id: "77C77E516E97D320"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5817D82B37DBA94E"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4FCD8BB0D845DB0E"
+				item: "graveyard:incarnated_evil_music_disc"
+				type: "item"
+			}]
+			x: 17.5d
+			y: -30.0d
+		}
+		{
+			dependencies: ["5943EA94394EA79F"]
+			description: ["将吊床放置在四格宽距离地面一格高，且两侧有绳与钉。（可以在白天打盹&e跳过白天&r）"]
+			id: "7BD0AA8B84C8E1D9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4DE50FC1F876E409"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "644A3A2406C6DC1E"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "comforts:hammocks"
+						}
+					}
+					title: "制作任意一个吊床"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "2E3533995CD3717F"
+					item: "comforts:rope_and_nail"
+					type: "item"
+				}
+			]
+			x: 29.5d
+			y: -16.0d
+		}
+		{
+			dependencies: ["5943EA94394EA79F"]
+			description: ["白天右键点燃的营火可以跳过白天（慎用：&e会重置季节和天数&r）"]
+			id: "57A93B245E447C64"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3A05CC70C3B707EC"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [{
+				id: "419F3FC5CB891743"
+				item: "minecraft:campfire"
+				type: "item"
+			}]
+			x: 28.5d
+			y: -16.0d
+		}
+		{
+			dependencies: ["0CD6C5534600E345"]
+			description: [
+				"各种翅膀不需要烟花，也能&e无限推力&r飞行，按下&eF4&r切换穿越机视角（需开启作弊）"
+				"获取方法：收集材料&e合成&r，在&e天堂岛结构&r可以找到，击败&e末影龙&r获得，&e末地城飞船&r可以找到。"
+			]
+			hide: true
+			id: "30774B149241336C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7902A32BEB1AF7C1"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5514A9C02B0FD4C2"
+				item: {
+					Count: 1
+					id: "minecraft:elytra"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "向往天空的翅膀"
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["42637A5B9D3B1497"]
+			description: ["在&e各种遗迹&r找到&e含有化石&r的方块，手持刷子右键可以刷出各种化石部件。"]
+			id: "340869784D9A014F"
+			rewards: [
+				{
+					id: "696FBE672B7770AE"
+					item: "graveyard:white_bone_staff"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "49151719E384ED36"
+					table_id: 2953109549610839980L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "21E184DA06E5374D"
+					table_id: 3438619514375427762L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "470A5B02E9B6839A"
+					table_id: 7229437663258640740L
+					type: "loot"
+				}
+			]
+			tasks: [
+				{
+					id: "55D55C3B21144508"
+					item: "betterarcheology:villager_fossil"
+					type: "item"
+				}
+				{
+					id: "1230CEAD12934D49"
+					item: "betterarcheology:ocelot_fossil"
+					type: "item"
+				}
+				{
+					id: "76778A131EFE75C9"
+					item: "betterarcheology:sheep_fossil"
+					type: "item"
+				}
+				{
+					id: "2285B83C82F6F358"
+					item: "betterarcheology:chicken_fossil"
+					type: "item"
+				}
+				{
+					id: "4AE998B0FF99D0B8"
+					item: "betterarcheology:creeper_fossil"
+					type: "item"
+				}
+				{
+					id: "43E18500D12DF39C"
+					item: "betterarcheology:wolf_fossil"
+					type: "item"
+				}
+				{
+					id: "29DC459D8446F907"
+					item: "betterarcheology:guardian_fossil"
+					type: "item"
+				}
+			]
+			title: "化石博物馆"
+			x: 32.0d
+			y: -38.0d
+		}
+		{
+			dependencies: ["0BF1AA3B04772270"]
+			id: "54B9C6CE363AD453"
+			tasks: [{
+				id: "0A16B2E6601CAE5C"
+				item: "croptopia:mortar_and_pestle"
+				type: "item"
+			}]
+			x: 27.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["0BF1AA3B04772270"]
+			id: "16C3E451F0E0A71A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5A1A35FE17CD4FC9"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [{
+				count: 10L
+				id: "08D46984457F3E2F"
+				item: "minecraft:slime_ball"
+				type: "item"
+			}]
+			x: 25.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["1F1F85C167DD92F5"]
+			description: ["击杀牲畜可获得皮革"]
+			hide: true
+			id: "4B7848F874F89C35"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "693EF28928D41858"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5B78902AD465DD4C"
+				item: "minecraft:leather"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -17.0d
+		}
+		{
+			dependencies: ["4B7848F874F89C35"]
+			description: ["4个兔子皮可以合成皮革"]
+			id: "519ADBEE02F252F6"
+			tasks: [{
+				count: 4L
+				id: "4969D05B05DE1873"
+				item: "minecraft:rabbit_hide"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -16.0d
+		}
+		{
+			dependencies: ["4B7848F874F89C35"]
+			description: ["腐肉通过烹饪锅可以烧制皮革。"]
+			id: "163A2F9EFBC857F4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0CE499F0D68F3A80"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "1707210B35CC0A7D"
+					item: "meadow:cooking_cauldron"
+					type: "item"
+				}
+				{
+					id: "466842847DA06FAA"
+					item: "meadow:frame"
+					type: "item"
+				}
+			]
+			x: 12.5d
+			y: -16.0d
+		}
+		{
+			dependencies: ["4B7848F874F89C35"]
+			description: [
+				"剪刀&e在砧板上&r剪&e马鞍&r可以获得皮革，剪刀&e剪皮革胸甲&r也可获得皮革。小刀&e在砧板上&r切&e疣猪兽皮&r可以获得皮革"
+				"砧板也可以&6切割食材&r（详细见&e饮食章节&r的&e满汉全席（食物）任务&r）"
+			]
+			hide: true
+			id: "620E51005B596B6C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4DCDB142DFA77B2D"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "3C15863354072BFA"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "c:tools/knives"
+						}
+					}
+					title: "制作任意一把小刀"
+					type: "item"
+				}
+				{
+					id: "76E35073223CEABA"
+					item: "farmersdelight:cutting_board"
+					type: "item"
+				}
+				{
+					id: "19128E51B4F22BA7"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "c:shears"
+						}
+					}
+					title: "制作任意一把剪刀"
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: -17.0d
+		}
+		{
+			dependencies: ["620E51005B596B6C"]
+			id: "2CAA83EADCAB9CFD"
+			tasks: [{
+				id: "59175E928CF49D8C"
+				item: "minecraft:saddle"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -16.0d
+		}
+		{
+			dependencies: ["620E51005B596B6C"]
+			id: "6EAB9CC52B1F58D8"
+			tasks: [{
+				id: "483BF90C0FB681FF"
+				item: "nethersdelight:hoglin_hide"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -16.0d
+		}
+		{
+			dependencies: ["30774B149241336C"]
+			description: ["更多翅膀详细见&e伊卡洛斯任务章节&r"]
+			id: "42D7D5D3778F09FA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2832F649D581C2A5"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4F9D3A6448299DE3"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "icarus:melts"
+					}
+				}
+				title: "更多翅膀"
+				type: "item"
+			}]
+			title: "伊卡洛斯翅膀"
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5A58898755BCB089"]
+			description: [
+				"第一次投掷末影珍珠悬浮原地是正常的，修改了要塞结构大小，需要花点时间搜寻结构。"
+				"进入末地：详细见&e黑曜石柱and更好的末地任务章节&r。"
+			]
+			hide: true
+			id: "0EC29A2F55B6F3A8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3EA1E6AC32542BAA"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "7628F339FA42BFDE"
+					item: "minecraft:ender_eye"
+					type: "item"
+				}
+				{
+					icon: "minecraft:end_portal_frame"
+					id: "62D23475928606BB"
+					structure: "minecraft:stronghold"
+					title: "要塞"
+					type: "structure"
+				}
+			]
+			title: "抵达要塞，进入末地。"
+			x: 7.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["47134C58509E86F7"]
+			description: [
+				"制作一个蜂箱或者蜂巢，空手和使用工具均可采集蜂箱，但只有使用带有&e精准采集魔咒&r的工具才能使得蜜蜂&e留在其中&r，否则蜜蜂会集群出巢并&e攻击破坏者&r。"
+				"通过对&e充满蜂蜜&r的蜂巢&e使用剪刀&r可以获得&e蜜脾&r。"
+				""
+				"蜂蜜：手持&e空的玻璃瓶&r，右击充满蜂蜜的蜂巢或蜂箱即可获得蜂蜜瓶。小提示：蜂巢蜂箱底下放点燃的营火取蜂蜜不会让蜜蜂充满敌意。"
+				""
+				"进入蜜蜂世界：详见&e蜜蜂女王维度任务章节&r"
+			]
+			hide: true
+			icon: "minecraft:bee_nest"
+			id: "5A58898755BCB089"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "21FE820A2A68A26F"
+					table_id: 2953109549610839980L
+					type: "random"
+				}
+				{
+					id: "1B64D996D52AC973"
+					item: "luphieclutteredmod:luphie_bee_lamp"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "119D75B8DA890529"
+					item: "minecraft:beehive"
+					type: "item"
+				}
+				{
+					id: "6959A2C7983ADF4C"
+					item: "minecraft:honey_bottle"
+					type: "item"
+				}
+				{
+					id: "451B5BC28C88741E"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "minecraft:flowers"
+						}
+					}
+					title: "采集任意一朵花"
+					type: "item"
+				}
+			]
+			title: "养蜂人and蜜蜂维度"
+			x: 12.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["0C931F266F8F6806"]
+			description: ["送给&e凋零骷髅幼崽&r，他会把手上的凋零骷髅头送给你！（当然不是自己脖子上的）"]
+			hide: true
+			id: "5276BC1620F5B0DD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "58EB8A3D5C7429F6"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6552487369847FB5"
+				item: "minecraft:wither_rose"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -31.0d
+		}
+		{
+			dependencies: ["19B89C9FBEEEF703"]
+			description: ["当心别被铁砧砸扁，指物理意义上。"]
+			hide: true
+			id: "0E3CD350055383E0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3F626EE96F7D681B"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [{
+				id: "17492519751043BE"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:anvil"
+					}
+				}
+				title: "铁砧"
+				type: "item"
+			}]
+			x: 27.0d
+			y: -31.0d
+		}
+		{
+			dependencies: ["5943EA94394EA79F"]
+			description: [
+				"右键即可选择相应的音乐进行演奏"
+				"更多乐器见&e余音袅袅（音乐，绘画）&r任务章节"
+			]
+			hide: true
+			id: "0252543A76A66398"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "22196DAC80F01274"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4FA21F09F7A25E07"
+				item: {
+					Count: 1
+					id: "immersive_melodies:lute"
+					tag: {
+						enabled_tracks: [I;0]
+						melody: "your_namespace:melodies/Astronomia.mid"
+						playing: 1b
+						start_time: 2592087L
+					}
+				}
+				type: "item"
+			}]
+			x: 32.0d
+			y: -17.0d
+		}
+		{
+			dependencies: ["21ABBC5B7756C22C"]
+			id: "4EFCF1650F897CF0"
+			tasks: [{
+				id: "52771B3323A05A1F"
+				item: "bountifulfares:apple_sapling"
+				type: "item"
+			}]
+			x: 31.0d
+			y: -30.0d
+		}
+		{
+			dependencies: ["21ABBC5B7756C22C"]
+			id: "227DDCD659C64B01"
+			tasks: [{
+				id: "3D74916D29C9078E"
+				item: "bountifulfares:hoary_apple_sapling"
+				type: "item"
+			}]
+			x: 34.0d
+			y: -30.0d
+		}
+		{
+			dependencies: ["073A70CFB0253A43"]
+			description: [" 它的矿物外壳没有破坏掉是无敌的，用镐子可以破坏它的壳才可以攻击它。（仅显示说明，不建议杀害这个可爱的生物）"]
+			id: "0BACF6E2D233A681"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6968AFFACADCC2C5"
+					table_id: 2953109549610839980L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7CD5BCAC3ADEA7DA"
+					table_id: 3438619514375427762L
+					type: "random"
+				}
+			]
+			tasks: [{
+				entity: "species:limpet"
+				id: "77F188DA860FFE5D"
+				type: "kill"
+				value: 1L
+			}]
+			x: 12.0d
+			y: -39.0d
+		}
+		{
+			dependencies: ["0BF1AA3B04772270"]
+			description: [
+				"白天不要和他说话，因为这样做需要你叫醒他，这会降低他对你的信任"
+				"至于你在哪里可以找到他，没有一个好的答案，因为他是会找到你的人。"
+				"提示：它的树形和周围的不太一样。你可以用精准斧头带回家。"
+			]
+			id: "7AED901008E6A01F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0B69244109D81CDD"
+					table_id: 2953109549610839980L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4B381C9E1757B565"
+					table_id: 7229437663258640740L
+					type: "random"
+				}
+			]
+			tasks: [{
+				icon: "mysticaloaktree:wise_oak"
+				id: "21B35C95639522FB"
+				observe_type: 0
+				timer: 60L
+				title: "智慧橡树"
+				to_observe: "mysticaloaktree:wise_oak"
+				type: "observation"
+			}]
+			title: "神秘的橡树"
+			x: 28.5d
+			y: -9.0d
+		}
+	]
+	title: "《乌托邦探险之旅》"
+}

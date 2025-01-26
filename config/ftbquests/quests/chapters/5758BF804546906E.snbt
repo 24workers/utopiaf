@@ -1,0 +1,78 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "5758BF804546906E"
+	group: "6AF1017C345E1B33"
+	id: "5758BF804546906E"
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			id: "33D9916393CB840D"
+			tasks: [{
+				id: "424DE9431ED38794"
+				item: "bosses_of_mass_destruction:monolith_block"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.5d
+		}
+		{
+			id: "2112B896838CF5B2"
+			tasks: [{
+				id: "5DCD757A59780D6D"
+				item: "bosses_of_mass_destruction:mob_ward"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			id: "177D8EF577735E07"
+			tasks: [{
+				id: "50665D6C4F9DFD23"
+				item: "bosses_of_mass_destruction:levitation_block"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -1.5d
+		}
+		{
+			id: "77D0FB6EA2BB4943"
+			tasks: [{
+				id: "49A3164802DA6D0C"
+				item: {
+					Count: 1
+					id: "bosses_of_mass_destruction:earthdive_spear"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			id: "40BE862BFF72D5DF"
+			tasks: [{
+				id: "3EA28A7F0B12DC72"
+				item: "bosses_of_mass_destruction:charged_ender_pearl"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -1.5d
+		}
+		{
+			id: "043BDB498AFF9604"
+			tasks: [{
+				id: "7E319034C74E8A6B"
+				item: "bosses_of_mass_destruction:brimstone_nectar"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+	]
+	title: "BOSS战利品合成装备"
+}

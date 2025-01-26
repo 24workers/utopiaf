@@ -1,0 +1,1091 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "6EC5297B9D4F9DAF"
+	group: "2A3ECC20C469DF2B"
+	icon: {
+		Count: 1
+		id: "minecells:prison_doorway"
+		tag: {
+			BlockEntityTag: { }
+		}
+	}
+	id: "6EC5297B9D4F9DAF"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"生成在野外,&a森林群系&r大概率能遇到"
+				""
+				"{image:minecraft:textures/laofang.png width:200 height:100 align:1}"
+			]
+			id: "53DFF5E43B797242"
+			rewards: [
+				{
+					id: "7AC8A66042CD60F6"
+					item: "minecells:health_flask"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "42C577AEA7E3E85F"
+					table_id: 2953109549610839980L
+					type: "random"
+				}
+			]
+			size: 2.0d
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "minecells:prison_doorway"
+					tag: {
+						BlockEntityTag: { }
+					}
+				}
+				id: "205051D288AD66EE"
+				structure: "minecells:overworld_portal"
+				title: "被囚者的牢房"
+				type: "structure"
+			}]
+			title: "找到被囚者的牢房入口"
+			x: -6.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["183DC453145F1CDD"]
+			description: [
+				"击败精英怪获得"
+				""
+				"{image:minecraft:textures/minecellsjingyingguai.png width:200 height:100 align:1}"
+			]
+			id: "74C1033821F72E43"
+			rewards: [
+				{
+					icon: "minecraft:experience_bottle"
+					id: "49586878E4B2D0EC"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0663B3A737F97556"
+					table_id: 3438619514375427762L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "36B045530D8E1ADC"
+				item: {
+					Count: 1
+					id: "minecells:vine_rune"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "找到符文藤蔓"
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["4FE647D49353937B"]
+			description: ["{image:minecraft:textures/zhongzhangyan.png width:200 height:100 align:1}"]
+			id: "60EF483E0AEC3770"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "67BC7006D5E94B6F"
+					table_id: 7229437663258640740L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "56D2E150A50F248B"
+					table_id: 3438619514375427762L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "783B6265FBF7F934"
+					table_id: 2953109549610839980L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				entity: "minecells:conjunctivius"
+				icon: "minecells:conjunctivius_respawn_rune"
+				id: "084157AF833B7E43"
+				type: "kill"
+				value: 1L
+			}]
+			x: -6.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["60EF483E0AEC3770"]
+			id: "5935AE7E213CA495"
+			tasks: [{
+				id: "515501B61B35B471"
+				item: "minecells:conjunctivius_respawn_rune"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["53DFF5E43B797242"]
+			description: [
+				""
+				"{image:minecraft:textures/youzuizhe.png width:200 height:100 align:1}"
+			]
+			icon: "minecells:promenade_of_the_condemned_flag"
+			id: "02734A71D1F14E66"
+			rewards: [{
+				icon: "minecraft:experience_bottle"
+				id: "6AD8AE246083FCAA"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				dimension: "minecells:promenade"
+				icon: "minecells:promenade_dimensional_rune"
+				id: "3E3834080B31A1BF"
+				title: "进入有罪者大道"
+				type: "dimension"
+			}]
+			x: -2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"53DFF5E43B797242"
+				"74C1033821F72E43"
+			]
+			description: [
+				"重新回到&2被囚者牢房&r维度，找到&a符文藤蔓植株&r，激活爬到&e顶楼末端的房间&r里"
+				""
+				"{image:minecraft:textures/laofangtengman.png width:200 height:100 align:1}"
+				""
+				"请准备好和BOSS决战，进去了就不能回头了，出口只有打败&d肿胀眼魔&r才会打开"
+				""
+				"{image:minecraft:textures/youquwuhui.png width:200 height:100 align:1}"
+			]
+			icon: "minecraft:twisting_vines"
+			id: "4FE647D49353937B"
+			rewards: [{
+				icon: "minecraft:experience_bottle"
+				id: "561292AF14A3643C"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				dimension: "minecells:insufferable_crypt"
+				id: "12BE5C3EACBDD0A0"
+				title: "作呕地窖"
+				type: "dimension"
+			}]
+			title: "激活有罪者牢房的藤蔓植株进入作呕地窖"
+			x: -6.5d
+			y: 2.5d
+		}
+		{
+			id: "4DE32357EFEDBC83"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1ED0B9A947682B1A"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3F0087084CE98489"
+				item: {
+					Count: 1
+					id: "minecells:assassins_dagger"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: -5.5d
+		}
+		{
+			id: "6D257F9D2E83AE15"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "180ED616B0447179"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [{
+				id: "09925D0743D4BA22"
+				item: {
+					Count: 1
+					id: "minecells:blood_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: -5.5d
+		}
+		{
+			id: "3325971EEA8EDA32"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "33A6DA9FBB49AB17"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3B479848DB2236B6"
+				item: {
+					Count: 1
+					id: "minecells:broadsword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -5.5d
+		}
+		{
+			id: "7F2BEF7FA5086338"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0B067016CA971141"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6604FB69DCC168D2"
+				item: {
+					Count: 1
+					id: "minecells:crowbar"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: -4.5d
+		}
+		{
+			id: "765EBE66FD5402AA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "16FC47E2C1EFCC7F"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [{
+				id: "24C0EB067850B6B7"
+				item: {
+					Count: 1
+					id: "minecells:nutcracker"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["60EF483E0AEC3770"]
+			id: "6329B0E61657B3FF"
+			tasks: [{
+				id: "643E14F0A40BA4C5"
+				item: {
+					Count: 1
+					id: "minecells:cursed_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["60EF483E0AEC3770"]
+			id: "1874D0662AB33D86"
+			tasks: [{
+				id: "341836B4ED5AF181"
+				item: {
+					Count: 1
+					id: "minecells:tentacle"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: 5.0d
+		}
+		{
+			id: "20500DFF2765C371"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6D12D259FE691131"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [{
+				id: "329DB9B025D1C808"
+				item: {
+					Count: 1
+					id: "minecells:hattoris_katana"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -4.5d
+		}
+		{
+			id: "2D69C28B462D3EEA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3B1D9D83818A4137"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4AFDCC25A61F0A3D"
+				item: {
+					Count: 1
+					id: "minecells:frost_blast"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: -5.5d
+		}
+		{
+			id: "5578F87907570B9F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5D7E41E617DDFA6C"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [{
+				id: "35CD94D5E06EF7DF"
+				item: {
+					Count: 1
+					id: "minecells:spite_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["30F1A9CDEBDD4520"]
+			id: "4175B2617CAD45BD"
+			tasks: [{
+				id: "772B413478294704"
+				item: {
+					Count: 1
+					id: "minecells:flint"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: 3.5d
+		}
+		{
+			id: "7A28C1334BD4EFE3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0F90163A9A55E819"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [{
+				id: "19455103A8C4FD9A"
+				item: {
+					Count: 1
+					id: "minecells:phaser"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["53DFF5E43B797242"]
+			description: ["指南针将指引你维度的所有&e入口&r"]
+			id: "2EBB1BB1CD97DB30"
+			tasks: [{
+				id: "39443127A5D12470"
+				item: "minecraft:compass"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -1.0d
+		}
+		{
+			id: "75E252E57237E724"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0139CB192F80BC1C"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [{
+				id: "20EA0230210531AB"
+				item: "minecells:health_flask"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["74C1033821F72E43"]
+			description: [
+				"在&b有罪者大道维度&r，跟随&e指路牌&r找到壁垒入口"
+				""
+				"{image:minecraft:textures/minecellsbilei.png width:200 height:100 align:1}"
+				""
+				"到达入口使用&a符文藤蔓&r激活藤蔓，到达顶楼进入&6壁垒维度&r。"
+				""
+				""
+				"{image:minecraft:textures/minecellsbileirukou.png width:200 height:100 align:1}"
+			]
+			id: "76764317316F2D86"
+			rewards: [{
+				icon: "minecraft:experience_bottle"
+				id: "080D13F535743B67"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				dimension: "minecells:ramparts"
+				icon: "minecells:ramparts_flag"
+				id: "3F120515D33631EA"
+				title: "壁垒"
+				type: "dimension"
+			}]
+			title: "进入壁垒"
+			x: 4.5d
+			y: 2.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0938E65E29772405"]
+			description: [
+				"提示：准备好在进入，只有击败看守者，出口的门才会打开"
+				""
+				"{image:minecraft:textures/kanshoiuzhe.png width:200 height:100 align:1}"
+			]
+			id: "30F1A9CDEBDD4520"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "15C8D429CAE7E02F"
+					table_id: 7229437663258640740L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2B7D06E3633F1184"
+					table_id: 3438619514375427762L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3D02354762FBDADA"
+					table_id: 2953109549610839980L
+					type: "random"
+				}
+			]
+			tasks: [{
+				entity: "minecells:concierge"
+				icon: "minecells:concierge_respawn_rune"
+				id: "4C7DA9883A2C23FD"
+				type: "kill"
+				value: 1L
+			}]
+			x: 10.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["76764317316F2D86"]
+			description: [
+				"在&6壁垒维度&r找到通往黑色大桥入口"
+				""
+				"{image:minecraft:textures/heisedaqiaorukou.png width:200 height:100 align:1}"
+				""
+				"电梯如果没有上来，踩一下旁边的压力板，下去之后就是黑色大桥的入口了。"
+				""
+				"{image:minecraft:textures/heisedaqiaorukoudianti.png width:200 height:100 align:1}"
+			]
+			id: "0938E65E29772405"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "01573909F3B1E324"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [{
+				dimension: "minecells:black_bridge"
+				icon: "minecells:black_bridge_flag"
+				id: "31219CDEF3E904EB"
+				title: "黑色大桥"
+				type: "dimension"
+			}]
+			title: "进入黑色大桥"
+			x: 7.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["30F1A9CDEBDD4520"]
+			id: "7F7573CCFE94A2CA"
+			tasks: [{
+				id: "706DEBB3D7E64B91"
+				item: "minecells:concierge_respawn_rune"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["0938E65E29772405"]
+			id: "0C97FF97130056C4"
+			tasks: [{
+				id: "31BD287D41DD9000"
+				item: "minecells:black_bridge_dimensional_rune"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["76764317316F2D86"]
+			id: "49B5B27A2C45ABE6"
+			tasks: [{
+				id: "1042C19AB9F267A1"
+				item: "minecells:ramparts_dimensional_rune"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["53DFF5E43B797242"]
+			id: "03DE33A8B0355CBA"
+			tasks: [{
+				id: "13A99680CED4DDD8"
+				item: "minecells:prison_dimensional_rune"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["02734A71D1F14E66"]
+			id: "5FA34EECB39ED491"
+			tasks: [{
+				id: "60D735E340093823"
+				item: "minecells:promenade_dimensional_rune"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4FE647D49353937B"]
+			id: "7444C452B30180A2"
+			tasks: [{
+				id: "7BB2459C865DD891"
+				item: "minecells:insufferable_crypt_dimensional_rune"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["02734A71D1F14E66"]
+			description: [
+				"跟随指引&a符文藤蔓&r的路牌,找到有生成&e精英怪物生成方尖碑&r的洞穴"
+				""
+				"{image:minecraft:textures/minecellslupai.png width:200 height:100 align:1}"
+				""
+				"右键方尖碑召唤精英怪，击败它会掉落&a符文藤蔓&r。"
+				""
+				"{image:minecraft:textures/minecellsshibei.png width:200 height:100 align:1}"
+			]
+			id: "183DC453145F1CDD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "676CA1119EA09543"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [{
+				icon: "mcwholidays:tall_gravestone"
+				id: "2F74B08969FEA0EF"
+				structure: "minecells:promenade"
+				title: "找到有精英怪物生成方尖碑的洞穴"
+				type: "structure"
+			}]
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			id: "56FE20B4DAF2CEEC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "70A03B18F0C4AA16"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [{
+				id: "52AA981F227B5778"
+				item: {
+					Count: 1
+					id: "minecells:bow_and_endless_quiver"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: -4.5d
+		}
+		{
+			id: "0E774184AAECA215"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6801C310BFF28A45"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1388CA5928A6C411"
+				item: {
+					Count: 1
+					id: "minecells:explosive_crossbow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.5d
+		}
+		{
+			id: "5E650A620D154DF6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2CB69A6FBAB46B6D"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3D6BF7253816BCC3"
+				item: "minecells:firebrands"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -3.5d
+		}
+		{
+			id: "0332E0E78BE54E64"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5FAD1978861E9D37"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [{
+				id: "65543B4B00D06827"
+				item: {
+					Count: 1
+					id: "minecells:multiple_nocks_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -4.5d
+		}
+		{
+			id: "568ACCD0E6D6F27E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "46BE55B01355A613"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1A2F9748C2B66D8D"
+				item: {
+					Count: 1
+					id: "minecells:marksmans_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -5.5d
+		}
+		{
+			id: "4A3FB1E3B29AF1E4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "290101EA16731C01"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [{
+				id: "392118734A14E87D"
+				item: {
+					Count: 1
+					id: "minecells:infantry_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -5.5d
+		}
+		{
+			id: "32F969EC282645C1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4D1A936D3AEB5E69"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4C2183DF1EEA7B58"
+				item: {
+					Count: 1
+					id: "minecells:quick_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.5d
+		}
+		{
+			id: "250CB8E8098732B2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "43B8D0B6B32FCC33"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [{
+				id: "320081D619EECF3D"
+				item: {
+					Count: 1
+					id: "minecells:ice_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.5d
+		}
+		{
+			id: "1B258D59C7957E92"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6FA61BE0D03E4274"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7003BBA2D1A6C97A"
+				item: "minecells:ice_arrow"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -5.5d
+		}
+		{
+			id: "3B3F7FE2DA9A4CE7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5F2FA6F5B48DA273"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [{
+				id: "28DB80CC90D39085"
+				item: {
+					Count: 1
+					id: "minecells:heavy_crossbow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -4.5d
+		}
+		{
+			id: "33260DDA651C1CB0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4E0B8500741D6819"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [{
+				id: "10EEE6ACDB1E2E7B"
+				item: "minecells:explosive_bolt"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -5.5d
+		}
+		{
+			id: "420403FB8CD33EF5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1E98E9B8DF54B2EB"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2471E3D73DF8E8C9"
+				item: {
+					Count: 1
+					id: "minecells:electric_whip"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: -3.5d
+		}
+		{
+			id: "7590B68E7EB06445"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5A406B3A262D66A9"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4A74FE818BC46045"
+				item: {
+					Count: 1
+					id: "minecells:lightning_bolt"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			id: "11BC04F5F2437C70"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0D5F8EF3D5B1E838"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [{
+				id: "52D83F16046E1352"
+				item: "minecells:throwing_knife"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			id: "7D58F5051E929681"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "750119765A6E8E93"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [{
+				id: "07857CD0ACB550BA"
+				item: {
+					Count: 1
+					id: "minecells:rampart"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.5d
+		}
+		{
+			id: "41EF9A571394D9CD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "24BF91692E2B2FF8"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [{
+				id: "21D51B6A923E3E0D"
+				item: {
+					Count: 1
+					id: "minecells:cudgel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: -2.5d
+		}
+		{
+			id: "146858F61FBA0964"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "59213B9A8B0F15D1"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4A51FDEFF497BD71"
+				item: {
+					Count: 1
+					id: "minecells:assault_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: -2.5d
+		}
+		{
+			id: "77718EB562A8A1DC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "26009DB47C08F2D4"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7F46FF850DA53A61"
+				item: {
+					Count: 1
+					id: "minecells:bloodthirsty_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -2.5d
+		}
+		{
+			id: "2EADD04E6BCB422B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6888ADC46BABE750"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [{
+				id: "11F5B57D53D287C5"
+				item: {
+					Count: 1
+					id: "minecells:greed_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: -2.5d
+		}
+		{
+			id: "2971D6DCB36E0C9E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "25E5B006739F142F"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [{
+				id: "18F7823BB20ADB6D"
+				item: {
+					Count: 1
+					id: "minecells:ice_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.5d
+		}
+		{
+			id: "18EF29704668F702"
+			tasks: [{
+				id: "7BB70938908D8EA3"
+				item: "minecells:cell_infused_steel"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.5d
+		}
+	]
+	title: "《死亡细胞维度》"
+}

@@ -1,0 +1,11 @@
+{
+  "homingRange": 20,
+  "homingSpeed": 3,
+  "homingTicksTimeout": 40,
+  "boostLevel": 50,
+  "baseHomingDamage": 0.5,
+  "ironArmorHomingDamage": 0.5,
+  "goldArmorHomingDamage": 1.0,
+  "diamondArmorHomingDamage": 1.5,
+  "netheriteArmorHomingDamage": 2.5
+}

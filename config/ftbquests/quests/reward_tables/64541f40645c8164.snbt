@@ -1,0 +1,12 @@
+{
+	id: "64541F40645C8164"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{ item: "minecraft:netherite_ingot", title: "1×下界合金锭", weight: 15.0f }
+		{ count: 2, item: "minecraft:netherite_ingot" }
+		{ count: 3, item: "minecraft:netherite_ingot", weight: 0.5f }
+		{ item: "minecraft:netherite_block", title: "一个下界合金块", weight: 0.1f }
+	]
+	title: "下界合金锭"
+}

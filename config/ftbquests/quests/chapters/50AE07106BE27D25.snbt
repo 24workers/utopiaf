@@ -1,0 +1,1772 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	filename: "50AE07106BE27D25"
+	group: "2A3ECC20C469DF2B"
+	icon: "the_bumblezone:bee_queen_spawn_egg"
+	id: "50AE07106BE27D25"
+	images: [{
+		height: 20.0d
+		image: "minecraft:textures/fengchao1.png"
+		rotation: 0.0d
+		width: 20.0d
+		x: -0.5d
+		y: -6.0d
+	}]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&e进入方法&r：朝着蜂巢或者蜂箱投掷末影珍珠就会被传送进入蜜蜂领域。"
+				"&e进入方法2&r:被活塞挤进去。"
+				"&e如何返回主世界&r：：向下挖，直到坐标 &ey=0&r 以下，或者向上爬到 &ey=256&r 以上，它会自动判断你想离开蜜蜂领域。"
+				"&e第二种方法&r：死回去。"
+				"在这个维度中，蜜蜂们极力想要保护它们的&e蜂蜜&r。如果你在这个维度中进行以下任何一种行为："
+				"&e敲掉并捡起一个蜂蜜块&r。用&e玻璃瓶&r从“注满蜂蜜的多孔蜜脾方块”中&e采集蜂蜜&r。"
+				"&e喝下一瓶蜂蜜&r。那么在你周围&e64格&r方块内的所有蜜蜂就会被&e激怒&r。"
+				"这些蜜蜂将获得速度提升I、伤害吸收III和力量III的Buff,同时你会获得“&e蜂群之怒&r”的 Buff ，并且该维度中的&e雾气会变得更红&r."
+				""
+				"部分攻略来自于&e暴走的zac&r，非常感谢大佬撰写的攻略！"
+			]
+			icon: "minecraft:bee_nest"
+			id: "43F6BCD423F14061"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "18845BB483D7DEBC"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				dimension: "the_bumblezone:the_bumblezone"
+				id: "2B0B8CB35D88899A"
+				title: "蜜蜂世界"
+				type: "dimension"
+			}]
+			title: "抵达蜂巢里的世界"
+			x: -7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["61E483A1FD8653CB"]
+			description: ["吸引蜜蜂"]
+			id: "3A8B6AD311F40281"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "725806FA2775B117"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "7577DF9AAF27C145"
+				item: {
+					Count: 1
+					id: "the_bumblezone:flower_headwear"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["61E483A1FD8653CB"]
+			description: [
+				"喂食蜜蜂或者巢里的幼虫可获得&e蜜蜂保护&r效果，短时间破坏方块，装取蜂蜜不会吸引蜜蜂仇恨。"
+				"蜂王浆瓶和蜂王浆桶还可以完全治愈蜜蜂，将小蜜蜂成长为成年蜜蜂，并且会&e一直为你提供蜂巢效果的保护&r。"
+				"当你有&e蜂巢保护&r效果时，&e附近的蜜蜂会攻击任何攻击你的人&r！"
+			]
+			id: "2A5196FF450CE8CC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3C6FE09888CF7577"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			size: 1.0d
+			tasks: [
+				{
+					id: "266C363B30D74173"
+					item: "minecraft:honey_bottle"
+					type: "item"
+				}
+				{
+					id: "4DAACFBF7D30A324"
+					item: "the_bumblezone:bee_bread"
+					type: "item"
+				}
+				{
+					id: "01725418FE53EE49"
+					item: "the_bumblezone:sugar_water_bottle"
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["43F6BCD423F14061"]
+			description: ["寻找&e蜂巢柱结构&r位置。"]
+			id: "61E483A1FD8653CB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5E099D0CDD92D12E"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "0F272F05A55AC21F"
+				item: {
+					Count: 1
+					id: "the_bumblezone:honey_compass"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["61E483A1FD8653CB"]
+			id: "36F6D6BB74B3A9C4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7244C28736A6AE6F"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "7D1E9F7B23B22DA5"
+					item: "the_bumblezone:sugar_infused_stone"
+					type: "item"
+				}
+				{
+					id: "131598675EA62E24"
+					item: "the_bumblezone:sugar_infused_cobblestone"
+					type: "item"
+				}
+			]
+			x: -5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["61E483A1FD8653CB"]
+			id: "2DF4C9FFB9407F6B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2E2A7543367DDE22"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [{
+				id: "44385B4FE6C574C7"
+				item: {
+					Count: 1
+					id: "the_bumblezone:honey_crystal_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["61E483A1FD8653CB"]
+			description: [
+				"根据&e骑行次数&r和&e喂食次数&r增加&e友谊值&r,&e受伤&r了则会&e扣减友谊值&r，友谊满了它会变成&6蜜蜂巨兽女王&r"
+				"&e骑行飞行速度大幅度提升&r!(和蜜蜂女王不是同一个，不要搞混）"
+			]
+			id: "34145A4C3E77E2BA"
+			rewards: [{
+				id: "0BA26258E4D6333A"
+				item: "minecraft:saddle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "20D0DD4BF8947AFF"
+					item: "the_bumblezone:honey_bucket"
+					type: "item"
+				}
+				{
+					id: "73B53F819EFF3E65"
+					item: "the_bumblezone:bee_bread"
+					type: "item"
+				}
+				{
+					id: "385C3335F17CADDE"
+					item: "the_bumblezone:pollen_puff"
+					type: "item"
+				}
+			]
+			title: "驯服蜜蜂巨兽"
+			x: -5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["61E483A1FD8653CB"]
+			icon: "farmersdelight:cooked_rice"
+			id: "2848EA2101330AE3"
+			rewards: [
+				{
+					id: "241D277252BB78A4"
+					item: "croptopia:steamed_rice"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "64C53D2930EAF02B"
+					table_id: 2953109549610839980L
+					type: "random"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:bee"
+				id: "767546A3629FA497"
+				type: "kill"
+				value: 10L
+			}]
+			title: "大家好我叫王灿"
+			x: -6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["41247417B891AFEE"]
+			description: ["右键点击没有毒刺的蜜蜂会在蜜蜂身上放一根毒刺"]
+			id: "142160E7CAA4B20C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "260E4B5D79EA834E"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [{
+				id: "510EAC3149805580"
+				item: "the_bumblezone:bee_stinger"
+				type: "item"
+			}]
+			title: "拯救蜜蜂，物归原主"
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["41247417B891AFEE"]
+			id: "6BDBFDAC3951C869"
+			rewards: [{
+				icon: "minecraft:experience_bottle"
+				id: "3BEBD752C4D0B306"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				icon: "the_bumblezone:crystalline_flower"
+				id: "12875E5C1B08185C"
+				observe_type: 0
+				timer: 60L
+				title: "水晶花"
+				to_observe: "the_bumblezone:crystalline_flower"
+				type: "observation"
+			}]
+			title: "可以附魔物品的水晶花"
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6454C5DDFCBAAA9B"]
+			id: "39936AEF9F378C8F"
+			tasks: [
+				{
+					id: "00FC01DE07B30587"
+					item: {
+						Count: 1
+						id: "the_bumblezone:stingless_bee_helmet_2"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7FE25AB90E3FCA25"
+					item: {
+						Count: 1
+						id: "the_bumblezone:bumble_bee_chestplate_2"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0E756EA0BD7F3AAC"
+					item: {
+						Count: 1
+						id: "the_bumblezone:honey_bee_leggings_2"
+						tag: {
+							Damage: 0
+							pollinated: 1b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "199CA4F21B82FE65"
+					item: {
+						Count: 1
+						id: "the_bumblezone:carpenter_bee_boots_2"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2C56FFB984D2E5A5"]
+			description: ["和女王完成一次成功的交易,完成蜂后系列进度任务，获得&b蜜蜂精华&r"]
+			icon: "the_bumblezone:bee_queen_spawn_egg"
+			id: "6454C5DDFCBAAA9B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "73F6E2C4125F269F"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [{
+				id: "09B82FDF01ABF7B5"
+				title: "找到女王了"
+				type: "checkmark"
+			}]
+			title: "和女王交易"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6454C5DDFCBAAA9B"]
+			id: "1336040A138E41B5"
+			tasks: [
+				{
+					id: "7FFCB8D399D2D245"
+					item: {
+						Count: 1
+						id: "the_bumblezone:stingless_bee_helmet_1"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "78EC461D4FE16876"
+					item: {
+						Count: 1
+						id: "the_bumblezone:bumble_bee_chestplate_1"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7EE15CCB15722AEC"
+					item: {
+						Count: 1
+						id: "the_bumblezone:honey_bee_leggings_1"
+						tag: {
+							Damage: 0
+							pollinated: 1b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "02AC703EE9ED25BB"
+					item: {
+						Count: 1
+						id: "the_bumblezone:carpenter_bee_boots_1"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"1336040A138E41B5"
+				"39936AEF9F378C8F"
+			]
+			id: "470833323E94FEAC"
+			tasks: [
+				{
+					id: "09DD66E006A1007C"
+					item: {
+						Count: 1
+						id: "the_bumblezone:bumble_bee_chestplate_trans_1"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "745DFFA3A759A712"
+					item: {
+						Count: 1
+						id: "the_bumblezone:bumble_bee_chestplate_trans_2"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6454C5DDFCBAAA9B"]
+			description: ["蜜蜂女王的最爱，可以拿它兑换到&e下界之星，附魔金苹果，末影龙首，海洋之心&r等丰厚奖励。等等为什么有末影龙首，这是个值得深思的问题。"]
+			id: "284F90A5FC868192"
+			tasks: [
+				{
+					id: "5F92265C52DA94F8"
+					item: "the_bumblezone:royal_jelly_bucket"
+					type: "item"
+				}
+				{
+					id: "1D6B4DF0EE422CED"
+					item: "the_bumblezone:royal_jelly_bottle"
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6454C5DDFCBAAA9B"]
+			id: "290B181FFD4FB44D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4A275AFE212FDF22"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [{
+				id: "20163B0A4052A226"
+				item: {
+					Count: 1
+					id: "the_bumblezone:bee_cannon"
+					tag: {
+						BeesStored: [ ]
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["290B181FFD4FB44D"]
+			description: ["&e轻击右键&r可装备多发&e蜂蜜水晶碎片&r，&e长按右键&r发射。"]
+			id: "3E49D03DE22BF4B6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4F83FB2024A2C95F"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "2FB3F144082411EE"
+					item: {
+						Count: 1
+						id: "the_bumblezone:crystal_cannon"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 20L
+					id: "2C6039041DB333BF"
+					item: "the_bumblezone:honey_crystal_shards"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1368CF58DE13D96C"]
+			id: "3A14FA2CB31F3EF4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "192631ED90BC147E"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0FA5F4B7722FBC1E"
+				item: {
+					Count: 1
+					id: "the_bumblezone:stinger_spear"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["290B181FFD4FB44D"]
+			id: "1368CF58DE13D96C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "303FAF0B460E2121"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [{
+				id: "71A912600B899833"
+				item: "the_bumblezone:bee_stinger"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1368CF58DE13D96C"]
+			description: [
+				"&b蜂之精华&r是一件在蜜蜂领域的&e中后期&r能够获得的物品，通过&e完成蜂后之请系列进度任务&r来&e从蜂后处获得&r。"
+				""
+				"吸收&b蜜蜂精华&r后，新找到的&6蜜糖指南针&r可以指向&6永恒圣所&r"
+				""
+				"可以接触&e精华方块&r并&e开启永恒圣所的竞技场&r。"
+				""
+				"完成圣所竞技场获得的&e精华可以使用&r了。"
+				""
+				"蜜蜂精华是一件在蜜蜂领域的中后期能够获得的物品，通过完成蜂后之请系列进度任务来从蜂后处获得。"
+				"右键长按可以吸收蜂之精华，并永久获得以下效果："
+				"&e自由进出&r巢室迷宫而&e不会引发蜂群之怒&r。"
+				"在王座柱&e靠近蜂后&r时&e不会获得挖掘疲劳&r。"
+				"从满多孔蜜脾块中用玻璃瓶&e获取蜂蜜、挖掘蜂蜜块&r或是满多孔蜜脾块&e不会获得蜂群之怒&r。"
+				"可以直接采集蜂房，拿走蜜脾和蜂蜜，&e不再需要营火&r。"
+				"从蜂蜜史莱姆身上&e取走蜂蜜不再激怒蜂蜜史莱姆&r。"
+			]
+			id: "441D525C4CB9D487"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6229EF1D239DCD20"
+					table_id: 2953109549610839980L
+					type: "random"
+				}
+				{
+					id: "76AB2BC5D0F29779"
+					item: "the_bumblezone:royal_jelly_bottle"
+					type: "item"
+				}
+			]
+			size: 2.0d
+			tasks: [{
+				id: "1357FE8D0172A807"
+				item: "the_bumblezone:essence_of_the_bees"
+				type: "item"
+			}]
+			title: "蜜蜂精华，吸收它吧！"
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["45088E4751B82C80"]
+			id: "70EF6DE87499DD49"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3142ECAEC64F9A9B"
+					table_id: 2953109549610839980L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0C5AF5CA70A7CC38"
+					table_id: 3438619514375427762L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "46415A4A3C2B0F4D"
+				item: {
+					Count: 1
+					id: "the_bumblezone:essence_raging"
+					tag: {
+						abilityUseRemaining: 28
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["5B65D69C2B5F7341"]
+			id: "57C0AABB0204EE72"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "320171672E3892AF"
+					table_id: 2953109549610839980L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5769C4C49E4689D9"
+					table_id: 3438619514375427762L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "42C81AF52C54EDA8"
+				item: {
+					Count: 1
+					id: "the_bumblezone:essence_knowing"
+					tag: {
+						abilityUseRemaining: 1200
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["36C5C25E8AE72EEA"]
+			id: "63B044D738DA8FDA"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0443DD09A3883CCD"
+					table_id: 2953109549610839980L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "31A02014D5783D5C"
+					table_id: 3438619514375427762L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "59086F3E42CF0582"
+				item: {
+					Count: 1
+					id: "the_bumblezone:essence_calming"
+					tag: {
+						abilityUseRemaining: 600
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["7199AD2FBDEC8CCE"]
+			description: [""]
+			id: "00D650711474F586"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4C6232CE6A88A531"
+					table_id: 2953109549610839980L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "14C3931035F9774A"
+					table_id: 3438619514375427762L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "59A7DEE465E35D4A"
+				item: {
+					Count: 1
+					id: "the_bumblezone:essence_life"
+					tag: {
+						abilityUseRemaining: 1000
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["44E30E935CEE0C30"]
+			id: "102F1E1926F1A315"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "148A8A282C0BA4ED"
+					table_id: 2953109549610839980L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5C67F16F8440F5F0"
+					table_id: 3438619514375427762L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "48AF59607173215C"
+				item: {
+					Count: 1
+					id: "the_bumblezone:essence_radiance"
+					tag: {
+						abilityUseRemaining: 4800
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["46E078294BA5AA8C"]
+			id: "4B703F0B27E779D5"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3C001BA39EB7E2A8"
+					table_id: 2953109549610839980L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5EF9E1CC37B0ECA9"
+					table_id: 3438619514375427762L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "45DC5F7FD6DDB8F4"
+				item: {
+					Count: 1
+					id: "the_bumblezone:essence_continuity"
+					tag: {
+						abilityUseRemaining: 1
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["6454C5DDFCBAAA9B"]
+			id: "711491C573E3E11C"
+			tasks: [{
+				id: "7332932A1AFFE680"
+				item: "the_bumblezone:windy_air"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["61E483A1FD8653CB"]
+			description: [
+				"在各种蜂巢结构找到&e蜜糖茧&r，破坏或打开有几率掉落&e蜜糖指南针 - 王座柱&r，有了它，"
+				"可以指引你找到&d蜜蜂女王&r的结构。"
+			]
+			icon: {
+				Count: 1
+				id: "the_bumblezone:honey_compass"
+				tag: {
+					CompassType: "structure"
+					CustomDescription: "item.the_bumblezone.honey_compass_throne_description"
+					CustomName: "item.the_bumblezone.honey_compass_throne_structure"
+					Locked: 1b
+					TargetDimension: "the_bumblezone:the_bumblezone"
+					TargetPos: {
+						X: 1248
+						Y: 0
+						Z: 1344
+					}
+				}
+			}
+			id: "41247417B891AFEE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0634C9D6D736A021"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [{
+				id: "61C0803DF6ED6BF9"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["61E483A1FD8653CB"]
+			id: "72896339AF2ED3AD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "758B193CECB29A41"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7A8B967E11C29627"
+				item: "minecraft:honey_bottle"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["41247417B891AFEE"]
+			description: ["{image:minecraft:textures/wangzuozhu.png width:200 height:100 align:1}"]
+			id: "2C56FFB984D2E5A5"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6013B779479BDCF4"
+					table_id: 2953109549610839980L
+					type: "random"
+				}
+				{
+					id: "6D34FE1FD917B712"
+					item: "the_bumblezone:royal_jelly_bottle"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "monsters_girls:spawn_bee_girl"
+				id: "0DAAE8014FD4DB2A"
+				structure: "the_bumblezone:throne_pillar"
+				title: "王座柱"
+				type: "structure"
+			}]
+			title: "抵达王座柱"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: ["{image:minecraft:textures/gulaodefenglajia.png width:200 height:100 align:1}"]
+			id: "1FBE578E5F7A2BD1"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "22655E6BA81FB986"
+					table_id: 2953109549610839980L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7B63D6C795757389"
+					table_id: 3438619514375427762L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				icon: "the_bumblezone:ancient_wax_bricks"
+				id: "779775C6A1F9EB87"
+				structure: "the_bumblezone:ancient_hoops"
+				title: "古老的蜂蜡架"
+				type: "structure"
+			}]
+			title: "抵达古老的蜂蜡架"
+			x: 2.0d
+			y: -10.0d
+		}
+		{
+			description: ["{image:minecraft:textures/gulaodefenglashendian.png width:200 height:100 align:1}"]
+			id: "6107816C069C9BB4"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "203B1BB97C2EB87B"
+					table_id: 2953109549610839980L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0975FCD8B06BAFAA"
+					table_id: 3438619514375427762L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				icon: "the_bumblezone:ancient_wax_diamond"
+				id: "74474ECDBB2D856D"
+				structure: "the_bumblezone:ancient_shrine"
+				title: "古老的蜂蜡神殿"
+				type: "structure"
+			}]
+			title: "抵达古老的蜂蜡神殿"
+			x: -2.0d
+			y: -10.0d
+		}
+		{
+			description: ["{image:minecraft:textures/fengchaozhuwang.png width:200 height:100 align:1}"]
+			id: "541C083D03639CEE"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "63B82179A1E99FBF"
+					table_id: 2953109549610839980L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "486AC26A3A475EFB"
+					table_id: 3438619514375427762L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				icon: "minecraft:cobweb"
+				id: "329E3F98ECF14F89"
+				structure: "the_bumblezone:battle_cubes"
+				title: "蜂巢方块蛛网神殿"
+				type: "structure"
+			}]
+			title: "抵达蜂巢方块蛛网神殿"
+			x: 2.5d
+			y: -9.0d
+		}
+		{
+			description: ["{image:minecraft:textures/mifengxiaowu.png width:200 height:100 align:1}"]
+			id: "4A38007839EC9BE5"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "17D5DD6AED2307A1"
+					table_id: 2953109549610839980L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2FAB2E5360436014"
+					table_id: 3438619514375427762L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				icon: "luphieclutteredmod:luphie_bee_lamp"
+				id: "28194CB726138A64"
+				structure: "the_bumblezone:bee_house"
+				title: "蜜蜂小屋"
+				type: "structure"
+			}]
+			title: "抵达蜜蜂小屋"
+			x: 1.5d
+			y: -9.0d
+		}
+		{
+			description: ["{image:minecraft:textures/fengchaolazhupaoku.png width:200 height:100 align:1}"]
+			id: "312725E527EBEFA7"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "57C88C81C9C1B7B4"
+					table_id: 2953109549610839980L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2AB262957611EFA0"
+					table_id: 3438619514375427762L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				icon: "the_bumblezone:super_candle_lime"
+				id: "1EBB1BF08FBA634C"
+				structure: "the_bumblezone:candle_parkour"
+				title: "蜂巢蜡烛跑酷"
+				type: "structure"
+			}]
+			title: "抵达蜂巢蜡烛跑酷"
+			x: -2.0d
+			y: -6.0d
+		}
+		{
+			description: ["{image:minecraft:textures/mifengpaoxunlianchang.png width:200 height:100 align:1}"]
+			id: "58C8469421AEDDEE"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0D513A14E0F7003E"
+					table_id: 2953109549610839980L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "380B92807D8BD38F"
+					table_id: 3438619514375427762L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "the_bumblezone:bee_cannon"
+					tag: {
+						BeesStored: [ ]
+						Damage: 0
+					}
+				}
+				id: "7736398B3B326B18"
+				structure: "the_bumblezone:cannon_range"
+				title: "蜜蜂炮训练场"
+				type: "structure"
+			}]
+			title: "抵达蜜蜂炮训练场"
+			x: -1.0d
+			y: -10.0d
+		}
+		{
+			description: ["{image:minecraft:textures/fengchaoxibaomigong.png width:200 height:100 align:1}"]
+			id: "5E921C655682C73E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "528482A78B9A5E13"
+					table_id: 2953109549610839980L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2EEA51EBABFD0A3E"
+					table_id: 3438619514375427762L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				icon: "chipped:dark_flowering_lily_pad"
+				id: "0A5FA9C510A629BC"
+				structure: "the_bumblezone:cell_maze"
+				title: "蜂巢细胞迷宫"
+				type: "structure"
+			}]
+			title: "抵达蜂巢细胞迷宫"
+			x: 0.0d
+			y: -10.0d
+		}
+		{
+			description: ["{image:minecraft:textures/fengchaojuxingyinghuashu.png width:200 height:100 align:1}"]
+			id: "545C256A9675B814"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0CA85F00AA0A2387"
+					table_id: 2953109549610839980L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "79D2A5DA0F27F030"
+					table_id: 3438619514375427762L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				icon: "minecraft:cherry_sapling"
+				id: "42A481A17E7BDF8D"
+				structure: "the_bumblezone:cherry_veteran_tree"
+				title: "蜂巢巨型樱花树"
+				type: "structure"
+			}]
+			title: "抵达蜂巢巨型樱花树"
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			description: ["{image:minecraft:textures/fengchaowuchi.png width:200 height:100 align:1}"]
+			id: "33A61C6B10F613F7"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "023EEB453F551EF7"
+					table_id: 2953109549610839980L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "191BB296E3143A91"
+					table_id: 3438619514375427762L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				icon: "minecraft:jukebox"
+				id: "3501D31B1AD2BB33"
+				structure: "the_bumblezone:dance_floor"
+				title: "蜂巢舞池"
+				type: "structure"
+			}]
+			title: "抵达蜂巢舞池"
+			x: 2.5d
+			y: -7.0d
+		}
+		{
+			description: ["{image:minecraft:textures/fengchaoxuanguahuayuan.png width:200 height:100 align:1}"]
+			id: "03C7785D51E54542"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "045FFE54C049C364"
+					table_id: 2953109549610839980L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3CACB90DD939F5C9"
+					table_id: 3438619514375427762L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				icon: "minecraft:pink_petals"
+				id: "7C90977FABD304B3"
+				structure: "the_bumblezone:hanging_garden"
+				title: "蜂巢悬挂花园"
+				type: "structure"
+			}]
+			title: "抵达蜂巢悬挂花园"
+			x: -1.5d
+			y: -7.0d
+		}
+		{
+			description: ["{image:minecraft:textures/fengchaoshenmiao.png width:200 height:100 align:1}"]
+			id: "6F4A185CF5DDE250"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "773F797B6FF36F3B"
+					table_id: 2953109549610839980L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4A1FEA08E01EF65B"
+					table_id: 3438619514375427762L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				icon: "the_bumblezone:carvable_wax_bricks"
+				id: "710961E9E939075F"
+				structure: "the_bumblezone:hive_temple"
+				title: "蜂巢神庙"
+				type: "structure"
+			}]
+			title: "抵达紫色永恒圣所"
+			x: 2.0d
+			y: -6.0d
+		}
+		{
+			description: ["{image:minecraft:textures/fengchaodongxue.png width:200 height:100 align:1}"]
+			id: "483EC307669D33A9"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0909D8CAE1F50D78"
+					table_id: 2953109549610839980L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2D43958D6BDF635F"
+					table_id: 3438619514375427762L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				icon: "the_bumblezone:empty_honeycomb_brood_block"
+				id: "1E2FF0A8C8DC9BA8"
+				structure: "the_bumblezone:honey_cave_room"
+				title: "蜂巢洞穴"
+				type: "structure"
+			}]
+			title: "抵达蜂巢洞穴"
+			x: 2.0d
+			y: -8.0d
+		}
+		{
+			description: ["{image:minecraft:textures/fengmipenquan.png width:200 height:100 align:1}"]
+			id: "23D33476C462484F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3EC0FDD01D8DC5F3"
+					table_id: 2953109549610839980L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2E14009741E96254"
+					table_id: 3438619514375427762L
+					type: "loot"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				icon: "minecraft:honey_bottle"
+				id: "6E7F18E22AE5B723"
+				structure: "the_bumblezone:honey_fountain"
+				title: "蜂蜜喷泉"
+				type: "structure"
+			}]
+			title: "抵达蜂蜜喷泉"
+			x: -1.0d
+			y: -6.0d
+		}
+		{
+			description: ["{image:minecraft:textures/fengchaoshuijingfang.png width:200 height:100 align:1}"]
+			id: "02397280BFD97DB9"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6912114CBE51020C"
+					table_id: 2953109549610839980L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "048E80B96AD13D98"
+					table_id: 3438619514375427762L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				icon: "the_bumblezone:honey_crystal"
+				id: "045C60B6A3E885D6"
+				structure: "the_bumblezone:honitel"
+				title: "蜂巢水晶房"
+				type: "structure"
+			}]
+			title: "抵达蜂巢水晶房"
+			x: 1.5d
+			y: -7.0d
+		}
+		{
+			description: [
+				"破坏冰块拯救蜜蜂。"
+				""
+				"{image:minecraft:textures/bingdongdemifeng.png width:200 height:100 align:1}"
+			]
+			id: "2225F6760A63F6B9"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "396074F1EE3769F0"
+					table_id: 2953109549610839980L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4770A2DF1E0128F4"
+					table_id: 3438619514375427762L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				icon: "minecraft:ice"
+				id: "5F8DCDA523611C6B"
+				structure: "the_bumblezone:ice_monolith"
+				title: "冰冻的蜜蜂"
+				type: "structure"
+			}]
+			title: "抵达冰冻的蜜蜂"
+			x: -2.0d
+			y: -8.0d
+		}
+		{
+			description: ["{image:minecraft:textures/fengchaojuxingshuijinghua.png width:200 height:100 align:1}"]
+			id: "31E8F7D80AC84E64"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "47DD8FEF942AAE58"
+					table_id: 2953109549610839980L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6F398F1EF505E7DD"
+					table_id: 3438619514375427762L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				icon: "the_bumblezone:crystalline_flower"
+				id: "09872BD19E032701"
+				structure: "the_bumblezone:overgrown_flower"
+				title: "蜂巢巨型水晶花"
+				type: "structure"
+			}]
+			title: "抵达蜂巢巨型水晶花"
+			x: -1.5d
+			y: -9.0d
+		}
+		{
+			description: ["{image:minecraft:textures/fengchaohaidaochuan.png width:200 height:100 align:1}"]
+			id: "2FC3F6C1C95CF2E7"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7B376762888B0F75"
+					table_id: 2953109549610839980L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1DA51A8F8CC13A6C"
+					table_id: 3438619514375427762L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				icon: "smallships:spruce_galley"
+				id: "5591E249602782C7"
+				structure: "the_bumblezone:pirate_ship"
+				title: "蜂巢海盗船"
+				type: "structure"
+			}]
+			title: "抵达蜂巢海盗船"
+			x: -2.5d
+			y: -7.0d
+		}
+		{
+			description: [
+				"只有激活了&b蜜蜂精华&r，才能从&e蜜糖茧&r中找到&e指向永恒圣所的蜜糖指南针&r，&e才能开启&r永恒圣所&e中央的竞技场&r。"
+				""
+				"你要做的是在&e500秒&r时间内击杀总计&e50个怪物&r，并且是在水中。一开始是&e穿着皮革甲的溺尸&r，并具有&e迅捷V&r，溺尸可能会拿&e三叉戟&r，然后会有&e守卫者&r和&e远古守卫者&r。确保你有&e水下呼吸&r和&e深海探索者&r比较好。"
+				""
+				"{image:minecraft:textures/lanseshengsuo.png width:200 height:100 align:1}"
+			]
+			id: "36C5C25E8AE72EEA"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5B7C865FA85AE5E7"
+					table_id: 2953109549610839980L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "73618C9BC9BB1908"
+					table_id: 3438619514375427762L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				icon: "the_bumblezone:luminescent_wax_corner_blue"
+				id: "61AEB74DE642AA62"
+				structure: "the_bumblezone:sempiternal_sanctum_blue"
+				title: "蓝色永恒圣所"
+				type: "structure"
+			}]
+			title: "抵达蓝色永恒圣所"
+			x: -3.0d
+			y: -8.0d
+		}
+		{
+			description: [
+				"只有激活了&b蜜蜂精华&r，才能从&e蜜糖茧&r中找到&e指向永恒圣所的蜜糖指南针&r，&e才能开启&r永恒圣所&e中央的竞技场&r。"
+				""
+				"你要做的是在&e300秒&r时间内把&e根源守卫吐的泥土球打回去攻击它自己30次&r，用投掷物（雪球、泥土球）直接攻击也可以。根源守卫吐的速度会越来越快，并且还会有拐弯的子弹或者一次射出多发，最后会疯狂连射。最简单的圣所，猛按左键就赢了，但注意你必须站在台子上才能攻击到根源守卫。"
+				""
+				"{image:minecraft:textures/lvseshengsuo.png width:200 height:100 align:1}"
+			]
+			id: "7199AD2FBDEC8CCE"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "121039014FCEE594"
+					table_id: 2953109549610839980L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "71F3F5B55A83A2E9"
+					table_id: 3438619514375427762L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				icon: "the_bumblezone:luminescent_wax_corner_green"
+				id: "7A3A06FF52390224"
+				structure: "the_bumblezone:sempiternal_sanctum_green"
+				title: "绿色永恒圣所"
+				type: "structure"
+			}]
+			title: "抵达绿色永恒圣所"
+			x: -1.5d
+			y: -5.0d
+		}
+		{
+			description: [
+				"只有激活了&b蜜蜂精华&r，才能从&e蜜糖茧&r中找到&e指向永恒圣所的蜜糖指南针&r，&e才能开启&r永恒圣所&e中央的竞技场&r。"
+				""
+				"你要做的是在&e250秒&r的时间里&e躲避尖刺的攻击&r。最坐牢的圣所，全程没有任何技巧可言，纯躲避，碰到刺有伤害并且会获得中毒2"
+				""
+				"{image:minecraft:textures/ziseshengsuo.png width:200 height:100 align:1}"
+			]
+			id: "5B65D69C2B5F7341"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "408C15E27A7807CF"
+					table_id: 2953109549610839980L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "45BD4CF01EAABFDB"
+					table_id: 3438619514375427762L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				icon: "the_bumblezone:luminescent_wax_corner_purple"
+				id: "689E3E8F0510B404"
+				structure: "the_bumblezone:sempiternal_sanctum_purple"
+				title: "紫色永恒圣所"
+				type: "structure"
+			}]
+			title: "抵达紫色永恒圣所"
+			x: 1.5d
+			y: -5.0d
+		}
+		{
+			description: [
+				"只有激活了&b蜜蜂精华&r，才能从&e蜜糖茧&r中找到&e指向永恒圣所的蜜糖指南针&r，&e才能开启&r永恒圣所&e中央的竞技场&r。"
+				""
+				"你要做的是在&e400秒&r的时间内总计&e击杀100只怪物&r。什么怪物都有，你想得到的想不到的，包括&e劫掠兽、恶魂、杀手兔、狼&r等等。会在中央刷出来，伤害足够高可以堵刷怪点乱杀。"
+				""
+				"PS:死亡的墓碑可能会生成在圣所最底部，如果找不到建议开旁观视角找。"
+				""
+				"{image:minecraft:textures/hongseshengsuo.png width:200 height:100 align:1}"
+			]
+			id: "45088E4751B82C80"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "134986AABDB9A889"
+					table_id: 2953109549610839980L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7D4685D96B88B518"
+					table_id: 3438619514375427762L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				icon: "the_bumblezone:luminescent_wax_corner_red"
+				id: "606B104A4249F4D4"
+				structure: "the_bumblezone:sempiternal_sanctum_red"
+				title: "红色永恒圣所"
+				type: "structure"
+			}]
+			title: "抵达红色永恒圣所"
+			x: 3.0d
+			y: -8.0d
+		}
+		{
+			description: [
+				"只有激活了&b蜜蜂精华&r，才能从&e蜜糖茧&r中找到&e指向永恒圣所的蜜糖指南针&r，&e才能开启&r永恒圣所&e中央的竞技场&r。"
+				""
+				"你要做的是在&e500秒&r的时间内击杀6个&f宇宙水晶实体&r。每个水晶实体默认60血，特点是&e每次最多扣2点&r，最好换&e攻速快的武器狂砍&r就行了，不推荐弓，弓会有很长的免疫弹射时间。"
+				""
+				"{image:minecraft:textures/baiseshengsuo.png width:200 height:100 align:1}"
+			]
+			id: "46E078294BA5AA8C"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5C788ACA845C027C"
+					table_id: 2953109549610839980L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3F32B1772901ADE8"
+					table_id: 3438619514375427762L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				icon: "the_bumblezone:luminescent_wax_corner_white"
+				id: "7A9316CD00EFB52C"
+				structure: "the_bumblezone:sempiternal_sanctum_white"
+				title: "白色永恒圣所"
+				type: "structure"
+			}]
+			title: "抵达白色永恒圣所"
+			x: 1.5d
+			y: -11.0d
+		}
+		{
+			description: [
+				"只有激活了&b蜜蜂精华&r，才能从&e蜜糖茧&r中找到&e指向永恒圣所的蜜糖指南针&r，&e才能开启&r永恒圣所&e中央的竞技场&r。"
+				""
+				"你要做的是在&e270秒&r的时间内通过&e总计100黑色的环&r。跑酷性质的，同时会刷出大量的&e恼鬼&r会干扰你，会获得&e迅捷V、跳跃提升V和挖掘疲劳I的Buff&r。推荐使用F3+B开启碰撞箱显示。"
+				""
+				"{image:minecraft:textures/huangseshengsuo.png width:200 height:100 align:1}"
+			]
+			id: "44E30E935CEE0C30"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6BEF48A212390B62"
+					table_id: 2953109549610839980L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4A21FE548E44484A"
+					table_id: 3438619514375427762L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				icon: "the_bumblezone:luminescent_wax_corner_yellow"
+				id: "243AFE37C89FB179"
+				structure: "the_bumblezone:sempiternal_sanctum_yellow"
+				title: "黄色永恒圣所"
+				type: "structure"
+			}]
+			title: "抵达黄色永恒圣所"
+			x: -1.5d
+			y: -11.0d
+		}
+		{
+			description: ["{image:minecraft:textures/fenglabanzhimao.png width:200 height:100 align:1}"]
+			id: "23622CF2FAF587F6"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "58625A4F21C53A69"
+					table_id: 2953109549610839980L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5987819E0599A7F2"
+					table_id: 3438619514375427762L
+					type: "loot"
+				}
+			]
+			tasks: [
+				{
+					icon: "the_bumblezone:beehive_beeswax"
+					id: "2E2CEFAE28D60585"
+					structure: "the_bumblezone:stinger_spear_shrine"
+					title: "蜂蜡板之矛"
+					type: "structure"
+				}
+				{
+					id: "10D7F6A0044401E8"
+					item: {
+						Count: 1
+						id: "the_bumblezone:stinger_spear"
+						tag: {
+							Damage: 100
+							Enchantments: [
+								{
+									id: "minecraft:smite"
+									lvl: 5
+								}
+								{
+									id: "minecraft:unbreaking"
+									lvl: 3
+								}
+							]
+							display: {
+								Lore: ["[{\"text\":\"Many Undead were laid for their final rest\"}]"]
+								Name: "[{\"text\":\"Bee-nisher of the Dead\"}]"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "抵达蜂蜡板之矛"
+			x: 1.0d
+			y: -6.0d
+		}
+		{
+			description: ["{image:minecraft:textures/fengchaoditiesuidao.png width:200 height:100 align:1}"]
+			id: "1D7DD43E8F427442"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5DF1BADDF5B683D9"
+					table_id: 2953109549610839980L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3A212498DF131FB5"
+					table_id: 3438619514375427762L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				icon: "minecraft:light_blue_concrete"
+				id: "757A42C6CB5D551C"
+				structure: "the_bumblezone:subway"
+				title: "蜂巢地铁隧道"
+				type: "structure"
+			}]
+			title: "抵达蜂巢地铁隧道"
+			x: 1.0d
+			y: -10.0d
+		}
+		{
+			description: ["{image:minecraft:textures/fengmishilaimuxiaowu.png width:200 height:100 align:1}"]
+			id: "22C2A728C3CF7D68"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4F2966FC8130A216"
+					table_id: 2953109549610839980L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6B583A2425091E93"
+					table_id: 3438619514375427762L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				icon: "minecraft:honey_block"
+				id: "6AC1B7EEEDD3EF2E"
+				structure: "the_bumblezone:honey_slime_ranch"
+				title: "蜂蜜史莱姆小屋"
+				type: "structure"
+			}]
+			title: "抵达蜂蜜史莱姆小屋"
+			x: -2.5d
+			y: -9.0d
+		}
+		{
+			dependencies: [
+				"46E078294BA5AA8C"
+				"7199AD2FBDEC8CCE"
+				"36C5C25E8AE72EEA"
+				"5B65D69C2B5F7341"
+				"45088E4751B82C80"
+				"44E30E935CEE0C30"
+				"23622CF2FAF587F6"
+				"1D7DD43E8F427442"
+				"545C256A9675B814"
+				"23D33476C462484F"
+				"2225F6760A63F6B9"
+				"4A38007839EC9BE5"
+				"02397280BFD97DB9"
+				"5E921C655682C73E"
+				"31E8F7D80AC84E64"
+				"58C8469421AEDDEE"
+				"03C7785D51E54542"
+				"483EC307669D33A9"
+				"6107816C069C9BB4"
+				"2FC3F6C1C95CF2E7"
+				"6F4A185CF5DDE250"
+				"1FBE578E5F7A2BD1"
+				"33A61C6B10F613F7"
+				"541C083D03639CEE"
+				"22C2A728C3CF7D68"
+				"312725E527EBEFA7"
+				"2C56FFB984D2E5A5"
+			]
+			icon: "plushies:bee_plushie"
+			id: "739C9B9EB9AE0F75"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1AA8F415B5332D1F"
+					table_id: 2953109549610839980L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "402C270D8BEAF6F4"
+					table_id: 3438619514375427762L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4AC0FCA5E34BB206"
+					table_id: 7229437663258640740L
+					type: "loot"
+				}
+				{
+					count: 5
+					id: "2CA4CFC6B489C6E3"
+					item: "the_bumblezone:royal_jelly_bucket"
+					type: "item"
+				}
+			]
+			size: 2.0d
+			tasks: [{
+				id: "1A212B2C3597F383"
+				type: "checkmark"
+			}]
+			title: "不可思议！你发现了蜜蜂维度所有结构！！！"
+			x: 0.0d
+			y: -8.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["41247417B891AFEE"]
+			id: "55657AC8D4CA2949"
+			rewards: [{
+				id: "627774A1DEF9766A"
+				item: "the_bumblezone:royal_jelly_bottle"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:spider"
+				icon: "minecraft:spider_spawn_egg"
+				id: "12B5349D9416AB5F"
+				type: "kill"
+				value: 64L
+			}]
+			x: -1.5d
+			y: -1.0d
+		}
+	]
+	title: "《蜜蜂女王领域维度》（更新中）"
+}

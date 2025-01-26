@@ -1,0 +1,12 @@
+{
+  "dollEnabled": true,
+  "location": "BOTTOM_LEFT",
+  "dollXOffset": 100,
+  "dollYOffset": -48,
+  "dollSize": 34,
+  "dollLookingSides": 20,
+  "dollLookingUpDown": -20,
+  "dollHeadMode": "FREE",
+  "autoHide": false,
+  "hideInF5": true
+}

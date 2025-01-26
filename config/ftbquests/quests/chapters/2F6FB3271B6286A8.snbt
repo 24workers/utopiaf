@@ -1,0 +1,2638 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "2F6FB3271B6286A8"
+	group: "4907EE8B35520E51"
+	icon: "beachparty:sweetberries_cocktail"
+	id: "2F6FB3271B6286A8"
+	images: [
+		{
+			height: 10.0d
+			image: "minecraft:textures/yinping1.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: 1.0d
+			y: 15.5d
+		}
+		{
+			height: 10.0d
+			image: "minecraft:textures/yinping2.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: -10.5d
+			y: 16.5d
+		}
+		{
+			height: 10.0d
+			image: "minecraft:textures/yinping5.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: -10.5d
+			y: -2.5d
+		}
+		{
+			height: 10.0d
+			image: "minecraft:textures/yinping6.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: -10.5d
+			y: 5.5d
+		}
+		{
+			height: 10.0d
+			image: "minecraft:textures/yinping7.png"
+			order: 1
+			rotation: 0.0d
+			width: 10.0d
+			x: 12.0d
+			y: 3.5d
+		}
+		{
+			height: 10.0d
+			image: "minecraft:textures/yinping3.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: 23.5d
+			y: 3.5d
+		}
+		{
+			height: 10.0d
+			image: "minecraft:textures/yinping9.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: 12.5d
+			y: 17.0d
+		}
+		{
+			height: 10.0d
+			image: "minecraft:textures/yinping8.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: 23.5d
+			y: 16.5d
+		}
+		{
+			height: 10.0d
+			image: "minecraft:textures/yinping10.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: 0.5d
+			y: 3.5d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["5D76823E4B99DEB0"]
+			description: [
+				"收集酿造&e啤酒&r / &e威士忌&r的基本原料（&e小麦、大麦、玉米&r）并将其&e右键放入烘干仓&r（期间副手不能持有物品），等待一段时间后即可从中右键取出相应的&e干燥原料&r"
+				""
+				"竖向叠放烘干仓可以增加其容量（至多可连接 9 个）"
+			]
+			id: "3F1C1F40EAECA2B0"
+			rewards: [{
+				id: "15AFBA6E2C97A1EF"
+				item: "brewery:barley_seeds"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "669EA5F935548C88"
+					item: "brewery:silo_wood"
+					type: "item"
+				}
+				{
+					id: "17A2D2C00726CD8F"
+					item: "brewery:silo_copper"
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["5D76823E4B99DEB0"]
+			description: [
+				"用于酿酒的大型设备方块，将&e啤酒花&r + &e干燥原料&r + &e水&r放入容器一侧，将煤炭放入熔炉一侧，等待数秒即可酿造成可用&e啤酒杯&r盛放的啤酒。"
+				""
+				"酿造站工作期间可能会产生一些&e需要玩家调整&r的小事件：诸如需求更多&e燃料&r、把&e多余的水舀出&r等"
+				"如果不调整，有几率刷出&e啤酒人&r"
+			]
+			id: "7CD64D7865DD434D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "281DE15A1E16D31A"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "4855B5CE0080CB45"
+					item: "brewery:wooden_brewingstation"
+					type: "item"
+				}
+				{
+					id: "23583683032AE844"
+					item: "brewery:copper_brewingstation"
+					type: "item"
+				}
+				{
+					id: "065A0A03C915F6A0"
+					item: "brewery:netherite_brewingstation"
+					type: "item"
+				}
+				{
+					id: "1E16F2D7F3607584"
+					item: "brewery:beer_mug"
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["5D76823E4B99DEB0"]
+			description: ["新的村民职业方块，拥有该职业的村民会出售盛节精酿模组新增的作物种子 / 部分装饰性盔甲。"]
+			id: "669C0D0514DC88F1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "397E1E528B8F62DE"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [{
+				id: "31FD810EDB708597"
+				item: "brewery:bar_counter"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["669C0D0514DC88F1"]
+			id: "651F9118A6226B37"
+			tasks: [
+				{
+					id: "775C05CCD6E2C62C"
+					item: {
+						Count: 1
+						id: "brewery:brewfest_hat"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "622D3B7FDE7FB829"
+					item: {
+						Count: 1
+						id: "brewery:brewfest_regalia"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "78892ABF3855C9FC"
+					item: {
+						Count: 1
+						id: "brewery:brewfest_trousers"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "13A2614EC013FF80"
+					item: {
+						Count: 1
+						id: "brewery:brewfest_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["669C0D0514DC88F1"]
+			id: "590DC31595F838FB"
+			tasks: [
+				{
+					id: "3A39C82029B173CD"
+					item: {
+						Count: 1
+						id: "brewery:brewfest_hat_red"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1915E58E44C04D13"
+					item: {
+						Count: 1
+						id: "brewery:brewfest_dress"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6669BA3CF4D4E38F"
+					item: {
+						Count: 1
+						id: "brewery:brewfest_blouse"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4C9DA79B36B8E437"
+					item: {
+						Count: 1
+						id: "brewery:brewfest_shoes"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["5D76823E4B99DEB0"]
+			id: "2BAEE933C27DD0F0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "61EEB9D1B0061A79"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4EFECE540E5B7080"
+				item: "brewery:barrel_main"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 9.0d
+		}
+		{
+			description: ["啤酒花在&e针叶林生物群系&r生成，种植此作物需要一些精细的人工调整：建造 &e2~3 格&r或&e更高&r的栅栏，然后使用绳索在最高处链接栅栏，最后在绳索的最低端种植啤酒花种子即可。"]
+			id: "5D76823E4B99DEB0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0EC88AA1F76E3D68"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "61F738D2D21B07A1"
+					item: "brewery:hops_seeds"
+					type: "item"
+				}
+				{
+					id: "3F44F7310D351967"
+					item: "brewery:rope"
+					type: "item"
+				}
+				{
+					id: "17014F2A65AF8229"
+					item: "brewery:breathalyzer"
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["3F1C1F40EAECA2B0"]
+			id: "0EF0659C7F96746B"
+			tasks: [{
+				id: "6AE6B1D936A7A1EC"
+				item: "brewery:dried_wheat"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["3F1C1F40EAECA2B0"]
+			id: "06D082EFB59C9281"
+			tasks: [{
+				id: "72AF7E1D9C342483"
+				item: "brewery:dried_barley"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["3F1C1F40EAECA2B0"]
+			id: "0B9CBD063A4A171E"
+			tasks: [{
+				id: "2D158CCD55C8C31E"
+				item: "brewery:dried_corn"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 10.0d
+		}
+		{
+			id: "2524E6B1048C1F8A"
+			tasks: [{
+				id: "156F2B25F57C9F72"
+				item: "brewery:beer_wheat"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 8.0d
+		}
+		{
+			id: "63B070C78F69DB34"
+			tasks: [{
+				id: "567DD39696F6752D"
+				item: "brewery:beer_hops"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 8.0d
+		}
+		{
+			id: "614D65AAD842552D"
+			tasks: [{
+				id: "3E53FDAB2AB6ACD9"
+				item: "brewery:beer_barley"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 8.0d
+		}
+		{
+			id: "1A193A632EE1635B"
+			tasks: [{
+				id: "32FFB9F0D543920B"
+				item: "brewery:beer_haley"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 8.0d
+		}
+		{
+			id: "22735478A6434B5D"
+			tasks: [{
+				id: "40D959611398A9D9"
+				item: "brewery:beer_elemental_spawn_egg"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 6.5d
+		}
+		{
+			id: "49EACA7766AC3AF5"
+			tasks: [{
+				id: "0A77735621A5B4EC"
+				item: "brewery:whiskey_maggoallan"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 8.0d
+		}
+		{
+			id: "4A88AA483919163F"
+			tasks: [{
+				id: "30F1A56901ABE20F"
+				item: "brewery:whiskey_carrasconlabel"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 7.5d
+		}
+		{
+			id: "44681BF751BE014F"
+			tasks: [{
+				id: "10A6E987CD43BC44"
+				item: "brewery:whiskey_lilitusinglemalt"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 6.5d
+		}
+		{
+			id: "601C6977D12855CD"
+			tasks: [{
+				id: "09EF382228512A82"
+				item: "brewery:whiskey_jojannik"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 8.0d
+		}
+		{
+			id: "718FB7C14C9DD109"
+			tasks: [{
+				id: "0399F872196F4007"
+				item: "brewery:whiskey_cristelwalker"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 8.0d
+		}
+		{
+			id: "2E4BD20C6BA21657"
+			rewards: [
+				{
+					id: "51BCE63AE968366A"
+					item: "herbalbrews:coffee_beans"
+					type: "item"
+				}
+				{
+					id: "1ACC056808C63D27"
+					item: "herbalbrews:yerba_mate_leaf"
+					type: "item"
+				}
+				{
+					id: "09E25E66933B6396"
+					item: "herbalbrews:lavender_blossom"
+					type: "item"
+				}
+				{
+					id: "1FDC5773AEA9B25A"
+					item: "minecraft:music_disc_chirp"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7BBC2175CDEE38AE"
+					table_id: 2953109549610839980L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "24718987EBCDCA9F"
+					item: "herbalbrews:tea_kettle"
+					type: "item"
+				}
+				{
+					id: "58BA10B8F7F9FB18"
+					item: "herbalbrews:copper_tea_kettle"
+					type: "item"
+				}
+				{
+					id: "0C44D5458023888F"
+					item: {
+						Count: 1
+						id: "herbalbrews:jug"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0278D166462DEE2D"
+					item: "herbalbrews:stove"
+					type: "item"
+				}
+			]
+			x: -10.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2E4BD20C6BA21657"]
+			id: "5E72BA4A29FF94D3"
+			tasks: [
+				{
+					id: "51B81637802F05FA"
+					item: "herbalbrews:rooibos_leaf"
+					type: "item"
+				}
+				{
+					id: "7DD18A77ACD17490"
+					item: "herbalbrews:yerba_mate_leaf"
+					type: "item"
+				}
+				{
+					id: "065D4158C20F21F0"
+					item: "herbalbrews:tea_blossom"
+					type: "item"
+				}
+			]
+			x: -10.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5E72BA4A29FF94D3"]
+			description: ["将茶叶块放在户外等待其晾干"]
+			id: "7D41A59A51EAA998"
+			tasks: [
+				{
+					id: "07AC132CA366048D"
+					item: "herbalbrews:green_tea_leaf_block"
+					type: "item"
+				}
+				{
+					id: "4CF5E2F4EC9DAF83"
+					item: "herbalbrews:dried_green_tea_leaf_block"
+					type: "item"
+				}
+				{
+					id: "37B94A3BAB76A9EA"
+					item: "herbalbrews:dried_out_green_tea_leaf_block"
+					type: "item"
+				}
+				{
+					id: "59903FA59DD3C344"
+					item: "herbalbrews:black_tea_leaf_block"
+					type: "item"
+				}
+				{
+					id: "10D90954B6402A10"
+					item: "herbalbrews:mixed_tea_leaf_block"
+					type: "item"
+				}
+				{
+					id: "26D3CCB8B3553F5C"
+					item: "herbalbrews:oolong_tea_leaf_block"
+					type: "item"
+				}
+				{
+					id: "166B2117FB3BC779"
+					item: "herbalbrews:tea_leaf_crate"
+					type: "item"
+				}
+			]
+			x: -11.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5E72BA4A29FF94D3"]
+			id: "6B86D608A1EDAB6A"
+			tasks: [
+				{
+					id: "143A70BD52A7CC33"
+					item: {
+						Count: 1
+						id: "herbalbrews:top_hat"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2CED220402CBEDB1"
+					item: {
+						Count: 1
+						id: "herbalbrews:witch_hat"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -9.5d
+			y: 1.5d
+		}
+		{
+			id: "15555EACA61DFB95"
+			tasks: [{
+				id: "145FAE6804BA12B9"
+				item: "croptopia:coffee"
+				type: "item"
+			}]
+			x: -14.0d
+			y: 9.5d
+		}
+		{
+			id: "706FA255201A9036"
+			tasks: [{
+				id: "1456EF71D0743825"
+				item: {
+					Count: 1
+					id: "nethervinery:netherite_nectar"
+					tag: {
+						Year: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 16.5d
+			y: 4.0d
+		}
+		{
+			id: "0E2074BD10459AA0"
+			tasks: [{
+				id: "6510F363371A4A62"
+				item: {
+					Count: 1
+					id: "nethervinery:lava_fizz"
+					tag: {
+						Year: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: 0.0d
+		}
+		{
+			id: "54A06FDEA39FB6A5"
+			tasks: [{
+				id: "5EFE0F93875C1D1A"
+				item: {
+					Count: 1
+					id: "nethervinery:improved_lava_fizz"
+					tag: {
+						Year: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 17.0d
+			y: 8.0d
+		}
+		{
+			id: "422F65FF81975817"
+			tasks: [{
+				id: "46A88843490D5D26"
+				item: {
+					Count: 1
+					id: "nethervinery:improved_nether_fizz"
+					tag: {
+						Year: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: 7.0d
+		}
+		{
+			id: "30050D2263AFD216"
+			tasks: [{
+				id: "5A5447DC62C78FB6"
+				item: {
+					Count: 1
+					id: "nethervinery:nether_fizz"
+					tag: {
+						Year: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: 6.0d
+		}
+		{
+			id: "1B0F6D36E0D8DF9D"
+			tasks: [{
+				id: "5BAD18418BE026D4"
+				item: {
+					Count: 1
+					id: "nethervinery:ghastly_grenache"
+					tag: {
+						Year: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: 8.0d
+		}
+		{
+			id: "32B91072F2B69527"
+			tasks: [{
+				id: "346DF310066B3E49"
+				item: {
+					Count: 1
+					id: "nethervinery:blazewine_pinot"
+					tag: {
+						Year: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 14.0d
+			y: 8.0d
+		}
+		{
+			id: "2D43A79FDC67ACF6"
+			tasks: [{
+				id: "131D08CE440921D1"
+				item: "nethervinery:warped_grapejuice"
+				type: "item"
+			}]
+			x: 24.5d
+			y: 8.0d
+		}
+		{
+			id: "479877DFEBD35F18"
+			tasks: [{
+				id: "3FD1DDE831C2DF77"
+				item: "nethervinery:crimson_grapejuice"
+				type: "item"
+			}]
+			x: 21.5d
+			y: 8.0d
+		}
+		{
+			id: "4A91BD37CA603195"
+			tasks: [
+				{
+					id: "135254C7853B1392"
+					item: {
+						Count: 1
+						id: "vinery:straw_hat"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6F5B35913C9E0D35"
+					item: {
+						Count: 1
+						id: "vinery:winemaker_apron"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "672A77C412073D62"
+					item: {
+						Count: 1
+						id: "vinery:winemaker_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7146C5C57D5D1212"
+					item: {
+						Count: 1
+						id: "vinery:winemaker_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "葡萄园丁套装"
+			x: 24.0d
+			y: 10.0d
+		}
+		{
+			id: "71DE5C244B91064A"
+			tasks: [{
+				id: "4006DE0BF41F7D9F"
+				item: "vinery:red_jungle_grapejuice"
+				type: "item"
+			}]
+			x: 27.5d
+			y: 8.0d
+		}
+		{
+			id: "7C95A10FA50C8A9F"
+			tasks: [{
+				id: "63E9478BC0E34483"
+				item: "vinery:white_taiga_grapejuice"
+				type: "item"
+			}]
+			x: 23.5d
+			y: 8.0d
+		}
+		{
+			id: "3FC1FF8892243320"
+			tasks: [{
+				id: "5C9FD10739221C42"
+				item: "vinery:red_taiga_grapejuice"
+				type: "item"
+			}]
+			x: 20.5d
+			y: 8.0d
+		}
+		{
+			id: "6E8C182F1D7A99FA"
+			tasks: [{
+				id: "1A0A01819DA4305B"
+				item: "vinery:red_grapejuice"
+				type: "item"
+			}]
+			x: 22.5d
+			y: 8.0d
+		}
+		{
+			id: "55D87299CE27BE42"
+			tasks: [{
+				id: "59ADC4B6816DB2CC"
+				item: "vinery:apple_juice"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 8.0d
+		}
+		{
+			id: "0F63EFA422188D89"
+			tasks: [{
+				id: "3FA1045721E81359"
+				item: "vinery:white_jungle_grapejuice"
+				type: "item"
+			}]
+			x: 26.5d
+			y: 8.0d
+		}
+		{
+			id: "686538EA8FA57A80"
+			tasks: [{
+				id: "1619DA465C0B85AD"
+				item: "vinery:red_savanna_grapejuice"
+				type: "item"
+			}]
+			x: 25.5d
+			y: 8.0d
+		}
+		{
+			id: "77AF5A6D0F0B168B"
+			tasks: [{
+				id: "670198E5ABED84EE"
+				item: "vinery:white_savanna_grapejuice"
+				type: "item"
+			}]
+			x: 19.5d
+			y: 8.0d
+		}
+		{
+			id: "3C95EA293E9FCA85"
+			tasks: [{
+				id: "6A2DF5B73E797600"
+				item: {
+					Count: 1
+					id: "vinery:magnetic_wine"
+					tag: {
+						Year: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: 0.0d
+		}
+		{
+			id: "54DF063A28A0C49C"
+			tasks: [{
+				id: "338FEC60D38336C0"
+				item: {
+					Count: 1
+					id: "vinery:noir_wine"
+					tag: {
+						Year: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 8.0d
+		}
+		{
+			id: "4162A15EA70A8F4D"
+			tasks: [{
+				id: "340CEE95B2B22B7A"
+				item: {
+					Count: 1
+					id: "vinery:stal_wine"
+					tag: {
+						Year: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 16.5d
+			y: 3.0d
+		}
+		{
+			id: "24CAF93636510E67"
+			tasks: [{
+				id: "2EF33771BF7DAD3E"
+				item: {
+					Count: 1
+					id: "vinery:strad_wine"
+					tag: {
+						Year: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 2.0d
+		}
+		{
+			id: "7E57B909CC24EE5C"
+			tasks: [{
+				id: "75BB2048F17109A0"
+				item: {
+					Count: 1
+					id: "vinery:solaris_wine"
+					tag: {
+						Year: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 15.0d
+			y: 8.0d
+		}
+		{
+			id: "5FC5FA2D8A2DE22D"
+			tasks: [{
+				id: "436D9601476B0226"
+				item: {
+					Count: 1
+					id: "vinery:cherry_wine"
+					tag: {
+						Year: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: 8.0d
+		}
+		{
+			id: "5EFC683D1AF53144"
+			tasks: [{
+				id: "2A053CEB2BB96A4D"
+				item: {
+					Count: 1
+					id: "vinery:chorus_wine"
+					tag: {
+						Year: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 12.0d
+			y: 8.0d
+		}
+		{
+			id: "134A41C2C1323C50"
+			tasks: [{
+				id: "454247EA297357A1"
+				item: {
+					Count: 1
+					id: "vinery:mellohi_wine"
+					tag: {
+						Year: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 17.0d
+			y: 5.0d
+		}
+		{
+			id: "4CCB7B837D0A2E37"
+			tasks: [{
+				id: "19FD7C281BC1AFD9"
+				item: {
+					Count: 1
+					id: "vinery:apple_wine"
+					tag: {
+						Year: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: 5.0d
+		}
+		{
+			id: "6FAA293EF4B01C78"
+			tasks: [{
+				id: "5C06A1153A7560D5"
+				item: {
+					Count: 1
+					id: "vinery:chenet_wine"
+					tag: {
+						Year: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 8.0d
+		}
+		{
+			id: "2F283DADE6DAFC01"
+			tasks: [{
+				id: "7C152331CBB052C0"
+				item: {
+					Count: 1
+					id: "vinery:clark_wine"
+					tag: {
+						Year: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: 4.0d
+		}
+		{
+			id: "09FBD5A916FA60B8"
+			tasks: [{
+				id: "1C35FD70A605CC8B"
+				item: {
+					Count: 1
+					id: "vinery:bolvar_wine"
+					tag: {
+						Year: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 17.0d
+			y: 7.0d
+		}
+		{
+			id: "00B36935651C30D7"
+			tasks: [{
+				id: "446205953C518C13"
+				item: {
+					Count: 1
+					id: "vinery:glowing_wine"
+					tag: {
+						Year: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 16.5d
+			y: 2.0d
+		}
+		{
+			id: "5908EB28BD47ECEB"
+			tasks: [{
+				id: "72E434231EF39621"
+				item: {
+					Count: 1
+					id: "vinery:cristel_wine"
+					tag: {
+						Year: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 15.5d
+			y: 0.0d
+		}
+		{
+			id: "4CCF86E4FE3E8BBB"
+			tasks: [{
+				id: "467526495C401F1F"
+				item: {
+					Count: 1
+					id: "vinery:red_wine"
+					tag: {
+						Year: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 13.0d
+			y: 8.0d
+		}
+		{
+			id: "33A1C2971CC4962D"
+			tasks: [{
+				id: "22D6017D7BBE9435"
+				item: {
+					Count: 1
+					id: "vinery:jellie_wine"
+					tag: {
+						Year: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 16.0d
+			y: 1.0d
+		}
+		{
+			id: "779C175842329E36"
+			tasks: [{
+				id: "26D48112CE133401"
+				item: {
+					Count: 1
+					id: "vinery:mead"
+					tag: {
+						Year: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 3.0d
+		}
+		{
+			description: [
+				"将葡萄放入压榨盆，在葡萄上面&e来回跳&r，然后用&e葡萄酒瓶&r去接&d葡萄汁&r。"
+				"榨酒器：用于&e压榨苹果&r制成&e苹果泥&r。"
+			]
+			id: "501769C32396D6EC"
+			tasks: [
+				{
+					id: "050D6D6BDDDEDCF1"
+					item: "vinery:grapevine_pot"
+					type: "item"
+				}
+				{
+					id: "0515E509CF2D6D4F"
+					item: "nethervinery:warped_grapevine_pot"
+					type: "item"
+				}
+				{
+					id: "4DBD5AD8C5F0DA3F"
+					item: "nethervinery:crimson_grapevine_pot"
+					type: "item"
+				}
+				{
+					id: "7210162A25C402E7"
+					item: "vinery:apple_press"
+					type: "item"
+				}
+			]
+			x: 23.5d
+			y: 9.0d
+		}
+		{
+			id: "3C5E53782BE9BB45"
+			tasks: [
+				{
+					id: "1EE47C3D8F5D3D82"
+					item: "vinery:fermentation_barrel"
+					type: "item"
+				}
+				{
+					id: "17936DE9C410BFF6"
+					item: "nethervinery:warped_fermentation_barrel"
+					type: "item"
+				}
+				{
+					id: "6E69743E53324C8E"
+					item: "nethervinery:crimson_fermentation_barrel"
+					type: "item"
+				}
+			]
+			title: "陈化桶（发酵桶）"
+			x: 12.0d
+			y: 9.0d
+		}
+		{
+			id: "1A47081C16844EBC"
+			tasks: [
+				{
+					id: "1E246BF0D1215AA7"
+					item: "vinery:oak_wine_rack_big"
+					type: "item"
+				}
+				{
+					id: "4394A6C730DA0354"
+					item: "vinery:birch_wine_rack_big"
+					type: "item"
+				}
+				{
+					id: "1FB273A14DBD8643"
+					item: "vinery:spruce_wine_rack_big"
+					type: "item"
+				}
+				{
+					id: "2506793D80B4969F"
+					item: "vinery:dark_oak_wine_rack_big"
+					type: "item"
+				}
+				{
+					id: "17F84855ADF8F7B1"
+					item: "vinery:jungle_wine_rack_big"
+					type: "item"
+				}
+				{
+					id: "7179DBB8F2FDC45C"
+					item: "vinery:acacia_wine_rack_big"
+					type: "item"
+				}
+				{
+					id: "4AB3E18DB8E59C50"
+					item: "vinery:mangrove_wine_rack_big"
+					type: "item"
+				}
+				{
+					id: "2A9B336C25589488"
+					item: "vinery:bamboo_wine_rack_big"
+					type: "item"
+				}
+				{
+					id: "0304415C12EB2499"
+					item: "nethervinery:warped_wine_rack_big"
+					type: "item"
+				}
+				{
+					id: "7A41A5A3ED1490A7"
+					item: "nethervinery:crimson_wine_rack_big"
+					type: "item"
+				}
+			]
+			x: 25.0d
+			y: 10.0d
+		}
+		{
+			id: "202F3A5746F6D8B5"
+			tasks: [
+				{
+					id: "6350406B18A38646"
+					item: "vinery:oak_wine_rack_small"
+					type: "item"
+				}
+				{
+					id: "5413FC0D6EEF4236"
+					item: "vinery:birch_wine_rack_small"
+					type: "item"
+				}
+				{
+					id: "307AAF357078094C"
+					item: "vinery:spruce_wine_rack_small"
+					type: "item"
+				}
+				{
+					id: "79498672ED40CC89"
+					item: "vinery:dark_oak_wine_rack_small"
+					type: "item"
+				}
+				{
+					id: "6F98449468035253"
+					item: "vinery:jungle_wine_rack_small"
+					type: "item"
+				}
+				{
+					id: "1A65A55351865D38"
+					item: "vinery:acacia_wine_rack_small"
+					type: "item"
+				}
+				{
+					id: "0506327545F6974E"
+					item: "vinery:mangrove_wine_rack_small"
+					type: "item"
+				}
+				{
+					id: "31921F47F2A453BE"
+					item: "vinery:bamboo_wine_rack_small"
+					type: "item"
+				}
+				{
+					id: "26735F19A03F2BDC"
+					item: "nethervinery:warped_wine_rack_small"
+					type: "item"
+				}
+				{
+					id: "281D6C1E1486AB47"
+					item: "nethervinery:crimson_wine_rack_small"
+					type: "item"
+				}
+			]
+			x: 22.0d
+			y: 10.0d
+		}
+		{
+			id: "06687C63A2ADF5F3"
+			tasks: [
+				{
+					id: "45B9EFEE24FE648A"
+					item: "vinery:oak_wine_rack_mid"
+					type: "item"
+				}
+				{
+					id: "50963D700E6AC8B0"
+					item: "vinery:birch_wine_rack_mid"
+					type: "item"
+				}
+				{
+					id: "49B9D8E2DDB47B82"
+					item: "vinery:spruce_wine_rack_mid"
+					type: "item"
+				}
+				{
+					id: "18C0E7CBBED8C9A4"
+					item: "vinery:dark_oak_wine_rack_mid"
+					type: "item"
+				}
+				{
+					id: "10874357D098D4C2"
+					item: "vinery:jungle_wine_rack_mid"
+					type: "item"
+				}
+				{
+					id: "5E8F3FF5F94DB618"
+					item: "vinery:acacia_wine_rack_mid"
+					type: "item"
+				}
+				{
+					id: "51FF3F5A966764DE"
+					item: "vinery:mangrove_wine_rack_mid"
+					type: "item"
+				}
+				{
+					id: "43FC4C51DA855E03"
+					item: "vinery:cherry_wine_rack_mid"
+					type: "item"
+				}
+				{
+					id: "6B9F853D49C09415"
+					item: "vinery:bamboo_wine_rack_mid"
+					type: "item"
+				}
+				{
+					id: "40B60116E214B525"
+					item: "nethervinery:warped_wine_rack_mid"
+					type: "item"
+				}
+				{
+					id: "0E4E3A0B32FA497A"
+					item: "nethervinery:crimson_wine_rack_mid"
+					type: "item"
+				}
+			]
+			x: 23.0d
+			y: 10.0d
+		}
+		{
+			description: [
+				""
+				"首先需要弄到一些&e葡萄&r与&e葡萄籽&r，你可在&e葡萄灌木、路边的杂草、村庄，&r或是时不时造访你的宅邸的&e流浪酿酒师&r那里获得这些东西。"
+				"种下&e葡萄籽&r后，很快你会收获一批葡萄，你可以直接将它们吃掉，也可以把他们放入&e盆&r中，然后&e跳上去将它们踩碎&r，而后用&e空葡萄酒瓶去接葡萄汁&r。将&e葡萄汁&r倒进&e木桶&r里，加入&e浆果、蜂蜜等辅料&r，然后就开始酿造啦！"
+				"当然，什么样的成品取决于你在酿造时加入了什么品种的葡萄以及什么样的辅料。"
+				""
+				"&e葡萄藤架&r：主要用于种植葡萄种子（&e除丛林葡萄种子&r外皆可），需要垂直堆叠至少&e2格高&r。手持葡萄种子对其堆叠结构高于2格的部分使用后会长出类似树叶的外观，但其比树叶多出两个面，并与普通方块的模型相比稍微向下错位。"
+				"树叶部分没有碰撞箱，但是葡萄藤架部分有碰撞箱，可以在两个相邻的葡萄藤架之间穿梭。"
+				""
+				"&e柴火堆&r：需要&e堆砌两个&r，再使用打火石点燃。"
+			]
+			id: "23D83751A2D5BD94"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2BBFDC49E82A4A39"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "180F46D2854137E8"
+					item: "vinery:grapevine_stem"
+					type: "item"
+				}
+				{
+					id: "4881FE5ED4BC1AEF"
+					item: "vinery:stackable_log"
+					type: "item"
+				}
+				{
+					id: "1699EC543DB7A8ED"
+					item: "vinery:wine_bottle"
+					type: "item"
+				}
+				{
+					id: "1F98F2F7D2330418"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "vinery:lattice"
+						}
+					}
+					title: "葡萄爬架"
+					type: "item"
+				}
+				{
+					id: "6900A995F8F0EE36"
+					item: "nethervinery:obsidian_stem"
+					type: "item"
+				}
+			]
+			x: 22.5d
+			y: 9.0d
+		}
+		{
+			id: "374CBFC4A22975C7"
+			tasks: [{
+				id: "592EFA056319BDA1"
+				item: "festive_delight:christmas_tea"
+				type: "item"
+			}]
+			x: -13.0d
+			y: 9.5d
+		}
+		{
+			id: "4AF49E4383A8183D"
+			tasks: [{
+				id: "7D195BC88DF88EA4"
+				item: {
+					Count: 1
+					id: "vinery:eiswein"
+					tag: {
+						Year: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 11.0d
+			y: 8.0d
+		}
+		{
+			id: "27297C0507449E01"
+			tasks: [{
+				id: "21D9AF8AF1AFF005"
+				item: {
+					Count: 1
+					id: "vinery:bottle_mojang_noir"
+					tag: {
+						Year: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 1.0d
+		}
+		{
+			id: "5F15E97DD9E88770"
+			tasks: [{
+				id: "08CE7DF10CCA6FE6"
+				item: {
+					Count: 1
+					id: "vinery:mead"
+					tag: {
+						Year: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 17.0d
+			y: 6.0d
+		}
+		{
+			id: "5C7A673DE5842B46"
+			tasks: [
+				{
+					id: "6532A0079A12429B"
+					item: "vinery:wine_box"
+					type: "item"
+				}
+				{
+					id: "3B22932B3B71CF6A"
+					item: "vinery:storage_pot"
+					type: "item"
+				}
+				{
+					id: "4860FD0474BD1210"
+					item: "vinery:basket"
+					type: "item"
+				}
+			]
+			x: 24.5d
+			y: 9.0d
+		}
+		{
+			id: "5679CDCAEF17E20E"
+			rewards: [{
+				id: "05502FBAFFE6901C"
+				item: "beachparty:overgrown_disc"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6F48612436370083"
+				item: "beachparty:mini_fridge"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 22.0d
+		}
+		{
+			id: "65D41668829338F7"
+			rewards: [
+				{
+					count: 10
+					id: "69AEA7B7A4A57B2A"
+					item: "minecraft:ice"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "236D753FE56683A2"
+					table_id: 2953109549610839980L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "529ED29908CA88EF"
+					item: "beachparty:tiki_bar"
+					type: "item"
+				}
+				{
+					id: "0EAA98CC7887FF37"
+					item: "beachparty:cabinet"
+					type: "item"
+				}
+			]
+			x: -9.0d
+			y: 22.0d
+		}
+		{
+			id: "2F92B4602B562625"
+			tasks: [{
+				id: "4B8BF92A44F034A4"
+				item: "beachparty:coconut_cocktail"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 20.5d
+		}
+		{
+			id: "4D8D0113D6E3DD3D"
+			tasks: [{
+				id: "6F1046554F9747B9"
+				item: "beachparty:sweetberries_cocktail"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 20.5d
+		}
+		{
+			id: "5BB373135E27C208"
+			tasks: [{
+				id: "5CB0D7BEC971D644"
+				item: "beachparty:cocoa_cocktail"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 20.5d
+		}
+		{
+			id: "1802DEA136944796"
+			tasks: [{
+				id: "0AA730342CA6FE47"
+				item: "beachparty:honey_cocktail"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 20.5d
+		}
+		{
+			id: "4CA0380D8FD7FAD4"
+			tasks: [{
+				id: "7B6193BC2C969195"
+				item: "beachparty:melon_cocktail"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 20.5d
+		}
+		{
+			id: "3BB33763AF5B95FD"
+			tasks: [{
+				id: "718F7CCBED7D8FDB"
+				item: "beachparty:pumpkin_cocktail"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 20.5d
+		}
+		{
+			id: "627239012FBC2BE9"
+			tasks: [{
+				id: "4527A0463392F1BF"
+				item: "beachparty:icecream_coconut"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 20.5d
+		}
+		{
+			id: "3D55067A6FF70736"
+			tasks: [{
+				id: "43D35F103E392F9D"
+				item: "beachparty:sweetberry_icecream"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 20.5d
+		}
+		{
+			id: "206F9DBED90C1350"
+			tasks: [{
+				id: "527DAADF3C355E32"
+				item: "beachparty:sweetberry_milkshake"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 19.5d
+		}
+		{
+			id: "604B22F8AEB96B6A"
+			rewards: [{
+				count: 10
+				id: "7A2ADB32E5FCB7E3"
+				item: "minecraft:snowball"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4C40C0E8D48B2CD8"
+				item: "beachparty:coconut_milkshake"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 20.5d
+		}
+		{
+			id: "1EE7F600243B1D2A"
+			tasks: [{
+				id: "6715F9215A787F1B"
+				item: "beachparty:coconut_icecream"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 20.5d
+		}
+		{
+			id: "7D8A83C01B13CA46"
+			tasks: [{
+				id: "205E53C1DF894E38"
+				item: "beachparty:icecream_cactus"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 20.5d
+		}
+		{
+			id: "2AA0612E0B222144"
+			tasks: [{
+				id: "1647B7E4814863DF"
+				item: "beachparty:icecream_melon"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 20.5d
+		}
+		{
+			id: "6D8C0ABCCE9ADFD3"
+			tasks: [{
+				id: "6779F28EB3A6F18A"
+				item: "beachparty:chocolate_icecream"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 20.5d
+		}
+		{
+			id: "179B5E855AF3225E"
+			tasks: [{
+				id: "5264A1704B75DE22"
+				item: "beachparty:chocolate_milkshake"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 20.5d
+		}
+		{
+			id: "530949776B25F814"
+			tasks: [
+				{
+					id: "59C8173B5C888FAC"
+					item: "expandeddelight:apple_juice"
+					type: "item"
+				}
+				{
+					id: "5FC86A9DC7BB6C1B"
+					item: "expandeddelight:sweet_berry_juice"
+					type: "item"
+				}
+				{
+					id: "4DA58BCC232F9CA9"
+					item: "expandeddelight:glow_berry_juice"
+					type: "item"
+				}
+				{
+					id: "3C2D8D150623A993"
+					item: "farmersdelight:glow_berry_custard"
+					type: "item"
+				}
+			]
+			x: -13.0d
+			y: 20.5d
+		}
+		{
+			id: "2FEB02D1FFD58DC6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7F2602A096E95759"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "4C4AFD0AA201A8D5"
+					item: "expandeddelight:juicer_item"
+					type: "item"
+				}
+				{
+					id: "76577B3666B17C4D"
+					item: "croptopia:food_press"
+					type: "item"
+				}
+			]
+			x: -10.0d
+			y: 22.0d
+		}
+		{
+			id: "6A55097095591A1F"
+			tasks: [{
+				id: "4B9CA8B3097D9A44"
+				item: "croptopia:chocolate_milkshake"
+				type: "item"
+			}]
+			x: -14.0d
+			y: 20.5d
+		}
+		{
+			id: "242E1FCF124C480A"
+			tasks: [{
+				id: "5F109A8E80608AF6"
+				item: "festive_delight:salmon_verrines"
+				type: "item"
+			}]
+			x: -16.0d
+			y: 20.5d
+		}
+		{
+			id: "50CF81D5FAC00808"
+			tasks: [
+				{
+					id: "7E8123DC3E3EF879"
+					item: "ends_delight:chorus_fruit_wine"
+					type: "item"
+				}
+				{
+					id: "2C42736C69CB009C"
+					item: "farmersdelight:apple_cider"
+					type: "item"
+				}
+				{
+					id: "7522115557C9E0E5"
+					item: "snowyspirit:eggnog"
+					type: "item"
+				}
+				{
+					id: "54D9AF997939D0C1"
+					item: "supplementaries:goblet"
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: 7.5d
+		}
+		{
+			id: "7553B71707AFC44F"
+			tasks: [{
+				id: "0D1E0C17B46E16BA"
+				item: "melonslabs:melon_juice"
+				type: "item"
+			}]
+			x: -16.0d
+			y: 19.5d
+		}
+		{
+			id: "670C034E9E9645A9"
+			tasks: [{
+				id: "5AD673E13F13FFF0"
+				item: "melonslabs:apple_juice"
+				type: "item"
+			}]
+			x: -15.5d
+			y: 18.5d
+		}
+		{
+			id: "27186807CEAE1057"
+			tasks: [{
+				id: "52D22D7F19A4CB87"
+				item: "melonslabs:golden_apple_juice"
+				type: "item"
+			}]
+			x: -15.0d
+			y: 17.5d
+		}
+		{
+			id: "7B1ECFBD1FFDC4B3"
+			tasks: [{
+				id: "4C8734F75E90B119"
+				item: "melonslabs:enchanted_golden_apple_juice"
+				type: "item"
+			}]
+			x: -14.0d
+			y: 17.0d
+		}
+		{
+			id: "0DB456E7A8BDF198"
+			tasks: [{
+				id: "7B1B4EF68AECE949"
+				item: "betterend:umbrella_cluster_juice"
+				type: "item"
+			}]
+			x: 25.0d
+			y: 21.0d
+		}
+		{
+			id: "541A5F0D7B85DAC5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4605D70D121179DB"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [{
+				id: "75A2A78CDDD28405"
+				item: "bodacious_berries:juicer"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 22.0d
+		}
+		{
+			id: "177E5C5EDC416F86"
+			tasks: [{
+				id: "535CF7EE70E954D4"
+				item: "bodacious_berries:dubious_juice"
+				type: "item"
+			}]
+			x: -13.0d
+			y: 16.0d
+		}
+		{
+			id: "3CD716AD8EA19124"
+			tasks: [{
+				id: "27C9C611C7E160E6"
+				item: "bodacious_berries:saskatoon_berry_juice"
+				type: "item"
+			}]
+			x: 26.0d
+			y: 21.0d
+		}
+		{
+			id: "477A3F7DB41B5A6E"
+			tasks: [{
+				id: "774F571CD307F4C5"
+				item: "bodacious_berries:strawberry_juice"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 15.0d
+		}
+		{
+			id: "37690F2D9874866E"
+			tasks: [{
+				id: "2EFDC017C741F642"
+				item: "bodacious_berries:raspberry_juice"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 14.0d
+		}
+		{
+			id: "48DB5027D6B3A98C"
+			tasks: [{
+				id: "5989C67DE95BFE35"
+				item: "bodacious_berries:blackberry_juice"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 14.0d
+		}
+		{
+			id: "552D6E7792D6CF57"
+			tasks: [{
+				id: "187A033C2433F48C"
+				item: "bodacious_berries:rainberry_juice"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 14.0d
+		}
+		{
+			id: "5DCFEC31DDBB760C"
+			tasks: [{
+				id: "6B53A8844AA469F5"
+				item: "bodacious_berries:lingonberry_juice"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 14.5d
+		}
+		{
+			id: "56DB7DAEDB47B911"
+			tasks: [{
+				id: "7A42C31998A9DBCB"
+				item: "bodacious_berries:grape_juice"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 15.5d
+		}
+		{
+			id: "0494CB33B1749B70"
+			tasks: [{
+				id: "5A7FE07A80C8F466"
+				item: "bodacious_berries:goji_berry_juice"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 17.5d
+		}
+		{
+			id: "4F8BB40F76AC2FF2"
+			tasks: [{
+				id: "43ABE32F656BAF13"
+				item: "bodacious_berries:gooseberry_juice"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 18.5d
+		}
+		{
+			id: "5D3372BDF316985A"
+			tasks: [{
+				id: "1AB04F63ECE9F2E2"
+				item: "bodacious_berries:glow_berry_juice"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 19.5d
+		}
+		{
+			id: "1949C388F472194B"
+			tasks: [{
+				id: "0F9D1C731BF626D6"
+				item: "bodacious_berries:sweet_berry_juice"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 20.5d
+		}
+		{
+			id: "0E3CBD851CCBEEB8"
+			tasks: [{
+				id: "7E5FD1FD0F9EC73C"
+				item: "bodacious_berries:chorus_berry_juice"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 17.5d
+		}
+		{
+			id: "02E9F6C684121846"
+			tasks: [{
+				id: "24EE2EA8756C53A1"
+				item: "bodacious_berries:cloudberry_juice"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 16.5d
+		}
+		{
+			id: "226FA27D3F16945D"
+			tasks: [{
+				id: "1A31325B5B919719"
+				item: "bodacious_berries:chorus_berry_juice_plains"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 15.5d
+		}
+		{
+			id: "721F83E6092B7638"
+			tasks: [{
+				id: "65C088B10652BE6B"
+				item: "bodacious_berries:chorus_berry_juice_snowy_slopes"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 14.5d
+		}
+		{
+			id: "3CC4C75636132AFB"
+			tasks: [{
+				id: "546D939AD9017C76"
+				item: "bodacious_berries:chorus_berry_juice_swamp"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 14.5d
+		}
+		{
+			id: "71643D71A4B3F016"
+			tasks: [{
+				id: "68D7131235D34DE1"
+				item: "bodacious_berries:chorus_berry_juice_desert"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 14.0d
+		}
+		{
+			id: "68FB306A894C40F1"
+			tasks: [{
+				id: "4840E87BE63E3EFB"
+				item: "bodacious_berries:chorus_berry_juice_taiga"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 13.5d
+		}
+		{
+			id: "41200D7A634A00A3"
+			tasks: [{
+				id: "084904D84883A05D"
+				item: "bodacious_berries:chorus_berry_juice_birch_forest"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 17.5d
+		}
+		{
+			id: "7C4D620697ACDB43"
+			tasks: [{
+				id: "3147E55B9B0639F7"
+				item: "bodacious_berries:chorus_berry_juice_ocean"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 14.0d
+		}
+		{
+			id: "3A08F1710F332D73"
+			tasks: [{
+				id: "7515D15AB01E8E9B"
+				item: "bodacious_berries:chorus_berry_juice_mushroom_fields"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 14.0d
+		}
+		{
+			id: "0372F8A8D67432AB"
+			tasks: [{
+				id: "64B1D2C1C9115642"
+				item: "bodacious_berries:chorus_berry_juice_sunflower_plains"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 14.0d
+		}
+		{
+			id: "6DDEED669DB9F48B"
+			tasks: [{
+				id: "37DF2F56FBC651E1"
+				item: "bodacious_berries:chorus_berry_juice_forest"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 14.5d
+		}
+		{
+			id: "396288D192D4A8A2"
+			tasks: [{
+				id: "75F1F1BA1D276D2B"
+				item: "bodacious_berries:chorus_berry_juice_flower_forest"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 15.5d
+		}
+		{
+			id: "24AC3C785E4C1229"
+			tasks: [{
+				id: "3E32C40E050C49AC"
+				item: "bodacious_berries:chorus_berry_juice_dark_forest"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 16.5d
+		}
+		{
+			id: "6B07FB7EAC9D9315"
+			tasks: [{
+				id: "3D8FF3B539D2972C"
+				item: "bodacious_berries:chorus_berry_juice_savanna"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 18.5d
+		}
+		{
+			id: "0F621B9BB51A9CB4"
+			tasks: [{
+				id: "763FEFC418140E28"
+				item: "bodacious_berries:chorus_berry_juice_badlands"
+				type: "item"
+			}]
+			x: 23.0d
+			y: 21.0d
+		}
+		{
+			id: "58C62114AB47B4A6"
+			tasks: [{
+				id: "0B96F798D5C57ACE"
+				item: "bodacious_berries:chorus_berry_juice_meadow"
+				type: "item"
+			}]
+			x: 22.0d
+			y: 21.0d
+		}
+		{
+			id: "48921A86C75CF166"
+			tasks: [{
+				id: "263555BBEAE9AD48"
+				item: "bodacious_berries:chorus_berry_juice_lush_caves"
+				type: "item"
+			}]
+			x: 21.0d
+			y: 21.0d
+		}
+		{
+			id: "6C5D832A3CEC6060"
+			tasks: [{
+				id: "30BA82B53B083ACF"
+				item: "bodacious_berries:chorus_berry_juice_dripstone_caves"
+				type: "item"
+			}]
+			x: -15.0d
+			y: 20.5d
+		}
+		{
+			id: "026969C80CCF7AA0"
+			tasks: [{
+				id: "0CED6F59496D9874"
+				item: "bodacious_berries:chorus_berry_juice_jungle"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 14.0d
+		}
+		{
+			id: "1C7E44605FDB7F7C"
+			tasks: [{
+				id: "0DDA4274E392A0B2"
+				item: "bodacious_berries:opposite_juice"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 20.5d
+		}
+		{
+			id: "1904AEFC32614701"
+			tasks: [{
+				id: "0A83C4AA66694F5A"
+				item: "bodacious_berries:red_juice"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 20.5d
+		}
+		{
+			id: "416030D30A3B6DA1"
+			tasks: [{
+				id: "11AEB4278D332F0A"
+				item: "bodacious_berries:traffic_light_juice"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 20.5d
+		}
+		{
+			id: "7698735A777B7693"
+			tasks: [{
+				id: "47E568716730F0B4"
+				item: "croptopia:apple_juice"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 20.5d
+		}
+		{
+			id: "4AD589ECCDE9AD68"
+			tasks: [{
+				id: "79E8F8157CE2DE7F"
+				item: "croptopia:cranberry_juice"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 20.5d
+		}
+		{
+			id: "5856B6DD563AED9A"
+			tasks: [{
+				id: "40E2E2C4693D5025"
+				item: "croptopia:grape_juice"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 20.5d
+		}
+		{
+			id: "7794B10A75058DD4"
+			tasks: [{
+				id: "2603727FEB57F070"
+				item: "croptopia:melon_juice"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 20.5d
+		}
+		{
+			id: "2EA45DE10542C38B"
+			tasks: [{
+				id: "1EA230B2864045D4"
+				item: "croptopia:orange_juice"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 20.5d
+		}
+		{
+			id: "3C2ED513CD6788B4"
+			tasks: [{
+				id: "58F5AB441358CDAC"
+				item: "croptopia:pineapple_juice"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 20.5d
+		}
+		{
+			id: "22F38B4D32149908"
+			tasks: [{
+				id: "1588CA67B156677C"
+				item: "croptopia:saguaro_juice"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 20.5d
+		}
+		{
+			id: "524B2FA4971E6FBB"
+			tasks: [{
+				id: "71EEB72AA6988B5A"
+				item: "croptopia:tomato_juice"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 20.5d
+		}
+		{
+			id: "386556FF24391B0D"
+			tasks: [{
+				id: "2CAFEEEBB6B6B52C"
+				item: "croptopia:lemonade"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 18.5d
+		}
+		{
+			id: "5CE33588DD1A3960"
+			tasks: [{
+				id: "41398CF63D865641"
+				item: "croptopia:limeade"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 19.5d
+		}
+		{
+			id: "42AFC990F005E6F5"
+			tasks: [{
+				id: "2B1616703B4C1AB6"
+				item: "overweight_farming:melon_juice"
+				type: "item"
+			}]
+			x: 24.0d
+			y: 21.0d
+		}
+		{
+			id: "00F93CDEAF6C8AD9"
+			tasks: [{
+				id: "5C787FDB00423FEF"
+				item: "croptopia:fruit_smoothie"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 19.5d
+		}
+		{
+			id: "142B2587039A441F"
+			tasks: [{
+				id: "65FFD4E1CA4D8443"
+				item: "herbalbrews:green_tea"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 0.5d
+		}
+		{
+			id: "144F399743F7BEFA"
+			tasks: [{
+				id: "1DAF4552ACDF9435"
+				item: "herbalbrews:black_tea"
+				type: "item"
+			}]
+			x: -13.0d
+			y: 0.5d
+		}
+		{
+			id: "3B151ABF9C310CA6"
+			tasks: [{
+				id: "189319BBEB8A2BB8"
+				item: "herbalbrews:lavender_tea"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 0.5d
+		}
+		{
+			id: "7C5C93BFCB7BEE3D"
+			tasks: [{
+				id: "706BD0BF2A5C7D4E"
+				item: "herbalbrews:yerba_mate_tea"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 0.5d
+		}
+		{
+			id: "249B28D713A79E61"
+			tasks: [{
+				id: "7BF89F1280FDBD5F"
+				item: "herbalbrews:oolong_tea"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 0.5d
+		}
+		{
+			id: "5002AF2149E4B96E"
+			tasks: [{
+				id: "4A36511DEE1400C9"
+				item: "herbalbrews:rooibos_tea"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.5d
+		}
+		{
+			id: "4B7010358FB647E3"
+			tasks: [{
+				id: "5B0EB0CCA7035644"
+				item: "herbalbrews:hibiscus_tea"
+				type: "item"
+			}]
+			x: -14.0d
+			y: 0.5d
+		}
+		{
+			id: "443AB282D87B83C2"
+			tasks: [{
+				id: "3825FAE2B3E8626A"
+				item: "herbalbrews:milk_coffee"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 0.5d
+		}
+		{
+			id: "2AD36718B8B48A05"
+			tasks: [{
+				id: "6759CFF9E3DE9665"
+				item: "herbalbrews:coffee"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 0.5d
+		}
+		{
+			id: "3D97CFE7DB548D57"
+			tasks: [{
+				id: "03927E1E4BB95D3D"
+				item: "croptopia:tea"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 9.5d
+		}
+		{
+			id: "0FA3A69C511748CF"
+			tasks: [{
+				id: "1FF6FA012217A18E"
+				item: "ends_delight:chorus_fruit_milk_tea"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 9.5d
+		}
+		{
+			id: "49FA5E241A7EE481"
+			tasks: [{
+				id: "0196FB6F07084AA9"
+				item: "ends_delight:bubble_tea"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 9.5d
+		}
+		{
+			id: "03D8E510DCA4C442"
+			tasks: [{
+				id: "456DCBC81752CA53"
+				item: "ends_delight:chorus_flower_tea"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 9.5d
+		}
+		{
+			id: "1A176768866287B2"
+			tasks: [{
+				id: "15C5EFF9407F4591"
+				item: "soaringstructures2:heavenly_tea"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 9.5d
+		}
+		{
+			id: "1558C468D197DB0F"
+			tasks: [{
+				id: "1F1EE768F887BC12"
+				item: "soaringstructures2:heavenly_tea_with_cookies"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 9.5d
+		}
+		{
+			id: "2C106849CCAEA93D"
+			tasks: [{
+				id: "5ACB712493E63047"
+				item: "ends_delight:dragon_breath_soda"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 19.5d
+		}
+		{
+			id: "7E922F6EA714BC8C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "381CE0E97E9541DB"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1E01CEBDE9D34565"
+				item: "melonslabs:juicer"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 22.0d
+		}
+		{
+			id: "40C161C938D659AB"
+			tasks: [{
+				id: "522192F1EB76F183"
+				item: "casualness_delight:green_tongue"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 16.5d
+		}
+		{
+			id: "29B806226DC3BA62"
+			tasks: [{
+				id: "141B9D433CA64132"
+				item: "bountifulfares:green_tea_bottle"
+				type: "item"
+			}]
+			x: -15.0d
+			y: 0.5d
+		}
+		{
+			id: "4FCE136A1D4A1F88"
+			tasks: [{
+				id: "3D9CDBF403E093EC"
+				item: "bountifulfares:black_tea_bottle"
+				type: "item"
+			}]
+			x: -15.0d
+			y: -0.5d
+		}
+		{
+			id: "69E747133DC4D2C6"
+			tasks: [{
+				id: "5DAA791CCCE64F2E"
+				item: "bountifulfares:chamomile_tea_bottle"
+				type: "item"
+			}]
+			x: -15.0d
+			y: -1.5d
+		}
+		{
+			id: "0C3283580BDFE34A"
+			tasks: [{
+				id: "3B6AEE46AE5C1281"
+				item: "bountifulfares:honeysuckle_tea_bottle"
+				type: "item"
+			}]
+			x: -15.0d
+			y: -2.5d
+		}
+		{
+			id: "3CE53A885CFC50AE"
+			tasks: [{
+				id: "776756D3EB2098E4"
+				item: "bountifulfares:bellflower_tea_bottle"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -0.5d
+		}
+		{
+			id: "14A577C53CE5DE6B"
+			tasks: [{
+				id: "7924AAEDE44DB24D"
+				item: "bountifulfares:torchflower_tea_bottle"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -1.5d
+		}
+		{
+			id: "5C853007244E2A8B"
+			tasks: [{
+				id: "1E4DCCBAAD25018E"
+				item: "bountifulfares:elderberry_wine_bottle"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 0.0d
+		}
+		{
+			id: "17731F66D755FBA2"
+			tasks: [{
+				id: "61AFBFFAB67AC989"
+				item: "bountifulfares:lapisberry_wine_bottle"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 0.0d
+		}
+		{
+			id: "2885B699F288F9FE"
+			tasks: [{
+				id: "1708E0D0FD2CE721"
+				item: "bountifulfares:mead_bottle"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 0.0d
+		}
+	]
+	title: "芬芳馥郁（饮品）"
+}

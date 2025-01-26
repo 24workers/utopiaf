@@ -1,0 +1,1524 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "6A32E2AAE19E653A"
+	group: "179B940BD4C97FD2"
+	id: "6A32E2AAE19E653A"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "48159754DA9AEB45"
+			rewards: [
+				{
+					id: "40BAC5F625D2BDB1"
+					item: "plushies:vex_plushie"
+					type: "item"
+				}
+				{
+					id: "6A39BD08A85499DA"
+					item: "magistuarmory:demon_horns_decoration"
+					type: "item"
+				}
+				{
+					id: "322DFD3B32B7D46C"
+					item: "minecraft:skeleton_horse_spawn_egg"
+					type: "item"
+				}
+				{
+					id: "358B0DF18BC92C24"
+					item: {
+						Count: 1
+						id: "travelersbackpack:skeleton"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					icon: "minecraft:experience_bottle"
+					id: "6897B8B5266B7644"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			tasks: [
+				{
+					id: "2316E0AC4B5062C5"
+					item: "graveyard:white_bone_staff"
+					type: "item"
+				}
+				{
+					id: "5CBCB298B51F3A03"
+					item: "graveyard:black_bone_staff"
+					type: "item"
+				}
+				{
+					id: "296E7F257C2BFEDB"
+					item: "graveyard:red_bone_staff"
+					type: "item"
+				}
+				{
+					id: "224395DBAB5CE907"
+					item: "graveyard:cyan_bone_staff"
+					type: "item"
+				}
+				{
+					id: "5D672F8372263649"
+					item: "graveyard:purple_bone_staff"
+					type: "item"
+				}
+			]
+			title: "古尔之杖全收集"
+			x: -6.0d
+			y: -0.5d
+		}
+		{
+			id: "4A2748BBCE766A72"
+			rewards: [
+				{
+					count: 3
+					id: "47ACB577C41319B1"
+					item: "bosses_of_mass_destruction:crystal_fruit"
+					type: "item"
+				}
+				{
+					id: "189C873582A49CAA"
+					item: "biomemakeover:enchanted_totem"
+					type: "item"
+				}
+				{
+					id: "21D4DE2A3B87AE75"
+					item: "melonslabs:enchanted_golden_apple_juice"
+					type: "item"
+				}
+				{
+					id: "0CB51D90ED9CDD56"
+					item: "things:moss_necklace"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "377D6E07A61B2B59"
+					table_id: 2953109549610839980L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "24390D13E75854A0"
+					item: "bosses_of_mass_destruction:charged_ender_pearl"
+					type: "item"
+				}
+				{
+					id: "1871C6DD061329C9"
+					item: "bosses_of_mass_destruction:mob_ward"
+					type: "item"
+				}
+				{
+					id: "62AC2F57EC38D282"
+					item: "bosses_of_mass_destruction:monolith_block"
+					type: "item"
+				}
+				{
+					id: "762E1EC123090EC9"
+					item: "bosses_of_mass_destruction:levitation_block"
+					type: "item"
+				}
+				{
+					id: "4BC7B6049D528051"
+					item: {
+						Count: 1
+						id: "bosses_of_mass_destruction:earthdive_spear"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6A2FB5AAD94F232C"
+					item: "bosses_of_mass_destruction:brimstone_nectar"
+					type: "item"
+				}
+				{
+					id: "6658134C77A51E56"
+					item: "hybrid-aquatic:karkinos_claw"
+					type: "item"
+				}
+				{
+					id: "7A02B7BAA806811B"
+					item: {
+						Count: 1
+						id: "aquamirae:coral_lance"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:unbreaking"
+								lvl: 4s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "600A9286BC801369"
+					item: "biomemakeover:enchanted_totem"
+					type: "item"
+				}
+			]
+			title: "BOSS物品全收集"
+			x: -7.0d
+			y: -0.5d
+		}
+		{
+			id: "03CC9A0815F14DF3"
+			rewards: [
+				{
+					id: "3C925ACA51DBA1A7"
+					item: "plushables:unicorn_plushable"
+					type: "item"
+				}
+				{
+					icon: "minecraft:experience_bottle"
+					id: "535410D51BEA2162"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "5CA397392DA1032A"
+					item: "jewelry:diamond_necklace"
+					type: "item"
+				}
+				{
+					id: "431A11FBF86BBCCF"
+					item: {
+						Count: 1
+						id: "expandedstorage:diamond_mini_chest"
+						tag: {
+							BlockStateTag: {
+								sparrow: "true"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "4BCF4F96D3B1F3BD"
+					item: "minecraft:crafting_table"
+					type: "item"
+				}
+				{
+					id: "137E1809ACB9C811"
+					item: "minecraft:enchanting_table"
+					type: "item"
+				}
+				{
+					id: "290350C57F90E0FF"
+					item: "minecraft:cartography_table"
+					type: "item"
+				}
+				{
+					id: "44E44CA21EE1CC5E"
+					item: "minecraft:fletching_table"
+					type: "item"
+				}
+				{
+					id: "32798F685EE67F4C"
+					item: "minecraft:smithing_table"
+					type: "item"
+				}
+				{
+					id: "0CDC66281D0A9E6D"
+					item: "minecraft:brewing_stand"
+					type: "item"
+				}
+				{
+					id: "265D3536310A6B01"
+					item: "minecraft:lectern"
+					type: "item"
+				}
+				{
+					id: "06D5250B0DFEF441"
+					item: "minecraft:loom"
+					type: "item"
+				}
+				{
+					id: "079FD52C5200578E"
+					item: "minecraft:grindstone"
+					type: "item"
+				}
+				{
+					id: "03D8F6AC1CDB45C3"
+					item: "minecraft:stonecutter"
+					type: "item"
+				}
+				{
+					id: "596683B2558BE8C8"
+					item: "minecraft:furnace"
+					type: "item"
+				}
+				{
+					id: "4A6A6476BAF9A3D2"
+					item: "minecraft:smoker"
+					type: "item"
+				}
+				{
+					id: "6A3982527BCEFC7C"
+					item: "minecraft:blast_furnace"
+					type: "item"
+				}
+				{
+					id: "7138B19EC6023D86"
+					item: "minecraft:chest"
+					type: "item"
+				}
+				{
+					id: "7CDF2C140E54316A"
+					item: "minecraft:shulker_box"
+					type: "item"
+				}
+			]
+			title: "原版功能方块全收集"
+			x: -8.0d
+			y: -0.5d
+		}
+		{
+			id: "64743AD6EB97C7DE"
+			rewards: [
+				{
+					id: "0A27D00FE203B3BA"
+					item: "compressedblocks:compressed_emerald_x1"
+					type: "item"
+				}
+				{
+					id: "3AC12D51CAE39C29"
+					item: "simplehats:questbook"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "647AE00672944B29"
+					item: "minecraft:crafting_table"
+					type: "item"
+				}
+				{
+					id: "4983702260F2CDED"
+					item: "betternether:nether_reed_crafting_table"
+					type: "item"
+				}
+				{
+					id: "06687074B5D0DEC9"
+					item: "betternether:stalagnate_crafting_table"
+					type: "item"
+				}
+				{
+					id: "38C291002C530DAA"
+					item: "betternether:willow_crafting_table"
+					type: "item"
+				}
+				{
+					id: "3757B0B4ABEBCB8E"
+					item: "betternether:wart_crafting_table"
+					type: "item"
+				}
+				{
+					id: "575A3A077491F1C6"
+					item: "betternether:warped_crafting_table"
+					type: "item"
+				}
+				{
+					id: "2AB7C9F5B4261AC1"
+					item: "betternether:crimson_crafting_table"
+					type: "item"
+				}
+				{
+					id: "5DC1F9E4CF04812C"
+					item: "betternether:rubeus_crafting_table"
+					type: "item"
+				}
+				{
+					id: "2196ADE9185BEA4B"
+					item: "betternether:mushroom_fir_crafting_table"
+					type: "item"
+				}
+				{
+					id: "51EA7CD63BFC143D"
+					item: "betternether:nether_mushroom_crafting_table"
+					type: "item"
+				}
+				{
+					id: "04DC4CDB051AA5E3"
+					item: "betternether:anchor_tree_crafting_table"
+					type: "item"
+				}
+				{
+					id: "0026E2B2539986E1"
+					item: "betternether:nether_sakura_crafting_table"
+					type: "item"
+				}
+				{
+					id: "6B367A3FB8046C3D"
+					item: "betterend:mossy_glowshroom_crafting_table"
+					type: "item"
+				}
+				{
+					id: "3B6F8AAE7E1B23C2"
+					item: "betterend:pythadendron_crafting_table"
+					type: "item"
+				}
+				{
+					id: "3CB6FCD5C6DA6255"
+					item: "betterend:end_lotus_crafting_table"
+					type: "item"
+				}
+				{
+					id: "34F8170D8E9AA0C4"
+					item: "betterend:lacugrove_crafting_table"
+					type: "item"
+				}
+				{
+					id: "0689E87833E23918"
+					item: "betterend:dragon_tree_crafting_table"
+					type: "item"
+				}
+				{
+					id: "37FE11BC27185EF8"
+					item: "betterend:tenanea_crafting_table"
+					type: "item"
+				}
+				{
+					id: "2BB675867255F2B5"
+					item: "betterend:helix_tree_crafting_table"
+					type: "item"
+				}
+				{
+					id: "3B183E9B118C046C"
+					item: "betterend:umbrella_tree_crafting_table"
+					type: "item"
+				}
+				{
+					id: "3BC198CC75ADFF5C"
+					item: "betterend:jellyshroom_crafting_table"
+					type: "item"
+				}
+				{
+					id: "13222B421AA39736"
+					item: "betterend:lucernia_crafting_table"
+					type: "item"
+				}
+			]
+			title: "工作台全收集"
+			x: -5.0d
+			y: -0.5d
+		}
+		{
+			description: ["希望你不是靠杀村民完成的......"]
+			id: "7EEB425A985DB076"
+			rewards: [
+				{
+					id: "56B1A25FF8314809"
+					item: "jewelry:unique_attack_necklace"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "15968BCA7363EB63"
+					table_id: 2953109549610839980L
+					type: "random"
+				}
+			]
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "medievalweapons:aeternium_long_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "228FDDC6D3C289D9"
+				stat: "minecraft:mob_kills"
+				title: "击败1000只生物"
+				type: "stat"
+				value: 1000
+			}]
+			title: "乌托邦战神！"
+			x: -8.0d
+			y: -4.5d
+		}
+		{
+			id: "55EC121A9378A408"
+			rewards: [{
+				id: "35E3A7AAA0BDA99B"
+				item: "artifacts:bunny_hoppers"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "artifacts:bunny_hoppers"
+				id: "379FE0EEEE0CE0F4"
+				stat: "minecraft:jump"
+				type: "stat"
+				value: 5000
+			}]
+			title: "跳跳虎！"
+			x: -8.0d
+			y: -3.5d
+		}
+		{
+			icon: "plushies:villager_plushie"
+			id: "306DAC6CA39013A2"
+			rewards: [
+				{
+					id: "54508A81D0D11CD3"
+					item: "compressedblocks:compressed_emerald_x1"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "082FAB452D70C780"
+					table_id: 2953109549610839980L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "691F80BFB12ECD0F"
+					table_id: 7229437663258640740L
+					type: "random"
+				}
+			]
+			tasks: [{
+				icon: "minecraft:pillager_spawn_egg"
+				id: "3B05A6E49BA7F410"
+				stat: "minecraft:raid_win"
+				type: "stat"
+				value: 5
+			}]
+			title: "村民的守护神！"
+			x: -4.0d
+			y: -0.5d
+		}
+		{
+			id: "20172518AB0EA715"
+			tasks: [{
+				icon: "minecraft:observer"
+				id: "3693EB28A8F3FCBE"
+				stat: "minecraft:leave_game"
+				type: "stat"
+				value: 50
+			}]
+			title: "绝对不是因为整合包bug闪退，绝对不是！"
+			x: -8.0d
+			y: -2.5d
+		}
+		{
+			id: "362204F128752E25"
+			rewards: [{
+				id: "59CEEF51CD7FEE83"
+				item: "artifacts:flippers"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "artifacts:flippers"
+				id: "324BC292A3F5EEAC"
+				stat: "minecraft:swim_one_cm"
+				type: "stat"
+				value: 526500
+			}]
+			title: "马丁·斯特雷尔！"
+			x: -8.0d
+			y: -1.5d
+		}
+		{
+			id: "2CCC28F30595CA97"
+			rewards: [{
+				id: "589F3DEB23991E32"
+				item: {
+					Count: 1
+					id: "wooledboots:wooled_netherite_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "convenientdecor:brown_rain_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "7141DB4B407771AA"
+				stat: "minecraft:sneak_time"
+				type: "stat"
+				value: 10000
+			}]
+			title: "潜行1000级！"
+			x: -4.0d
+			y: -2.5d
+		}
+		{
+			id: "0B6F516F2FC9C41C"
+			rewards: [{
+				id: "6C31AE7FFACCC6BB"
+				item: "artifacts:aqua_dashers"
+				type: "item"
+			}]
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "convenientdecor:light_blue_rain_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "2F3ABC8E8006CDFD"
+				stat: "minecraft:walk_under_water_one_cm"
+				type: "stat"
+				value: 1070000
+			}]
+			title: "马里契奇！"
+			x: -4.0d
+			y: -1.5d
+		}
+		{
+			icon: "minecraft:cherry_sapling"
+			id: "0737316379797C10"
+			rewards: [
+				{
+					id: "6BA46E62A183D7B2"
+					item: "plushables:trater_plushable"
+					type: "item"
+				}
+				{
+					icon: "minecraft:experience_bottle"
+					id: "333700A43EE74941"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+				{
+					id: "0B21BF58579CEA23"
+					item: {
+						Count: 1
+						id: "minecraft:painting"
+						tag: {
+							EntityTag: {
+								variant: "furnish:steve"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1696F02114F284FB"
+					item: "minecraft:music_disc_stal"
+					type: "item"
+				}
+				{
+					auto: "invisible"
+					command: "/player XiaoHuoChai001 spawn"
+					icon: {
+						Count: 1
+						id: "minecraft:player_head"
+						tag: {
+							SkullOwner: {
+								Id: [I;
+									921001563
+									-239450196
+									-1370330566
+									-177178747
+								]
+								Name: "XiaoHuoChai001"
+								Properties: {
+									textures: [{
+										Signature: "DTAnECAAm1pr0SyStO2BbGFGc1bKRFuJoNYXLGdroD4HnlpCNEgs2t7AwPh9oveHYfC4TijRnQ9fN+CBvtVhYlhH4tMI4hrhTc9qNhxVBO/Qm2x2WvFqRxglD+wOH74cylccOZDjtsCUk4HPG+BPevNYojIZLq/ly8cEoiHusTtvbIP6giYXZllyWyHAflHcImcl7q4wLSNaOkL4dzrRrz5zRebhgeIDHteegptFdEFfNvUuxxhDUjwgjS2nma7Yz7PTBA4cM7ALCuUi3nCYShvsnQPVjqTlg3wRjH2fRugny7UqlVyoYZ/ROxd8V7Rm2YKf3zuyH2K65evydbvC/3j5ySuk0LKAJ2mN824s/D6QERelRXWLkJ6jb5SdkK69tCawb6g5DByNe6W+JK618vy10mYAyw04RNcyt+i3H5YFkxTa7dCnEV0KGqLIm4bDhlVCRAa+ihoOz1jxjV7M/Tuh0tGxn5z5nW70kcb5DD4+Gb150b53OCRjoFEZSPG8GF02ivO0BPfZ0oe62lnAYtBxJ8HGjtOTSoKQT9ZreTfnIqcudx08AtRe56Ic68hE2ni4koOHBCj9u2abbK2MAGcIetVPuAbgueZSdtspoYSMFoJ4HH61/A1P8pzZc7FBsBqLzUSPvD4t3KG/O+tDU3YR/IcCkHi5P6PrWvL5r7s="
+										Value: "ewogICJ0aW1lc3RhbXAiIDogMTcxNzY2NDg5NzUzNiwKICAicHJvZmlsZUlkIiA6ICIzNmU1NWU1YmYxYmE0N2FjYWU1MjZhM2FmNTcwNzc4NSIsCiAgInByb2ZpbGVOYW1lIiA6ICJYaWFvSHVvQ2hhaTAwMSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yYTQzMTdhNDQwNTg2Mjc3M2RkMzc4NTYwMmM5OTJlMDBmM2M1MjkyNDYzMDE4MGEzZTViNzM0YTA1Njg4NDg4IiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0sCiAgICAiQ0FQRSIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjM0MGMwZTAzZGQyNGExMWIxNWE4YjMzYzJhN2U5ZTMyYWJiMjA1MWIyNDgxZDBiYTdkZWZkNjM1Y2E3YTkzMyIKICAgIH0KICB9Cn0="
+									}]
+								}
+							}
+						}
+					}
+					id: "4499A6E1EB51DC1B"
+					title: "神秘人"
+					type: "command"
+				}
+			]
+			shape: "heart"
+			size: 3.0d
+			tasks: [{
+				icon: "minecraft:clock"
+				id: "1CB82AEC57BF88EB"
+				stat: "minecraft:play_time"
+				type: "stat"
+				value: 7200000
+			}]
+			title: "沉浸式乌托邦探险100小时！"
+			x: -6.0d
+			y: -2.5d
+		}
+		{
+			id: "64AC7A8AB1168B84"
+			rewards: [
+				{
+					id: "43B39DAC42128C23"
+					item: "artifacts:running_shoes"
+					type: "item"
+				}
+				{
+					id: "473F6BFA6BEBF0E7"
+					item: "beautify:bookstack"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "minecraft:leather_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "3B931393F4BC5B7B"
+				stat: "minecraft:walk_one_cm"
+				type: "stat"
+				value: 1000000
+			}]
+			title: "读万卷书，行万里路！"
+			x: -4.0d
+			y: -3.5d
+		}
+		{
+			id: "33E560B7689FB469"
+			rewards: [
+				{
+					id: "3BBDE73B95BF39B5"
+					item: "smallships:oak_galley"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3FA4BEDED7875D3C"
+					table_id: 3438619514375427762L
+					type: "random"
+				}
+			]
+			tasks: [{
+				icon: "minecraft:oak_chest_boat"
+				id: "4972EA5930E93B8E"
+				stat: "minecraft:boat_one_cm"
+				type: "stat"
+				value: 1000000
+			}]
+			title: "迪南德·麦哲伦!"
+			x: -7.0d
+			y: -4.5d
+		}
+		{
+			description: [""]
+			id: "775463663C7D88E2"
+			rewards: [
+				{
+					id: "7D5734D8FEE3BA9C"
+					item: "icarus:white_light_wings"
+					type: "item"
+				}
+				{
+					id: "56498687B474F117"
+					item: "minecraft:music_disc_strad"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "minecraft:elytra"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "61D4A4B73DBE172F"
+				stat: "minecraft:fly_one_cm"
+				title: "在空中的时间"
+				type: "stat"
+				value: 5000000
+			}]
+			title: "什么时候能飞出大气层？"
+			x: -6.0d
+			y: -4.5d
+		}
+		{
+			id: "4F796E8CAA1715AD"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "21F253651230AD1B"
+					table_id: 2953109549610839980L
+					type: "random"
+				}
+				{
+					id: "37D7E873F0878875"
+					item: "plushies:phantom_plushie"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "minecraft:red_bed"
+				id: "4CD844975573B318"
+				stat: "minecraft:sleep_in_bed"
+				type: "stat"
+				value: 100
+			}]
+			title: "明日复明日，明日何其多。我生待明日，万事成蹉跎。"
+			x: -5.0d
+			y: -4.5d
+		}
+		{
+			id: "0AB332F0E26A6C43"
+			rewards: [
+				{
+					icon: "minecraft:experience_bottle"
+					id: "5C695A670CBF36E6"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4E561F0B2915C303"
+					table_id: 3438619514375427762L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3DFC41356757FDC4"
+					table_id: 7229437663258640740L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "33B1AFF6D80406A5"
+					item: "minecraft:music_disc_13"
+					type: "item"
+				}
+				{
+					id: "18A0E6F7A6CB9C41"
+					item: "minecraft:music_disc_cat"
+					type: "item"
+				}
+				{
+					id: "5E26A33F3EA18FC0"
+					item: "minecraft:music_disc_blocks"
+					type: "item"
+				}
+				{
+					id: "7CDA810C6E79B8F4"
+					item: "minecraft:music_disc_chirp"
+					type: "item"
+				}
+				{
+					id: "4FAAC6F00CCD7ED9"
+					item: "minecraft:music_disc_far"
+					type: "item"
+				}
+				{
+					id: "1B587DC149A2F096"
+					item: "minecraft:music_disc_mall"
+					type: "item"
+				}
+				{
+					id: "0363C4DD4976E7A3"
+					item: "minecraft:music_disc_mellohi"
+					type: "item"
+				}
+				{
+					id: "361CDA37CD4CC130"
+					item: "minecraft:music_disc_stal"
+					type: "item"
+				}
+				{
+					id: "6E16D421E9F84129"
+					item: "minecraft:music_disc_strad"
+					type: "item"
+				}
+				{
+					id: "20B4283DFADF4611"
+					item: "minecraft:music_disc_ward"
+					type: "item"
+				}
+				{
+					id: "20F2A58B4B094E0C"
+					item: "minecraft:music_disc_11"
+					type: "item"
+				}
+				{
+					id: "399F9002EBD26F3B"
+					item: "minecraft:music_disc_wait"
+					type: "item"
+				}
+				{
+					id: "6ADC7828A87CFA46"
+					item: "minecraft:music_disc_otherside"
+					type: "item"
+				}
+				{
+					id: "5B57C1E03D4B8A2C"
+					item: "minecraft:music_disc_relic"
+					type: "item"
+				}
+				{
+					id: "5B13E4D2C083D62A"
+					item: "minecraft:music_disc_5"
+					type: "item"
+				}
+				{
+					id: "2C440B9F947D162D"
+					item: "minecraft:music_disc_pigstep"
+					type: "item"
+				}
+			]
+			title: "修改过的原版唱片全收集！"
+			x: -4.0d
+			y: -4.5d
+		}
+		{
+			id: "4092CBE6919D61E7"
+			rewards: [
+				{
+					id: "4010806CD9C0EE2B"
+					item: "compressedblocks:compressed_coal_x2"
+					type: "item"
+				}
+				{
+					id: "26E834E780555EEE"
+					item: "immersive_aircraft:nether_engine"
+					type: "item"
+				}
+				{
+					icon: "minecraft:experience_bottle"
+					id: "3B76B87094D2DEE7"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "6468D42D03ADC1DE"
+					item: "minecraft:music_disc_5"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "165EAA6FB8DBBC41"
+					item: "immersive_aircraft:airship"
+					type: "item"
+				}
+				{
+					id: "5BB722B8E86DD5A1"
+					item: "immersive_aircraft:cargo_airship"
+					type: "item"
+				}
+				{
+					id: "4B5668A00B530921"
+					item: "immersive_aircraft:biplane"
+					type: "item"
+				}
+				{
+					id: "2DA982633CBB761F"
+					item: "immersive_aircraft:gyrodyne"
+					type: "item"
+				}
+				{
+					id: "565C8398341B69C9"
+					item: "immersive_aircraft:quadrocopter"
+					type: "item"
+				}
+			]
+			title: "飞行载具全收集！"
+			x: -9.0d
+			y: -2.5d
+		}
+		{
+			id: "4C579C7B419E8115"
+			rewards: [
+				{
+					id: "4D94DD6228C59D8E"
+					item: "plushies:parrot_plushie"
+					type: "item"
+				}
+				{
+					id: "2994E032CEBF4358"
+					item: "minecraft:emerald_block"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "59BCC4A7D640E79A"
+					item: {
+						Count: 1
+						id: "immersive_melodies:bagpipe"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "1FE132BF5996D635"
+					item: {
+						Count: 1
+						id: "immersive_melodies:didgeridoo"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "363DD9E00E4512F5"
+					item: {
+						Count: 1
+						id: "immersive_melodies:flute"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "7F99AA97EC76806B"
+					item: {
+						Count: 1
+						id: "immersive_melodies:lute"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "2097D0D626A1C9BD"
+					item: {
+						Count: 1
+						id: "immersive_melodies:piano"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "5B0DBB244ED7B9A5"
+					item: {
+						Count: 1
+						id: "immersive_melodies:triangle"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "7CE3F8EA71AB88E1"
+					item: {
+						Count: 1
+						id: "immersive_melodies:trumpet"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "简单乐器全收集！"
+			x: -6.0d
+			y: -5.5d
+		}
+		{
+			id: "5A8BA3FE3D210706"
+			rewards: [
+				{
+					icon: "minecraft:experience_bottle"
+					id: "70E2BB2C04FD528F"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "49104D36965938B2"
+					item: "the_bumblezone:royal_jelly_bucket"
+					type: "item"
+				}
+				{
+					id: "326AD4877003280A"
+					item: "the_bumblezone:beehemoth_spawn_egg"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "186E7A04531EE7A1"
+					item: "the_bumblezone:music_disc_flight_of_the_bumblebee_rimsky_korsakov"
+					type: "item"
+				}
+				{
+					id: "1B964293258DDB60"
+					item: "the_bumblezone:music_disc_honey_bee_rat_faced_boy"
+					type: "item"
+				}
+				{
+					id: "6D90ACC67830F71A"
+					item: "the_bumblezone:music_disc_la_bee_da_loca"
+					type: "item"
+				}
+				{
+					id: "57C69E570CB32E7A"
+					item: "the_bumblezone:music_disc_bee_laxing_with_the_hom_bees"
+					type: "item"
+				}
+				{
+					id: "6AF21D95F0050225"
+					item: "the_bumblezone:music_disc_bee_ware_of_the_temple"
+					type: "item"
+				}
+				{
+					id: "0D18EC10D1F6AF96"
+					item: "the_bumblezone:music_disc_knowing_renren"
+					type: "item"
+				}
+				{
+					id: "23A4D2E0E65A90A9"
+					item: "the_bumblezone:music_disc_radiance_renren"
+					type: "item"
+				}
+				{
+					id: "5486A7BDF248FBA2"
+					item: "the_bumblezone:music_disc_life_renren"
+					type: "item"
+				}
+			]
+			title: "蜜蜂维度唱片全收集"
+			x: -9.0d
+			y: -4.5d
+		}
+		{
+			id: "591F0BDB19E731AC"
+			rewards: [
+				{
+					icon: "minecraft:experience_bottle"
+					id: "5C9820E2436259D0"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "7BEB6977AC73662A"
+					item: "compressedblocks:compressed_emerald_x1"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "41A503732B8E06B6"
+					table_id: 7229437663258640740L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "476ED7BDDBB766AB"
+					item: "compressedblocks:compressed_cobblestone_x1"
+					type: "item"
+				}
+				{
+					id: "3F5E2F06677B3A85"
+					item: "compressedblocks:compressed_stone_x1"
+					type: "item"
+				}
+				{
+					id: "73F2465BFD6FA39A"
+					item: "compressedblocks:compressed_terracotta_x1"
+					type: "item"
+				}
+				{
+					id: "186B37BE0326E228"
+					item: "compressedblocks:compressed_end_stone_x1"
+					type: "item"
+				}
+				{
+					id: "2DD0AD70B62840C1"
+					item: "compressedblocks:compressed_dirt_x1"
+					type: "item"
+				}
+				{
+					id: "76C3F8DE7297ADE2"
+					item: "compressedblocks:compressed_gravel_x1"
+					type: "item"
+				}
+				{
+					id: "083FAEA1CB5BFBA1"
+					item: "compressedblocks:compressed_sand_x1"
+					type: "item"
+				}
+				{
+					id: "5B96576DF980FBAC"
+					item: "compressedblocks:compressed_netherrack_x1"
+					type: "item"
+				}
+				{
+					id: "618014CB236C8519"
+					item: "compressedblocks:compressed_clay_x1"
+					type: "item"
+				}
+				{
+					id: "51CE8DB1AA902E9D"
+					item: "compressedblocks:compressed_slime_x1"
+					type: "item"
+				}
+				{
+					id: "465E35486B818CEC"
+					item: "compressedblocks:compressed_andesite_x1"
+					type: "item"
+				}
+				{
+					id: "2AAB8EFA19F5E65B"
+					item: "compressedblocks:compressed_deepslate_x1"
+					type: "item"
+				}
+				{
+					id: "48D95E279CC6B501"
+					item: "compressedblocks:compressed_diorite_x1"
+					type: "item"
+				}
+				{
+					id: "66E30271CE9C22F2"
+					item: "compressedblocks:compressed_granite_x1"
+					type: "item"
+				}
+				{
+					id: "78E0CB0A0EE29581"
+					item: "compressedblocks:compressed_obsidian_x1"
+					type: "item"
+				}
+				{
+					id: "1000EB3AD9728F0E"
+					item: "compressedblocks:compressed_quartz_x1"
+					type: "item"
+				}
+				{
+					id: "02F707F5C13BFBD2"
+					item: "compressedblocks:compressed_glass_x1"
+					type: "item"
+				}
+				{
+					id: "6CEE210257F0D1BF"
+					item: "compressedblocks:compressed_wool_x1"
+					type: "item"
+				}
+				{
+					id: "24A5D11C2859E6C1"
+					item: "compressedblocks:compressed_amethyst_x1"
+					type: "item"
+				}
+				{
+					id: "263A862968FC6EFE"
+					item: "compressedblocks:compressed_coal_x1"
+					type: "item"
+				}
+				{
+					id: "1947D61C8B84AA5C"
+					item: "compressedblocks:compressed_copper_x1"
+					type: "item"
+				}
+				{
+					id: "6DB7A5A5217F6FEE"
+					item: "compressedblocks:compressed_diamond_x1"
+					type: "item"
+				}
+				{
+					id: "1868E2564D718DC5"
+					item: "compressedblocks:compressed_emerald_x1"
+					type: "item"
+				}
+				{
+					id: "62B59896726F40BF"
+					item: "compressedblocks:compressed_gold_x1"
+					type: "item"
+				}
+				{
+					id: "45FF31A0C94EABAD"
+					item: "compressedblocks:compressed_iron_x1"
+					type: "item"
+				}
+				{
+					id: "16E22A902D75880E"
+					item: "compressedblocks:compressed_lapis_x1"
+					type: "item"
+				}
+				{
+					id: "5C363B479C8C83D0"
+					item: "compressedblocks:compressed_redstone_x1"
+					type: "item"
+				}
+				{
+					id: "15FFAB01C5E67F42"
+					item: "compressedblocks:compressed_netherite_x1"
+					type: "item"
+				}
+				{
+					id: "0774529223502C26"
+					item: "compressedblocks:compressed_acacia_x1"
+					type: "item"
+				}
+				{
+					id: "1AC3932169A4B5BA"
+					item: "compressedblocks:compressed_birch_x1"
+					type: "item"
+				}
+				{
+					id: "66576FDC7F9BF506"
+					item: "compressedblocks:compressed_dark_oak_x1"
+					type: "item"
+				}
+				{
+					id: "606D8EE9F956547B"
+					item: "compressedblocks:compressed_jungle_x1"
+					type: "item"
+				}
+				{
+					id: "7CB99DEA8FC37F01"
+					item: "compressedblocks:compressed_oak_x1"
+					type: "item"
+				}
+				{
+					id: "3D087BCBAF63F710"
+					item: "compressedblocks:compressed_spruce_x1"
+					type: "item"
+				}
+			]
+			title: "我能装下一座村庄"
+			x: -7.0d
+			y: -5.5d
+		}
+		{
+			id: "5490A275EF558F1B"
+			rewards: [
+				{
+					icon: "minecraft:experience_bottle"
+					id: "0E8168B06FDB0524"
+					type: "xp_levels"
+					xp_levels: 999
+				}
+				{
+					count: 999
+					id: "2FCCA675B35293C9"
+					item: "minecraft:diamond_block"
+					type: "item"
+				}
+				{
+					count: 999
+					id: "30949821FE414E79"
+					item: "minecraft:netherite_block"
+					type: "item"
+				}
+				{
+					count: 999
+					id: "2A09B7DEDE18F4EF"
+					item: "minecraft:emerald_block"
+					type: "item"
+				}
+				{
+					id: "1A06CC77F570D9E1"
+					item: "minecraft:bedrock"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "751697F7D6B136CF"
+					item: "compressedblocks:compressed_cobblestone_x8"
+					type: "item"
+				}
+				{
+					id: "73F6E459095E8B12"
+					item: "compressedblocks:compressed_dirt_x8"
+					type: "item"
+				}
+				{
+					id: "792DE590AB4D841D"
+					item: "compressedblocks:compressed_netherrack_x8"
+					type: "item"
+				}
+			]
+			title: "我能装下整个宇宙！！！"
+			x: -8.0d
+			y: -5.5d
+		}
+		{
+			id: "5F4B04DE95DC5E73"
+			rewards: [
+				{
+					id: "6A725C8E1F3E2052"
+					item: "mcwholidays:gravestone"
+					type: "item"
+				}
+				{
+					id: "1D6F14442CCC6FE0"
+					item: "graveyard:ossuary"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "332AA7E181627567"
+					table_id: 2953109549610839980L
+					type: "random"
+				}
+			]
+			tasks: [{
+				icon: "regions_unexplored:orange_maple_leaf_pile"
+				id: "66B6CCBF62DED5B3"
+				stat: "minecraft:deaths"
+				type: "stat"
+				value: 100
+			}]
+			title: "生如夏花之绚烂 ，死如秋叶之静美"
+			x: -5.0d
+			y: -5.5d
+		}
+		{
+			id: "338DE2EF234A2A5F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1BAABC993DD12943"
+					table_id: 2953109549610839980L
+					type: "random"
+				}
+				{
+					id: "202AF144BF363095"
+					item: "the_bumblezone:royal_jelly_bottle"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "69E0177EF2897E53"
+					item: "the_bumblezone:banner_pattern_bee"
+					type: "item"
+				}
+				{
+					id: "66A76096A4ABB780"
+					item: "the_bumblezone:banner_pattern_honeycombs"
+					type: "item"
+				}
+				{
+					id: "22610725FAA2B762"
+					item: "the_bumblezone:banner_pattern_swords"
+					type: "item"
+				}
+				{
+					id: "19DC2DD9E31DD103"
+					item: "the_bumblezone:banner_pattern_sun"
+					type: "item"
+				}
+				{
+					id: "54ADC6296F705251"
+					item: "the_bumblezone:banner_pattern_pluses"
+					type: "item"
+				}
+				{
+					id: "75F5933231C0FCD7"
+					item: "the_bumblezone:banner_pattern_eyes"
+					type: "item"
+				}
+				{
+					id: "7BB98335FAB83C08"
+					item: "the_bumblezone:banner_pattern_peace"
+					type: "item"
+				}
+				{
+					id: "67ECB09647269BC5"
+					item: "the_bumblezone:banner_pattern_arrows"
+					type: "item"
+				}
+			]
+			title: "蜜蜂维度旗帜全收集"
+			x: -9.0d
+			y: -3.5d
+		}
+		{
+			id: "2B5072ED1A684AB4"
+			rewards: [
+				{
+					id: "5A6873EBBBB565B0"
+					item: "plushables:goblin_plushable"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4E60FBA7B96D9728"
+					table_id: 2953109549610839980L
+					type: "random"
+				}
+			]
+			tasks: [{
+				icon: "minecraft:emerald"
+				id: "5338EBFE3D5F53F9"
+				stat: "goblintraders:trade_with_goblin"
+				type: "stat"
+				value: 50
+			}]
+			title: "良心卖家，十分好评！"
+			x: -3.0d
+			y: -2.5d
+		}
+		{
+			id: "71A7FC57EE9C6680"
+			rewards: [
+				{
+					id: "766B37F64F7B52D1"
+					item: "luphieclutteredmod:luphie_mushroom_chest"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7D5608822407C2FA"
+					table_id: 2953109549610839980L
+					type: "random"
+				}
+			]
+			tasks: [{
+				icon: "minecraft:trapped_chest"
+				id: "5CDAB9C885156326"
+				stat: "minecraft:trigger_trapped_chest"
+				type: "stat"
+				value: 10
+			}]
+			title: "有没有听说过？事不过三？"
+			x: -3.0d
+			y: -4.5d
+		}
+		{
+			description: ["一颗心伤害=20"]
+			id: "50A4D547C3F4A468"
+			rewards: [
+				{
+					id: "29CAA1B909DEA770"
+					item: {
+						Count: 1
+						id: "mcdw:sword_the_starless_night"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "mcdw:shared_pain"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "20E8889E54935CC7"
+					table_id: 2953109549610839980L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "5CBF133F2CC3E102"
+				stat: "minecraft:damage_dealt"
+				type: "stat"
+				value: 1000000
+			}]
+			title: "无尽之刃"
+			x: -3.0d
+			y: -3.5d
+		}
+	]
+	title: "成就(更新中）"
+}

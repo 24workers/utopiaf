@@ -1,0 +1,727 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "72DA388703A30700"
+	group: "4042212D3F461FE3"
+	id: "72DA388703A30700"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["使用&e镐子右键&r闪耀蝾螈尾巴可以获得&e莹黄晶碎片&r"]
+			id: "4855EA555B834B90"
+			tasks: [{
+				id: "2462FA7EA01EFC22"
+				item: "minecraft:glow_lichen"
+				type: "item"
+			}]
+			title: "闪耀蝾螈繁殖食物"
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			description: ["驯服后它会帮你的农作物定期补水，加速生长。(工作时附近需有一格水源）"]
+			disable_toast: true
+			id: "3C287FE907E4DBF0"
+			tasks: [{
+				id: "0E990ADFBCBD1CFC"
+				item: "sprout:peanut"
+				type: "item"
+			}]
+			title: "灌溉小象的驯服物品"
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			disable_toast: true
+			id: "3A35B7F4AA628A3A"
+			tasks: [{
+				id: "371CA7CC6F66436B"
+				item: "mythicmobs:chupacabra_cooked_meat_skewer"
+				type: "item"
+			}]
+			title: "无翼龙驯服食物"
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			description: ["蜜脾驯服，蜂蜜回血。"]
+			disable_toast: true
+			id: "1C41D2704B601CEA"
+			tasks: [
+				{
+					id: "566AC8F37B86A218"
+					item: "minecraft:honeycomb"
+					type: "item"
+				}
+				{
+					id: "2A2134F7B203AE65"
+					item: "minecraft:honey_bottle"
+					type: "item"
+				}
+			]
+			title: "屋虫"
+			x: -3.0d
+			y: 4.0d
+		}
+		{
+			description: ["热带草原出没"]
+			disable_toast: true
+			id: "49B886A7D4B8D675"
+			tasks: [
+				{
+					id: "00D1442F57888427"
+					item: "minecraft:cod"
+					type: "item"
+				}
+				{
+					id: "123C08A7D6D782CF"
+					item: "minecraft:salmon"
+					type: "item"
+				}
+				{
+					id: "7F7CFE44A0D01A9D"
+					item: "minecraft:chicken"
+					type: "item"
+				}
+				{
+					id: "5FC3E36A7EFD1BF2"
+					item: "minecraft:rabbit"
+					type: "item"
+				}
+			]
+			title: "猞猁驯服食物"
+			x: -4.0d
+			y: 4.0d
+		}
+		{
+			description: [
+				"驯服后如果给她们吃&c苹果&r，她们身体会变得“&c浮肿&r”，如果发生这种情况，只需使用&c羽毛&r，大多数就会&c恢复正常&r。"
+				"每个&e蘑菇娘&r都有一定几率在特定的方块上&e种植蘑菇&r，除了&e地狱蘑菇娘&r。她们可以在&e每个固体方块上种植&r。"
+			]
+			disable_toast: true
+			id: "1827B421AC9A2C3E"
+			rewards: [{
+				id: "3C1A3C7BA6069457"
+				item: "minecraft:feather"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "577D36425C0794B3"
+					item: "minecraft:cookie"
+					type: "item"
+				}
+				{
+					id: "24571F96697C7079"
+					item: "minecraft:rotten_flesh"
+					type: "item"
+				}
+				{
+					id: "0238B6B766FD39E4"
+					item: "minecraft:apple"
+					type: "item"
+				}
+			]
+			title: "蘑菇女孩的驯服食物"
+			x: -5.0d
+			y: 4.0d
+		}
+		{
+			disable_toast: true
+			id: "21F9F98683585389"
+			tasks: [{
+				id: "729B77AE1452202B"
+				item: "ecologics:walnut"
+				type: "item"
+			}]
+			title: "松鼠的繁殖食物"
+			x: -6.0d
+			y: 4.0d
+		}
+		{
+			disable_toast: true
+			id: "2A3DDDA4825C15EA"
+			tasks: [
+				{
+					id: "6EF0D87149CE8544"
+					item: "minecraft:bread"
+					type: "item"
+				}
+				{
+					id: "075C1A7288F2B55A"
+					item: "minecraft:cod"
+					type: "item"
+				}
+			]
+			title: "鸭子繁殖物品"
+			x: -6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7E9B2236B884591C"]
+			description: ["狮鹫出现在沙砾山地；沙砾山地+；积雪的针叶林山地；针叶林山地；繁茂山地；积雪的山地；山地。"]
+			disable_toast: true
+			id: "1502615EF151D7AB"
+			tasks: [
+				{
+					id: "2EFF0C9255B665AF"
+					item: "minecraft:rabbit"
+					type: "item"
+				}
+				{
+					id: "6EF94653FF1A41D4"
+					item: "minecraft:mutton"
+					type: "item"
+				}
+			]
+			title: "狮鹫的繁殖食物"
+			x: -5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7E9B2236B884591C"]
+			description: ["巨蛾出现在黑森林、黑森林山地"]
+			disable_toast: true
+			id: "453ACFE69E1DA4AC"
+			tasks: [
+				{
+					id: "7DA722FFADA6EFAB"
+					item: "minecraft:sugar"
+					type: "item"
+				}
+				{
+					id: "2411A4CEDC9A16B3"
+					item: "minecraft:melon_slice"
+					type: "item"
+				}
+				{
+					id: "50D3B55438B35BE3"
+					item: "minecraft:glistering_melon_slice"
+					type: "item"
+				}
+			]
+			title: "巨蛾的繁殖食物"
+			x: -4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7E9B2236B884591C"]
+			description: [
+				"有三种蜗牛,只有&e大型蜗牛&r才能被驯服。"
+				"&e大型蜗牛&r：可以骑，长大后它们可以&e装备箱子&r来提供库存，还可以&e装备末影宝箱&r来提供便携式末影宝箱。"
+				"&e硬壳蜗牛&r：使用弓箭可以击落它的外壳，一段时间后生长回来。"
+				"&e蜗牛&r：很容易就被踩死，脚下留情。蜗牛爬行中产生的粘液会&e影响农作物的生长&r。手持蜗牛壳可以吸引蜗牛，使用桶右击蜗牛可以获得桶装蜗牛。"
+			]
+			disable_toast: true
+			id: "281653C6533B1C2D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3FDECDDAC5407615"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "47BB2B5B480080B9"
+					item: "minecraft:red_mushroom"
+					type: "item"
+				}
+				{
+					id: "03CB260FAB42394E"
+					item: "minecraft:brown_mushroom"
+					type: "item"
+				}
+				{
+					id: "7707F26782F14979"
+					item: "minecraft:grass"
+					type: "item"
+				}
+				{
+					id: "6E5A35B4DF57DF49"
+					item: "minecraft:fern"
+					type: "item"
+				}
+				{
+					id: "67F5A03DAA382183"
+					item: "minecraft:kelp"
+					type: "item"
+				}
+			]
+			title: "蜗牛驯服繁殖食物"
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7E9B2236B884591C"]
+			description: ["斑马的行为与马相似，但有一些关键的区别:斑马的&e移动速度比马快&r，但&e跳跃高度比马低&r得多，斑马在&e水中比马移动得更快一点&r。如果玩家&e不潜行着靠近喂食&r，那么野生的&e斑马就会逃跑&r，类似于猫吃鱼的驯服方式。&e驯服的斑马可以装配箱子&r。"]
+			disable_toast: true
+			id: "3CEF90871670309E"
+			tasks: [
+				{
+					id: "1365810EDD107ED3"
+					item: "minecraft:wheat"
+					type: "item"
+				}
+				{
+					id: "10A92E9E041F5AEA"
+					item: "minecraft:apple"
+					type: "item"
+				}
+			]
+			title: "斑马驯服物品"
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7E9B2236B884591C"]
+			description: ["迅足蜥出现在沙漠；沙漠湖泊；沙漠丘陵；风蚀的恶地；恶地高原变种；繁茂的恶地高原。"]
+			disable_toast: true
+			id: "5C0AD54F1FFED3C5"
+			tasks: [
+				{
+					id: "0AAD2EB0FDDAA467"
+					item: "minecraft:rabbit"
+					type: "item"
+				}
+				{
+					id: "0F19A16E5B011E43"
+					item: "minecraft:chicken"
+					type: "item"
+				}
+				{
+					id: "7C811BF4C438CD58"
+					item: "minecraft:pumpkin"
+					type: "item"
+				}
+				{
+					id: "1E7082084055A75B"
+					item: "minecraft:rotten_flesh"
+					type: "item"
+				}
+			]
+			title: "迅足蜥的繁殖食物"
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7E9B2236B884591C"]
+			description: [
+				"特殊能力：能够在岩浆上行走。"
+				"梦魇马出现在下界维度的灵魂沙峡谷、玄武岩三角洲"
+			]
+			disable_toast: true
+			id: "63B490C84A3E7A6E"
+			tasks: [
+				{
+					id: "129DE6B8316D8996"
+					item: "minecraft:blaze_rod"
+					type: "item"
+				}
+				{
+					id: "6D266F3EC72F1D09"
+					item: "minecraft:fire_charge"
+					type: "item"
+				}
+			]
+			title: "梦魇马的繁殖物品"
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7E9B2236B884591C"]
+			description: ["繁殖食物还有各种花，巨瓢虫出现在蘑菇群系"]
+			disable_toast: true
+			id: "53FA956002D43D03"
+			tasks: [
+				{
+					id: "471BDED9FC034D07"
+					item: "minecraft:red_mushroom"
+					type: "item"
+				}
+				{
+					id: "6073A741B4607301"
+					item: "minecraft:brown_mushroom"
+					type: "item"
+				}
+				{
+					id: "49DF52FE0062CC15"
+					item: "minecraft:sugar"
+					type: "item"
+				}
+			]
+			title: "巨瓢虫的繁殖食物"
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7E9B2236B884591C"]
+			description: ["巨狼出现在积雪的针叶林山地；巨型针叶林；巨型针叶林山地；巨型云杉针叶林；巨型云杉针叶林山地。"]
+			disable_toast: true
+			id: "0C96C1C1FA5CD066"
+			tasks: [
+				{
+					id: "44DEAA2B28B890F0"
+					item: "minecraft:rabbit"
+					type: "item"
+				}
+				{
+					id: "7521BD6CEEF57F14"
+					item: "minecraft:chicken"
+					type: "item"
+				}
+				{
+					id: "5E1E85B2B37466E2"
+					item: "minecraft:mutton"
+					type: "item"
+				}
+				{
+					id: "5CAF043407FCD27E"
+					item: "minecraft:beef"
+					type: "item"
+				}
+				{
+					id: "33C419BCAEC34ACD"
+					item: "minecraft:porkchop"
+					type: "item"
+				}
+			]
+			title: "巨狼的繁殖食物"
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7E9B2236B884591C"]
+			description: ["火焰鸟非常罕见地出现在有人居住的村庄附近"]
+			disable_toast: true
+			id: "7D1C15A94ED27C78"
+			tasks: [{
+				id: "04C0F41800DDC23D"
+				item: "minecraft:golden_apple"
+				type: "item"
+			}]
+			title: "火焰鸟繁殖食物"
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7E9B2236B884591C"]
+			description: ["雪豹出现在森林、积雪的针叶林（丘陵、山地）"]
+			disable_toast: true
+			id: "3164AD7629FB4DB3"
+			tasks: [
+				{
+					id: "43AFEE4641D7C74A"
+					item: "minecraft:mutton"
+					type: "item"
+				}
+				{
+					id: "3A7E5571093F777C"
+					item: "minecraft:salmon"
+					type: "item"
+				}
+			]
+			title: "雪豹的繁殖食物"
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7E9B2236B884591C"]
+			description: ["驮鸟出现在丛林、丛林丘陵、丛林边缘"]
+			disable_toast: true
+			id: "1D45D7D877C94B80"
+			tasks: [
+				{
+					id: "26DFD0270CB74EED"
+					item: "minecraft:sweet_berries"
+					type: "item"
+				}
+				{
+					id: "779D120235990270"
+					item: "minecraft:melon_slice"
+					type: "item"
+				}
+			]
+			title: "驮鸟的繁殖食物"
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7E9B2236B884591C"]
+			description: ["巨型裸鳃鱼出现在温水海洋的珊瑚礁附近"]
+			disable_toast: true
+			id: "23DC6D25899BD0DA"
+			tasks: [{
+				id: "21BA908CAF375CBD"
+				item: "minecraft:kelp"
+				type: "item"
+			}]
+			title: "巨型裸鳃鱼的繁殖食物"
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7E9B2236B884591C"]
+			description: ["巨蜥出现在接近地表的大型洞穴，和山地洞穴内（y>60）"]
+			disable_toast: true
+			id: "3F28BBDFB0116131"
+			tasks: [
+				{
+					id: "34AA1AC27DDD0878"
+					item: "minecraft:melon"
+					type: "item"
+				}
+				{
+					id: "2F0DB9A65672F15E"
+					item: "minecraft:pumpkin"
+					type: "item"
+				}
+				{
+					id: "5E49C1EA602A3D67"
+					item: "minecraft:hay_block"
+					type: "item"
+				}
+			]
+			title: "巨蜥的繁殖食物"
+			x: -5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7E9B2236B884591C"]
+			description: ["古巨龟出现在温水深海"]
+			disable_toast: true
+			id: "085CCDD7D57B64EF"
+			tasks: [
+				{
+					id: "1FEDF0A6C83DB122"
+					item: "minecraft:tropical_fish"
+					type: "item"
+				}
+				{
+					id: "325152CEA181C724"
+					item: "minecraft:pufferfish"
+					type: "item"
+				}
+			]
+			title: "古巨龟的繁殖食物"
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7E9B2236B884591C"]
+			description: ["龙出现在深层地下的巨大洞穴内（y<40）"]
+			disable_toast: true
+			id: "42621053BA730A8B"
+			tasks: [
+				{
+					id: "4D9531793709C615"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+				{
+					id: "20BED06BBF552167"
+					item: "minecraft:golden_carrot"
+					type: "item"
+				}
+				{
+					id: "6DFA8955D9DFBF0A"
+					item: "minecraft:glistering_melon_slice"
+					type: "item"
+				}
+			]
+			title: "龙的繁殖食物"
+			x: -5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7E9B2236B884591C"]
+			description: ["下界蝙蝠出现在下界维度的诡异森林、绯红森林"]
+			disable_toast: true
+			id: "0D704648DA28168A"
+			tasks: [
+				{
+					id: "32456100D1F9A0CC"
+					item: "minecraft:porkchop"
+					type: "item"
+				}
+				{
+					id: "1E8B2228AA0E788C"
+					item: "minecraft:apple"
+					type: "item"
+				}
+				{
+					id: "6C96E60F23CCCE28"
+					item: "minecraft:rotten_flesh"
+					type: "item"
+				}
+			]
+			title: "下界蝙蝠的繁殖食物"
+			x: -5.0d
+			y: 2.0d
+		}
+		{
+			description: ["重要的事情说三遍：&e空手右键就可以驯服坐骑，驯服后冒爱心了，就可以装备鞍了！&r&6空手右键就可以驯服坐骑，驯服后冒爱心了，就可以装备鞍了！&r&c空手右键就可以驯服坐骑，驯服后冒爱心了，就可以装备鞍了！&r"]
+			id: "7E9B2236B884591C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5F14E1DB4B823AFF"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2369CF0B15A4FD6A"
+				item: "minecraft:saddle"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			description: [
+				"短尾仓鼠会自然生成在&e平原&r、&e向日葵平原&r和&e草甸群系&r，有 &e6&r 种不同的纹理"
+				"玩家可以用这些食物驯服仓鼠；站立时右键驯服的仓鼠可以使其坐下，&e潜行&r状态下&e右键&r可以将其&e装入物品栏&r中；仓鼠会进入仓鼠轮中运动（合成配方会在获得铜锭后解锁）。"
+			]
+			disable_toast: true
+			id: "40600843D9FB495E"
+			tasks: [
+				{
+					id: "756D2868C95C78AE"
+					item: "hamsters:hamster_wheel"
+					type: "item"
+				}
+				{
+					id: "68130716A15A5290"
+					item: "minecraft:wheat_seeds"
+					type: "item"
+				}
+				{
+					id: "4CFE8D4BB0A7B54F"
+					item: "minecraft:pumpkin_seeds"
+					type: "item"
+				}
+				{
+					id: "77F51F1E2F2A1012"
+					item: "minecraft:beetroot"
+					type: "item"
+				}
+			]
+			title: "短尾仓鼠驯服食物"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			description: ["驯服后拿着武器右键它可以给它装备上"]
+			id: "3D858D24D42F38F3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "51ED481BA3005F30"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "2CBF8A9766D1AAF8"
+					item: "minecraft:sweet_berries"
+					type: "item"
+				}
+				{
+					id: "3FC22A268B2FA749"
+					item: "minecraft:carrot"
+					type: "item"
+				}
+				{
+					id: "03C9463FD69D818E"
+					item: "skunk:skunk_commanding_stick"
+					type: "item"
+				}
+				{
+					id: "34F1DACB57D8FF53"
+					item: {
+						Count: 1
+						id: "skunk:leather_skunk_armor"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1B68BCD486E4DD0B"
+					item: {
+						Count: 1
+						id: "skunk:iron_skunk_armor"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2469729F9591A64F"
+					item: {
+						Count: 1
+						id: "skunk:diamond_skunk_armor"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "64E63B83C5F3A95B"
+					item: {
+						Count: 1
+						id: "skunk:golden_skunk_armor"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "臭鼬的繁殖和其他物品"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			description: [
+				"在沙漠生物群系生成,使用&e生兔肉驯服&r，使用兔子脚、发光浆果、甜浆果繁殖它们；"
+				"除此之外，它们具有&e原版狐狸的一切行为&r：这意味着它们也会&e主动捕食鸡、兔子、鱼&r；"
+				"驯服的耳廓狐会跟随玩家移动，但它们仍会进行原有的捕食行为（执行此行为期间耳廓狐将不再跟随玩家）。"
+			]
+			id: "48DFAB2D57CF0A57"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "77D9990584E1EF15"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "0832928ACCE20B36"
+					item: "minecraft:rabbit"
+					type: "item"
+				}
+				{
+					id: "7812141767211D66"
+					item: "minecraft:rabbit_foot"
+					type: "item"
+				}
+				{
+					id: "16458F2086F6BAB6"
+					item: "minecraft:glow_berries"
+					type: "item"
+				}
+				{
+					id: "2F9AFE894A78722D"
+					item: "minecraft:sweet_berries"
+					type: "item"
+				}
+			]
+			title: "耳廓狐的驯服和繁殖物品"
+			x: -6.0d
+			y: 2.0d
+		}
+	]
+	title: "坐骑and动物繁殖食物"
+}

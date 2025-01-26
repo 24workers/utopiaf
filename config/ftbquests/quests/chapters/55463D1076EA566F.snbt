@@ -1,0 +1,952 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "55463D1076EA566F"
+	group: "4042212D3F461FE3"
+	icon: "exposure:camera"
+	id: "55463D1076EA566F"
+	images: [
+		{
+			height: 10.0d
+			image: "minecraft:textures/huajia1.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			height: 10.0d
+			image: "minecraft:textures/yueqi1.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: -8.5d
+			y: 0.0d
+		}
+		{
+			height: 10.0d
+			image: "minecraft:textures/yueqi2.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: -18.5d
+			y: 0.5d
+		}
+		{
+			height: 10.0d
+			image: "minecraft:textures/xiangji.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: 11.5d
+			y: 0.5d
+		}
+	]
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"非常简单的乐器，自带的的音乐&e右键&r选择就能演奏，你可以把不同乐器丢给&e人形生物&r（僵尸，凋零骷髅，尸壳等）或者&e玩家&r，会&e同步演奏&r。"
+				"&ePS&r：怪物演奏时可以在设置里关掉怪物的声音，更沉浸式体验怪物乐队演奏"
+				"如果人形生物没有演奏动画，请禁用&e鲜活动画资源包&r。"
+			]
+			id: "2B15E9D3BA44F376"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "24A0E1EF77D5861D"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4C6E49ACCC103948"
+				item: {
+					Count: 1
+					id: "immersive_melodies:flute"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -22.0d
+			y: 5.0d
+		}
+		{
+			description: [
+				"你可以用它来画自己的画作，并像原版中的画一样挂在墙上。"
+				"使用&e三个橡木木板&r加&e任意染料&r可以合成&e基础色调色板&r。"
+				"&e已有的调色板&r放入工作台&e加任意染料可以合成更多颜色的调色板。&r"
+				"一共可以调配出1600万种颜色，绘画可以挂在墙上，提供了多种笔刷尺寸，调色板上的颜色拾取工具，支持更改笔刷的不透明度，提供了悦耳的绘画音效，使用 &eCTRL+Z&r 组合键可以撤消上一步操作。"
+			]
+			id: "113DEAF3FB8C4A2C"
+			rewards: [
+				{
+					id: "209C5DAC93FDB4E2"
+					item: "xercapaint:item_palette"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7795DEDE0327951E"
+					table_id: 2953109549610839980L
+					type: "random"
+				}
+			]
+			subtitle: "找个好风景，听着歌，再来吧椅子，写写生。"
+			tasks: [
+				{
+					id: "3FF3A7C9BF969FB5"
+					item: "xercapaint:item_canvas"
+					type: "item"
+				}
+				{
+					id: "3F7CBA9B494F8E11"
+					item: "xercapaint:item_easel"
+					type: "item"
+				}
+			]
+			title: "来写生吧"
+			x: 2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["113DEAF3FB8C4A2C"]
+			id: "4B96810F865A174A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0F54C8C40AD56040"
+				table_id: 2953109549610839980L
+				type: "choice"
+			}]
+			tasks: [
+				{
+					id: "4C663D0F225EDAA1"
+					item: "vinery:calendar"
+					type: "item"
+				}
+				{
+					id: "14A3B2979289857A"
+					item: "beautify:oak_picture_frame"
+					type: "item"
+				}
+				{
+					id: "7E8D8B7D9DB9A71D"
+					item: "beautify:spruce_picture_frame"
+					type: "item"
+				}
+				{
+					id: "0664A8E53928417E"
+					item: "beautify:cherry_picture_frame"
+					type: "item"
+				}
+				{
+					id: "56781E9B4E7767E0"
+					item: "candlelight:painting"
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["113DEAF3FB8C4A2C"]
+			id: "0F8810CAA7734EE5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0A55DEAE76C10DFC"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "127FB0CC8D6FC5AF"
+					item: "xercapaint:item_canvas_tall"
+					type: "item"
+				}
+				{
+					id: "05E3ABACEA464444"
+					item: "xercapaint:item_canvas_large"
+					type: "item"
+				}
+			]
+			title: "更多画布"
+			x: 3.5d
+			y: 5.0d
+		}
+		{
+			description: [
+				"非常简单的乐器，自带的的音乐&e右键&r选择就能演奏，你可以把不同乐器丢给&e人形生物&r（僵尸，凋零骷髅，尸壳等）或者&e玩家&r，会&e同步演奏&r。"
+				"如果人形生物没有演奏动画，请禁用&e鲜活动画资源包&r。"
+			]
+			id: "3E0187EE0E946EAE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "40768611B5AB0C7C"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4DC69FA7ABD698AA"
+				item: {
+					Count: 1
+					id: "immersive_melodies:didgeridoo"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -17.0d
+			y: 5.0d
+		}
+		{
+			description: [
+				"非常简单的乐器，自带的的音乐&e右键&r选择就能演奏，你可以把不同乐器丢给&e人形生物&r（僵尸，凋零骷髅，尸壳等）或者&e玩家&r，会&e同步演奏&r。"
+				"如果人形生物没有演奏动画，请禁用&e鲜活动画资源包&r。"
+			]
+			id: "2D86A871C9F8484C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "182A277A51601DC3"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4AC7E77EC3876232"
+				item: {
+					Count: 1
+					id: "immersive_melodies:trumpet"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -16.0d
+			y: 5.0d
+		}
+		{
+			description: [
+				"非常简单的乐器，自带的的音乐&e右键&r选择就能演奏，你可以把不同乐器丢给&e人形生物&r（僵尸，凋零骷髅，尸壳等）或者&e玩家&r，会&e同步演奏&r。"
+				"如果人形生物没有演奏动画，请禁用&e鲜活动画资源包&r。"
+			]
+			id: "183B5195FE883619"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "55344E3F657191DD"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [{
+				id: "70FCDE656AC5AC66"
+				item: {
+					Count: 1
+					id: "immersive_melodies:bagpipe"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -21.0d
+			y: 5.0d
+		}
+		{
+			description: [
+				"非常简单的乐器，自带的的音乐&e右键&r选择就能演奏，你可以把不同乐器丢给&e人形生物&r（僵尸，凋零骷髅，尸壳等）或者&e玩家&r，会&e同步演奏&r。"
+				"如果人形生物没有演奏动画，请禁用&e鲜活动画资源包&r。"
+			]
+			id: "5B32CAFF283621EE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3760D9DCA81CFC84"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1E1749899350207D"
+				item: {
+					Count: 1
+					id: "immersive_melodies:lute"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -19.0d
+			y: 5.0d
+		}
+		{
+			description: [
+				"非常简单的乐器，自带的的音乐&e右键&r选择就能演奏，你可以把不同乐器丢给&e人形生物&r（僵尸，凋零骷髅，尸壳等）或者&e玩家&r，会&e同步演奏&r。"
+				"如果人形生物没有演奏动画，请禁用&e鲜活动画资源包&r。"
+			]
+			id: "45DDE63B87FE6427"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7F3AD4AECFB49C5E"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5C5B5ED690B770C5"
+				item: {
+					Count: 1
+					id: "immersive_melodies:piano"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -20.0d
+			y: 5.0d
+		}
+		{
+			description: [
+				"非常简单的乐器，自带的的音乐&e右键&r选择就能演奏，你可以把不同乐器丢给&e人形生物&r（僵尸，凋零骷髅，尸壳等）或者&e玩家&r，会&e同步演奏&r。"
+				"如果人形生物没有演奏动画，请禁用&e鲜活动画资源包&r。"
+			]
+			id: "278B581B0499716D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7E04C09A6BB004B2"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [{
+				id: "23A6192E7C9B9C06"
+				item: {
+					Count: 1
+					id: "immersive_melodies:triangle"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -18.0d
+			y: 5.0d
+		}
+		{
+			description: [""]
+			id: "240AC9FC331A1D70"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "56B9ACBAE881C6F8"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [{
+				id: "23DCC5168C20E144"
+				item: "xercamusic:flute"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 5.0d
+		}
+		{
+			id: "61E3DCB76DFB45A4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5693CC1354C348B1"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [{
+				id: "03F33428558A0C50"
+				item: "xercamusic:cymbal"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 5.0d
+		}
+		{
+			id: "506C81DCF6814376"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "15AAE8552CD80FDE"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [{
+				id: "40F738578C10EA4F"
+				item: "xercamusic:lyre"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 5.0d
+		}
+		{
+			description: [
+				"此模组乐器需要一点&e乐理知识&r，不会也无所谓，找你喜欢的音乐的&e数字简谱&r，记&e数字谱&r就行。"
+				"详细教学：模组作者B站授权完整介绍视频：&eBV1rP4y1w7pi&r"
+			]
+			id: "4B1C1920B5F592DD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "06AEAEEA52A204FD"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4728890760BB397A"
+				item: "xercamusic:music_sheet"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 6.0d
+		}
+		{
+			description: [
+				"此模组乐器需要一点&e乐理知识&r，不会也无所谓，找你喜欢的音乐的&e数字简谱&r，记&e数字谱&r就行。"
+				"详细教学：模组作者B站授权完整介绍视频：&eBV1rP4y1w7pi&r"
+			]
+			id: "2F3387916E75CA58"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6D97560F6003D710"
+				table_id: 2953109549610839980L
+				type: "choice"
+			}]
+			tasks: [{
+				id: "4272C16FE9C4936E"
+				item: "xercamusic:music_box"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 6.0d
+		}
+		{
+			description: [
+				"此模组乐器需要一点&e乐理知识&r，不会也无所谓，找你喜欢的音乐的&e数字简谱&r，记&e数字谱&r就行。"
+				"详细教学：模组作者B站授权完整介绍视频：&eBV1rP4y1w7pi&r"
+			]
+			id: "583554E4687FD4E9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6AA00D7327C0375A"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4DA30324190FCD82"
+				item: "xercamusic:metronome"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 6.0d
+		}
+		{
+			id: "1D7A5334229A0452"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4961279DC3EA23E3"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6DDF2F19976C33AF"
+				item: "xercamusic:sansula"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 5.0d
+		}
+		{
+			id: "00ABA74D617EAEC7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "67166E27FE3A3298"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [{
+				id: "59A25592A2C5052F"
+				item: "xercamusic:tubular_bell"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 5.0d
+		}
+		{
+			id: "3DAF6B95150D851F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3F33D0F76EA7BEF0"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [{
+				id: "72D7B78D65EB856F"
+				item: "xercamusic:xylophone"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 5.0d
+		}
+		{
+			id: "31AA94DF8D691538"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3ACD5D1DFE5D3DAC"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [{
+				id: "49A8EC55F7DD81CA"
+				item: "xercamusic:drum_kit"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 5.0d
+		}
+		{
+			id: "58691DEA1495A66D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "600A558E26E74429"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0FA5C99D82A0A99C"
+				item: "xercamusic:drum"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 5.0d
+		}
+		{
+			id: "3EA4A694CB4355E0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0B0D1A1F1ED928FA"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4F4C469F951F7B68"
+				item: "xercamusic:violin"
+				type: "item"
+			}]
+			x: -13.5d
+			y: 4.0d
+		}
+		{
+			id: "4040E264208F0B27"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "44CE318279E2B566"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7A709676DAFD4483"
+				item: "xercamusic:cello"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 4.0d
+		}
+		{
+			id: "51F478B7EFE55BB5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "32EC5312F046D03B"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [{
+				id: "44076DE00E5D6488"
+				item: "xercamusic:saxophone"
+				type: "item"
+			}]
+			x: -13.5d
+			y: 5.0d
+		}
+		{
+			id: "34A1AF351C143127"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6A22108CF719B90D"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3E5551F5725CEE59"
+				item: "xercamusic:banjo"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 5.0d
+		}
+		{
+			id: "7833F02F9B4C9E9C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3AD30510A05B09D1"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [{
+				id: "56D52C1E5E20DFD6"
+				item: "xercamusic:piano"
+				type: "item"
+			}]
+			x: -12.5d
+			y: 5.0d
+		}
+		{
+			id: "65C0EF1BB1740F8B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "52879278E7B7879F"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5DD9153DFFA09185"
+				item: "xercamusic:guitar"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 3.0d
+		}
+		{
+			id: "36876EE09F799969"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "428A858C2894CAC0"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [{
+				id: "22F348F72A76FD5D"
+				item: "xercamusic:bass_guitar"
+				type: "item"
+			}]
+			x: -13.5d
+			y: 3.0d
+		}
+		{
+			id: "0046A09F223D251B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6713F36E82E8ED3E"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [{
+				id: "18ABBC75396AD1C1"
+				item: "xercamusic:redstone_guitar"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 2.0d
+		}
+		{
+			id: "77FEAE679A1A1687"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0361CAD8AF9085C0"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [{
+				id: "76BAA4BD7E2A16FD"
+				item: "xercamusic:french_horn"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.0d
+		}
+		{
+			id: "7C78DD226F5E752B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6AD5A5E26076F0D0"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [{
+				id: "650017D1C68BCCB7"
+				item: "xercamusic:oboe"
+				type: "item"
+			}]
+			x: -13.5d
+			y: 2.0d
+		}
+		{
+			description: [
+				"手持相机&eShift+右键&r打开相机&e内部 GUI&r，用以安装相机所需的组件；手持相机&e右键&r打开&e取景器&r，&e再次按下右键&r即可&e拍照&r（需安装胶片）。"
+				""
+				"按下 &eShift&r 可打开拍摄设置（&e焦距、快门速度、开 / 关闪光灯、显示不同的构图参考线&r），按下 &eEsc可关闭取景器&r。"
+				""
+				"按下&eF5键&r可以切换&e自拍模式&r"
+			]
+			id: "68D40D061693E6AB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3BCAD726E3686785"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2571C8B2A54E0789"
+				item: "exposure:camera"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["68D40D061693E6AB"]
+			description: ["安装相机上可以让相机拥有&e长焦镜头&r效果，拍摄时&e鼠标滑轮&r可以放大缩小画面"]
+			id: "14B517C85F131CAC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1B1C3D211F7A31EA"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [{
+				id: "677E01A8981C97BE"
+				item: "minecraft:spyglass"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["68D40D061693E6AB"]
+			description: ["安装相机上让相机拥有闪光灯"]
+			id: "588D63FF9FE71C8A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5D77C8AC383EA93F"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4A9B6A09F3C00004"
+				item: "minecraft:redstone_lamp"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["68D40D061693E6AB"]
+			description: ["不同颜色的玻璃板安装在相机上可以让相机使用不同颜色的滤镜。"]
+			id: "286238F5F18859A6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5D8E9E24E5F92528"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2436253951FC67CF"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "exposure:filters"
+					}
+				}
+				title: "任意颜色玻璃板"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["68D40D061693E6AB"]
+			description: [
+				"放入相机中，用于拍摄彩色照片。"
+				"&e洗照片&r：拍照后得到的胶卷需要被对应的药水处理。&e黑白胶卷需要一瓶普通的水瓶&r，而&e彩色胶卷需要 平凡的药水、粗制的药水、浓稠的药水 三种药水的水瓶&r。在 &e工作台中处理&r好后的胶卷即可放入暗房"
+			]
+			id: "0126A84E0A5FE208"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6B90AD88390D849A"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [{
+				id: "034764F6AE12C89E"
+				item: "exposure:color_film"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 6.0d
+		}
+		{
+			description: [
+				"使用时首先需要在左边栏位内放入已冲洗的黑白胶卷或已冲洗的彩色胶卷，分别可以打印出&e黑白照片&r和&e彩色照片&r。"
+				"点击&e左/右侧位置&r可以选择&e前/后一张底片&r，点击当前底片或对其向上滚动滚轮可以放大查看该底片。"
+			]
+			id: "61ACE71D9997E8DE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2076BFCB949D2F4D"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5FCC145FCB17DAF8"
+				item: "exposure:lightroom"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["68D40D061693E6AB"]
+			description: [
+				"放入相机中，用于拍摄黑白照片。"
+				"&e洗照片&r：拍照后得到的胶卷需要被对应的药水处理。&e黑白胶卷需要一瓶普通的水瓶&r，而&e彩色胶卷需要 平凡的药水、粗制的药水、浓稠的药水 三种药水的水瓶&r。在 &e工作台中处理&r好后的胶卷即可放入暗房"
+			]
+			id: "618E9BCCD58E2F77"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2809698BC0279E7D"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [{
+				id: "79F41D7CFA0B552B"
+				item: "exposure:black_and_white_film"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"55DBED19B810260D"
+				"5CA30E063E6ED1F6"
+			]
+			description: [
+				"打开相册，左键点击&e上方空白&r位置可以在其中&e放入照片&r，一本相册最多可以放置16张照片；&e右键点击&r可以&e取下已放置&r的照片。"
+				"&e左键点击&r&c下方的横线&r可以&e书写注释&r，最多可以书写&e3行&r；&e右键点击&r可以&e清空已书写的内容&r。"
+				""
+				"当相册内有照片或注释时，就可以点击左侧的按钮为相册署名，相册的作者为创作此本相册的玩家名。"
+				"&e被署名后&r，它就会变为带有相册名和作者名的已署名的相册,&e且不能再被编辑&r。"
+				"手持相册对&b雕纹书架&r按使用键可将相册放入其中。"
+			]
+			id: "388CF81444246E4E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "54C7BC4A34586068"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [{
+				id: "589AEACA095CE89B"
+				item: "exposure:album"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["61ACE71D9997E8DE"]
+			description: [
+				"在物品栏中拿起照片并移动到到其他照片上点击右键得到，最多可以叠放16张照片，用于储存大量照片。"
+				""
+				"照片的顺序由叠放的动作决定，遵循的规则是：鼠标所拿着的照片永远叠放在被点击的照片上方，如："
+				""
+				"拿起一张照片点击一叠照片，该照片将被置于最顶部；"
+				""
+				"拿起一叠照片点击一张照片，该照片将被置于最底部；"
+				""
+				"拿起照片叠A点击照片叠B，则将B整叠置于A下方；"
+				""
+				"在物品栏中右键点击一叠照片，将取出最顶部的一张照片；"
+				""
+				"拿起一叠照片右键点击空物品栏，将在栏位中留下该最底部的一张照片。"
+			]
+			id: "5CA30E063E6ED1F6"
+			tasks: [{
+				id: "45C3857B50C73874"
+				item: "exposure:stacked_photographs"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["61ACE71D9997E8DE"]
+			id: "700F75DC835EA6DA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2D2B13C93DDF8F46"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "0ED72FBD3D374268"
+					item: "minecraft:cyan_dye"
+					type: "item"
+				}
+				{
+					id: "56698F7FB4250CCD"
+					item: "minecraft:magenta_dye"
+					type: "item"
+				}
+				{
+					id: "20361FAFF905B4FB"
+					item: "minecraft:yellow_dye"
+					type: "item"
+				}
+				{
+					id: "710AA3733470ABDB"
+					item: "minecraft:black_dye"
+					type: "item"
+				}
+			]
+			x: 14.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["61ACE71D9997E8DE"]
+			id: "62E66AF41CC77B5C"
+			tasks: [{
+				id: "3AE0BDAB251A2859"
+				item: "minecraft:paper"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["61ACE71D9997E8DE"]
+			id: "55DBED19B810260D"
+			tasks: [{
+				id: "1E266FAE4F5E40B5"
+				item: "exposure:photograph"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 6.0d
+		}
+		{
+			description: [
+				"非常简单的乐器，自带的的音乐&e右键&r选择就能演奏，你可以把不同乐器丢给&e人形生物&r（僵尸，凋零骷髅，尸壳等）或者&e玩家&r，会&e同步演奏&r。"
+				"如果人形生物没有演奏动画，请禁用&e鲜活动画资源包&r。"
+			]
+			id: "1D140024264605BF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6C00BF520257DDA1"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3BEF0C81FD3AAC7E"
+				item: {
+					Count: 1
+					id: "immersive_melodies:tiny_drum"
+					tag: {
+						enabled_tracks: [I;0]
+						melody: "your_namespace:melodies/Astronomia.mid"
+						playing: 1b
+						start_time: 2592187L
+					}
+				}
+				type: "item"
+			}]
+			x: -15.0d
+			y: 5.0d
+		}
+	]
+	title: "余音袅袅（乐器，绘画,记录风景）"
+}

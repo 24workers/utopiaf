@@ -1,0 +1,589 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "2C0B851C2182314E"
+	group: "7F39AE8B81C21BA4"
+	icon: "minecraft:stone_button"
+	id: "2C0B851C2182314E"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["驾驶飞机装备烟花左ctrl加速"]
+			icon: "immersive_aircraft:biplane"
+			id: "2451E27BF4DB2DAF"
+			rewards: [{
+				icon: "minecraft:experience_bottle"
+				id: "7DFEE538D05C6BE4"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "离开飞机按下R键即可，扬起船帆按R键。"
+			tasks: [{
+				id: "6A965B334B7EC70E"
+				type: "checkmark"
+			}]
+			title: "载具相关按键"
+			x: -8.0d
+			y: 1.0d
+		}
+		{
+			description: [""]
+			icon: {
+				Count: 1
+				id: "mighty_mail:package"
+				tag: { }
+			}
+			id: "01088F37FAF1EDD7"
+			rewards: [{
+				icon: "minecraft:experience_bottle"
+				id: "6719641DDF835068"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Shift加X键即可"
+			tasks: [{
+				id: "05AC864B851D7BC5"
+				type: "checkmark"
+			}]
+			title: "如何抱起箱子和实体生物？"
+			x: -8.0d
+			y: 2.0d
+		}
+		{
+			description: ["所有生物包括玩家不会踩坏耕地了。"]
+			icon: "minecraft:wheat"
+			id: "36492DE212D040A2"
+			rewards: [{
+				icon: "minecraft:experience_bottle"
+				id: "15D198C18BEAA5E7"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "右键收割农作物，并自动种植种子"
+			tasks: [{
+				id: "252248C5E29D57CD"
+				type: "checkmark"
+			}]
+			title: "收获农作物"
+			x: -9.0d
+			y: 2.0d
+		}
+		{
+			description: [""]
+			icon: "plushables:heart_of_gold"
+			id: "6C6063664A75E492"
+			rewards: [{
+				icon: "minecraft:experience_bottle"
+				id: "745713B5792FD097"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "按下H即可"
+			tasks: [{
+				id: "01489B244B820A67"
+				type: "checkmark"
+			}]
+			title: "如何隐藏和显示背包格数和装备耐久？"
+			x: -9.0d
+			y: -2.0d
+		}
+		{
+			description: [""]
+			icon: "minecraft:item_frame"
+			id: "72851F2072993A30"
+			rewards: [{
+				icon: "minecraft:experience_bottle"
+				id: "42B5E9C5A042C463"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "按下G键即可"
+			tasks: [{
+				id: "449EF97C3DAF3BB8"
+				title: "如何开启原版物品栏常驻"
+				type: "checkmark"
+			}]
+			x: -8.0d
+			y: -2.0d
+		}
+		{
+			description: [""]
+			icon: "minecraft:spyglass"
+			id: "45B0ACF5ED9D68A7"
+			rewards: [{
+				icon: "minecraft:experience_bottle"
+				id: "146542B54662383E"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "按下C键放大，按下鼠标侧键电影视角缓慢放大。"
+			tasks: [{
+				id: "1FEC01264B581EF7"
+				title: "放大镜？"
+				type: "checkmark"
+			}]
+			title: "如何放大？"
+			x: -10.0d
+			y: 2.0d
+		}
+		{
+			description: ["世界地图界面下右键区块位置选择可以传送"]
+			icon: "luphieclutteredmod:luphie_antique_map"
+			id: "08DAE3AF7B177FA6"
+			rewards: [{
+				icon: "minecraft:experience_bottle"
+				id: "348A2656AEA486CC"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "按下M即可"
+			tasks: [{
+				id: "0B352E57269819DD"
+				title: "如何打开地图"
+				type: "checkmark"
+			}]
+			title: "如何打开世界地图"
+			x: -10.0d
+			y: 0.0d
+		}
+		{
+			description: ["打开物品栏，右上方扫把，点击也可以整理"]
+			icon: "minecraft:chest"
+			id: "37D6DB14467427F2"
+			rewards: [{
+				icon: "minecraft:experience_bottle"
+				id: "1C2DCA9F309E75BE"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "按下鼠标滚轮整理，指着物品滚动可以放入和取出。"
+			tasks: [{
+				id: "2F975D08F18F59F1"
+				type: "checkmark"
+			}]
+			title: "箱子整理和放入取出"
+			x: -8.0d
+			y: 0.0d
+		}
+		{
+			description: ["提示：疾跑状态高空着陆的一瞬间，翻滚可以免疫坠落伤害！"]
+			icon: "hamsters:hamster_wheel"
+			id: "736B5314106416C1"
+			rewards: [{
+				icon: "minecraft:experience_bottle"
+				id: "6D2ED7E34A287C26"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "半空中按下SHIFT即可翻滚"
+			tasks: [{
+				id: "5B14430527792D07"
+				type: "checkmark"
+			}]
+			title: "如何翻滚？"
+			x: -7.0d
+			y: 1.0d
+		}
+		{
+			description: ["可以配置&d胸部大小&r和&d物理效果&r，&d受伤声音&r等等。"]
+			icon: "luphieclutteredmod:luphiebunny_plushie"
+			id: "2CBABC7D570E5309"
+			rewards: [{
+				icon: "minecraft:experience_bottle"
+				id: "1209CB66029C9483"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "按下K键打开性别设置"
+			tasks: [{
+				id: "252FDE22B4197E55"
+				type: "checkmark"
+			}]
+			title: "玩家女性角色胸部设置"
+			x: -7.0d
+			y: 0.0d
+		}
+		{
+			description: ["K键可以配置&d胸部大小&r和&d物理效果&r，&d受伤声音&r等等。"]
+			icon: {
+				Count: 1
+				id: "advancednetherite:netherite_diamond_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "7511EC5E15EA3967"
+			rewards: [{
+				icon: "minecraft:experience_bottle"
+				id: "64BEFA504C903415"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "按下P键打开盔甲显示隐藏设置"
+			tasks: [{
+				id: "0506EB1E949E196B"
+				type: "checkmark"
+			}]
+			title: "玩家盔甲显示隐藏设置"
+			x: -7.0d
+			y: 2.0d
+		}
+		{
+			icon: "artifacts:aqua_dashers"
+			id: "510026E6E92D42C6"
+			rewards: [{
+				icon: "minecraft:experience_bottle"
+				id: "11641B9CFDE6D0A7"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "疾跑过程中按下SHIFT即可"
+			tasks: [{
+				id: "4C0660C76B50EC7D"
+				type: "checkmark"
+			}]
+			title: "如何滑铲？"
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			icon: "artifacts:steadfast_spikes"
+			id: "5EAD59AC846B7E0C"
+			rewards: [{
+				icon: "minecraft:experience_bottle"
+				id: "4AC8ED8A0F82D52E"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "奔跑跳跃经过墙面空格不松移动键"
+			tasks: [{
+				id: "3417A95E4DD879FB"
+				type: "checkmark"
+			}]
+			title: "如何跑墙？"
+			x: -10.0d
+			y: -1.0d
+		}
+		{
+			icon: "plushies:camel_plushie"
+			id: "53E76436FBAAD203"
+			rewards: [{
+				icon: "minecraft:experience_bottle"
+				id: "3F3879BC4DC23E29"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "按N键，或者翻滚后按住SHIFT不放移动即可"
+			tasks: [{
+				id: "1611BEAF8A58237B"
+				type: "checkmark"
+			}]
+			title: "如何匍匐（阴暗的爬行）？"
+			x: -9.0d
+			y: 1.0d
+		}
+		{
+			icon: "magic_vibe_decorations:bigbookstack"
+			id: "0AF5AB5033993332"
+			rewards: [{
+				icon: "minecraft:experience_bottle"
+				id: "385C6CFAF796CD54"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "在物品栏鼠标悬浮物品上，查看配方按R,查看用途按U。"
+			tasks: [{
+				id: "37A43037C8429573"
+				title: "隐藏物品管理器界面"
+				type: "checkmark"
+			}]
+			title: "查看配方和用途"
+			x: -6.0d
+			y: -1.0d
+		}
+		{
+			description: [""]
+			icon: "minecraft:player_head"
+			id: "6B157F8B54B828AF"
+			rewards: [{
+				icon: "minecraft:experience_bottle"
+				id: "3AFBA3EFF870446A"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "按下鼠标侧键打开表情，可自行改键或配置表情。"
+			tasks: [{
+				id: "5BEF24AC73DCFB62"
+				type: "checkmark"
+			}]
+			title: "如何开启玩家表情"
+			x: -7.0d
+			y: -1.0d
+		}
+		{
+			icon: "minecraft:stone_button"
+			id: "72991B4594554359"
+			rewards: [{
+				icon: "minecraft:experience_bottle"
+				id: "3A37AA05447D45D5"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "按下J键即可"
+			tasks: [{
+				id: "13D01B551CD9EAFC"
+				title: "如何将物品放置在地上"
+				type: "checkmark"
+			}]
+			x: -9.0d
+			y: 0.0d
+		}
+		{
+			icon: "magistuarmory:lion1_pattern"
+			id: "1AB55F52E2767AF3"
+			rewards: [{
+				icon: "minecraft:experience_bottle"
+				id: "5610C958289921A7"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "按下U进行设置"
+			tasks: [{
+				id: "478585533B5DD865"
+				type: "checkmark"
+			}]
+			title: "如何添加标记或删除坐标？"
+			x: -8.0d
+			y: -1.0d
+		}
+		{
+			icon: "minecraft:filled_map"
+			id: "4B59F0FECA287444"
+			rewards: [{
+				icon: "minecraft:experience_bottle"
+				id: "75F8C9AAADC97294"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "按下Y键自行设置"
+			tasks: [{
+				id: "2DF34A1BD38EFD4D"
+				type: "checkmark"
+			}]
+			title: "如何设置小地图和世界地图？"
+			x: -9.0d
+			y: -1.0d
+		}
+		{
+			description: ["按下F7可以开启自由视角，开启自由视角后按F9可以自由移动。"]
+			icon: "meadow:camera"
+			id: "7EC4018894039DF2"
+			rewards: [{
+				icon: "minecraft:experience_bottle"
+				id: "48D3B27E40DBC262"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "按下F5可以切换第三人称和越肩视角"
+			tasks: [{
+				id: "04A01886B4E81BE2"
+				type: "checkmark"
+			}]
+			title: "如何切换第三人称和越肩视角？"
+			x: -10.0d
+			y: 1.0d
+		}
+		{
+			icon: "luphieclutteredmod:luphie_polaroid_camera"
+			id: "040B456F88422C61"
+			rewards: [{
+				icon: "minecraft:experience_bottle"
+				id: "2543D30F925F6A56"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "按下F8"
+			tasks: [{
+				id: "37B1226901D603AA"
+				type: "checkmark"
+			}]
+			title: "如何切换电影视角"
+			x: -7.0d
+			y: -2.0d
+		}
+		{
+			icon: "plushies:enderman_plushie"
+			id: "61023A6C55BB3298"
+			rewards: [{
+				icon: "minecraft:experience_bottle"
+				id: "70143203D9503A31"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "按下F6可以切换原版第一人称或真实的第一人称"
+			tasks: [{
+				id: "5C574A5AD9744FB1"
+				type: "checkmark"
+			}]
+			title: "如何切换第一人称？"
+			x: -6.0d
+			y: -2.0d
+		}
+		{
+			description: [""]
+			icon: {
+				Count: 1
+				id: "travelersbackpack:standard"
+				tag: { }
+			}
+			id: "0E6723E3535FB192"
+			rewards: [{
+				icon: "minecraft:experience_bottle"
+				id: "31EB2B08BD9EAAF8"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "背包不占用槽位，手持背包右键点击史蒂夫箭头装备。装备后按B打开背包。"
+			tasks: [{
+				id: "043B881E7750065D"
+				type: "checkmark"
+			}]
+			title: "如何装备和打开背包？"
+			x: -5.0d
+			y: -2.0d
+		}
+		{
+			description: ["不习惯桶滚飞行，可以在按下&eF4&r切换原版飞行视角。（&4需开启作弊&r）"]
+			icon: {
+				Count: 1
+				id: "enderitemod:enderite_elytra_seperated"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "2C677DECF49E10E6"
+			rewards: [{
+				icon: "minecraft:experience_bottle"
+				id: "4BB1B8354B158DCE"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "向左翻滚←，向右翻滚→，向上俯冲↑，向下俯冲↓，空中倒车S。"
+			tasks: [{
+				id: "4BCCC6FBD0910BF7"
+				type: "checkmark"
+			}]
+			title: "如何使用鞘翅和其他翅膀展现飞行杂技？"
+			x: -5.0d
+			y: -1.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "minecraft:diamond_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "592E71AF65F8CEFE"
+			rewards: [{
+				icon: "minecraft:experience_bottle"
+				id: "0002E5C580F5E105"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "挖掘其他方块连锁按~键"
+			tasks: [{
+				id: "54B3F34D4F25FED7"
+				type: "checkmark"
+			}]
+			title: "如何连锁挖掘方块？"
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			icon: "ftbquests:book"
+			id: "1AF6FDA12D5479D4"
+			rewards: [{
+				icon: "minecraft:experience_bottle"
+				id: "3B225C44404191DD"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "ctrl+鼠标滚轮"
+			tasks: [{
+				id: "7B7BBBA48DD32254"
+				type: "checkmark"
+			}]
+			title: "如何缩放任务界面？"
+			x: -10.0d
+			y: -2.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "additionaladditions:crossbow_with_spyglass"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "29FE299C3D2C0723"
+			rewards: [{
+				icon: "minecraft:experience_bottle"
+				id: "2C165CB171355405"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "按【   键关闭开启。"
+			tasks: [{
+				id: "3280E4AF6F658E97"
+				type: "checkmark"
+			}]
+			title: "如何关闭远程武器弹道抛物线预览？"
+			x: -6.0d
+			y: 1.0d
+		}
+		{
+			description: ["  注意：请不要在开启自由视角状态下退出存档，否则游戏会崩溃。"]
+			icon: "simplehats:cyclopseye"
+			id: "1A984C35D91B54D8"
+			rewards: [{
+				icon: "minecraft:experience_bottle"
+				id: "0B09AF033728C801"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "按F7开启自由视角，自由视角状态下按F9可以操控本体。"
+			tasks: [{
+				id: "70A8B1C5FD9AFEAC"
+				type: "checkmark"
+			}]
+			title: "如何开启自由视角（灵魂出窍）？"
+			x: -5.0d
+			y: 1.0d
+		}
+		{
+			description: ["打开物品栏，右上方扫把，点击也可以整理"]
+			icon: "minecraft:writable_book"
+			id: "13370364C9197E6C"
+			rewards: [{
+				icon: "minecraft:experience_bottle"
+				id: "57F3F837A12E1396"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "如果你是付费获得，那你一定是被骗了！请举报倒卖整合包的店铺！"
+			tasks: [{
+				id: "09F3C292C27EA7E6"
+				type: "checkmark"
+			}]
+			title: "整合包完全免费！！！"
+			x: -7.5d
+			y: -3.5d
+		}
+	]
+	title: "快捷键and注意事项（必看）"
+}

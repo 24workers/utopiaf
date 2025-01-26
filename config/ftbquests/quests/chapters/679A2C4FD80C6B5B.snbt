@@ -1,0 +1,36 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "679A2C4FD80C6B5B"
+	group: "2A3ECC20C469DF2B"
+	icon: {
+		Count: 1
+		id: "medievalweapons:iron_long_sword"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "679A2C4FD80C6B5B"
+	order_index: 6
+	quest_links: [ ]
+	quests: [{
+		description: [
+			"一个全新的维度，有自定义方块、物品、实体、等，"
+			"&e生存模式&r：要进入中土世界，你需要在晚上和星光瓶一起睡觉，星光瓶在身上就可以无需装备）"
+			"&e创造模式&r：&e手持星光瓶右键&r即可传送中土世界。&e由于该模组还处于A测阶段&r，物品事件剧情等这些还没有完善，期待作者Jukoz团队的更新吧。"
+			"&e返回方法&r：晚上在中土世界和星光瓶一起睡觉。"
+		]
+		icon: "minecraft:oak_sapling"
+		id: "06751150528AB94D"
+		tasks: [{
+			dimension: "me:middle-earth"
+			id: "79AAB5E03FAD51AE"
+			title: "中土世界"
+			type: "dimension"
+		}]
+		title: "欢迎来到中土世界【已删除，等待更新，测试模组不稳定】"
+		x: -8.0d
+		y: 0.5d
+	}]
+	title: "《中土世界维度》（待更新）"
+}

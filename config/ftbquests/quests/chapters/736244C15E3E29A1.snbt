@@ -1,0 +1,165 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "736244C15E3E29A1"
+	group: "6AF1017C345E1B33"
+	icon: "croptopia:crab"
+	id: "736244C15E3E29A1"
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			id: "0FFF5F7B40F0415B"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0CCE1D30691DC295"
+					table_id: 2953109549610839980L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "46796E9A3F32A926"
+					table_id: 3438619514375427762L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "206F8A029DC1BFD1"
+					table_id: 7229437663258640740L
+					type: "loot"
+				}
+			]
+			tasks: [
+				{
+					id: "4BC8A2AE82437F70"
+					item: "hybrid-aquatic:lobster_claw"
+					type: "item"
+				}
+				{
+					id: "57CE178E337A0CD0"
+					item: "hybrid-aquatic:dungeness_crab_claw"
+					type: "item"
+				}
+				{
+					id: "22EA5598509D531C"
+					item: "hybrid-aquatic:fiddler_crab_claw"
+					type: "item"
+				}
+				{
+					id: "10B68995228A9AB7"
+					item: "hybrid-aquatic:vampire_crab_claw"
+					type: "item"
+				}
+				{
+					id: "0854AF8B2E705080"
+					item: "hybrid-aquatic:flower_crab_claw"
+					type: "item"
+				}
+				{
+					id: "63AC56E11F1782BB"
+					item: "hybrid-aquatic:ghost_crab_claw"
+					type: "item"
+				}
+				{
+					id: "6D0C46D826A846CC"
+					item: "hybrid-aquatic:spider_crab_claw"
+					type: "item"
+				}
+				{
+					id: "149F4B70FAE2EE89"
+					item: "hybrid-aquatic:coconut_crab_claw"
+					type: "item"
+				}
+				{
+					id: "79DAFB3D7FA4985C"
+					item: "hybrid-aquatic:yeti_crab_claw"
+					type: "item"
+				}
+				{
+					id: "495AC1560FCC5D79"
+					item: "hybrid-aquatic:lightfoot_crab_claw"
+					type: "item"
+				}
+			]
+			title: "蚁钳是蚁钳，蟹仔是蟹仔！"
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0FFF5F7B40F0415B"]
+			description: ["主手持钓鱼竿副手持不详鱼钩，在海里钓鱼即可招出巨蟹！"]
+			id: "0D17212754AE403E"
+			rewards: [{
+				id: "2565BFD2368772F3"
+				item: "simplehats:crabonhead"
+				type: "item"
+			}]
+			tasks: [{
+				id: "44FCFCB7E971BB01"
+				item: {
+					Count: 1
+					id: "hybrid-aquatic:ominous_hook"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0D17212754AE403E"]
+			id: "3FA2676099B898BF"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5B32406999660245"
+					table_id: 2953109549610839980L
+					type: "random"
+				}
+				{
+					id: "025990881D4D7D6C"
+					item: "biomemakeover:crab_chowder"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "56ECAA1D396D7B46"
+					table_id: 3438619514375427762L
+					type: "random"
+				}
+			]
+			tasks: [{
+				entity: "hybrid-aquatic:karkinos"
+				icon: "simplehats:crabonhead"
+				id: "3E3E36A07D99D0CF"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3FA2676099B898BF"]
+			description: ["放在副手+3方块放置范围"]
+			id: "47FCE1038DCA404C"
+			rewards: [{
+				icon: "minecraft:experience_bottle"
+				id: "7E6CBBC48E2CA6D4"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "20EE27712BF1E2AC"
+				item: "hybrid-aquatic:karkinos_claw"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+	]
+	title: "巨蟹"
+}

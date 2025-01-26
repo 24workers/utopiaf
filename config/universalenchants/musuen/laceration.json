@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:weapon"
+  ],
+  "incompatible": [
+    "musuen:evolving",
+    "minecraft:impaling",
+    "minecraft:smite",
+    "deeperdarker:sculk_smite",
+    "musuen:overcharged",
+    "minecraft:bane_of_arthropods",
+    "musuen:berserker"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+	chapter_groups: [
+		{ id: "7F39AE8B81C21BA4", title: "修改的机制和快捷键(必看）" }
+		{ id: "4042212D3F461FE3", title: "主线任务" }
+		{ id: "4907EE8B35520E51", title: "饮食与酿造" }
+		{ id: "50272B04D9728AF0", title: "建筑装饰饰品" }
+		{ id: "15996FB77BE6F65F", title: "职业和装备" }
+		{ id: "79BDAE92E48D450B", title: "以物易物（商店）" }
+		{ id: "6AF1017C345E1B33", title: "BOSS" }
+		{ id: "2A3ECC20C469DF2B", title: "维度" }
+		{ id: "179B940BD4C97FD2", title: "成就" }
+		{ id: "061233B681861FF4", title: "鸣谢名单和其他" }
+	]
+}

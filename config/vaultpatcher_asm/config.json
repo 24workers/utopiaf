@@ -1,0 +1,12 @@
+{
+  "mods": [
+    "example"
+  ],
+  "classes": [],
+  "apply_mods": [],
+  "debug_mode": {
+    "is_enable": false,
+    "output_format": "\u003csource\u003e -\u003e \u003ctarget\u003e",
+    "output_mode": 0
+  }
+}

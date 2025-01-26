@@ -1,0 +1,32 @@
+{
+	id: "28FB8D7D375E2FAC"
+	loot_size: 1
+	order_index: 2
+	rewards: [
+		{
+			icon: "minecraft:experience_bottle"
+			type: "xp"
+			weight: 20.0f
+			xp: 100
+		}
+		{
+			icon: "minecraft:experience_bottle"
+			type: "xp"
+			weight: 6.0f
+			xp: 200
+		}
+		{
+			icon: "minecraft:experience_bottle"
+			type: "xp"
+			weight: 4.0f
+			xp: 300
+		}
+		{
+			icon: "minecraft:experience_bottle"
+			type: "xp_levels"
+			weight: 0.1f
+			xp_levels: 10
+		}
+	]
+	title: "经验"
+}

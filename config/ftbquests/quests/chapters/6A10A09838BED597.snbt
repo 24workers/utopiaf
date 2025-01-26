@@ -1,0 +1,1319 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "6A10A09838BED597"
+	group: "4042212D3F461FE3"
+	id: "6A10A09838BED597"
+	images: [
+		{
+			height: 10.0d
+			image: "minecraft:textures/xiangzi.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: -8.0d
+			y: 4.5d
+		}
+		{
+			height: 10.0d
+			image: "minecraft:textures/youtong1.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: 1.0d
+			y: 4.5d
+		}
+		{
+			height: 10.0d
+			image: "minecraft:textures/chuan1.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: 9.5d
+			y: 4.0d
+		}
+		{
+			height: 10.0d
+			image: "minecraft:textures/feiji3.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: 17.5d
+			y: 4.5d
+		}
+	]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&e邮筒可以向其他玩家发送邮件&r。您可以将物品放入邮筒，选择在世界上放置的任何&e已命名的邮箱&r中发送邮件。也适用于跨维度。其他玩家收到邮件时，ta的邮箱将出现一个&e小红旗&r。"
+				"&4注意&r：replay录制，有放置邮筒的区块不会进行渲染，请录制前把邮筒收回箱子或背包里。"
+			]
+			id: "179E083FB8736C3E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "05460B7C8D9CDBF9"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [{
+				id: "740124EF3084B1A0"
+				item: "mighty_mail:post_box"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["179E083FB8736C3E"]
+			id: "02E324EBF6C1042E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5FB2893FC5A735DC"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "2F3CEE7C0D500DE7"
+					item: "mighty_mail:oak_mail_box"
+					type: "item"
+				}
+				{
+					id: "77B8E040168234AE"
+					item: "mighty_mail:spruce_mail_box"
+					type: "item"
+				}
+				{
+					id: "37DAFF56A665788B"
+					item: "mighty_mail:birch_mail_box"
+					type: "item"
+				}
+				{
+					id: "275BF9271C5D11CC"
+					item: "mighty_mail:jungle_mail_box"
+					type: "item"
+				}
+				{
+					id: "50BCA2B1AF855351"
+					item: "mighty_mail:acacia_mail_box"
+					type: "item"
+				}
+				{
+					id: "094720F35BFD4EAE"
+					item: "mighty_mail:dark_oak_mail_box"
+					type: "item"
+				}
+				{
+					id: "1E4888236F8785E7"
+					item: "mighty_mail:mangrove_mail_box"
+					type: "item"
+				}
+				{
+					id: "642F99F7A5C210FC"
+					item: "mighty_mail:cherry_mail_box"
+					type: "item"
+				}
+				{
+					id: "114CA42F75E2AA13"
+					item: "mighty_mail:crimson_mail_box"
+					type: "item"
+				}
+				{
+					id: "480E44C875C365B7"
+					item: "mighty_mail:warped_mail_box"
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["64727C88C6DF386C"]
+			description: [
+				"当风箱激活时，会使得其&e两格&r前的&e火焰一直燃烧&r，但下雨仍会让火熄灭。"
+				"风箱还可以在平面&e推动实体&r，使其远离出风口最多五格的距离。"
+				"它还可以&e加速熔炉、高炉、烟熏炉、营火&r的工作速度。"
+				"离出风口越近，风箱接收的红石信号越强，推力越大。"
+				"玩家和部分较大的实体比如僵尸、苦力怕、村民等&e站在未激活的风箱上&r会压缩风箱&e使其吹一次风&r，正在工作中的风箱的不能被压缩。已经被玩家压住的风箱无法被红石信号激活工作。"
+				"玩家&e站在&r风箱上&e使其吹风后&r，在风箱上&e无法跳跃&r而且移动时会出现滑动&e直到离开风箱&r。"
+			]
+			id: "65D7CDD48DDAAB22"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "689B710092376143"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4CB5A9309F45B6ED"
+				item: "supplementaries:bellows"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["179E083FB8736C3E"]
+			description: [
+				"以前车马很远 书信很慢"
+				""
+				"一生只够爱一个人"
+				""
+				"记得早先少年时"
+				""
+				"大家诚诚恳恳"
+				""
+				"说一句 是一句"
+				""
+				"清早上火车站"
+				""
+				"长街黑暗无行人"
+				""
+				"卖豆浆的小店冒着热气"
+				""
+				"从前的日色变得慢"
+				""
+				"车，马，邮件都慢"
+				""
+				"一生只够爱一个人"
+				""
+				"从前的锁也好看"
+				""
+				"钥匙精美有样子"
+				""
+				"你锁了 人家就懂了&e---木心《从前慢》&r"
+			]
+			id: "1897C70328EBFF71"
+			tasks: [
+				{
+					id: "755C5DEB001FBEF4"
+					item: "candlelight:typewriter_iron"
+					type: "item"
+				}
+				{
+					id: "4F6AAA028E181A5E"
+					item: "candlelight:typewriter_copper"
+					type: "item"
+				}
+				{
+					id: "2E462134A97131C3"
+					item: "candlelight:note_paper_writeable"
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["179E083FB8736C3E"]
+			id: "283D31A7AE361F2E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "62B64049B2830D99"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "57F2AE006CABFA2A"
+					item: "candlelight:love_letter_open"
+					type: "item"
+				}
+				{
+					id: "014CF4242A4D0D79"
+					item: "candlelight:letter_open"
+					type: "item"
+				}
+				{
+					id: "42685584D0180809"
+					item: {
+						Count: 1
+						id: "candlelight:gold_ring"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "235C8A73ADF07B0B"
+					item: "candlelight:jewelry_box"
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["65D7CDD48DDAAB22"]
+			description: [
+				"使用各类斧给&e铜块除锈获得&r，可放置在方块表面以&e代替红石粉&r使用。"
+				"不同于原版的红石粉，铜锈在激活后&e不会发出对应红石信号等级的亮度&r。"
+			]
+			id: "7B83BE81743DFF59"
+			tasks: [{
+				id: "4785330E53578AD4"
+				item: "additionaladditions:copper_patina"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["65D7CDD48DDAAB22"]
+			description: [
+				"在有&e红石信号&r的充能下，转盘会&e旋转&r所在的面的&e方块或实体&r。例如可以给楼梯换个方向。"
+				"输入的信号强度越强，转盘转速越快。"
+				"&e右键&r转盘&e侧面&r可以&e改变&r它的&e旋转方向&r。"
+				"当使用转台&e旋转玩家&r时，&e被旋转&r的玩家会取得进度[&e转台好玩吗&r]。"
+				"&e彩蛋&r："
+				"让一只名为\"&eTom&r\"的已驯服的猫在该方块上转有惊喜"
+			]
+			id: "7FB9FEDF7BB4605B"
+			tasks: [{
+				id: "5A72619C6F90C78F"
+				item: "supplementaries:turn_table"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["65D7CDD48DDAAB22"]
+			description: [
+				"弹射台是一种能够&e代替黏性活塞&r和&e粘液块&r组成的弹射装置的方块。受&e红石信号激活&r。"
+				"它可以将&e实体&r推到&e两倍&r于普通活塞黏液块弹射装置的距离。"
+				"如果实体从足够高的地方落在已经激活的弹射台上使其收缩，弹射台会重新将实体弹起，弹射高度和刚开始激活弹射台的高度相同。"
+			]
+			id: "4C217147F8D2F9DF"
+			tasks: [{
+				id: "15B87324EAFD102A"
+				item: "supplementaries:spring_launcher"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["65D7CDD48DDAAB22"]
+			description: [
+				"沙漏是一个装饰品和红石组件。"
+				"可以用任何甚至是其它模组的&e沙子、粉尘或粉末&r填充它，并使它像真正的沙漏一样工作。沙漏中粉末漏下的消耗的时间取决于粉末的类型，例如&e糖&r将是&e最快&r的，&e红石粉&r是&e最慢&r的。"
+				"可以使用一个比较器来获得一个取决于漏下时间的红石信号。"
+				"可以使用漏斗或发射器重置沙漏，或者可以使用一个侧放的转盘来旋转它"
+			]
+			id: "17C7EBC243C1FF6C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "623BD085D2C797E3"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [{
+				id: "03BF1DB611F561BA"
+				item: "supplementaries:hourglass"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 9.0d
+		}
+		{
+			description: [
+				"&e如何驾驶&r：将船远离你，放入水中（船需要空间来放置）。&e右键单击以坐到船上&r。"
+				"在船上：按“&eT&r”&e展开/收起船帆&r。按“&eJ&r”或“&eK&r”以&e增加/减少帆的角度&r。按“&eI&r”&e打开/关闭货舱&r。"
+				"&e第三人称模式&r下，用&e鼠标滚轮&r更改缩放距离。"
+				"要从船上&e卸下所有实体&r，使用&e潜行（左shift）+右键单击船&r。"
+				"要从船上&e卸下一个实体&r，请使用&e潜行+右键单击该实体&r。"
+				"要从&e外部打开船的货舱&r，请使用&e潜行+右键单击船&r。"
+			]
+			id: "6F5712AFCC41EC0B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "314442EF8D979A0F"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "03C478FCC961349D"
+					item: "smallships:oak_cog"
+					type: "item"
+				}
+				{
+					id: "5E68CBB823968D8C"
+					item: "smallships:spruce_cog"
+					type: "item"
+				}
+				{
+					id: "6F3C158724318B39"
+					item: "smallships:birch_cog"
+					type: "item"
+				}
+				{
+					id: "2FA2D06ED2A62FA4"
+					item: "smallships:jungle_cog"
+					type: "item"
+				}
+				{
+					id: "144CC9F85A63F9FE"
+					item: "smallships:acacia_cog"
+					type: "item"
+				}
+				{
+					id: "57639F51543DCE4C"
+					item: "smallships:cherry_cog"
+					type: "item"
+				}
+				{
+					id: "07D77CA2C5D38D78"
+					item: "smallships:dark_oak_cog"
+					type: "item"
+				}
+				{
+					id: "730F7463D092B455"
+					item: "smallships:mangrove_cog"
+					type: "item"
+				}
+				{
+					id: "7C9D55DC290FE9E6"
+					item: "smallships:bamboo_cog"
+					type: "item"
+				}
+			]
+			title: "更大的船"
+			x: 10.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["6F5712AFCC41EC0B"]
+			id: "5FFE7F816ACA1B87"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "42542AAE071C037F"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "151C466EDD7B624D"
+					item: "smallships:oak_galley"
+					type: "item"
+				}
+				{
+					id: "39086ACA282D959F"
+					item: "smallships:spruce_galley"
+					type: "item"
+				}
+				{
+					id: "7F8ED09F1C201598"
+					item: "smallships:birch_galley"
+					type: "item"
+				}
+				{
+					id: "7681462AE8FD26E9"
+					item: "smallships:jungle_galley"
+					type: "item"
+				}
+				{
+					id: "0EE04B58134098E6"
+					item: "smallships:acacia_galley"
+					type: "item"
+				}
+				{
+					id: "66FF1FF43B0E61D7"
+					item: "smallships:cherry_galley"
+					type: "item"
+				}
+				{
+					id: "42D4B5F86832FAAE"
+					item: "smallships:dark_oak_galley"
+					type: "item"
+				}
+				{
+					id: "43E7618A3EAE24B0"
+					item: "smallships:mangrove_galley"
+					type: "item"
+				}
+				{
+					id: "20794E9409A77737"
+					item: "smallships:bamboo_galley"
+					type: "item"
+				}
+			]
+			x: 10.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["6F5712AFCC41EC0B"]
+			description: [
+				"&e安装&r：手持船只炮右键船放置船上，&e炮弹放在船只的物品栏里&r。"
+				"&e使用&r：在船上按空格&e开炮&r，&e视角看向哪里&r，那个方向的船只炮自动发射。"
+			]
+			id: "40D1713CCC636994"
+			tasks: [
+				{
+					id: "5822A031A549B755"
+					item: "smallships:cannon"
+					type: "item"
+				}
+				{
+					id: "26E34DC4868A0DC9"
+					item: "smallships:cannon_ball"
+					type: "item"
+				}
+			]
+			x: 10.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["6F5712AFCC41EC0B"]
+			id: "2AD2366E82563F7F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "04BD5B4433EE1984"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "531F4F453B786C45"
+					item: "smallships:oak_brigg"
+					type: "item"
+				}
+				{
+					id: "4B0253DE31C921D4"
+					item: "smallships:spruce_brigg"
+					type: "item"
+				}
+				{
+					id: "54F38D64E4E3EC4F"
+					item: "smallships:birch_brigg"
+					type: "item"
+				}
+				{
+					id: "1EAB41941590C83A"
+					item: "smallships:jungle_brigg"
+					type: "item"
+				}
+				{
+					id: "1673501FDEF030AB"
+					item: "smallships:acacia_brigg"
+					type: "item"
+				}
+				{
+					id: "228CA783A6DF3EB9"
+					item: "smallships:cherry_brigg"
+					type: "item"
+				}
+				{
+					id: "1B183FA184505B63"
+					item: "smallships:dark_oak_brigg"
+					type: "item"
+				}
+				{
+					id: "79EE4DB59E6B10BA"
+					item: "smallships:mangrove_brigg"
+					type: "item"
+				}
+				{
+					id: "6BA709D02082CEFF"
+					item: "smallships:bamboo_brigg"
+					type: "item"
+				}
+			]
+			x: 9.5d
+			y: 11.0d
+		}
+		{
+			id: "64727C88C6DF386C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "13E3CAFBADE2BC71"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [{
+				id: "52B9614D8B7CE7FD"
+				item: {
+					Count: 1
+					id: "expandedstorage:vanilla_wood_mini_chest"
+					tag: {
+						BlockStateTag: {
+							sparrow: "true"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -9.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["64727C88C6DF386C"]
+			id: "7C775F119C4ECD18"
+			tasks: [
+				{
+					id: "58D6CCCA9CC03BAC"
+					item: {
+						Count: 1
+						id: "expandedstorage:storage_mutator"
+						tag: {
+							mode: 0b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "37EA4F03AB933249"
+					item: {
+						Count: 1
+						id: "expandedstorage:storage_mutator"
+						tag: {
+							mode: 1b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "35320DC56D634709"
+					item: {
+						Count: 1
+						id: "expandedstorage:storage_mutator"
+						tag: {
+							mode: 2b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "47539F05C79C5823"
+					item: {
+						Count: 1
+						id: "expandedstorage:storage_mutator"
+						tag: {
+							mode: 3b
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -9.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["64727C88C6DF386C"]
+			id: "1A14280D50B9ABA3"
+			tasks: [
+				{
+					id: "3693BE53FAD51B80"
+					item: "expandedstorage:pumpkin_chest"
+					type: "item"
+				}
+				{
+					id: "27CD8782F2DDA344"
+					item: "expandedstorage:bamboo_chest"
+					type: "item"
+				}
+				{
+					id: "2031F0221EA80D29"
+					item: "expandedstorage:moss_chest"
+					type: "item"
+				}
+				{
+					id: "35DEECC86F973A87"
+					item: "luphieclutteredmod:luphie_mushroom_chest"
+					type: "item"
+				}
+			]
+			x: -10.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["64727C88C6DF386C"]
+			id: "6138FA23D088D8DA"
+			tasks: [
+				{
+					id: "2103D7C861BC4BE1"
+					item: "toms_storage:ts.inventory_connector"
+					type: "item"
+				}
+				{
+					id: "09B03E149873241F"
+					item: "toms_storage:ts.storage_terminal"
+					type: "item"
+				}
+				{
+					id: "128C13D30E640B54"
+					item: "toms_storage:ts.trim"
+					type: "item"
+				}
+				{
+					id: "2271B54D6B83791E"
+					item: "toms_storage:ts.inventory_cable"
+					type: "item"
+				}
+				{
+					id: "674CC10B0572BBD7"
+					item: "toms_storage:ts.inventory_cable_framed"
+					type: "item"
+				}
+				{
+					id: "67DE103D56EE63FB"
+					item: "toms_storage:ts.inventory_cable_connector"
+					type: "item"
+				}
+				{
+					id: "19523BCD95C4486F"
+					item: "toms_storage:ts.inventory_cable_connector_filtered"
+					type: "item"
+				}
+				{
+					id: "26305707B5766F22"
+					item: "toms_storage:ts.inventory_cable_connector_framed"
+					type: "item"
+				}
+				{
+					id: "1FA48EB01449B22C"
+					item: "toms_storage:ts.inventory_proxy"
+					type: "item"
+				}
+				{
+					id: "0A655A87D6A1F9E8"
+					item: "toms_storage:ts.inventory_hopper_basic"
+					type: "item"
+				}
+			]
+			title: "汤姆的简易存储"
+			x: -9.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["64727C88C6DF386C"]
+			description: ["PS：木头转铜无法升级箱子"]
+			id: "0026F469B6F9C8FF"
+			tasks: [
+				{
+					id: "7A2F8E7B1778A842"
+					item: "expandedstorage:iron_chest"
+					type: "item"
+				}
+				{
+					id: "3194E9C851DCCBB9"
+					item: "expandedstorage:gold_chest"
+					type: "item"
+				}
+				{
+					id: "1B054E68555416E5"
+					item: "expandedstorage:diamond_chest"
+					type: "item"
+				}
+				{
+					id: "562BCC95C90A503D"
+					item: "expandedstorage:obsidian_chest"
+					type: "item"
+				}
+				{
+					id: "57965821D105A8F3"
+					item: "expandedstorage:netherite_chest"
+					type: "item"
+				}
+				{
+					id: "3AB5160368F22C1C"
+					item: "expandedstorage:wood_to_iron_conversion_kit"
+					type: "item"
+				}
+				{
+					id: "3DD181EAD683C320"
+					item: "expandedstorage:wood_to_gold_conversion_kit"
+					type: "item"
+				}
+				{
+					id: "11FB7257A6568C84"
+					item: "expandedstorage:wood_to_diamond_conversion_kit"
+					type: "item"
+				}
+				{
+					id: "29FD92029B144A50"
+					item: "expandedstorage:wood_to_obsidian_conversion_kit"
+					type: "item"
+				}
+				{
+					id: "49645F177DB22D17"
+					item: "expandedstorage:wood_to_netherite_conversion_kit"
+					type: "item"
+				}
+				{
+					id: "7C5729EC15B50EC4"
+					item: "expandedstorage:gold_to_diamond_conversion_kit"
+					type: "item"
+				}
+				{
+					id: "113E17F9614EF5BB"
+					item: "expandedstorage:gold_to_obsidian_conversion_kit"
+					type: "item"
+				}
+				{
+					id: "44722C4129AA94A8"
+					item: "expandedstorage:gold_to_netherite_conversion_kit"
+					type: "item"
+				}
+				{
+					id: "28594369652CD6CF"
+					item: "expandedstorage:diamond_to_obsidian_conversion_kit"
+					type: "item"
+				}
+				{
+					id: "43D3A7F037C03DD0"
+					item: "expandedstorage:diamond_to_netherite_conversion_kit"
+					type: "item"
+				}
+				{
+					id: "1143FCAA0D0FE4E5"
+					item: "expandedstorage:obsidian_to_netherite_conversion_kit"
+					type: "item"
+				}
+			]
+			x: -8.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["6E4BE5BE46A18F3F"]
+			id: "2C5C25B4616A7CA8"
+			tasks: [{
+				id: "676C58ADAB6173BF"
+				item: "immersive_aircraft:gyrodyne"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 9.0d
+		}
+		{
+			description: ["可以直接在雪上滑行，也可以使用拴绳拴住狗狗，再把狗狗拴雪橇上，坐上雪橇跑的更快！"]
+			id: "1D51E08936B20D9F"
+			rewards: [{
+				id: "3A457603279269FC"
+				item: "minecraft:music_disc_13"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "03980AE05B7B7CAB"
+					item: "snowyspirit:sled_oak"
+					type: "item"
+				}
+				{
+					id: "096AED87B15596F3"
+					item: "minecraft:lead"
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["6E4BE5BE46A18F3F"]
+			id: "45F632EB1DEB841E"
+			rewards: [
+				{
+					count: 64
+					id: "1D629499FDDAA2EB"
+					item: "minecraft:coal"
+					type: "item"
+				}
+				{
+					count: 15
+					id: "25FCCBD9A75E0A72"
+					item: {
+						Count: 1
+						id: "minecraft:firework_rocket"
+						tag: {
+							Fireworks: {
+								Flight: 3b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5AD65BF324EC1006"
+					table_id: 2953109549610839980L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "18DBBAE9C75E3A2E"
+					item: "immersive_aircraft:enhanced_propeller"
+					type: "item"
+				}
+				{
+					id: "40A536B827D11716"
+					item: "immersive_aircraft:eco_engine"
+					type: "item"
+				}
+				{
+					id: "7F8799FE58901EBD"
+					item: "immersive_aircraft:nether_engine"
+					type: "item"
+				}
+				{
+					id: "5F6A46CA0DFFA633"
+					item: "immersive_aircraft:steel_boiler"
+					type: "item"
+				}
+				{
+					id: "7F62F4FD7DFAE233"
+					item: "immersive_aircraft:industrial_gears"
+					type: "item"
+				}
+				{
+					id: "768E14D2E4B554E4"
+					item: "immersive_aircraft:sturdy_pipes"
+					type: "item"
+				}
+				{
+					id: "6036ED704AFEF071"
+					item: "immersive_aircraft:gyroscope"
+					type: "item"
+				}
+				{
+					id: "354DA8612A5CC2C1"
+					item: "immersive_aircraft:hull_reinforcement"
+					type: "item"
+				}
+				{
+					id: "7299F79A5F03BBF6"
+					item: "immersive_aircraft:improved_landing_gear"
+					type: "item"
+				}
+			]
+			x: 16.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["6E4BE5BE46A18F3F"]
+			id: "64A3F3E0A8449C47"
+			tasks: [{
+				id: "2F9EF60B631283AD"
+				item: "immersive_aircraft:biplane"
+				type: "item"
+			}]
+			x: 18.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["1D51E08936B20D9F"]
+			id: "0EAE74CEDD6565F4"
+			tasks: [
+				{
+					id: "3F0370A93525E899"
+					item: "snowyspirit:sled_spruce"
+					type: "item"
+				}
+				{
+					id: "37686292DE736FA2"
+					item: "snowyspirit:sled_birch"
+					type: "item"
+				}
+				{
+					id: "399FECBB358D33FD"
+					item: "snowyspirit:sled_jungle"
+					type: "item"
+				}
+				{
+					id: "76E87B0BE91E6E04"
+					item: "snowyspirit:sled_acacia"
+					type: "item"
+				}
+				{
+					id: "3451F4F15797FB3F"
+					item: "snowyspirit:sled_dark_oak"
+					type: "item"
+				}
+				{
+					id: "61B58EE7E267E8B5"
+					item: "snowyspirit:sled_mangrove"
+					type: "item"
+				}
+				{
+					id: "6731A7EC8EE3DD36"
+					item: "snowyspirit:sled_cherry"
+					type: "item"
+				}
+				{
+					id: "1B4926A7C170B399"
+					item: "snowyspirit:sled_bamboo"
+					type: "item"
+				}
+				{
+					id: "722AD17AE1E8A1E7"
+					item: "snowyspirit:ecologics/sled_flowering_azalea"
+					type: "item"
+				}
+				{
+					id: "46FA2532A4C14D01"
+					item: "snowyspirit:ecologics/sled_azalea"
+					type: "item"
+				}
+				{
+					id: "47526C29CE2EDDA2"
+					item: "snowyspirit:ecologics/sled_coconut"
+					type: "item"
+				}
+				{
+					id: "29CF8B6D0A5B6872"
+					item: "snowyspirit:ecologics/sled_walnut"
+					type: "item"
+				}
+				{
+					id: "25A884569330B982"
+					item: "snowyspirit:beachparty/sled_palm"
+					type: "item"
+				}
+				{
+					id: "37A11D56DF014A39"
+					item: "snowyspirit:betterend/sled_mossy_glowshroom"
+					type: "item"
+				}
+				{
+					id: "520EC6A0B682A4D8"
+					item: "snowyspirit:betterend/sled_pythadendron"
+					type: "item"
+				}
+				{
+					id: "113E8963E5F6A450"
+					item: "snowyspirit:betterend/sled_end_lotus"
+					type: "item"
+				}
+				{
+					id: "68FD3F38B184401B"
+					item: "snowyspirit:betterend/sled_lacugrove"
+					type: "item"
+				}
+				{
+					id: "03600D0976B172E5"
+					item: "snowyspirit:betterend/sled_dragon_tree"
+					type: "item"
+				}
+				{
+					id: "365B6532CBF7CCA9"
+					item: "snowyspirit:betterend/sled_tenanea"
+					type: "item"
+				}
+				{
+					id: "4C8103B508CA2374"
+					item: "snowyspirit:betterend/sled_helix_tree"
+					type: "item"
+				}
+				{
+					id: "5678D23AB777337C"
+					item: "snowyspirit:betterend/sled_umbrella_tree"
+					type: "item"
+				}
+				{
+					id: "413B1F1185C6E90C"
+					item: "snowyspirit:betterend/sled_jellyshroom"
+					type: "item"
+				}
+				{
+					id: "1F6F0D392B6FCEC0"
+					item: "snowyspirit:betterend/sled_lucernia"
+					type: "item"
+				}
+				{
+					id: "15516D7D16C2B19F"
+					item: "snowyspirit:biomemakeover/sled_blighted_balsa"
+					type: "item"
+				}
+				{
+					id: "320E7E4304E4B9A9"
+					item: "snowyspirit:biomemakeover/sled_willow"
+					type: "item"
+				}
+				{
+					id: "77BEF32A345C3CE6"
+					item: "snowyspirit:biomemakeover/sled_swamp_cypress"
+					type: "item"
+				}
+				{
+					id: "4241DCDB0033F44D"
+					item: "snowyspirit:biomemakeover/sled_ancient_oak"
+					type: "item"
+				}
+				{
+					id: "261822B3EC82A61C"
+					item: "snowyspirit:deeperdarker/sled_echo"
+					type: "item"
+				}
+				{
+					id: "26924C54664A3FB6"
+					item: "snowyspirit:monsters_girls/sled_ender_puffball"
+					type: "item"
+				}
+				{
+					id: "437828B81BFC87C3"
+					item: "snowyspirit:monsters_girls/sled_molten_fungus"
+					type: "item"
+				}
+				{
+					id: "0DFD207891EF5D16"
+					item: "snowyspirit:monsters_girls/sled_soul_wanderer"
+					type: "item"
+				}
+				{
+					id: "1BB363102D839425"
+					item: "snowyspirit:snifferplus/sled_stone_pine"
+					type: "item"
+				}
+				{
+					id: "004C39590EE8335C"
+					item: "snowyspirit:spawn/sled_rotten"
+					type: "item"
+				}
+			]
+			title: "更多雪橇"
+			x: 12.0d
+			y: 9.0d
+		}
+		{
+			id: "6E4BE5BE46A18F3F"
+			tasks: [{
+				id: "682D4AE7F80ED645"
+				item: "immersive_aircraft:quadrocopter"
+				type: "item"
+			}]
+			x: 17.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["6E4BE5BE46A18F3F"]
+			id: "78F90E15C79F2342"
+			tasks: [{
+				id: "693BF65E096BB1F8"
+				item: "immersive_aircraft:rotary_cannon"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["6E4BE5BE46A18F3F"]
+			id: "203DD2AF13D2E4F7"
+			tasks: [{
+				id: "2754627E06E9E8E7"
+				item: "immersive_aircraft:heavy_crossbow"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["6E4BE5BE46A18F3F"]
+			id: "7A49BFA03A27DBEC"
+			tasks: [{
+				id: "022FF3BAB6C650AB"
+				item: "immersive_aircraft:telescope"
+				type: "item"
+			}]
+			x: 18.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["6E4BE5BE46A18F3F"]
+			id: "125BAFA0A6D3FF87"
+			tasks: [{
+				id: "05FB35CF2906E2BD"
+				item: "immersive_aircraft:bomb_bay"
+				type: "item"
+			}]
+			x: 19.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["179E083FB8736C3E"]
+			id: "31C3FD5155625DB9"
+			tasks: [
+				{
+					id: "7950E55529DF36AC"
+					item: "candlelight:note_paper"
+					type: "item"
+				}
+				{
+					id: "0505C74B33A215A2"
+					item: "candlelight:note_paper_writeable"
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["6E4BE5BE46A18F3F"]
+			id: "6F44D30FAACB4A64"
+			tasks: [{
+				id: "336BEFB0B8CFFC5D"
+				item: "man_of_many_planes:scarlet_biplane"
+				type: "item"
+			}]
+			x: 19.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["6E4BE5BE46A18F3F"]
+			id: "3DB4E4E842EA27DE"
+			tasks: [{
+				id: "02C7C4635A812C7D"
+				item: "man_of_many_planes:economy_plane"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["6F5712AFCC41EC0B"]
+			id: "4CC11A51696FF23D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1DFEF6E50CEF554F"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "23D8A042847E785B"
+					item: "smallships:oak_drakkar"
+					type: "item"
+				}
+				{
+					id: "3BA7CE1FB18A8A07"
+					item: "smallships:spruce_drakkar"
+					type: "item"
+				}
+				{
+					id: "707BAF44AF7D7156"
+					item: "smallships:birch_drakkar"
+					type: "item"
+				}
+				{
+					id: "195DB8CD82FF4685"
+					item: "smallships:jungle_drakkar"
+					type: "item"
+				}
+				{
+					id: "4556D4E7C9ACF347"
+					item: "smallships:acacia_drakkar"
+					type: "item"
+				}
+				{
+					id: "78689F35DBA54B01"
+					item: "smallships:dark_oak_drakkar"
+					type: "item"
+				}
+				{
+					id: "4BA6D31DCB6B56FD"
+					item: "smallships:mangrove_drakkar"
+					type: "item"
+				}
+				{
+					id: "4FB3062561D1BF1C"
+					item: "smallships:cherry_drakkar"
+					type: "item"
+				}
+				{
+					id: "4E20DEC7A1BA83A3"
+					item: "smallships:bamboo_drakkar"
+					type: "item"
+				}
+			]
+			x: 9.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["6E4BE5BE46A18F3F"]
+			id: "7A6BDA9600477267"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "776E4330E41C768D"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [{
+				id: "69FC8DBD03D92EF5"
+				item: "immersive_aircraft:warship"
+				type: "item"
+			}]
+			x: 19.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["41D6A1D8E0F116F7"]
+			description: ["用于&e显示不同楼层&r和&e当前电梯位置&r。&e右击&r&e当前楼层的按钮可将电梯移动到本楼层&r，使用其他按钮前往不同楼层。&e手持染料&r，&e右键显示器&r上的&e不同楼层格子&r，可以&e改变该格子的颜色&r。&e右键单击&r​​一个块以将电梯显示&e伪装成该块&r。"]
+			id: "609A2B3F10245D2A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "703896DA466B9C6B"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [{
+				id: "125E7C7F2F154233"
+				item: "movingelevators:display_block"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 7.0d
+		}
+		{
+			description: [
+				"电梯控制器是每个楼层的按钮面板。右击&e没有按钮的一侧&r以&e更改&r平台速度和大小，以及楼层的名称。右击&e中间的按钮&r可将&e平台移动&r到本楼层，使用其他两个按钮可进行上下移动。手持一个&e方块&r，对着&e电梯控制器单击右键&r​​，可以将电梯控制器&e伪装成那个方块&r。"
+				""
+				"至少制作 &e2 个电梯控制器&r。"
+				""
+				"将第一个电梯控制器放置在您想要的电梯位置。"
+				""
+				"右键单击电梯控制器没有按钮的一侧。"
+				""
+				"设置所需的平台大小和速度。"
+				""
+				"为您的平台收集方块。"
+				""
+				"要成为平台的方块必须在电梯控制器的下面一格。"
+				""
+				"将其他电梯控制器放在第一个电梯控制器的上方或下方，并面向相同的方向。"
+				""
+				"使用中间的长方形请求平台，另两个箭头上下移动。"
+				""
+				"使用遥控器右击控制器就可以远程操控电梯。"
+				""
+				"将显示器放在控制器或遥控器上，可以显示电梯的运行情况。"
+			]
+			id: "41D6A1D8E0F116F7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1A420DF491807D6E"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			size: 2.0d
+			tasks: [{
+				count: 2L
+				id: "531018D5B8AF2DF8"
+				item: "movingelevators:elevator_block"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["41D6A1D8E0F116F7"]
+			id: "34E58E4B9673F33E"
+			tasks: [{
+				id: "505925EE613303E9"
+				item: "movingelevators:button_block"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 11.0d
+		}
+	]
+	title: "木牛流马（载具仓储）"
+}

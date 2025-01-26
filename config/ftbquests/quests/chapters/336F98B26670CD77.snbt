@@ -1,0 +1,719 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "336F98B26670CD77"
+	group: "7F39AE8B81C21BA4"
+	icon: "melonslabs:frankenmelon"
+	id: "336F98B26670CD77"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["攻击&e鸡、牛、猪、兔子、羊、村民&r，它们将会反击！"]
+			icon: "minecraft:sheep_spawn_egg"
+			id: "0EB2B1810211F686"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "31F83B8EDDF2C90B"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4F526E4BBE5C9041"
+				type: "checkmark"
+			}]
+			title: "原版无害生物修改中立生物机制"
+			x: -24.0d
+			y: -5.5d
+		}
+		{
+			description: [
+				"&e村民名字&r：现在村庄里的村民都有自己的&e名字&r。"
+				"&e吸引村民&r：你可以用&a绿宝石&r或者&a绿宝石块&r吸引村民。"
+			]
+			icon: "minecraft:villager_spawn_egg"
+			id: "6295CC101E2A48D1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2BB6528462871C5C"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2294A74ADB366D6F"
+				type: "checkmark"
+			}]
+			title: "村民名字和吸引村民机制"
+			x: -22.0d
+			y: -5.5d
+		}
+		{
+			description: ["切石机上有锯子在转动，没有伤害太不正常了。"]
+			icon: "minecraft:stonecutter"
+			id: "4DC87646A49F39BC"
+			rewards: [{
+				icon: "minecraft:experience_bottle"
+				id: "16D3E64C1B066E66"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6E7F68FDB783BD09"
+				type: "checkmark"
+			}]
+			title: "切石机造成伤害机制"
+			x: -23.0d
+			y: -3.5d
+		}
+		{
+			description: ["&a史莱姆&r现在会拾取地上的&a掉落物&r，并放在自己的&a头上&r。"]
+			icon: "plushies:slime_plushie"
+			id: "7AF9CFFBBA0C9E11"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "36375DD62B3B3C08"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [{
+				id: "77EFF0CC63909570"
+				type: "checkmark"
+			}]
+			title: "史莱姆拿起地上的物品机制"
+			x: -20.0d
+			y: -5.5d
+		}
+		{
+			description: ["使用火把&e近战攻击&r敌人会使其&e燃烧&r！"]
+			icon: "minecraft:torch"
+			id: "1F8EEE6008B05F45"
+			rewards: [{
+				icon: "minecraft:experience_bottle"
+				id: "30FDBAFC9B9FE975"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "798D40B377FC6590"
+				type: "checkmark"
+			}]
+			title: "火把机制"
+			x: -20.0d
+			y: -4.5d
+		}
+		{
+			description: ["放置&e栅栏和玻璃板&r可以&e对角自动连接&r"]
+			icon: "minecraft:glass_pane"
+			id: "2389E1D3C48D8F0E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0B8512CC55AB178D"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4A55BB3FF4BEA003"
+				type: "checkmark"
+			}]
+			title: "栅栏玻璃板放置机制修改"
+			x: -23.0d
+			y: -5.5d
+		}
+		{
+			description: ["现在&e只有玩家&r可以&e跳上栅栏&r，但是&e不能跳上1.5格高的方块&r。"]
+			icon: "minecraft:oak_fence"
+			id: "22F7919C88DCCB1C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0A2A4CE02734CEA9"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [{
+				id: "75FF816C0EA4C3CD"
+				type: "checkmark"
+			}]
+			title: "栅栏跳跃机制"
+			x: -21.0d
+			y: -5.5d
+		}
+		{
+			description: [
+				"&e准星机制&r：&e准星&r只有&e瞄准方块&r和&e实体&r才会&e显示&r，根据&e手上的物品&r和&e瞄准的东西&r显示&e不同状态的准星&r。"
+				""
+				"&e放置优化机制&r：类似&e基岩版&r在&e方块边缘放置方块&r的功能，往&e方块不同方向的边缘都可以放置&r。可以在&e距自己两个方块下方放置&r；目标范围更大。"
+			]
+			icon: "minecraft:grass_block"
+			id: "296054855D3180B5"
+			rewards: [{
+				icon: "minecraft:experience_bottle"
+				id: "6F96B57BF4272745"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "68A879F62CD2F087"
+				type: "checkmark"
+			}]
+			title: "准星机制"
+			x: -21.0d
+			y: -4.5d
+		}
+		{
+			description: ["现在&e半砖、栅栏、楼梯&r、都会被雪覆盖。"]
+			icon: "minecraft:snow"
+			id: "6089EA1644FD59E9"
+			rewards: [{
+				icon: "minecraft:experience_bottle"
+				id: "1B09DDB7AB79CB13"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "754F6D2838D7B899"
+				type: "checkmark"
+			}]
+			title: "雪覆盖机制"
+			x: -18.0d
+			y: -3.5d
+		}
+		{
+			description: ["现在可以像泰拉瑞亚那样&e用身体把蛛丝破坏掉&r！"]
+			icon: "minecraft:cobweb"
+			id: "01BCD5AA5724C79A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2E53D987815D0DA0"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [{
+				id: "474BDD98CA790034"
+				type: "checkmark"
+			}]
+			title: "蛛丝破坏机制"
+			x: -19.0d
+			y: -5.5d
+		}
+		{
+			description: ["身上装备鞘翅，&e原地使用烟花&r即可进入&e飞行状态&r。"]
+			icon: {
+				Count: 1
+				id: "minecraft:firework_rocket"
+				tag: {
+					Fireworks: {
+						Flight: 3b
+					}
+				}
+			}
+			id: "0F6D92ABCE838DA0"
+			rewards: [{
+				icon: "minecraft:experience_bottle"
+				id: "5E24867EBCF9FEC6"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "500C0C06AF2D501C"
+				type: "checkmark"
+			}]
+			title: "鞘翅烟花机制"
+			x: -19.0d
+			y: -4.5d
+		}
+		{
+			description: ["在资源包里移动材质包和其他资源包&e可以使用拖动调换顺序&r。"]
+			icon: "minecraft:writable_book"
+			id: "63AEFE230DE880F7"
+			rewards: [{
+				icon: "minecraft:experience_bottle"
+				id: "2317B3D5615B08DB"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5716830CC3870CC2"
+				type: "checkmark"
+			}]
+			title: "资源包拖动机制"
+			x: -20.0d
+			y: -0.5d
+		}
+		{
+			description: ["&e所有生物的幼崽&r你都&e无法对它们造成伤害&r，&e除了敌对生物&r的幼崽，&e潜行攻击&r可以打破这个机制。"]
+			icon: "paraglider:heart_container"
+			id: "43762DB89C568095"
+			rewards: [{
+				icon: "minecraft:experience_bottle"
+				id: "1843998C7E5064D7"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "600216A8DB184180"
+				type: "checkmark"
+			}]
+			title: "幼崽保护机制"
+			x: -21.0d
+			y: -2.5d
+		}
+		{
+			description: [
+				"推开睡莲机制：驾驶船移动&e不会破坏睡莲&r，而是将&e它们推开在一旁&r。（速度快还是能破坏的）"
+				"放置机制：当你试图将&e方块放置在睡莲上&r时，&e睡莲&r将会&e向下移动一格&r，使自身变为一个含水方块。当你将&e睡莲上的方块移除&r后，其将会变回&e漂浮在水面上的样子&r"
+			]
+			icon: "minecraft:lily_pad"
+			id: "3ECEF42DA19C7963"
+			rewards: [{
+				icon: "minecraft:experience_bottle"
+				id: "11DD3AB42F552E49"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6A6FB53F70A25E78"
+				type: "checkmark"
+			}]
+			title: "睡莲破坏和其他机制"
+			x: -19.0d
+			y: -2.5d
+		}
+		{
+			description: [
+				"现在原版的怪物生成伴随着粒子动画从地底钻出来。"
+				"&d末影龙&r掉落&e鞘翅&r。拿着物品的生物也会消失。&e骷髅骑士&r会自然生成。"
+			]
+			icon: "minecraft:ender_dragon_spawn_egg"
+			id: "281D22E705545F67"
+			rewards: [{
+				icon: "minecraft:experience_bottle"
+				id: "150473A2AD20F84F"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "416042CDE8672B65"
+				type: "checkmark"
+			}]
+			title: "怪物出生动画和其他机制"
+			x: -18.0d
+			y: -2.5d
+		}
+		{
+			description: [
+				"原版苦力怕爆炸&e不再破坏方块&r，修改为&e烟花爆炸&r。"
+				"&b闪电苦力怕&r现在会&b自然生成&r，虽然原版苦力怕没有伤害，但是其他群系的苦力怕你得小心！"
+			]
+			icon: "minecraft:creeper_spawn_egg"
+			id: "0481B430DDF6CBC3"
+			rewards: [{
+				icon: "minecraft:experience_bottle"
+				id: "2B0DCAFDAE5DBF50"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3DD074B224B751E1"
+				type: "checkmark"
+			}]
+			title: "苦力怕机制"
+			x: -20.0d
+			y: -2.5d
+		}
+		{
+			description: [
+				"骨粉功能拓展："
+				"&a仙人掌&r可以长到&a12到16格高&r，与竹子非常相似。"
+				"&a甘蔗&r可以种植&a12到16格高&r，与竹子非常相似。"
+				"&a睡莲&r将以&a3个为一组在附近水面散布&r。"
+				"&d花&r会生成在&d原来的花朵周围&r。"
+				"&a枯萎的灌木&r将以 &a2 个为一组四处蔓延&r。"
+				"&4下界疣&r可以像&4小麦一样催熟&r。"
+				"&a藤蔓&r迅速&a向下生长&r，与垂泪藤非常相似。"
+				"&d小蘑菇&r可以通过骨粉对&d菌丝&r使用来生成，类似于骨粉在草方块上生成植被。"
+				"&a南瓜&r和&a西瓜&r可以通过&a催熟完全长大的茎生成&r，尽管这通常需要尝试几次。"
+				"&d紫颂植物&r可以通过在&d植物的任何位置&r使用骨粉来&d使其一步向上生长&r。"
+				"当在&e泥土/砂土/土径&r上使用骨粉时，其周围&e草块或菌丝体&r将会&e扩散到周围&r。"
+				"&a甜浆果&r和&a蕨类植物&r可以在&a灰化土上生长&r。"
+			]
+			icon: "minecraft:bone_meal"
+			id: "5AB1DCE54EA1533D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0A22C8D9DF817853"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [{
+				id: "25C1893040D4F7F7"
+				type: "checkmark"
+			}]
+			title: "骨粉催熟机制"
+			x: -24.0d
+			y: -4.5d
+		}
+		{
+			description: ["灯笼现在可以挂在天花板和墙壁上。"]
+			icon: "minecraft:lantern"
+			id: "01E781589C77864E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5909E180175B9BDD"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2AE7529AC7800544"
+				type: "checkmark"
+			}]
+			title: "灯笼放置机制"
+			x: -18.0d
+			y: -4.5d
+		}
+		{
+			description: ["空手右键半砖和楼梯可以坐上去。"]
+			icon: "another_furniture:oak_chair"
+			id: "039DEE696A9193CD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3D61BFF63569217C"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1317E997D5338B44"
+				type: "checkmark"
+			}]
+			title: "坐下机制"
+			x: -18.0d
+			y: -5.5d
+		}
+		{
+			description: ["马铠可以附魔&b冰霜行者&r，&b摔落保护&r，&b保护&r等"]
+			icon: "minecraft:diamond_horse_armor"
+			id: "537FF084C555E368"
+			rewards: [{
+				icon: "minecraft:experience_bottle"
+				id: "4F49BC2ADCAADD6C"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3F932DCE385243E3"
+				type: "checkmark"
+			}]
+			title: "马铠附魔机制"
+			x: -21.0d
+			y: -0.5d
+		}
+		{
+			description: [
+				"现在可以种植各种矿物，你需要使用附魔&d精准采集&r镐子采集矿物。"
+				"并放置在地面上，矿物方块的&b6个面&r都可以&b生长结晶&r，所以最好&e距离地面一格放置悬空种植&r。"
+				"&e不同晶簇&r的&e生长速度也有所不同&r，例如&b钻石矿晶簇&r需要 &e30 分钟 ~ 1 小时内&r才能成长至最大阶段。"
+			]
+			icon: "minecraft:diamond_ore"
+			id: "76240FEB408A1EF7"
+			rewards: [{
+				icon: "minecraft:experience_bottle"
+				id: "14467D29B95E6501"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4E1792BC6847AA9F"
+				type: "checkmark"
+			}]
+			title: "种植矿物机制"
+			x: -21.0d
+			y: -1.5d
+		}
+		{
+			description: [
+				"&d服务器多人出入下界传送门机制&r：持续追踪玩家穿过的下界传送门，以此来保证玩家使用同一个下界中的传送门时能够回到该玩家在主世界使用的传送门。"
+				""
+				"简单来讲"
+				"就是你从主世界哪个传送门进入的，返回主世界时还是进入的传送门。"
+				"不会从其他玩家建造的传送门出来了。"
+			]
+			icon: "minecraft:crying_obsidian"
+			id: "38E18C0937B88C2C"
+			rewards: [{
+				icon: "minecraft:experience_bottle"
+				id: "0A90B25D451D2530"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "2402B2F1A7E8AFD7"
+				type: "checkmark"
+			}]
+			title: "下界传送门机制"
+			x: -20.0d
+			y: -1.5d
+		}
+		{
+			description: [
+				"玩家通过空手&e鼠标右键&r其他玩家，将他们举起，骑自己在头上。"
+				"按&eshift&r放下玩家"
+			]
+			icon: "minecraft:arms_up_pottery_sherd"
+			id: "5A857E16065DE5AF"
+			rewards: [{
+				icon: "minecraft:experience_bottle"
+				id: "1858D905AB866B66"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0B73500FD0ABD776"
+				type: "checkmark"
+			}]
+			title: "举起玩家机制"
+			x: -19.0d
+			y: -1.5d
+		}
+		{
+			description: ["现在可以使用栓绳牵引村民"]
+			icon: "minecraft:lead"
+			id: "4326E502A9304447"
+			rewards: [{
+				icon: "minecraft:experience_bottle"
+				id: "39E36A5F5F99A744"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4EBFEF2C99D6DDB2"
+				type: "checkmark"
+			}]
+			title: "拴绳机制"
+			x: -19.0d
+			y: -3.5d
+		}
+		{
+			description: [
+				"在营火旁你会获得&e生命恢复&r效果。&e过冷时&r可以在营火旁&e取暖&r。"
+				"你可以使用营火&e跳过白天&r。慎用:&e季节会重置&r。"
+				"&e提示：寒冷值已禁用，现在毛皮衣服只是装饰品&r"
+			]
+			icon: "minecraft:campfire"
+			id: "620B79150D5E5360"
+			rewards: [{
+				icon: "minecraft:experience_bottle"
+				id: "0E811495A837813B"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "704B84970FF9EBD5"
+				type: "checkmark"
+			}]
+			title: "营火治愈和保暖等机制"
+			x: -21.0d
+			y: 0.5d
+		}
+		{
+			description: [
+				"如何获取玩家的头"
+				"第一种：玩家头获取指令："
+				""
+				"/give @s minecraft:player_head{SkullOwner:\"改成玩家ID\"}"
+				""
+				"第二种：多人联机时可以击败玩家，会掉落ta的头，只有&e玩家击败玩家&r才会掉落。（&e玩笑不要开过度哦，友善游玩&r）"
+				"当佩戴玩家头时，不会像原版那样获得稍大的头部，而是使&e自己的皮肤变成该玩家的&r。"
+			]
+			icon: "minecraft:player_head"
+			id: "07CC46D5FA7396AE"
+			rewards: [{
+				icon: "minecraft:experience_bottle"
+				id: "47E0BB0A2999DDD1"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3EF176540E84823E"
+				title: "玩家头穿戴机制"
+				type: "checkmark"
+			}]
+			x: -20.0d
+			y: 0.5d
+		}
+		{
+			description: ["&e潜行&r走过浆果丛不会受到伤害。"]
+			icon: "spawn:potted_sweet_berries"
+			id: "4C77F030199394BE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "41C4CB0D11EDF4CE"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [{
+				id: "36343D0725DF48ED"
+				type: "checkmark"
+			}]
+			title: "偷偷的溜过浆果"
+			x: -21.0d
+			y: 1.5d
+		}
+		{
+			description: [
+				"在&e寒冷群系&r，或者&b冬天&r&e下雪&r时，被&b冷风&r吹，你会逐渐累积寒冷值，获得减益Buff。"
+				"你可以制作毛皮衣服取暖削减寒冷值，在&e炽热阳地衣&r和&e营火&r(放置地上的&e火把&r和&e灯笼&r也可以）附近取暖也可以降低寒冷值。"
+				"&e提示：寒冷值已禁用，现在毛皮衣服只是装饰品&r"
+			]
+			icon: "winterly:snowguy"
+			id: "6AF4137BB6474CB6"
+			rewards: [{
+				icon: "minecraft:experience_bottle"
+				id: "27AE6524435B93CC"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "75B056BB8EA26362"
+				type: "checkmark"
+			}]
+			title: "寒冷温度机制"
+			x: -22.0d
+			y: 0.5d
+		}
+		{
+			description: [
+				"现在生物可以&e跳过障碍&r。"
+				""
+				"目前具有跳跃能力的敌对生物有："
+				""
+				"&e僵尸、僵尸村民、僵尸猪灵；&r"
+				""
+				"&e蠹虫；末影螨、末影人；&r"
+				""
+				"&e骷髅、凋灵骷髅；蜘蛛、洞穴蜘蛛；&r"
+				""
+				"&e灾厄村民；女巫；铁傀儡；苦力怕。&r"
+				""
+				"AI给予敌对生物的跳跃能力是基于原版的，所以行动缓慢的敌对生物不能跳的很远。"
+				""
+				"例如僵尸只能跳跃一个方块的距离。"
+				""
+				"（变聪明了但又不是很聪明）"
+			]
+			icon: "plushies:zombie_plushie"
+			id: "1A0C8ED47C06BA37"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0E3216DDF541D110"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4890E141F0B6262C"
+				type: "checkmark"
+			}]
+			title: "生物越过障碍机制"
+			x: -23.0d
+			y: -4.5d
+		}
+		{
+			description: ["信仰之跃：现在高空坠落到干草捆不会受到伤害。"]
+			icon: "minecraft:hay_block"
+			id: "53F7EEF0C30CCD29"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4E786DF3EA4C78A4"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [{
+				id: "18E3EC217F4ECC33"
+				type: "checkmark"
+			}]
+			title: "信仰之跃？落地水？"
+			x: -22.0d
+			y: -4.5d
+		}
+		{
+			description: ["不开光影能让你在水下（深海）看得更清楚。"]
+			icon: "simplehats:bigeyes"
+			id: "29DE6CE9995BC191"
+			rewards: [{
+				icon: "minecraft:experience_bottle"
+				id: "5FE9443E45F5C411"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "62BC02AACDA2D7B1"
+				type: "checkmark"
+			}]
+			title: "水下更清晰"
+			x: -22.0d
+			y: 1.5d
+		}
+		{
+			description: ["双手空手状态下按&eShift+鼠标右键&r可以搬运实体（生物，箱子，刷怪笼等等）"]
+			icon: "minecraft:chest"
+			id: "301A4EE2726BEC43"
+			rewards: [{
+				icon: "minecraft:experience_bottle"
+				id: "033EC407BF92F059"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "2C997FB1FECF31B7"
+				type: "checkmark"
+			}]
+			title: "搬运机制"
+			x: -21.0d
+			y: 2.5d
+		}
+		{
+			description: [
+				"现在你可以&e右键&r收获农作物，将农作物退回第一阶段。"
+				"&e 左键&r收获农作物时你还会获得&a经验&r。"
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:diamond_hoe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "3BC1FF386354684C"
+			rewards: [{
+				icon: "minecraft:experience_bottle"
+				id: "79C088CBEF8FEA1A"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5FF0DEE010AD82A6"
+				type: "checkmark"
+			}]
+			title: "收获农作物机制"
+			x: -22.0d
+			y: 2.5d
+		}
+		{
+			description: ["猪不再是原版的一胎制，现在一次性可以生一窝猪崽。"]
+			icon: "minecraft:pig_spawn_egg"
+			id: "638B3A1F69A12A7D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1ACFABDF71FC8243"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [{
+				id: "26F5F5BE21386903"
+				type: "checkmark"
+			}]
+			title: "猪繁殖机制"
+			x: -24.0d
+			y: -3.5d
+		}
+	]
+	title: "机制修改(必看）"
+}

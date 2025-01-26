@@ -1,0 +1,647 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "680D7C7697D576C3"
+	group: "2A3ECC20C469DF2B"
+	icon: "edenring:eden_mycelium"
+	id: "680D7C7697D576C3"
+	images: [
+		{
+			height: 20.0d
+			image: "minecraft:textures/yidianchuansongmen.png"
+			rotation: 0.0d
+			width: 20.0d
+			x: -5.5d
+			y: -0.5d
+		}
+		{
+			height: 20.0d
+			image: "minecraft:textures/yidianchuansongmenwancheng.png"
+			rotation: 0.0d
+			width: 20.0d
+			x: 10.5d
+			y: -0.5d
+		}
+	]
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"4D986AB96206C65E"
+				"187959D44F381CEB"
+			]
+			id: "2B3C8E51BCEC0EE8"
+			tasks: [{
+				id: "7D7FED4116EE6611"
+				item: "minecraft:amethyst_cluster"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -1.0d
+		}
+		{
+			id: "187959D44F381CEB"
+			tasks: [{
+				id: "54DDB99189C4CBD8"
+				item: "minecraft:amethyst_cluster"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"187959D44F381CEB"
+				"4D986AB96206C65E"
+			]
+			id: "36FD1D055B16D1DB"
+			tasks: [{
+				id: "15CB5BDD233C7F14"
+				item: "minecraft:amethyst_cluster"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			id: "4D986AB96206C65E"
+			tasks: [{
+				id: "067DC9A1305382EB"
+				item: "minecraft:amethyst_cluster"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"0E11EAC1E3AACA62"
+				"48A1F0186AF107E2"
+			]
+			id: "5EB8386F5543B8C9"
+			tasks: [{
+				id: "47BE676BF614ADB5"
+				item: "minecraft:amethyst_block"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 0.5d
+		}
+		{
+			id: "48A1F0186AF107E2"
+			tasks: [{
+				id: "1AA7CA99BA64181C"
+				item: "minecraft:amethyst_block"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"48A1F0186AF107E2"
+				"0E11EAC1E3AACA62"
+			]
+			id: "271D5F4AA6AB3F4E"
+			tasks: [{
+				id: "676754BF0260F828"
+				item: "minecraft:amethyst_block"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			id: "0E11EAC1E3AACA62"
+			tasks: [{
+				id: "124277F4D40CB0BD"
+				item: "minecraft:amethyst_block"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1DD6C8B21B883851"]
+			id: "7660A924F0F9DCAE"
+			tasks: [{
+				count: 12L
+				id: "2CDDD73023A78DD5"
+				item: "minecraft:waxed_copper_block"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1DD6C8B21B883851"]
+			id: "28EDCB84487C02CF"
+			tasks: [{
+				count: 12L
+				id: "6E970BB55370B162"
+				item: "minecraft:waxed_cut_copper_stairs"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 0.0d
+		}
+		{
+			description: ["12个&e涂蜡铜块&r、12个&e涂蜡切制铜楼梯&r、4个&e紫水晶块&r、4个&e紫水晶簇&r、1个&e金块&r和1个&e打火石&r。按背景图片搭建传送门，然后用打火石&e点燃中心的金块&r来激活传送门。"]
+			id: "1DD6C8B21B883851"
+			tasks: [{
+				id: "73E57915146FA633"
+				item: "minecraft:gold_block"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1DD6C8B21B883851"]
+			id: "2962FC2E89D2927A"
+			tasks: [{
+				id: "2C32AE4C93310307"
+				item: {
+					Count: 1
+					id: "minecraft:flint_and_steel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: -1.0d
+		}
+		{
+			description: [
+				"这是一个巨大的星环，围绕着其星系宜居带内的一个蓝色气态巨行星。由于存在某些引力异常现象，它有着独特的大气，并使得某些生命形式得以存活。你能在这个新世界里发现什么呢？"
+				""
+				"&c光影问题&r：&ephoton-main&r光影无法显示伊甸星环&e传送门光效&r和伊甸&e星环天空贴图&r。建议切换其他光影使用，photon-main光影&e不影响游玩&r。"
+				""
+				"如果在此维度遇到原版第一人称手部变黑，可以按下f6切换真实第一人称。"
+			]
+			id: "1340156184053FB1"
+			rewards: [
+				{
+					id: "65816D8B12A9A7BF"
+					item: "edenring:guide_book"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2963CB2AE126F7B1"
+					table_id: 2953109549610839980L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2F0A285036A50DA1"
+					table_id: 3438619514375427762L
+					type: "random"
+				}
+			]
+			size: 3.0d
+			tasks: [{
+				dimension: "edenring:edenring"
+				icon: "edenring:auritis_sapling"
+				id: "16282087A9F821A4"
+				title: "伊甸星环"
+				type: "dimension"
+			}]
+			title: "进入伊甸星环"
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["00BFB6A39DD16348"]
+			id: "6AC14058EB7EF24B"
+			tasks: [{
+				id: "14C9F4634E64C1D7"
+				item: "edenring:parignum"
+				type: "item"
+			}]
+			x: 19.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4D70341D83F1B021"]
+			description: ["只能&e向上放置&r，以红石信号激活时可以将方块上方的&e部分实体推向空中&r（重力方块、矿车、船等无法推动），极限推动玩家&e47&r格，最终在上方&e30&r格停止。"]
+			id: "747ECF295D07D8F7"
+			tasks: [{
+				id: "205748A7314C9D91"
+				item: "edenring:gravity_compressor"
+				type: "item"
+			}]
+			x: 29.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5AA7E2C5AA3F1C08"]
+			id: "4D70341D83F1B021"
+			tasks: [{
+				id: "356F79AEE0046049"
+				item: "edenring:gravilite_block"
+				type: "item"
+			}]
+			x: 28.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4D70341D83F1B021"]
+			description: [
+				"重力水晶灯笼:相当美观的灯笼，发出&e15级&r光照，&e需要依附方块&r。"
+				"高重力水晶灯笼:相当美观的高灯笼，发出&e15级&r光照，&e不需要依附方块&r。"
+			]
+			id: "05C823A37ECF5460"
+			tasks: [
+				{
+					id: "6A1FF96FC804D98B"
+					item: "edenring:gravilite_lantern"
+					type: "item"
+				}
+				{
+					id: "1EABD32CBF0617ED"
+					item: "edenring:gravilite_lantern_tall"
+					type: "item"
+				}
+			]
+			x: 27.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["30683C71C863AE4D"]
+			description: ["共有十一种贴图，在不同群系显示不同颜色。"]
+			id: "5D4084028D81298B"
+			tasks: [{
+				id: "1564380D0B9B3509"
+				item: "edenring:limphium_painting"
+				type: "item"
+			}]
+			x: 23.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["00BFB6A39DD16348"]
+			id: "30683C71C863AE4D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "31F1068E02F64169"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3CE3C2B23DE7307C"
+				item: "edenring:limphium_leaf"
+				type: "item"
+			}]
+			x: 24.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["00BFB6A39DD16348"]
+			description: [
+				"伊甸藤蔓生成于多个伊甸星环生物群系，其颜色会受到生物群系的影响。类似于洞穴藤蔓和垂泪藤，伊甸藤蔓的顶端需要附着完整方块的底面。需要使用&e剪刀&r或带有&e精准采集附魔&r的工具破坏才会&e掉落自身&r。"
+				"伊甸藤蔓无法在不使用&e骨粉&r的情况下自然生长。"
+			]
+			id: "1B168CCC64BF0040"
+			tasks: [{
+				id: "0591EC47B4325AC5"
+				item: "edenring:eden_vine"
+				type: "item"
+			}]
+			x: 18.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["30683C71C863AE4D"]
+			description: ["作为重力水晶团的一部分生成，可以附着在完整方块的任意一面，用于合成反重力活塞，重力水晶灯笼和重力水晶块。"]
+			id: "5AA7E2C5AA3F1C08"
+			tasks: [{
+				id: "154599ADE858246E"
+				item: "edenring:gravilite_shards"
+				type: "item"
+			}]
+			x: 28.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["00BFB6A39DD16348"]
+			description: [
+				"共生霉菌:在浮空群落的团藻球内部生成，&e需要附着&r在任意完整方块的底面。对共生霉菌&e使用骨粉&r会产生一个共生霉菌&e掉落&r物。"
+				"发光共生霉菌:共生霉菌的变种，会发出&e13级&r光照。"
+			]
+			id: "7281B65DBF6EA73E"
+			tasks: [
+				{
+					id: "4F184B3CEF0CDA8C"
+					item: "edenring:symbiotic_mold"
+					type: "item"
+				}
+				{
+					id: "21942BF7C34A1F82"
+					item: "edenring:symbiotic_mold_emissive"
+					type: "item"
+				}
+			]
+			x: 20.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["30683C71C863AE4D"]
+			description: ["在熔炉中烧炼灵芙叶获得，用于合成&e纸&r。"]
+			id: "0592524FE5DB175E"
+			tasks: [{
+				id: "09018EB7BF5D1768"
+				item: "edenring:limphium_leaf_dryed"
+				type: "item"
+			}]
+			x: 25.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7281B65DBF6EA73E"]
+			description: ["朗草会自然生成在&e微风河谷&r，其颜色会受到生物群系的影响，可以放置在在伊甸草方块，伊甸菌丝和任意带有&eminecraft:dirt&r标签的方块上，使用剪刀或带有精准采集附魔的工具破坏掉落自身。对朗草使用&e骨粉&r会产生一个朗草&e掉落&r物。"]
+			id: "11E1D224B3BFDC91"
+			tasks: [{
+				id: "49656A11787586E1"
+				item: "edenring:lonlix"
+				type: "item"
+			}]
+			x: 20.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6AC14058EB7EF24B"]
+			description: ["堇色草会自然生成在&e石园&r和&e微风河谷&r，其叶子部分的颜色会受到生物群系的影响，可以放置在在伊甸草方块，伊甸菌丝和任意带有&eminecraft:dirt&r标签的方块上，使用剪刀或带有精准采集附魔的工具破坏掉落自身。对堇色草使用&e骨粉&r会产生一个堇色草&e掉落&r物。"]
+			id: "7E8AA27E8062D71E"
+			tasks: [{
+				id: "08B9A2EAEAFE084F"
+				item: "edenring:violum"
+				type: "item"
+			}]
+			x: 19.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1B168CCC64BF0040"]
+			description: ["会自然生成在&e风暴之脑&r，其叶子部分的颜色会受到生物群系的影响，可以放置在在伊甸草方块，伊甸菌丝和任意带有&eminecraft:dirt&r标签的方块上，使用&e剪刀&r或带有&e精准采集附魔&r的工具破坏&e掉落&r自身。对其使用&e骨粉&r会产生一个对应的&e掉落&r物。"]
+			id: "248E67B612679F6D"
+			tasks: [
+				{
+					id: "6645362A98CC0DFB"
+					item: "edenring:copper_grass"
+					type: "item"
+				}
+				{
+					id: "6A95150CAA0D79A4"
+					item: "edenring:tall_copper_grass"
+					type: "item"
+				}
+			]
+			x: 18.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0FA637A5D767184E"]
+			id: "3390ABCB1F94CEB6"
+			tasks: [{
+				count: 10L
+				id: "5241ABE5FBF20BAA"
+				item: "edenring:auritis_log"
+				type: "item"
+			}]
+			x: 36.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3390ABCB1F94CEB6"]
+			description: ["伊甸朴木树苗会在伊甸朴木树叶被破坏时概率掉落，可以种植在伊甸草方块，伊甸菌丝和任意带有&eminecraft:dirt&r标签的方块上，但只有摆成&e1×2&r的形状（即两棵伊甸朴木树苗相邻）时才能生长出伊甸朴木"]
+			id: "3255CF4E7B8E3ED2"
+			tasks: [{
+				id: "14768BDD0053461F"
+				item: "edenring:auritis_sapling"
+				type: "item"
+			}]
+			x: 38.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0FA637A5D767184E"]
+			id: "3B2B756C8F14BC21"
+			tasks: [{
+				count: 10L
+				id: "3F905738BBB6CC3F"
+				item: "edenring:balloon_mushroom_block"
+				type: "item"
+			}]
+			x: 36.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3B2B756C8F14BC21"]
+			description: [
+				"小气球菇会自然生成在&e菌菇森林&r和&e原始菌菇森林&r，或在高气球菇被破坏时概率掉落，可以&e种植在伊甸菌丝&r上，对其使用骨粉可长出大型气球菇，摆成&e2×2&r的形状后再对其使用&e骨粉&r可以长出&e巨型气球菇树&r。"
+				"高气球菇会自然生成在&e菌菇森林&r和&e原始菌菇森林&r，可以放置在&e伊甸菌丝&r上，破坏后掉落1~2个小气球菇和0~1个木棍，使用剪刀或带有精准采集附魔的工具破坏掉落自身。&e不可再生&r。"
+			]
+			id: "1622CFABAB832035"
+			tasks: [
+				{
+					id: "18C15FD917D007EB"
+					item: "edenring:balloon_mushroom_small"
+					type: "item"
+				}
+				{
+					id: "499BFB7B3B4D2035"
+					item: "edenring:tall_balloon_mushroom"
+					type: "item"
+				}
+			]
+			x: 38.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0FA637A5D767184E"]
+			description: [
+				"作为伊甸荜树的枝干生成，自然生成的伊甸荜树（方块）被破坏后会像竹子一样使上方所有相连的伊甸荜树（方块）一起被破坏，且有概率掉落伊甸荜树树苗。"
+				"非自然生成的伊甸荜树（方块）可以朝着三个方向放置，不会像竹子一样连锁破坏，破坏后也不会掉落伊甸荜树树苗。"
+				"用于合成伊甸荜树原木。"
+			]
+			id: "10987FA666711EA7"
+			tasks: [{
+				count: 20L
+				id: "1333DC7046E75A86"
+				item: "edenring:pulse_tree"
+				type: "item"
+			}]
+			x: 36.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["10987FA666711EA7"]
+			description: ["伊甸荜树树苗会在自然生成的伊甸荜树（方块）被破坏时概率掉落，可以种植在伊甸草方块，伊甸菌丝和任意带有&eminecraft:dirt&r标签的方块上，&e无法使用骨粉催熟&r，一段时间后长出伊甸荜树。"]
+			id: "3B1C8A160D12407E"
+			tasks: [{
+				id: "38F1D3FC2F19AA48"
+				item: "edenring:pulse_tree_sapling"
+				type: "item"
+			}]
+			x: 38.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0FA637A5D767184E"]
+			id: "7A1FA5E59B65D410"
+			tasks: [{
+				count: 10L
+				id: "3F36C8BE8949188F"
+				item: "edenring:brain_tree_log"
+				type: "item"
+			}]
+			x: 32.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1340156184053FB1"]
+			id: "00BFB6A39DD16348"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "58357A8C92FDB34D"
+				table_id: 2953109549610839980L
+				type: "random"
+			}]
+			tasks: [{
+				biome: "edenring:sky_colony"
+				icon: "edenring:parignum"
+				id: "4D15AD347C7A220D"
+				title: "浮空群落"
+				type: "biome"
+			}]
+			title: "抵达浮空群落"
+			x: 19.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5AA7E2C5AA3F1C08"]
+			description: ["各种脑树方块作为对应的脑树的树冠生成，需要使用镐挖掘才会掉落。脑树方块会随着时间逐渐&e充能&r，充能后每隔一段时间会发一次光，并在有&e生物靠近&r时将电能释放出来对其&e造成伤害&r，&e穿戴全套金属盔甲&r（铁，金和下界合金）可&e免疫&r脑树方块的&e伤害&r。"]
+			id: "0FA637A5D767184E"
+			tasks: [{
+				biome: "edenring:brainstorm"
+				icon: "edenring:brain_tree_block_iron"
+				id: "61FFBEE27C5BAD9E"
+				title: "风暴之脑"
+				type: "biome"
+			}]
+			title: "抵达风暴之脑"
+			x: 32.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7A1FA5E59B65D410"]
+			id: "577D17FC1B8B3F0F"
+			tasks: [{
+				id: "5CF1B1146AAC7DF9"
+				item: "edenring:brain_tree_block_iron"
+				type: "item"
+			}]
+			x: 32.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7A1FA5E59B65D410"]
+			id: "1DEF88A5301E212F"
+			tasks: [{
+				id: "5D50BDC216D07B83"
+				item: "edenring:brain_tree_block_copper"
+				type: "item"
+			}]
+			x: 31.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7A1FA5E59B65D410"]
+			id: "6CD7762C808E96BA"
+			tasks: [{
+				id: "750022A78C9405C9"
+				item: "edenring:brain_tree_block_gold"
+				type: "item"
+			}]
+			x: 33.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1DEF88A5301E212F"]
+			description: ["通过合成镶嵌了脑树方块的脑树原木，用于装饰。"]
+			id: "0B9B4CCF9C3BBEBE"
+			tasks: [{
+				id: "233FF6B497C44B1F"
+				item: "edenring:copper_framed_brain_tree_log"
+				type: "item"
+			}]
+			x: 31.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["577D17FC1B8B3F0F"]
+			description: ["通过合成镶嵌了脑树方块的脑树原木，用于装饰。"]
+			id: "2FB47932517C1DA6"
+			tasks: [{
+				id: "70072CD34A323524"
+				item: "edenring:iron_framed_brain_tree_log"
+				type: "item"
+			}]
+			x: 32.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6CD7762C808E96BA"]
+			description: ["通过合成镶嵌了脑树方块的脑树原木，用于装饰。"]
+			id: "69CFE7C58CC333A7"
+			tasks: [{
+				id: "1A141A99CAE7CFB9"
+				item: "edenring:gold_framed_brain_tree_log"
+				type: "item"
+			}]
+			x: 33.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["248E67B612679F6D"]
+			description: ["气球菇子实层体会悬挂在巨型气球菇树“树冠”下方，可以&e附着&r在任意完整&e方块的底部&r，需要使用&e剪刀&r或带有&e精准采集附魔&r的工具破坏才会掉落自身。对气球菇子实层体使用&e骨粉&r可使其&e向下生长&r。"]
+			id: "3581D7B21B4D5855"
+			tasks: [{
+				id: "3B74B108B74D9B3D"
+				item: "edenring:balloon_mushroom_hymenophore"
+				type: "item"
+			}]
+			x: 18.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7E8AA27E8062D71E"]
+			description: ["高菌丝草会自然生成在&e菌菇森林&r和&e原始菌菇森林&r，可以放置在伊甸菌丝上，使用&e剪刀&r或带有&e精准采集附魔&r的工具破坏掉落自身。对菌丝草使用骨粉会使其生长为高菌丝草，对&e高菌丝草&r使用&e骨粉&r会产生一个高菌丝草&e掉落&r物。"]
+			id: "6C5BD1D8965336C8"
+			tasks: [{
+				id: "4C1A280D1273BB73"
+				item: "edenring:tall_mycotic_grass"
+				type: "item"
+			}]
+			x: 19.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["11E1D224B3BFDC91"]
+			description: ["金色草会自然生成在&e金色森林&r，可以放置在在&e伊甸草方块&r，伊甸菌丝和任意带有&eminecraft:dirt&r标签的方块上，使用&e剪刀&r或带有&e精准采集附魔&r的工具破坏掉落自身。在金色森林中对伊甸草方块使用骨粉会长出金色草，对金色草使用&e骨粉&r会产生一个金色草&e掉落&r物。"]
+			id: "0091DE81F4C2FC6B"
+			tasks: [{
+				id: "0E83D8F834AF7823"
+				item: "edenring:golden_grass"
+				type: "item"
+			}]
+			x: 20.5d
+			y: 3.0d
+		}
+	]
+	title: "《伊甸星环维度》(更新中)"
+}

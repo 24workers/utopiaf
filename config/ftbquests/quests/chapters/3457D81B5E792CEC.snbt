@@ -1,0 +1,1162 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "3457D81B5E792CEC"
+	group: "50272B04D9728AF0"
+	id: "3457D81B5E792CEC"
+	images: [
+		{
+			height: 10.0d
+			image: "minecraft:textures/xiaoshu31.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: -8.5d
+			y: 2.5d
+		}
+		{
+			height: 10.0d
+			image: "minecraft:textures/xiaoshu30.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: -19.5d
+			y: 3.0d
+		}
+		{
+			height: 10.0d
+			image: "minecraft:textures/xiaoshu32.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: -8.5d
+			y: -6.5d
+		}
+		{
+			height: 10.0d
+			image: "minecraft:textures/xiaoshu28.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: -19.5d
+			y: -6.5d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "12E94C1C877BE3E0"
+			tasks: [{
+				id: "0DF9F5AE81AD1AFE"
+				item: "regions_unexplored:larch_leaves"
+				type: "item"
+			}]
+			x: -12.5d
+			y: 3.0d
+		}
+		{
+			id: "165F7B98BEBA8FD1"
+			tasks: [{
+				id: "03344E67302DD28C"
+				item: "regions_unexplored:kapok_leaves"
+				type: "item"
+			}]
+			x: -13.0d
+			y: 4.0d
+		}
+		{
+			id: "3488D78014D2B6F9"
+			tasks: [{
+				id: "6301346308ADA2CA"
+				item: "regions_unexplored:pine_leaves"
+				type: "item"
+			}]
+			x: -13.5d
+			y: 5.0d
+		}
+		{
+			id: "02825F6B7D1D0B43"
+			tasks: [{
+				id: "7CF2F24576A04EB2"
+				item: "regions_unexplored:red_maple_leaves"
+				type: "item"
+			}]
+			x: -13.5d
+			y: 6.0d
+		}
+		{
+			id: "78BC9D83DEEC00B6"
+			tasks: [{
+				id: "7EB3907AABD1708D"
+				item: "regions_unexplored:brimwood_leaves"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 6.0d
+		}
+		{
+			id: "4E207B8D1214DF7E"
+			tasks: [{
+				id: "7475809C5B2B558F"
+				item: "regions_unexplored:cobalt_webbing"
+				type: "item"
+			}]
+			x: -12.5d
+			y: 6.0d
+		}
+		{
+			id: "04885965303FC336"
+			tasks: [{
+				id: "09F0C6934C1E8DCC"
+				item: "regions_unexplored:enchanted_birch_leaves"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 6.0d
+		}
+		{
+			id: "0A76F9D6F4DEFA6E"
+			tasks: [{
+				id: "09B8C29F268A7FC4"
+				item: "regions_unexplored:small_oak_leaves"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 6.0d
+		}
+		{
+			id: "338C2208B7709106"
+			tasks: [{
+				id: "0E649163C2176E73"
+				item: "regions_unexplored:silver_birch_leaves"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 6.0d
+		}
+		{
+			id: "5CB141E6B8943238"
+			tasks: [{
+				id: "269C621628E2CA7F"
+				item: "regions_unexplored:socotra_leaves"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 6.0d
+		}
+		{
+			id: "5EFF95754C18ACE9"
+			tasks: [{
+				id: "1E173C9232A96FC5"
+				item: "regions_unexplored:willow_leaves"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 6.0d
+		}
+		{
+			id: "3537CF4AB249EBDA"
+			tasks: [{
+				id: "064FF7A001CA10B0"
+				item: "regions_unexplored:white_magnolia_leaves"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 6.0d
+		}
+		{
+			id: "6BBCAF4A23E1F46F"
+			tasks: [{
+				id: "5967D2FC51D9F648"
+				item: "regions_unexplored:pink_magnolia_leaves"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 6.0d
+		}
+		{
+			id: "149CDBC1CAB228FF"
+			tasks: [{
+				id: "66F628C8A98FB732"
+				item: "regions_unexplored:blue_magnolia_leaves"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 6.0d
+		}
+		{
+			id: "000FAD8B53815243"
+			tasks: [{
+				id: "02CC0BD4B2CDE029"
+				item: "regions_unexplored:ashen_leaves"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 5.0d
+		}
+		{
+			id: "09ACC38B7008BFBF"
+			tasks: [{
+				id: "35D35F53F7677A27"
+				item: "snifferplus:stone_pine_leaves"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 4.0d
+		}
+		{
+			id: "7ED9947C060961B2"
+			tasks: [{
+				id: "1834888AAED3118E"
+				item: "regions_unexplored:redwood_leaves"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 3.0d
+		}
+		{
+			id: "7FC313836C7AE4F4"
+			tasks: [{
+				id: "3E3E7C902AC8FF21"
+				item: "natures_spirit:fir_leaves"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 2.0d
+		}
+		{
+			id: "6B3038193670FD32"
+			tasks: [{
+				id: "006B21B4A49ADF3A"
+				item: "natures_spirit:purple_wisteria_leaves"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 1.0d
+		}
+		{
+			id: "4E7D86CDD9D97F08"
+			tasks: [{
+				id: "59AB1B36B0914989"
+				item: "natures_spirit:pink_wisteria_leaves"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.5d
+		}
+		{
+			id: "57C03ED44C184A6D"
+			tasks: [{
+				id: "483FCFC527344913"
+				item: "natures_spirit:blue_wisteria_leaves"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -0.5d
+		}
+		{
+			id: "440D7E6D351507FD"
+			tasks: [{
+				id: "3682804B91834EA3"
+				item: "natures_spirit:white_wisteria_leaves"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -1.5d
+		}
+		{
+			id: "56986DCBDCE14B07"
+			tasks: [{
+				id: "4CA13671B2AC9A37"
+				item: "natures_spirit:sugi_leaves"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -1.5d
+		}
+		{
+			id: "04067BC8A04729A4"
+			tasks: [{
+				id: "23EEA3211555DE3B"
+				item: "regions_unexplored:baobab_leaves"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -1.0d
+		}
+		{
+			id: "04EC5AEFFD6F1A22"
+			tasks: [{
+				id: "129483F4D4EFA5FD"
+				item: "natures_spirit:yellow_maple_leaves"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -1.0d
+		}
+		{
+			id: "795A4D7AF7BC240B"
+			tasks: [{
+				id: "08D23F2BA4E7E1AC"
+				item: "natures_spirit:redwood_leaves"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -0.5d
+		}
+		{
+			id: "036FDF0E54B7E81B"
+			tasks: [{
+				id: "599103144C1B5F94"
+				item: "meadow:pine_leaves"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 0.0d
+		}
+		{
+			id: "6BE335192652527E"
+			tasks: [{
+				id: "4C561026AE4FC2C1"
+				item: "natures_spirit:orange_maple_leaves"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 1.0d
+		}
+		{
+			id: "212D4F5D50FA9991"
+			tasks: [{
+				id: "3455A7150997B697"
+				item: "regions_unexplored:apple_oak_leaves"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 2.0d
+		}
+		{
+			id: "01E591E4EFEEBC58"
+			tasks: [{
+				id: "69F3EA322482EF50"
+				item: "bloomingnature:baobab_leaves"
+				type: "item"
+			}]
+			x: -15.0d
+			y: 6.0d
+		}
+		{
+			id: "3BE035E24E6E100A"
+			tasks: [{
+				id: "5613FAC40B3AF8F9"
+				item: "bloomingnature:larch_leaves"
+				type: "item"
+			}]
+			x: -16.0d
+			y: 6.0d
+		}
+		{
+			id: "5542E00CFA5EF2EF"
+			tasks: [{
+				id: "79D96F980D491E73"
+				item: "biomemakeover:swamp_cypress_leaves"
+				type: "item"
+			}]
+			x: -18.0d
+			y: 6.0d
+		}
+		{
+			id: "0C5238F9C838A825"
+			tasks: [{
+				id: "6C1B36A9AF0E79E8"
+				item: "biomemakeover:blighted_balsa_leaves"
+				type: "item"
+			}]
+			x: -20.0d
+			y: 6.0d
+		}
+		{
+			id: "41772FA1601A0C9E"
+			tasks: [
+				{
+					id: "6CBAF49C47D21C51"
+					item: "betterend:lucernia_leaves"
+					type: "item"
+				}
+				{
+					id: "3BAAB8562B02E5D9"
+					item: "betterend:lucernia_outer_leaves"
+					type: "item"
+				}
+			]
+			x: -22.0d
+			y: 6.0d
+		}
+		{
+			id: "6720C27238B3EB96"
+			tasks: [{
+				id: "63E0529DD460A50E"
+				item: "betterend:helix_tree_leaves"
+				type: "item"
+			}]
+			x: -23.0d
+			y: 6.0d
+		}
+		{
+			id: "7F1F4DBB5B417B8E"
+			tasks: [{
+				id: "02AC36D10F4D65FD"
+				item: "goodending:dense_birch_leaves"
+				type: "item"
+			}]
+			x: -24.0d
+			y: 5.0d
+		}
+		{
+			id: "77E86897FA721FE7"
+			tasks: [{
+				id: "1DDEB60F83CE9AB3"
+				item: "goodending:cypress_leaves"
+				type: "item"
+			}]
+			x: -24.0d
+			y: 4.0d
+		}
+		{
+			id: "551814C12F28524F"
+			tasks: [{
+				id: "28A915F4FF82F740"
+				item: "ecologics:coconut_leaves"
+				type: "item"
+			}]
+			x: -22.5d
+			y: 1.0d
+		}
+		{
+			id: "03902B29D9619175"
+			tasks: [{
+				id: "68D9EAC109677206"
+				item: "ecologics:walnut_leaves"
+				type: "item"
+			}]
+			x: -23.0d
+			y: 2.0d
+		}
+		{
+			id: "0DA23452869F4EF2"
+			tasks: [{
+				id: "3A303BE0E8EEE461"
+				item: "edenring:auritis_leaves"
+				type: "item"
+			}]
+			x: -23.5d
+			y: 3.0d
+		}
+		{
+			id: "2897555B4D7CABF2"
+			tasks: [{
+				id: "1143E62A9DE6D127"
+				item: "vinery:dark_cherry_leaves"
+				type: "item"
+			}]
+			x: -20.5d
+			y: -0.5d
+		}
+		{
+			id: "603B1F08A260B91E"
+			tasks: [{
+				id: "3FA6930DC70DAB7D"
+				item: "vinery:apple_leaves"
+				type: "item"
+			}]
+			x: -21.5d
+			y: 0.0d
+		}
+		{
+			id: "63D81DA73B290B75"
+			tasks: [{
+				id: "12A958B9F8CDCBE9"
+				item: "culturaldelights:avocado_leaves"
+				type: "item"
+			}]
+			x: -18.5d
+			y: -0.5d
+		}
+		{
+			id: "5ACDC52F2D5EBC9B"
+			tasks: [{
+				id: "6CE02CABA2DFBE23"
+				item: "bloomingnature:ebony_leaves"
+				type: "item"
+			}]
+			x: -17.5d
+			y: 0.5d
+		}
+		{
+			id: "5E7C9923EDBE3104"
+			tasks: [{
+				id: "7E2AF36E6EF0A99F"
+				item: "deeperdarker:echo_leaves"
+				type: "item"
+			}]
+			x: -19.5d
+			y: -0.5d
+		}
+		{
+			id: "36E84B6E2CD3A70B"
+			tasks: [{
+				id: "560DDB629788E09B"
+				item: "bloomingnature:swamp_cypress_leaves"
+				type: "item"
+			}]
+			x: -17.0d
+			y: 1.5d
+		}
+		{
+			id: "35D3E840305FD8FF"
+			tasks: [{
+				id: "178E540BC4F6B9BE"
+				item: "bloomingnature:fir_leaves"
+				type: "item"
+			}]
+			x: -16.5d
+			y: 2.5d
+		}
+		{
+			id: "39C6420D6E2CBFA2"
+			tasks: [{
+				id: "0C0E3E5331AB8984"
+				item: "bloomingnature:fan_palm_leaves"
+				type: "item"
+			}]
+			x: -16.0d
+			y: 3.5d
+		}
+		{
+			id: "7F7155F9CB06EE10"
+			tasks: [{
+				id: "22B3F40347EF5185"
+				item: "bloomingnature:swamp_oak_leaves"
+				type: "item"
+			}]
+			x: -15.0d
+			y: 4.0d
+		}
+		{
+			id: "7E1720EA968CBF2C"
+			tasks: [{
+				id: "54192CA78043E1D3"
+				item: "bloomingnature:orange_leaves"
+				type: "item"
+			}]
+			x: -15.0d
+			y: 5.0d
+		}
+		{
+			id: "66CF22233DEF3D15"
+			tasks: [{
+				id: "6643D1CE3D68DA72"
+				item: "betterend:glowing_pillar_leaves"
+				type: "item"
+			}]
+			x: -21.0d
+			y: 6.0d
+		}
+		{
+			id: "1584668645E8D574"
+			tasks: [{
+				id: "2F3B4788C5631DEE"
+				item: "biomemakeover:ancient_oak_leaves"
+				type: "item"
+			}]
+			x: -17.0d
+			y: 6.0d
+		}
+		{
+			id: "74E0CD7629ED0512"
+			tasks: [{
+				id: "05EDE652F4655CA6"
+				item: "biomemakeover:willow_leaves"
+				type: "item"
+			}]
+			x: -19.0d
+			y: 6.0d
+		}
+		{
+			id: "2C3B5EC22A2E457B"
+			tasks: [{
+				id: "65B4614EF2ADCE86"
+				item: "goodending:dense_dark_oak_leaves"
+				type: "item"
+			}]
+			x: -24.0d
+			y: 6.0d
+		}
+		{
+			id: "2D05ED585F7B6CFE"
+			tasks: [{
+				id: "34F350BF2626CA1E"
+				item: "natures_spirit:cypress_leaves"
+				type: "item"
+			}]
+			x: -13.0d
+			y: -4.0d
+		}
+		{
+			id: "0F4285E4F3B7EBF1"
+			tasks: [{
+				id: "6889F9DCE61F04E3"
+				item: "regions_unexplored:blackwood_leaves"
+				type: "item"
+			}]
+			x: -13.0d
+			y: -3.0d
+		}
+		{
+			id: "68A1355AFA87827C"
+			tasks: [{
+				id: "75C45980BBCDF74D"
+				item: "regions_unexplored:maple_leaves"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -3.0d
+		}
+		{
+			id: "1169383740BB5452"
+			tasks: [{
+				id: "2A28DB1BF077B6C9"
+				item: "regions_unexplored:mauve_leaves"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -3.0d
+		}
+		{
+			id: "75FA3D8B70328F52"
+			tasks: [{
+				id: "6571AF024C80DCB0"
+				item: "regions_unexplored:orange_maple_leaves"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -3.0d
+		}
+		{
+			id: "1246BCE6C05B0F5A"
+			tasks: [{
+				id: "7D936ED18F206AEE"
+				item: "regions_unexplored:palm_leaves"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -3.0d
+		}
+		{
+			id: "125B8D1A6B26CF57"
+			tasks: [{
+				id: "147728F863BF240F"
+				item: "regions_unexplored:dead_leaves"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -3.0d
+		}
+		{
+			id: "6B21E4A91B285B7D"
+			tasks: [{
+				id: "380F596F35C9BA36"
+				item: "regions_unexplored:dead_pine_leaves"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -3.0d
+		}
+		{
+			id: "3120D3D480070E14"
+			tasks: [{
+				id: "60D6852CE83F8395"
+				item: "regions_unexplored:flowering_leaves"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -3.0d
+		}
+		{
+			id: "6246745306C3D603"
+			tasks: [{
+				id: "5C25C2854D55DB50"
+				item: "regions_unexplored:golden_larch_leaves"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -3.0d
+		}
+		{
+			id: "2B5F16D0D2476C29"
+			tasks: [{
+				id: "1025A74C406A87DC"
+				item: "regions_unexplored:joshua_leaves"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -3.0d
+		}
+		{
+			id: "6371E0B3CD2380B8"
+			tasks: [{
+				id: "72AF9AA45225F662"
+				item: "regions_unexplored:eucalyptus_leaves"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -4.0d
+		}
+		{
+			id: "2730FA5F2F621BE9"
+			tasks: [{
+				id: "43BCFEECD62FC8B9"
+				item: "regions_unexplored:cypress_leaves"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -5.0d
+		}
+		{
+			id: "3298456F1E03864D"
+			tasks: [{
+				id: "55497DA7BAD6D293"
+				item: "natures_spirit:mahogany_leaves"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -6.0d
+		}
+		{
+			id: "70D334F02F2F2840"
+			tasks: [{
+				id: "0AEA17FECBCB9E11"
+				item: "natures_spirit:larch_leaves"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -7.0d
+		}
+		{
+			id: "58BBC848760DEF5A"
+			tasks: [{
+				id: "585F38997251D1D0"
+				item: "natures_spirit:cedar_leaves"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -8.0d
+		}
+		{
+			id: "282CE5E461B6D0A0"
+			tasks: [{
+				id: "6808C2D3918809D4"
+				item: "natures_spirit:saxaul_leaves"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -9.0d
+		}
+		{
+			id: "440FEB682A5AAFB7"
+			tasks: [{
+				id: "63B6F433DE75A39E"
+				item: "natures_spirit:palo_verde_leaves"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -9.5d
+		}
+		{
+			id: "5DDD580509A2570A"
+			tasks: [{
+				id: "7D9DED733887EC21"
+				item: "natures_spirit:aspen_leaves"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -9.5d
+		}
+		{
+			id: "08110270E7416043"
+			tasks: [{
+				id: "6B2C9C4629C46CFC"
+				item: "natures_spirit:red_maple_leaves"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -9.0d
+		}
+		{
+			id: "0EB0BE2DC61CF77A"
+			tasks: [{
+				id: "1D88AE4AB57CC9CF"
+				item: "regions_unexplored:alpha_leaves"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -8.5d
+		}
+		{
+			id: "1F021942798EA470"
+			tasks: [{
+				id: "2ABDD1F6EBF0B29A"
+				item: "natures_spirit:willow_leaves"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -8.0d
+		}
+		{
+			id: "430220172445C1E0"
+			tasks: [{
+				id: "3C0D430D698CF489"
+				item: "regions_unexplored:magnolia_leaves"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -7.0d
+		}
+		{
+			id: "37F582A5B333680B"
+			tasks: [{
+				id: "41251AC9498FE9E2"
+				item: "natures_spirit:joshua_leaves"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -6.0d
+		}
+		{
+			id: "345837758C7DE668"
+			tasks: [{
+				id: "71100AAA5010C5ED"
+				item: "natures_spirit:olive_leaves"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -5.0d
+		}
+		{
+			id: "164642D732B7DAAD"
+			tasks: [{
+				id: "16C646D6402F4510"
+				item: "minecraft:jungle_leaves"
+				type: "item"
+			}]
+			x: -14.5d
+			y: -3.0d
+		}
+		{
+			id: "208EB5BA37FE8899"
+			tasks: [{
+				id: "243E2E12649BB394"
+				item: "minecraft:birch_leaves"
+				type: "item"
+			}]
+			x: -15.5d
+			y: -3.0d
+		}
+		{
+			id: "5CCA4A78ADE81599"
+			tasks: [{
+				id: "5BD3EFE04BC7927F"
+				item: "minecraft:oak_leaves"
+				type: "item"
+			}]
+			x: -17.5d
+			y: -3.0d
+		}
+		{
+			description: ["树叶堆可以防止怪物穿过。"]
+			id: "3649DBFDDCAEEBE9"
+			tasks: [{
+				id: "1F778CF614F619F0"
+				item: "convenientdecor:leaf_pile"
+				type: "item"
+			}]
+			title: "树叶堆"
+			x: -19.5d
+			y: -3.0d
+		}
+		{
+			description: ["树叶堆可以防止怪物穿过。"]
+			id: "52216E6B70B7E884"
+			tasks: [{
+				id: "44974CA054CA321E"
+				item: "convenientdecor:yellow_leaf_pile"
+				type: "item"
+			}]
+			x: -20.5d
+			y: -3.0d
+		}
+		{
+			description: ["树叶堆可以防止怪物穿过。"]
+			id: "6CECB47B47A2FB20"
+			tasks: [{
+				id: "17EAF086B7F08044"
+				item: "convenientdecor:red_leaf_pile"
+				type: "item"
+			}]
+			x: -22.5d
+			y: -3.0d
+		}
+		{
+			description: ["树叶堆可以防止怪物穿过。"]
+			id: "6938698D94327D3B"
+			tasks: [{
+				id: "02A1AA2E81F92CD9"
+				item: "convenientdecor:flowering_azalea_leaf_pile"
+				type: "item"
+			}]
+			x: -24.5d
+			y: -5.0d
+		}
+		{
+			description: ["树叶堆可以防止怪物穿过。"]
+			id: "55DD9E96A06E1677"
+			tasks: [{
+				id: "225E5D948B8318B8"
+				item: "convenientdecor:mangrove_leaf_pile"
+				type: "item"
+			}]
+			x: -24.5d
+			y: -4.0d
+		}
+		{
+			description: ["树叶堆可以防止怪物穿过。"]
+			id: "35A516D3CC963A49"
+			tasks: [{
+				id: "71B7B30B9962716B"
+				item: "convenientdecor:dark_oak_leaf_pile"
+				type: "item"
+			}]
+			x: -24.5d
+			y: -3.0d
+		}
+		{
+			description: ["树叶堆可以防止怪物穿过。"]
+			id: "73A6650CFBD1911D"
+			tasks: [{
+				id: "189496F6D3F9903B"
+				item: "convenientdecor:birch_leaf_pile"
+				type: "item"
+			}]
+			x: -23.5d
+			y: -3.0d
+		}
+		{
+			id: "7AC6581F2D61A473"
+			tasks: [{
+				id: "7D19E4C010548171"
+				item: "minecraft:spruce_leaves"
+				type: "item"
+			}]
+			x: -16.5d
+			y: -3.0d
+		}
+		{
+			description: ["树叶堆可以防止怪物穿过。"]
+			id: "1EC603F8F0D3438C"
+			tasks: [{
+				id: "26BD5F373357EE82"
+				item: "convenientdecor:orange_leaf_pile"
+				type: "item"
+			}]
+			x: -21.5d
+			y: -3.0d
+		}
+		{
+			description: ["树叶堆可以防止怪物穿过。"]
+			id: "26E36C9111E8FF6A"
+			tasks: [{
+				id: "11AE43DEBDB79C6D"
+				item: "convenientdecor:azalea_leaf_pile"
+				type: "item"
+			}]
+			x: -24.5d
+			y: -6.0d
+		}
+		{
+			description: ["树叶堆可以防止怪物穿过。"]
+			id: "717637ED002FA88A"
+			tasks: [{
+				id: "06EC2F48826A4DFD"
+				item: "convenientdecor:cherry_leaf_pile"
+				type: "item"
+			}]
+			x: -24.0d
+			y: -7.0d
+		}
+		{
+			id: "516E07DE55F60ADD"
+			tasks: [{
+				id: "5616FFEC5D585B1F"
+				item: "betterend:pythadendron_leaves"
+				type: "item"
+			}]
+			x: -23.5d
+			y: -8.0d
+		}
+		{
+			id: "44EDB324605BE429"
+			tasks: [{
+				id: "75F7604537A9C16C"
+				item: "beachparty:palm_leaves"
+				type: "item"
+			}]
+			x: -22.5d
+			y: -8.5d
+		}
+		{
+			id: "797B7083C63503F9"
+			tasks: [{
+				id: "0132480304244EF8"
+				item: "betternether:nether_sakura_leaves"
+				type: "item"
+			}]
+			x: -21.5d
+			y: -9.0d
+		}
+		{
+			id: "60B0173DB33AD614"
+			tasks: [{
+				id: "733DC857F18DFDE6"
+				item: "betternether:anchor_tree_leaves"
+				type: "item"
+			}]
+			x: -20.5d
+			y: -9.0d
+		}
+		{
+			id: "2ED9258E10060979"
+			tasks: [{
+				id: "001CADFB27B030B7"
+				item: "betternether:rubeus_leaves"
+				type: "item"
+			}]
+			x: -19.5d
+			y: -9.0d
+		}
+		{
+			id: "7BDDEA84594AE7B1"
+			tasks: [{
+				id: "15CA74D9277BC6EE"
+				item: "betternether:willow_leaves"
+				type: "item"
+			}]
+			x: -18.5d
+			y: -9.0d
+		}
+		{
+			id: "20C2264AD7714098"
+			tasks: [{
+				id: "47B38DB38C411FBE"
+				item: "minecraft:flowering_azalea_leaves"
+				type: "item"
+			}]
+			x: -17.5d
+			y: -9.0d
+		}
+		{
+			id: "1717754D02F054C2"
+			tasks: [{
+				id: "74BAB5A5F47245CF"
+				item: "betterend:dragon_tree_leaves"
+				type: "item"
+			}]
+			x: -16.5d
+			y: -9.0d
+		}
+		{
+			id: "72D9D8DBE639B705"
+			tasks: [{
+				id: "0843987ACBADA61E"
+				item: "betterend:lacugrove_leaves"
+				type: "item"
+			}]
+			x: -15.5d
+			y: -9.0d
+		}
+		{
+			id: "2A4A7D46E852F842"
+			tasks: [
+				{
+					id: "74929E0866F3E710"
+					item: "betterend:tenanea_leaves"
+					type: "item"
+				}
+				{
+					id: "458C62BA8D39F21D"
+					item: "betterend:tenanea_outer_leaves"
+					type: "item"
+				}
+			]
+			x: -15.5d
+			y: -8.0d
+		}
+		{
+			id: "64FDE8165630B5CD"
+			tasks: [{
+				id: "50AAD16CB28C8649"
+				item: "minecraft:azalea_leaves"
+				type: "item"
+			}]
+			x: -15.5d
+			y: -7.0d
+		}
+		{
+			id: "6B99F4A7E6842216"
+			tasks: [{
+				id: "2B6B0CF5A6DCFF17"
+				item: "minecraft:mangrove_leaves"
+				type: "item"
+			}]
+			x: -14.5d
+			y: -6.0d
+		}
+		{
+			id: "5C2ED9F19775EFF9"
+			tasks: [{
+				id: "486B027354ABCECA"
+				item: "minecraft:dark_oak_leaves"
+				type: "item"
+			}]
+			x: -15.5d
+			y: -6.0d
+		}
+		{
+			id: "1671782F365DA521"
+			tasks: [{
+				id: "5960846638E327EA"
+				item: "minecraft:cherry_leaves"
+				type: "item"
+			}]
+			x: -14.5d
+			y: -5.0d
+		}
+		{
+			id: "67025F9396362BD6"
+			tasks: [{
+				id: "2B68F10BDBFB9384"
+				item: "minecraft:acacia_leaves"
+				type: "item"
+			}]
+			x: -14.5d
+			y: -4.0d
+		}
+		{
+			description: ["干草堆可以防止怪物穿过。"]
+			id: "76A5CA30C3E67CF1"
+			tasks: [{
+				id: "4B6F767F8223D768"
+				item: "convenientdecor:haystack_block"
+				type: "item"
+			}]
+			x: -18.5d
+			y: -3.0d
+		}
+	]
+	title: "树叶收集"
+}

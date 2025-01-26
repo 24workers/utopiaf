@@ -1,0 +1,2619 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "3E916C7C5F00426A"
+	group: "15996FB77BE6F65F"
+	icon: "archers:archer_spell_book"
+	id: "3E916C7C5F00426A"
+	images: [
+		{
+			height: 10.0d
+			image: "minecraft:textures/wizards_full.png"
+			rotation: 0.0d
+			width: 21.9d
+			x: -15.0d
+			y: -21.0d
+		}
+		{
+			height: 10.0d
+			image: "minecraft:textures/archers_full_1000.png"
+			rotation: 0.0d
+			width: 19.4d
+			x: 0.5d
+			y: -21.0d
+		}
+		{
+			height: 10.0d
+			image: "minecraft:textures/wushi.png"
+			rotation: 0.0d
+			width: 15.822784810126581d
+			x: -16.5d
+			y: -5.5d
+		}
+		{
+			height: 10.0d
+			image: "minecraft:textures/shengqishi.png"
+			rotation: 0.0d
+			width: 17.6d
+			x: 13.0d
+			y: -21.0d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["380DE616B4DACAE3"]
+			id: "2A1EECAF6A7F6123"
+			tasks: [{
+				id: "47539F7712D104F4"
+				item: "runes:crafting_altar"
+				type: "item"
+			}]
+			x: -16.5d
+			y: -15.5d
+		}
+		{
+			dependencies: ["2A1EECAF6A7F6123"]
+			id: "2A3F37258AE45E93"
+			tasks: [{
+				id: "76F97DC63A044D14"
+				item: "runes:frost_stone"
+				type: "item"
+			}]
+			x: -17.5d
+			y: -14.5d
+		}
+		{
+			dependencies: ["2A1EECAF6A7F6123"]
+			id: "61485D09F5C28B07"
+			tasks: [{
+				id: "397FDD3A9288509A"
+				item: "runes:soul_stone"
+				type: "item"
+			}]
+			x: -15.5d
+			y: -16.5d
+		}
+		{
+			dependencies: ["2A1EECAF6A7F6123"]
+			id: "32DA7EEBE83C698C"
+			tasks: [{
+				id: "7E31092C4257C392"
+				item: "runes:fire_stone"
+				type: "item"
+			}]
+			x: -15.5d
+			y: -15.5d
+		}
+		{
+			dependencies: ["2A1EECAF6A7F6123"]
+			id: "233F78CB0F8C0067"
+			tasks: [{
+				id: "50336CE701EB2CF6"
+				item: "runes:healing_stone"
+				type: "item"
+			}]
+			x: -17.5d
+			y: -15.5d
+		}
+		{
+			dependencies: ["2A1EECAF6A7F6123"]
+			id: "67A71D1664E34D38"
+			tasks: [{
+				id: "1CBF0BD1B5D3DB76"
+				item: "runes:lightning_stone"
+				type: "item"
+			}]
+			x: -15.5d
+			y: -14.5d
+		}
+		{
+			dependencies: ["2A1EECAF6A7F6123"]
+			id: "494DE2662F483CC8"
+			tasks: [{
+				id: "0F152B565669669E"
+				item: "runes:arcane_stone"
+				type: "item"
+			}]
+			x: -17.5d
+			y: -16.5d
+		}
+		{
+			dependencies: ["5F95EA6AFDC80304"]
+			description: ["下界合金法杖造价相对较贵，而强度并不如对应的基础权杖，因此请谨慎制作。自带法术&e奥秘飞弹&r。"]
+			id: "6229AEE6976A6D1A"
+			tasks: [{
+				id: "48251029F167DB9D"
+				item: {
+					Count: 1
+					id: "wizards:wand_netherite_arcane"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -21.0d
+			y: -13.5d
+		}
+		{
+			dependencies: ["344244ADE5321B4D"]
+			description: ["自带法术奥秘飞弹"]
+			id: "5F95EA6AFDC80304"
+			tasks: [{
+				id: "476730660B6F3BF1"
+				item: {
+					Count: 1
+					id: "wizards:wand_arcane"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -21.0d
+			y: -14.5d
+		}
+		{
+			dependencies: ["344244ADE5321B4D"]
+			description: ["&e获得方法&r：普通书本放在法术绑定台附魔。"]
+			id: "2FD3B6969EB1EFBB"
+			tasks: [{
+				id: "2C4839F0B2DF167F"
+				item: "wizards:arcane_spell_book"
+				type: "item"
+			}]
+			x: -20.0d
+			y: -16.5d
+		}
+		{
+			dependencies: ["344244ADE5321B4D"]
+			description: ["需在法术绑定台上花费经验和&e青金石&r绑定法术，最多绑定3种。"]
+			id: "7E22D9074E93DED3"
+			tasks: [{
+				id: "0DE7FF622D21645A"
+				item: {
+					Count: 1
+					id: "wizards:staff_arcane"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -19.0d
+			y: -14.5d
+		}
+		{
+			dependencies: ["2A1EECAF6A7F6123"]
+			description: ["奥秘魔法师装备，对奥秘法术有一定加成。"]
+			id: "344244ADE5321B4D"
+			tasks: [
+				{
+					id: "318D3793E542F5A0"
+					item: {
+						Count: 1
+						id: "wizards:arcane_robe_head"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0C26087CD69CC384"
+					item: {
+						Count: 1
+						id: "wizards:arcane_robe_chest"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2FBAC740ED8346F9"
+					item: {
+						Count: 1
+						id: "wizards:arcane_robe_legs"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "71E698BB561C028E"
+					item: {
+						Count: 1
+						id: "wizards:arcane_robe_feet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "奥秘魔法师套装"
+			x: -20.0d
+			y: -15.5d
+		}
+		{
+			dependencies: ["0BA6FC926C01D393"]
+			description: ["基本的魔法师装备，对所有种类的法术均有少量加成。"]
+			id: "380DE616B4DACAE3"
+			tasks: [
+				{
+					id: "38751758EBA1A848"
+					item: {
+						Count: 1
+						id: "wizards:wizard_robe_head"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4BB09812E94E1FD0"
+					item: {
+						Count: 1
+						id: "wizards:wizard_robe_chest"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0C0985B706B22669"
+					item: {
+						Count: 1
+						id: "wizards:wizard_robe_legs"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "54A2A2380E48361A"
+					item: {
+						Count: 1
+						id: "wizards:wizard_robe_feet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "魔法师套装"
+			x: -16.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["7F0F23EAD69337B1"]
+			description: ["由于更加高级的基础法杖不难获得，所以不太建议玩家在游戏初期直接使用此法杖（伤害只有&e1~2&r点）。自带法术&e火球术&r。"]
+			id: "0BA6FC926C01D393"
+			tasks: [{
+				id: "1F340758B7B6E945"
+				item: {
+					Count: 1
+					id: "wizards:wand_novice"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -16.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["7E22D9074E93DED3"]
+			id: "558A8AD155A12F34"
+			tasks: [{
+				id: "6C56815929450CD0"
+				item: {
+					Count: 1
+					id: "wizards:staff_netherite_arcane"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -19.0d
+			y: -13.5d
+		}
+		{
+			dependencies: ["558A8AD155A12F34"]
+			id: "628187B095B2021D"
+			tasks: [{
+				id: "0DAFC81170E22AFE"
+				item: {
+					Count: 1
+					id: "wizards:staff_crystal_arcane"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -19.0d
+			y: -12.5d
+		}
+		{
+			dependencies: ["54B310D7782B0C2F"]
+			description: ["下界合金法杖造价相对较贵，而强度并不如对应的基础权杖，因此请谨慎制作。自带法术&e冰球术&r。"]
+			id: "67E3661DD61EDA25"
+			tasks: [{
+				id: "639C59CF107875E1"
+				item: {
+					Count: 1
+					id: "wizards:wand_netherite_frost"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -14.0d
+			y: -13.5d
+		}
+		{
+			dependencies: ["2096E64F8488039A"]
+			description: [" 自带法术&e冰球术&r"]
+			id: "54B310D7782B0C2F"
+			tasks: [{
+				id: "7242994F4FA56DE3"
+				item: {
+					Count: 1
+					id: "wizards:wand_frost"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -14.0d
+			y: -14.5d
+		}
+		{
+			dependencies: ["2096E64F8488039A"]
+			description: ["&e获得方法&r：普通书本放在法术绑定台附魔。"]
+			id: "25A65CA362775C44"
+			tasks: [{
+				id: "5ED92807E8E9A805"
+				item: "wizards:frost_spell_book"
+				type: "item"
+			}]
+			x: -13.0d
+			y: -16.5d
+		}
+		{
+			dependencies: ["2A1EECAF6A7F6123"]
+			description: ["寒冰魔法师装备，对寒冰法术有一定加成。"]
+			id: "2096E64F8488039A"
+			tasks: [
+				{
+					id: "190F95065DD5770F"
+					item: {
+						Count: 1
+						id: "wizards:frost_robe_head"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "26248A5B8A034DE6"
+					item: {
+						Count: 1
+						id: "wizards:frost_robe_chest"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "08816985EC96DFF9"
+					item: {
+						Count: 1
+						id: "wizards:frost_robe_legs"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3C1E312404B2EE83"
+					item: {
+						Count: 1
+						id: "wizards:frost_robe_feet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "寒冰魔法师套装"
+			x: -13.0d
+			y: -15.5d
+		}
+		{
+			dependencies: ["2096E64F8488039A"]
+			description: ["需在法术绑定台上花费经验和&e青金石&r绑定法术，最多绑定3种。"]
+			id: "7EA4EFDBBCF4D598"
+			tasks: [{
+				id: "709132C58E3EFB79"
+				item: {
+					Count: 1
+					id: "wizards:staff_frost"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -12.0d
+			y: -14.5d
+		}
+		{
+			dependencies: ["7EA4EFDBBCF4D598"]
+			description: ["下界合金法杖造价相对较贵，而强度并不如对应的基础权杖，因此请谨慎制作。自带法术&e冰球术&r"]
+			id: "48585C7360A4067F"
+			tasks: [{
+				id: "6C6DD6665410E431"
+				item: {
+					Count: 1
+					id: "wizards:staff_netherite_frost"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -12.0d
+			y: -13.5d
+		}
+		{
+			dependencies: ["48585C7360A4067F"]
+			id: "6B2D6D2FADF68DB5"
+			tasks: [{
+				id: "0D5B4F9A0F6E7C46"
+				item: {
+					Count: 1
+					id: "wizards:staff_smaragdant_frost"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -12.0d
+			y: -12.5d
+		}
+		{
+			dependencies: ["1A7FA36470D4E1CE"]
+			description: ["下界合金法杖造价相对较贵，而强度并不如对应的基础权杖，因此请谨慎制作。自带法术&e火球术&r。"]
+			id: "5743157C52522AA5"
+			tasks: [{
+				id: "781156A14E801838"
+				item: {
+					Count: 1
+					id: "wizards:wand_netherite_fire"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -10.5d
+			y: -13.5d
+		}
+		{
+			dependencies: ["0C2E279A7B739AFE"]
+			id: "1A7FA36470D4E1CE"
+			tasks: [{
+				id: "638B5CCA6BB75565"
+				item: {
+					Count: 1
+					id: "wizards:wand_fire"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -10.5d
+			y: -14.5d
+		}
+		{
+			dependencies: ["0C2E279A7B739AFE"]
+			description: ["&e获得方法&r：普通书本放在法术绑定台附魔。"]
+			id: "606ECCE5EDFFF607"
+			tasks: [{
+				id: "3629A8676E8336F7"
+				item: "wizards:fire_spell_book"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -16.5d
+		}
+		{
+			dependencies: ["0C2E279A7B739AFE"]
+			description: ["需在法术绑定台上花费经验和&e青金石&r绑定法术，最多绑定3种。"]
+			id: "4A9C1C3BB6806CE0"
+			tasks: [{
+				id: "26F2B0328D6077CF"
+				item: {
+					Count: 1
+					id: "wizards:staff_fire"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -8.5d
+			y: -14.5d
+		}
+		{
+			dependencies: ["4A9C1C3BB6806CE0"]
+			id: "112B36EFAD696A3B"
+			tasks: [{
+				id: "28FCB639160F00CD"
+				item: {
+					Count: 1
+					id: "wizards:staff_netherite_fire"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -8.5d
+			y: -13.5d
+		}
+		{
+			dependencies: ["112B36EFAD696A3B"]
+			id: "4C6C955BF8AF34C0"
+			tasks: [{
+				id: "79832F268706C3AA"
+				item: {
+					Count: 1
+					id: "wizards:staff_ruby_fire"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -8.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["2096E64F8488039A"]
+			description: ["火焰魔法师装备，对火焰法术有一定加成。"]
+			id: "0C2E279A7B739AFE"
+			tasks: [
+				{
+					id: "78CDF2B759C6197D"
+					item: {
+						Count: 1
+						id: "wizards:fire_robe_head"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2FC37BE51577BBDC"
+					item: {
+						Count: 1
+						id: "wizards:fire_robe_chest"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "388B00F5A9AD1292"
+					item: {
+						Count: 1
+						id: "wizards:fire_robe_legs"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "57095F71195C733B"
+					item: {
+						Count: 1
+						id: "wizards:fire_robe_feet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "火焰魔法师套装"
+			x: -9.5d
+			y: -15.5d
+		}
+		{
+			dependencies: ["22CA25F9AF8DF760"]
+			id: "5BC51D79295D736A"
+			rewards: [{
+				id: "0A565B3C45C5853C"
+				item: "jewelry:unique_archer_ring"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "16F5E29D56344630"
+					item: {
+						Count: 1
+						id: "archers:ranger_armor_head"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2BE019E05173529F"
+					item: {
+						Count: 1
+						id: "archers:ranger_armor_chest"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6BEAEB3876D294C9"
+					item: {
+						Count: 1
+						id: "archers:ranger_armor_legs"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "395E07EB0BA22747"
+					item: {
+						Count: 1
+						id: "archers:ranger_armor_feet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "游侠套装"
+			x: 1.0d
+			y: -16.5d
+		}
+		{
+			dependencies: ["22CA25F9AF8DF760"]
+			id: "40346C588B809EFD"
+			rewards: [{
+				id: "29D0936271EEAE66"
+				item: "jewelry:jade_ring"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "22201F90C794E800"
+					item: {
+						Count: 1
+						id: "archers:archer_armor_head"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3F329CE6089A71F6"
+					item: {
+						Count: 1
+						id: "archers:archer_armor_chest"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0E689ECF341E0C77"
+					item: {
+						Count: 1
+						id: "archers:archer_armor_legs"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "11CF329EED2CDC2B"
+					item: {
+						Count: 1
+						id: "archers:archer_armor_feet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "弓箭手套装"
+			x: 0.0d
+			y: -16.5d
+		}
+		{
+			dependencies: ["22CA25F9AF8DF760"]
+			id: "29A228710F5488E4"
+			tasks: [{
+				id: "162F010BB7314C64"
+				item: {
+					Count: 1
+					id: "archers:flint_spear"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "弓箭手的长矛"
+			x: 3.5d
+			y: -15.5d
+		}
+		{
+			dependencies: ["7F0F23EAD69337B1"]
+			description: [
+				"制作&e普通书本&r放置在&d法术绑定台&r合成。"
+				"合成之后的&a弓箭手手册&r可以在&e法术绑定台学习弓箭手的相关技能&r。"
+			]
+			id: "22CA25F9AF8DF760"
+			tasks: [{
+				id: "4043ECE3CA36FEED"
+				item: "archers:archer_spell_book"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -15.5d
+		}
+		{
+			dependencies: ["2D129DA16EADC3AA"]
+			id: "51BCDE5594FBBDB1"
+			tasks: [{
+				id: "4B4873C79A94E600"
+				item: {
+					Count: 1
+					id: "archers:composite_longbow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -14.5d
+		}
+		{
+			dependencies: ["2D129DA16EADC3AA"]
+			id: "15030CF3943E69D0"
+			tasks: [{
+				id: "6D9FB4DAEC72FF92"
+				item: {
+					Count: 1
+					id: "archers:rapid_crossbow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: -16.5d
+		}
+		{
+			dependencies: ["22CA25F9AF8DF760"]
+			id: "2D129DA16EADC3AA"
+			tasks: [{
+				id: "79B6217EF114A63E"
+				item: "archers:auto_fire_hook"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -15.5d
+		}
+		{
+			description: ["&e使用方法&r：类似附魔台，通过消耗&e青金石&r和一定的经验等级来为需要通过此方块绑定法术的&e魔法武器&r绑定上法术。默认只能绑定消耗&e10级经验&r和&e3个青金石&r的法术，周围的书架数量达到&e7个&r后可绑定消耗&e20级经验&r和&e6个青金石&r的法术，周围的书架数量达到&e14个&r后可绑定消耗&e30级经验&r和&e9个青金石&r的法术。"]
+			id: "7F0F23EAD69337B1"
+			tasks: [{
+				id: "1ADD1E52A5BAE029"
+				item: "spell_engine:spell_binding"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -10.5d
+		}
+		{
+			id: "6B7B9186EB2684EB"
+			tasks: [
+				{
+					id: "207F208F9F403982"
+					item: {
+						Count: 1
+						id: "epicsamurai:iron_samurai_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "365D8B022BC8EE57"
+					item: {
+						Count: 1
+						id: "epicsamurai:iron_samurai_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4646E7BBFD797EC5"
+					item: {
+						Count: 1
+						id: "epicsamurai:iron_samurai_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5B89111B989052AD"
+					item: {
+						Count: 1
+						id: "epicsamurai:iron_samurai_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -22.5d
+			y: 0.5d
+		}
+		{
+			id: "194117EA2634AD40"
+			tasks: [
+				{
+					id: "47BC0673BB0724FD"
+					item: {
+						Count: 1
+						id: "epicsamurai:white_samurai_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "67D668DFE2994F51"
+					item: {
+						Count: 1
+						id: "epicsamurai:white_samurai_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1D78AEDC0134AB16"
+					item: {
+						Count: 1
+						id: "epicsamurai:white_samurai_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "05B264ADCBF20DC9"
+					item: {
+						Count: 1
+						id: "epicsamurai:white_samurai_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -21.0d
+			y: 0.5d
+		}
+		{
+			id: "5D879E75C5AAF1DF"
+			tasks: [
+				{
+					id: "7C58D530FF69DC30"
+					item: {
+						Count: 1
+						id: "epicsamurai:gold_samurai_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "487F84C74BCDC070"
+					item: {
+						Count: 1
+						id: "epicsamurai:gold_samurai_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "10AE456BFE879615"
+					item: {
+						Count: 1
+						id: "epicsamurai:gold_samurai_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "76C2270A9800FAA7"
+					item: {
+						Count: 1
+						id: "epicsamurai:gold_samurai_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -19.5d
+			y: 0.5d
+		}
+		{
+			id: "145B9EE0C29EB6AA"
+			tasks: [
+				{
+					id: "1724C926876ED259"
+					item: {
+						Count: 1
+						id: "epicsamurai:diamond_samurai_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "26630A331EA4534C"
+					item: {
+						Count: 1
+						id: "epicsamurai:diamond_samurai_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "70DFCD2514F903F5"
+					item: {
+						Count: 1
+						id: "epicsamurai:diamond_samurai_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "147CEB3AF0179B6D"
+					item: {
+						Count: 1
+						id: "epicsamurai:diamond_samurai_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -18.0d
+			y: 0.5d
+		}
+		{
+			id: "2CD0E8E3FAAB0D89"
+			tasks: [
+				{
+					id: "535CFD14A98514BC"
+					item: {
+						Count: 1
+						id: "epicsamurai:green_samurai_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "430BD838F258A630"
+					item: {
+						Count: 1
+						id: "epicsamurai:green_samurai_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5EAE52E779DBDD33"
+					item: {
+						Count: 1
+						id: "epicsamurai:green_samurai_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "11F9F067BADD57CE"
+					item: {
+						Count: 1
+						id: "epicsamurai:green_samurai_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -15.0d
+			y: 0.5d
+		}
+		{
+			id: "321A1EDD6AE385FB"
+			tasks: [
+				{
+					id: "7AF338BC3C198D30"
+					item: {
+						Count: 1
+						id: "epicsamurai:blue_samurai_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "754827A7D5CEC7A2"
+					item: {
+						Count: 1
+						id: "epicsamurai:blue_samurai_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "58DC92A60417D6AF"
+					item: {
+						Count: 1
+						id: "epicsamurai:blue_samurai_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "203803D7FFBE98E1"
+					item: {
+						Count: 1
+						id: "epicsamurai:blue_samurai_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -13.5d
+			y: 0.5d
+		}
+		{
+			id: "4B9D25BDE6CA3395"
+			tasks: [
+				{
+					id: "79E4FBDEA6E550CB"
+					item: {
+						Count: 1
+						id: "epicsamurai:gray_samurai_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "77BACA3CB9753630"
+					item: {
+						Count: 1
+						id: "epicsamurai:gray_samurai_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "592398B43A0DC878"
+					item: {
+						Count: 1
+						id: "epicsamurai:gray_samurai_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "46422B20183C1B1E"
+					item: {
+						Count: 1
+						id: "epicsamurai:gray_samurai_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -12.0d
+			y: 0.5d
+		}
+		{
+			id: "76569A070DD07AAF"
+			tasks: [
+				{
+					id: "5F4AF62F94A4701B"
+					item: {
+						Count: 1
+						id: "epicsamurai:netherite_samurai_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0AD44AA14DCCFEBB"
+					item: {
+						Count: 1
+						id: "epicsamurai:netherite_samurai_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1D425B7BDD9A9FF6"
+					item: {
+						Count: 1
+						id: "epicsamurai:netherite_samurai_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2F726C39790264B6"
+					item: {
+						Count: 1
+						id: "epicsamurai:netherite_samurai_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -10.5d
+			y: 0.5d
+		}
+		{
+			id: "39CC616298F7BF30"
+			tasks: [
+				{
+					id: "45750DDE3FF6CC67"
+					item: {
+						Count: 1
+						id: "epicsamurai:iron_ninja_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "671C0FAEB8C5AE09"
+					item: {
+						Count: 1
+						id: "epicsamurai:iron_ninja_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "44CCAC585D4BF2C8"
+					item: {
+						Count: 1
+						id: "epicsamurai:iron_ninja_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -22.5d
+			y: -0.5d
+		}
+		{
+			id: "5A2312539C5105E2"
+			tasks: [
+				{
+					id: "580465951E1311E9"
+					item: {
+						Count: 1
+						id: "epicsamurai:gold_ninja_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5557F5B351A7A004"
+					item: {
+						Count: 1
+						id: "epicsamurai:gold_ninja_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7A910FDBA5AE3D09"
+					item: {
+						Count: 1
+						id: "epicsamurai:gold_ninja_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -21.0d
+			y: -0.5d
+		}
+		{
+			id: "15FE5E011BCC5EB6"
+			tasks: [
+				{
+					id: "6ADA92B2E395ABCA"
+					item: {
+						Count: 1
+						id: "epicsamurai:steel_ninja_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7EA9C85901E68283"
+					item: {
+						Count: 1
+						id: "epicsamurai:steel_ninja_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "581C5798BD7446A1"
+					item: {
+						Count: 1
+						id: "epicsamurai:steel_ninja_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -19.5d
+			y: -0.5d
+		}
+		{
+			id: "21C8F015E0A80D99"
+			tasks: [
+				{
+					id: "5DD2EDFD7C4364C3"
+					item: {
+						Count: 1
+						id: "epicsamurai:diamond_ninja_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "66D556B4E0586F39"
+					item: {
+						Count: 1
+						id: "epicsamurai:diamond_ninja_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5DEA3D8EA34C9C50"
+					item: {
+						Count: 1
+						id: "epicsamurai:diamond_ninja_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -18.0d
+			y: -0.5d
+		}
+		{
+			id: "7E51C96A9BB3F59C"
+			tasks: [
+				{
+					id: "4CAFBBA990776FA4"
+					item: {
+						Count: 1
+						id: "epicsamurai:netherite_ninja_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0FF17E7F2E7DD3DD"
+					item: {
+						Count: 1
+						id: "epicsamurai:netherite_ninja_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "105D7556CBD772F5"
+					item: {
+						Count: 1
+						id: "epicsamurai:netherite_ninja_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -15.0d
+			y: -0.5d
+		}
+		{
+			id: "3B89000B7B02F350"
+			tasks: [
+				{
+					id: "066A52AA3842600B"
+					item: {
+						Count: 1
+						id: "epicsamurai:straw_hat"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4502CECD56E65F64"
+					item: {
+						Count: 1
+						id: "epicsamurai:kimono"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4E996428F575D845"
+					item: {
+						Count: 1
+						id: "epicsamurai:ninja_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -12.0d
+			y: -0.5d
+		}
+		{
+			id: "155BA659299AAF82"
+			tasks: [{
+				id: "17E0846143BB14A9"
+				item: {
+					Count: 1
+					id: "epicsamurai:oni_mask"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -13.5d
+			y: -0.5d
+		}
+		{
+			id: "7F835771D9B45D68"
+			tasks: [{
+				id: "3825A367F96A155B"
+				item: {
+					Count: 1
+					id: "epicsamurai:kitsune_mask"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -10.5d
+			y: -0.5d
+		}
+		{
+			id: "19EA93EF3EB5867D"
+			tasks: [
+				{
+					id: "0095A7F7318ADF9C"
+					item: {
+						Count: 1
+						id: "epicsamurai:katana"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "492754EB1654519C"
+					item: {
+						Count: 1
+						id: "epicsamurai:katana_netherite"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -22.5d
+			y: 1.5d
+		}
+		{
+			id: "7FE0BD6060354519"
+			tasks: [
+				{
+					id: "4140573A6909E96E"
+					item: {
+						Count: 1
+						id: "epicsamurai:naginata"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4FA4F1C7DEABD5B5"
+					item: {
+						Count: 1
+						id: "epicsamurai:naginata_netherite"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -21.0d
+			y: 1.5d
+		}
+		{
+			id: "494E1F7200506576"
+			tasks: [
+				{
+					id: "67D3E5DC109AECCD"
+					item: {
+						Count: 1
+						id: "epicsamurai:nagamaki"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "199E1A6C851706DD"
+					item: {
+						Count: 1
+						id: "epicsamurai:nagamaki_netherite"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -19.5d
+			y: 1.5d
+		}
+		{
+			id: "56AB8FA0A88E38E4"
+			tasks: [
+				{
+					id: "5E65C97BEF19F5FB"
+					item: {
+						Count: 1
+						id: "epicsamurai:shuko"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2239DC6532DEC7CE"
+					item: {
+						Count: 1
+						id: "epicsamurai:shuko_netherite"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -18.0d
+			y: 1.5d
+		}
+		{
+			id: "6162F66B211CCCA5"
+			tasks: [
+				{
+					id: "6F1B6FB2AEAAFD42"
+					item: {
+						Count: 1
+						id: "epicsamurai:tetsubo"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2BE654C6E4D006C7"
+					item: {
+						Count: 1
+						id: "epicsamurai:tetsubo_netherite"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -15.0d
+			y: 1.5d
+		}
+		{
+			id: "489718ED6195E8F7"
+			tasks: [
+				{
+					id: "35306993AB1DC66A"
+					item: {
+						Count: 1
+						id: "epicsamurai:kunai"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "72B4085412FE663A"
+					item: {
+						Count: 1
+						id: "epicsamurai:kunai_netherite"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -13.5d
+			y: 1.5d
+		}
+		{
+			id: "0E8921EA3B636C34"
+			tasks: [
+				{
+					id: "370A81DAE11A73D8"
+					item: {
+						Count: 1
+						id: "epicsamurai:kama"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3BD4F4BE344F74E2"
+					item: {
+						Count: 1
+						id: "epicsamurai:kama_netherite"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -12.0d
+			y: 1.5d
+		}
+		{
+			id: "0A0A47808424E2F4"
+			tasks: [
+				{
+					id: "4DD4A83C447FDE5B"
+					item: {
+						Count: 1
+						id: "epicsamurai:sai"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2BB26B91283257C8"
+					item: {
+						Count: 1
+						id: "epicsamurai:sai_netherite"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -10.5d
+			y: 1.5d
+		}
+		{
+			id: "2D4E2F4B81815A7F"
+			tasks: [{
+				id: "138F47AD546668B5"
+				item: "epicsamurai:ruby"
+				type: "item"
+			}]
+			x: -16.5d
+			y: 3.0d
+		}
+		{
+			id: "270ED8108C1DDB19"
+			tasks: [{
+				id: "46A686AFF2C4CB56"
+				item: "epicsamurai:jade"
+				type: "item"
+			}]
+			x: -15.0d
+			y: 3.0d
+		}
+		{
+			id: "1B4079847159EA95"
+			tasks: [{
+				id: "20D199904F5DCD5F"
+				item: "epicsamurai:aquamarine"
+				type: "item"
+			}]
+			x: -13.5d
+			y: 3.0d
+		}
+		{
+			id: "77600FB42CA59B47"
+			tasks: [{
+				id: "48206F9F383EAF8B"
+				item: "epicsamurai:onyx"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 3.0d
+		}
+		{
+			id: "4C289EC4BCBA9AC9"
+			tasks: [{
+				id: "7B32A7E2AC92BEFC"
+				item: "epicsamurai:raw_silver"
+				type: "item"
+			}]
+			x: -19.5d
+			y: 3.0d
+		}
+		{
+			id: "3B15FF7D0C586B52"
+			tasks: [{
+				id: "02E551AB3624F56A"
+				item: "epicsamurai:steel_ingot"
+				type: "item"
+			}]
+			x: -21.0d
+			y: 3.0d
+		}
+		{
+			id: "57C85B45DDD96A7B"
+			tasks: [{
+				id: "00B1057C5F30AC36"
+				item: "epicsamurai:cloth"
+				type: "item"
+			}]
+			x: -18.0d
+			y: 3.0d
+		}
+		{
+			id: "674669698F0ED8D8"
+			tasks: [
+				{
+					id: "695DFB99DCB1011F"
+					item: {
+						Count: 1
+						id: "epicsamurai:red_samurai_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5DBF53377829BA94"
+					item: {
+						Count: 1
+						id: "epicsamurai:red_samurai_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0988C2742531ED93"
+					item: {
+						Count: 1
+						id: "epicsamurai:red_samurai_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "36D514435B435217"
+					item: {
+						Count: 1
+						id: "epicsamurai:red_samurai_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -16.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2D129DA16EADC3AA"]
+			id: "67848E8D5CBA0C32"
+			tasks: [{
+				id: "24DA440534F24043"
+				item: {
+					Count: 1
+					id: "archers:mechanic_shortbow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: -14.5d
+		}
+		{
+			dependencies: ["2D129DA16EADC3AA"]
+			id: "61094736C436C926"
+			tasks: [{
+				id: "043EA09B714BB81E"
+				item: {
+					Count: 1
+					id: "archers:royal_longbow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -14.5d
+		}
+		{
+			dependencies: ["2D129DA16EADC3AA"]
+			id: "59B2BF2B32463D74"
+			tasks: [{
+				id: "181A8ED9B9D99C7C"
+				item: {
+					Count: 1
+					id: "archers:netherite_shortbow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -14.5d
+		}
+		{
+			dependencies: ["2D129DA16EADC3AA"]
+			id: "32CD198D86402D17"
+			tasks: [{
+				id: "7E98752EC8A58059"
+				item: {
+					Count: 1
+					id: "archers:netherite_longbow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -14.5d
+		}
+		{
+			dependencies: ["2D129DA16EADC3AA"]
+			id: "698B6B7F44A0C653"
+			tasks: [{
+				id: "6F2257F1D070CA1E"
+				item: {
+					Count: 1
+					id: "archers:heavy_crossbow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: -16.5d
+		}
+		{
+			dependencies: ["2D129DA16EADC3AA"]
+			id: "163646B00034BDDF"
+			tasks: [{
+				id: "48A766A56B47EEFC"
+				item: {
+					Count: 1
+					id: "archers:netherite_heavy_crossbow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -16.5d
+		}
+		{
+			dependencies: ["2D129DA16EADC3AA"]
+			id: "71C7AD0410350675"
+			tasks: [{
+				id: "4C23A6D734CD7E26"
+				item: {
+					Count: 1
+					id: "archers:netherite_rapid_crossbow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -16.5d
+		}
+		{
+			dependencies: ["29A228710F5488E4"]
+			id: "227010BE2B355C1B"
+			tasks: [{
+				id: "7F6993FD1FE2DA09"
+				item: {
+					Count: 1
+					id: "archers:iron_spear"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -16.5d
+		}
+		{
+			dependencies: ["29A228710F5488E4"]
+			id: "0867C29128D29EFB"
+			tasks: [{
+				id: "55C382A84EF7EB7B"
+				item: {
+					Count: 1
+					id: "archers:golden_spear"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: -16.5d
+		}
+		{
+			dependencies: ["29A228710F5488E4"]
+			id: "61334AA3862D5F14"
+			tasks: [{
+				id: "132E7184AD5CD8D8"
+				item: {
+					Count: 1
+					id: "archers:diamond_spear"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -14.5d
+		}
+		{
+			dependencies: ["29A228710F5488E4"]
+			id: "11A2D57CC4E108AC"
+			tasks: [{
+				id: "733A5C0A3085FA9E"
+				item: {
+					Count: 1
+					id: "archers:netherite_spear"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: -14.5d
+		}
+		{
+			dependencies: ["7F0F23EAD69337B1"]
+			description: ["制作&e普通书本&r放置在&d法术绑定台&r合成。"]
+			id: "61B405435E071F6C"
+			tasks: [{
+				id: "719EF4209624E225"
+				item: "paladins:paladin_spell_book"
+				type: "item"
+			}]
+			x: 12.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["47606AB27AC85241"]
+			id: "21BA06135C9119CD"
+			tasks: [
+				{
+					id: "123EDAF303D23F7C"
+					item: {
+						Count: 1
+						id: "paladins:stone_claymore"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "708F903F20CB26C7"
+					item: {
+						Count: 1
+						id: "paladins:iron_claymore"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "08774BE5DC20BA1E"
+					item: {
+						Count: 1
+						id: "paladins:golden_claymore"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "14B98B0B343A3646"
+					item: {
+						Count: 1
+						id: "paladins:diamond_claymore"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "57B26B4E2C3D3241"
+					item: {
+						Count: 1
+						id: "paladins:netherite_claymore"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "68C0ABE4DA127B19"
+					item: {
+						Count: 1
+						id: "paladins:aeternium_claymore"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 10.5d
+			y: -16.0d
+		}
+		{
+			dependencies: ["2042E42FF4473E5B"]
+			id: "3A813792141A6342"
+			tasks: [
+				{
+					id: "2E55C23F17CA18D1"
+					item: {
+						Count: 1
+						id: "paladins:wooden_great_hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1F425F0B9A193B80"
+					item: {
+						Count: 1
+						id: "paladins:stone_great_hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "71CBF416DDBFFD72"
+					item: {
+						Count: 1
+						id: "paladins:iron_great_hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "26E59D0D6CE52937"
+					item: {
+						Count: 1
+						id: "paladins:golden_great_hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "753C387796A2D3D2"
+					item: {
+						Count: 1
+						id: "paladins:diamond_great_hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1049644E29E3F53B"
+					item: {
+						Count: 1
+						id: "paladins:netherite_great_hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "07BCEA5C728190C5"
+					item: {
+						Count: 1
+						id: "paladins:aeternium_great_hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: -16.0d
+		}
+		{
+			dependencies: ["2042E42FF4473E5B"]
+			id: "4592817C11388D2A"
+			tasks: [
+				{
+					id: "0479D0BE56C49D60"
+					item: {
+						Count: 1
+						id: "paladins:iron_mace"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "71031E091014431C"
+					item: {
+						Count: 1
+						id: "paladins:golden_mace"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5DD45EE4F7A1E7D7"
+					item: {
+						Count: 1
+						id: "paladins:diamond_mace"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4DD47D2B6A9D74C5"
+					item: {
+						Count: 1
+						id: "paladins:netherite_mace"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: -16.0d
+		}
+		{
+			dependencies: ["000361D8652511B1"]
+			id: "4AC48117EC2ED197"
+			tasks: [
+				{
+					id: "5F2633D3D86ED219"
+					item: {
+						Count: 1
+						id: "paladins:acolyte_wand"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "740DC3A097C367C5"
+					item: {
+						Count: 1
+						id: "paladins:holy_wand"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "50CF2370032B3744"
+					item: {
+						Count: 1
+						id: "paladins:netherite_holy_wand"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 14.5d
+			y: -16.0d
+		}
+		{
+			dependencies: ["66C3FDCB829FB366"]
+			id: "63334758C7F2404F"
+			tasks: [
+				{
+					id: "2D2788D9EA4D6C1E"
+					item: {
+						Count: 1
+						id: "paladins:holy_staff"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "51ACB1621DFC2CA7"
+					item: {
+						Count: 1
+						id: "paladins:diamond_holy_staff"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "477C142A853506B4"
+					item: {
+						Count: 1
+						id: "paladins:netherite_holy_staff"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "01482C249321064B"
+					item: {
+						Count: 1
+						id: "paladins:ruby_holy_staff"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 16.5d
+			y: -16.0d
+		}
+		{
+			dependencies: ["47606AB27AC85241"]
+			id: "2042E42FF4473E5B"
+			tasks: [
+				{
+					id: "68CE27592A78F34A"
+					item: {
+						Count: 1
+						id: "paladins:paladin_armor_head"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "030A4A59E8E69BA3"
+					item: {
+						Count: 1
+						id: "paladins:paladin_armor_chest"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "383FA504A6A499A8"
+					item: {
+						Count: 1
+						id: "paladins:paladin_armor_legs"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5CA3151FEB80F8E2"
+					item: {
+						Count: 1
+						id: "paladins:paladin_armor_feet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 8.5d
+			y: -15.0d
+		}
+		{
+			dependencies: ["5570F60CE8EF666B"]
+			id: "47606AB27AC85241"
+			tasks: [
+				{
+					id: "1369DFF827E58E5A"
+					item: {
+						Count: 1
+						id: "paladins:crusader_armor_head"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "25E521AEDA54AA7A"
+					item: {
+						Count: 1
+						id: "paladins:crusader_armor_chest"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "10CAD1E375E937EB"
+					item: {
+						Count: 1
+						id: "paladins:crusader_armor_legs"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "04C5E89B987BED75"
+					item: {
+						Count: 1
+						id: "paladins:crusader_armor_feet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 10.5d
+			y: -15.0d
+		}
+		{
+			dependencies: ["5570F60CE8EF666B"]
+			id: "000361D8652511B1"
+			tasks: [
+				{
+					id: "1673298833B9BD58"
+					item: {
+						Count: 1
+						id: "paladins:priest_robe_head"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "02688B8E162795DC"
+					item: {
+						Count: 1
+						id: "paladins:priest_robe_chest"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1FA3F65A1189FEA2"
+					item: {
+						Count: 1
+						id: "paladins:priest_robe_legs"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "42A1DA5B90C9D2AA"
+					item: {
+						Count: 1
+						id: "paladins:priest_robe_feet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 14.5d
+			y: -15.0d
+		}
+		{
+			dependencies: ["000361D8652511B1"]
+			id: "66C3FDCB829FB366"
+			tasks: [
+				{
+					id: "74A02F0C8BC52B2E"
+					item: {
+						Count: 1
+						id: "paladins:prior_robe_head"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7348E0F3802CA91E"
+					item: {
+						Count: 1
+						id: "paladins:prior_robe_chest"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "060FAE7DCFEA359F"
+					item: {
+						Count: 1
+						id: "paladins:prior_robe_legs"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "733B779CB39200B4"
+					item: {
+						Count: 1
+						id: "paladins:prior_robe_feet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 16.5d
+			y: -15.0d
+		}
+		{
+			dependencies: ["61B405435E071F6C"]
+			description: ["制作&e普通书本&r放置在&d法术绑定台&r合成。"]
+			id: "5570F60CE8EF666B"
+			tasks: [{
+				id: "62551B87517589B6"
+				item: "paladins:priest_spell_book"
+				type: "item"
+			}]
+			x: 12.5d
+			y: -15.0d
+		}
+	]
+	title: "自由职业选择"
+}

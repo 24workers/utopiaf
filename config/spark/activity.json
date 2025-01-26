@@ -1,0 +1,41 @@
+[
+  {
+    "user": {
+      "type": "player",
+      "name": "XiaoHuoChai001",
+      "uniqueId": "36e55e5b-f1ba-47ac-ae52-6a3af5707785"
+    },
+    "time": 1717571294271,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/eUMq8LgScy"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "XiaoHuoChai001",
+      "uniqueId": "36e55e5b-f1ba-47ac-ae52-6a3af5707785"
+    },
+    "time": 1717570861165,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/LOLxmpKjm3"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "XiaoHuoChai001",
+      "uniqueId": "36e55e5b-f1ba-47ac-ae52-6a3af5707785"
+    },
+    "time": 1717567266881,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/Ahge2qkpIK"
+    }
+  }
+]

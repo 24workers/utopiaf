@@ -1,0 +1,8 @@
+UseWebConfig = false
+WebServerPort = 8620
+WebServerUrlHeader = "http://127.0.0.1"
+UseAuth = false
+AdminUserName = "admin"
+AdminUserPasswd = "123456"
+UseExternalAddress = false
+ExternalAddress = "https://example.com"

@@ -1,0 +1,85 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "49A7ED62491B39FF"
+	group: "061233B681861FF4"
+	icon: "minecraft:emerald"
+	id: "49A7ED62491B39FF"
+	images: [{
+		click: "https://afdian.net/a/LimitHuoChai"
+		height: 15.0d
+		image: "minecraft:textures/zanzhu.png"
+		rotation: 0.0d
+		width: 15.0d
+		x: -12.0d
+		y: 0.5d
+	}]
+	order_index: 1
+	quest_links: [ ]
+	quests: [{
+		icon: {
+			Count: 1
+			id: "minecraft:player_head"
+			tag: {
+				SkullOwner: {
+					Id: [I;
+						921001563
+						-239450196
+						-1370330566
+						-177178747
+					]
+					Name: "XiaoHuoChai001"
+					Properties: {
+						textures: [{
+							Signature: "xdKH8YsMhlXakC3H2adVYwmPa0VHee9UKTepCAogNrNyP0bUmglcsXhNE0/ArNsD4xurP+6BFhTL7AWykZCieI9qUh4zzrPXFDeCciXcxM2UAW4yYuYboRJBsdOo3+9qAWO0pMm2nNodAZ1H3rzRZw1cUtngLeTkee5MtbYw/+5rEC+SH3V/gQTY9GElhI4DkD0JGw9P5qrLhYb17vay8cR/Ja4qB60ToedSropWbfRsOLDZPCEg0rHIU1nFnMpWi6VjJB0jMOgpeOcMr33c1pEre0ZBJlcvOU8KttnJZFg2gFB+1HZKDigUruLpX0JPj1uWH+BhHav8fa/aUOASnbhzyFpBddxagYyDXE3om9nwKcTZQoTn0pekX2lq05BXC0WqnFdyNK3c4ePZZZL8B0Tam1dOMHmIgDEFbpEeKcW0kBI1fxr/zNpXcLj7t1yD/gppC2ipZOOUTrQqae8swQFUAruh9tmWnATBDQ28k2zBVU4vSVTmYPRv/WM9gqqK1g8486o7Tz4Lx8qRJnyuLv7i9mRJHIbZwTvnPyVkgUxwvwPy7t1g34OfmCR2ZHVoUHFE3Dj70vbMVqZgfBcZZtp9pYbTpkQ8PkIlDqgMxyMUVdLfCnxwVeHm5I0+dYWnpA3h8MFHu7mQHDz09CjQd2+POj5aw8pBkk+tEkyP4VA="
+							Value: "ewogICJ0aW1lc3RhbXAiIDogMTcxMTA0MjcxOTUyNCwKICAicHJvZmlsZUlkIiA6ICIzNmU1NWU1YmYxYmE0N2FjYWU1MjZhM2FmNTcwNzc4NSIsCiAgInByb2ZpbGVOYW1lIiA6ICJYaWFvSHVvQ2hhaTAwMSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yOWQzN2QxZjg2MTA4ZTZiMDg0NWE1NzJkNjI5MTVlY2UzZTlhYjkwMmZjMGRjNzMzYjE4MzM4ZjMzMTA5NGEyIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0sCiAgICAiQ0FQRSIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjM0MGMwZTAzZGQyNGExMWIxNWE4YjMzYzJhN2U5ZTMyYWJiMjA1MWIyNDgxZDBiYTdkZWZkNjM1Y2E3YTkzMyIKICAgIH0KICB9Cn0="
+						}]
+					}
+				}
+			}
+		}
+		id: "2ABF5CA6BA09B1AD"
+		rewards: [
+			{
+				id: "111AC3C352721036"
+				item: {
+					Count: 1
+					id: "minecraft:player_head"
+					tag: {
+						SkullOwner: {
+							Id: [I;
+								921001563
+								-239450196
+								-1370330566
+								-177178747
+							]
+							Name: "XiaoHuoChai001"
+							Properties: {
+								textures: [{
+									Signature: "xdKH8YsMhlXakC3H2adVYwmPa0VHee9UKTepCAogNrNyP0bUmglcsXhNE0/ArNsD4xurP+6BFhTL7AWykZCieI9qUh4zzrPXFDeCciXcxM2UAW4yYuYboRJBsdOo3+9qAWO0pMm2nNodAZ1H3rzRZw1cUtngLeTkee5MtbYw/+5rEC+SH3V/gQTY9GElhI4DkD0JGw9P5qrLhYb17vay8cR/Ja4qB60ToedSropWbfRsOLDZPCEg0rHIU1nFnMpWi6VjJB0jMOgpeOcMr33c1pEre0ZBJlcvOU8KttnJZFg2gFB+1HZKDigUruLpX0JPj1uWH+BhHav8fa/aUOASnbhzyFpBddxagYyDXE3om9nwKcTZQoTn0pekX2lq05BXC0WqnFdyNK3c4ePZZZL8B0Tam1dOMHmIgDEFbpEeKcW0kBI1fxr/zNpXcLj7t1yD/gppC2ipZOOUTrQqae8swQFUAruh9tmWnATBDQ28k2zBVU4vSVTmYPRv/WM9gqqK1g8486o7Tz4Lx8qRJnyuLv7i9mRJHIbZwTvnPyVkgUxwvwPy7t1g34OfmCR2ZHVoUHFE3Dj70vbMVqZgfBcZZtp9pYbTpkQ8PkIlDqgMxyMUVdLfCnxwVeHm5I0+dYWnpA3h8MFHu7mQHDz09CjQd2+POj5aw8pBkk+tEkyP4VA="
+									Value: "ewogICJ0aW1lc3RhbXAiIDogMTcxMTA0MjcxOTUyNCwKICAicHJvZmlsZUlkIiA6ICIzNmU1NWU1YmYxYmE0N2FjYWU1MjZhM2FmNTcwNzc4NSIsCiAgInByb2ZpbGVOYW1lIiA6ICJYaWFvSHVvQ2hhaTAwMSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yOWQzN2QxZjg2MTA4ZTZiMDg0NWE1NzJkNjI5MTVlY2UzZTlhYjkwMmZjMGRjNzMzYjE4MzM4ZjMzMTA5NGEyIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0sCiAgICAiQ0FQRSIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjM0MGMwZTAzZGQyNGExMWIxNWE4YjMzYzJhN2U5ZTMyYWJiMjA1MWIyNDgxZDBiYTdkZWZkNjM1Y2E3YTkzMyIKICAgIH0KICB9Cn0="
+								}]
+							}
+						}
+					}
+				}
+				type: "item"
+			}
+			{
+				exclude_from_claim_all: true
+				id: "1248964857D2BDD8"
+				table_id: 2953109549610839980L
+				type: "random"
+			}
+		]
+		size: 2.0d
+		tasks: [{
+			id: "05EF61E77D2816CA"
+			type: "checkmark"
+		}]
+		title: "非常感谢你的赞助支持！"
+		x: -12.0d
+		y: 8.0d
+	}]
+	title: "支持作者"
+}

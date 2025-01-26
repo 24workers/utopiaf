@@ -1,0 +1,516 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "7ACEAFB417331754"
+	group: "061233B681861FF4"
+	icon: "spawn:sunflower"
+	id: "7ACEAFB417331754"
+	images: [
+		{
+			height: 10.0d
+			image: "minecraft:textures/xiangrikui1.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: -13.5d
+			y: -11.5d
+		}
+		{
+			height: 10.0d
+			image: "minecraft:textures/xiangrikui1.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: -8.5d
+			y: -11.5d
+		}
+		{
+			height: 10.0d
+			image: "minecraft:textures/xiangrikui1.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: -3.5d
+			y: -11.5d
+		}
+		{
+			height: 10.0d
+			image: "minecraft:textures/xiangrikui1.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: 1.5d
+			y: -11.5d
+		}
+		{
+			height: 10.0d
+			image: "minecraft:textures/xiangrikui1.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: 6.5d
+			y: -11.5d
+		}
+		{
+			height: 10.0d
+			image: "minecraft:textures/xiangrikui1.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: -13.5d
+			y: -3.0d
+		}
+		{
+			height: 10.0d
+			image: "minecraft:textures/xiangrikui1.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: -8.5d
+			y: -3.0d
+		}
+		{
+			height: 10.0d
+			image: "minecraft:textures/xiangrikui1.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: -3.5d
+			y: -3.0d
+		}
+		{
+			height: 10.0d
+			image: "minecraft:textures/xiangrikui1.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			height: 10.0d
+			image: "minecraft:textures/xiangrikui1.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: 6.5d
+			y: -3.0d
+		}
+		{
+			height: 10.0d
+			image: "minecraft:textures/xiangrikui1.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: 11.5d
+			y: -11.5d
+		}
+		{
+			height: 10.0d
+			image: "minecraft:textures/xiangrikui1.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: 11.5d
+			y: -3.0d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "minecraft:player_head"
+				tag: {
+					SkullOwner: {
+						Id: [I;
+							730356134
+							-472691885
+							-1940903991
+							-916960702
+						]
+						Name: "CrazyWillow946"
+						Properties: {
+							textures: [{
+								Signature: "wKSWwaCsMunHqC3vHHV30NUoPafhwZhLE6oEQogIgrg+4Www6nsp4mZcj3CdTGQnyF7vIRSUUOVsKnKl+Q/CHHE2ZMP4tmzD8wMigelm8ezlCuiXcErMwKreY/jB9lo2QsSsye/6g+bJh0ZUww5Wlo1nSOxDTAfRLRJAX0eW0BhVEWtpnEs+Y43XE7x25z45eR6Mv2R8sM0tzZmvKgssc5uhObShkcpOMy7tcp1XZHqZ/Mggf1yn6+lBSnT8fW3CTYnMKLO1dH4aJHNLHktIjpkP2R1Z6oYHGhgLKWe874X6eublRzIMj/dz2PriF50ZiW4T4cMGYp7LM/aD8MnDCtG9irEcqpcoMf9tGDolC2q/gbRJCHaFfdugZgxkNJ9Lj2kfKk848iGD70PJa0s58JeEyyu2PV5y3ccHY4nff+WGFYy+u7ZxRPCS6SK+scMOXJHP+SyvIvbu0HKPRWCu9xMIjIeyXXrj50UEvKDXKeEyJ3tyFYjE6SATCX97jRPVZl1MRtpEoiDhTcOh8EkCkg3xle3gEUT02VHQHTMRGGIsyf0pwctBjiPUZm2xOwwpw6sAy29m5iRdrc3JH7gelfEw6qUYQUbFVCG+TkCY6lPkFVG6s6KZPDyJXupeJWRc2IeBqiZaKv4Sya6gBhrvNmR266ykqBEuAh89RETKRLA="
+								Value: "ewogICJ0aW1lc3RhbXAiIDogMTcwODg0Mzg2ODg2OSwKICAicHJvZmlsZUlkIiA6ICIyYjg4NTlhNmUzZDM0YjUzOGM1MDI3YzljOTU4NGE0MiIsCiAgInByb2ZpbGVOYW1lIiA6ICJDcmF6eVdpbGxvdzk0NiIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS81ZTMzODg3MmFlN2MwN2I2MGE0ZTMzMzdlOTFlNmRhOGFmMjM4YTNiNTBlZWExZWNhMTk4Zjg5NDE3Y2RkMTAyIgogICAgfQogIH0KfQ=="
+							}]
+						}
+					}
+				}
+			}
+			id: "2DF73E9E1B6DAAF0"
+			rewards: [{
+				command: "/give @s minecraft:player_head{SkullOwner:\"CrazyWillow946\"}"
+				icon: {
+					Count: 1
+					id: "minecraft:player_head"
+					tag: {
+						SkullOwner: {
+							Id: [I;
+								730356134
+								-472691885
+								-1940903991
+								-916960702
+							]
+							Name: "CrazyWillow946"
+							Properties: {
+								textures: [{
+									Signature: "wKSWwaCsMunHqC3vHHV30NUoPafhwZhLE6oEQogIgrg+4Www6nsp4mZcj3CdTGQnyF7vIRSUUOVsKnKl+Q/CHHE2ZMP4tmzD8wMigelm8ezlCuiXcErMwKreY/jB9lo2QsSsye/6g+bJh0ZUww5Wlo1nSOxDTAfRLRJAX0eW0BhVEWtpnEs+Y43XE7x25z45eR6Mv2R8sM0tzZmvKgssc5uhObShkcpOMy7tcp1XZHqZ/Mggf1yn6+lBSnT8fW3CTYnMKLO1dH4aJHNLHktIjpkP2R1Z6oYHGhgLKWe874X6eublRzIMj/dz2PriF50ZiW4T4cMGYp7LM/aD8MnDCtG9irEcqpcoMf9tGDolC2q/gbRJCHaFfdugZgxkNJ9Lj2kfKk848iGD70PJa0s58JeEyyu2PV5y3ccHY4nff+WGFYy+u7ZxRPCS6SK+scMOXJHP+SyvIvbu0HKPRWCu9xMIjIeyXXrj50UEvKDXKeEyJ3tyFYjE6SATCX97jRPVZl1MRtpEoiDhTcOh8EkCkg3xle3gEUT02VHQHTMRGGIsyf0pwctBjiPUZm2xOwwpw6sAy29m5iRdrc3JH7gelfEw6qUYQUbFVCG+TkCY6lPkFVG6s6KZPDyJXupeJWRc2IeBqiZaKv4Sya6gBhrvNmR266ykqBEuAh89RETKRLA="
+									Value: "ewogICJ0aW1lc3RhbXAiIDogMTcwODg0Mzg2ODg2OSwKICAicHJvZmlsZUlkIiA6ICIyYjg4NTlhNmUzZDM0YjUzOGM1MDI3YzljOTU4NGE0MiIsCiAgInByb2ZpbGVOYW1lIiA6ICJDcmF6eVdpbGxvdzk0NiIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS81ZTMzODg3MmFlN2MwN2I2MGE0ZTMzMzdlOTFlNmRhOGFmMjM4YTNiNTBlZWExZWNhMTk4Zjg5NDE3Y2RkMTAyIgogICAgfQogIH0KfQ=="
+								}]
+							}
+						}
+					}
+				}
+				id: "20C4FEEE116FF4D0"
+				title: "CrazyWillow946"
+				type: "command"
+			}]
+			shape: "circle"
+			size: 2.0d
+			tasks: [{
+				consume_items: true
+				id: "02538A14EABDE71A"
+				item: "minecraft:sunflower"
+				type: "item"
+			}]
+			title: "CrazyWillow946"
+			x: -13.5d
+			y: -14.0d
+		}
+		{
+			can_repeat: true
+			description: ["感谢艾泽蕊制作的纯音乐《&eLetter[Final]&r》"]
+			icon: {
+				Count: 1
+				id: "minecraft:player_head"
+				tag: {
+					SkullOwner: {
+						Id: [I;
+							172540237
+							-1148563848
+							-1500939416
+							1759002799
+						]
+						Name: "Azure_Lag"
+						Properties: {
+							textures: [{
+								Signature: "dGo+f28nCB7yqcEuQOBk0JiWYv7kJcg1baVZBQ4fPzqUWfcFRdc9Qz+M6ewb8w1jREj1Vbuezzu0xBlSevJN95kie9nV3D/nxU2QoJ1EzsLzHi2HSltl8+O2+J++yU27H2NP49dT58tGLyrZa5B0y8P211UkPgSRxCTwYdFUywWDKpzdsaTo9wBoPCgED0sNDZ1n85c6XeLR42GrWF7CoxhjC86YMdT/hK3YRRxOH03CH/Uf80oNzk+UC4omuIQJc0GIeneAJ4ejgXZzK5kHTTMvk2q+zJ42y8zMCahj8m01FnUWaL3yyXCvaCqwVBBVHakjBwK2gYGoK3+I4Qr9Ee5Y85Fha20RiC0+KS5mDjl5XUNIAdIUSXeKseTkol9aV/iOXXzTa1vGv7EY3T9/lZnsLgB+Ca1iQXlKNpCnzeQn++QSJVfWw3oQDqwiDdEAM28f2nOKU5mCaO/02aXWL4vFWmzbPeMEYI+rpfgICeK/OevTbKXVvT/pkIUZ5MDMvg+vTWwjW8pa5L5J73GDrA+eGMiYtX5VYsZFlYEhvCAOXbO8pPHcTW6R4CVjqFyTrvdjHrapIM3mhr4A8uXBGV38AqVFnaHl9jqaraC7DL4/vWGZfoHE3wXqFbp5KzH29YUZFGgWPBiIlJfvwD6wtUhvgDh/YObapJgbx0SVd04="
+								Value: "ewogICJ0aW1lc3RhbXAiIDogMTcwODg0Mzc5ODg0MSwKICAicHJvZmlsZUlkIiA6ICIwYTQ4YzE0ZGJiOGE0ZTc4YTY4OTdiNjg2OGQ4NDBhZiIsCiAgInByb2ZpbGVOYW1lIiA6ICJBenVyZV9MYWciLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTk0MjNmNjFkNzllNjY0YWI4MDNlYTUxMTA4M2ViNjkyZDliM2FhNjRhNTY4NDgxZjUwNzVjMDFlOGNiMWEzNiIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9"
+							}]
+						}
+					}
+				}
+			}
+			id: "08B1EE31CC6E4138"
+			rewards: [
+				{
+					command: "/give @s minecraft:player_head{SkullOwner:\"Azure_Lag\"}"
+					icon: {
+						Count: 1
+						id: "minecraft:player_head"
+						tag: {
+							SkullOwner: {
+								Id: [I;
+									172540237
+									-1148563848
+									-1500939416
+									1759002799
+								]
+								Name: "Azure_Lag"
+								Properties: {
+									textures: [{
+										Signature: "dGo+f28nCB7yqcEuQOBk0JiWYv7kJcg1baVZBQ4fPzqUWfcFRdc9Qz+M6ewb8w1jREj1Vbuezzu0xBlSevJN95kie9nV3D/nxU2QoJ1EzsLzHi2HSltl8+O2+J++yU27H2NP49dT58tGLyrZa5B0y8P211UkPgSRxCTwYdFUywWDKpzdsaTo9wBoPCgED0sNDZ1n85c6XeLR42GrWF7CoxhjC86YMdT/hK3YRRxOH03CH/Uf80oNzk+UC4omuIQJc0GIeneAJ4ejgXZzK5kHTTMvk2q+zJ42y8zMCahj8m01FnUWaL3yyXCvaCqwVBBVHakjBwK2gYGoK3+I4Qr9Ee5Y85Fha20RiC0+KS5mDjl5XUNIAdIUSXeKseTkol9aV/iOXXzTa1vGv7EY3T9/lZnsLgB+Ca1iQXlKNpCnzeQn++QSJVfWw3oQDqwiDdEAM28f2nOKU5mCaO/02aXWL4vFWmzbPeMEYI+rpfgICeK/OevTbKXVvT/pkIUZ5MDMvg+vTWwjW8pa5L5J73GDrA+eGMiYtX5VYsZFlYEhvCAOXbO8pPHcTW6R4CVjqFyTrvdjHrapIM3mhr4A8uXBGV38AqVFnaHl9jqaraC7DL4/vWGZfoHE3wXqFbp5KzH29YUZFGgWPBiIlJfvwD6wtUhvgDh/YObapJgbx0SVd04="
+										Value: "ewogICJ0aW1lc3RhbXAiIDogMTcwODg0Mzc5ODg0MSwKICAicHJvZmlsZUlkIiA6ICIwYTQ4YzE0ZGJiOGE0ZTc4YTY4OTdiNjg2OGQ4NDBhZiIsCiAgInByb2ZpbGVOYW1lIiA6ICJBenVyZV9MYWciLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTk0MjNmNjFkNzllNjY0YWI4MDNlYTUxMTA4M2ViNjkyZDliM2FhNjRhNTY4NDgxZjUwNzVjMDFlOGNiMWEzNiIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9"
+									}]
+								}
+							}
+						}
+					}
+					id: "5482221441EDE33B"
+					title: "Azure_Lag"
+					type: "command"
+				}
+				{
+					id: "0C6A9ADE43B2AF4B"
+					item: "minecraft:music_disc_ward"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 2.0d
+			tasks: [{
+				consume_items: true
+				id: "64B671E2B0565367"
+				item: "minecraft:sunflower"
+				type: "item"
+			}]
+			title: "艾泽蕊"
+			x: -8.5d
+			y: -14.0d
+		}
+		{
+			can_repeat: true
+			description: [""]
+			icon: {
+				Count: 1
+				id: "minecraft:player_head"
+				tag: {
+					SkullOwner: {
+						Id: [I;
+							651427341
+							-1353560082
+							-1751399226
+							879431842
+						]
+						Name: "Linweixiang599"
+						Properties: {
+							textures: [{
+								Signature: "uOpVhGCJxxgKuZ/BGWr++XCqytp3Kd8UgE1eZNeimaV0eCcslsyJSmEnawZwHsisEEh2WzQZjiuDHJpK7MIQwj0zcurtaxcM4ScsH3xFoB893fkJH3/+bp3HmRE8TMbeB8EgojC5w51Fron1KcqNBuxctcR2EHWh/KT0cId69YfM64X2kTJV4hyMk1xQY1+WmBFoyCh3OyfWdCyFAXbjrDyHclb85f4Lg0iKYnsio+ehGBDIWjUlq1IIY1ilUFNT0HRc7B2bkuIrTX+EcIXK8bnpJphbRgzKkFQyG6XgCt9QotAV/hNQk4qi7xJkYT53SwvwZ72HUpwiQVBvNoFNpFoDRkR7POrwMLFHI76OcEokSaZ5gWuMqrxQEHg8xKzafQ2KUNm8SEO/Fnv6IXc85q8Vogpsa/PwLTGVfmTSXGrFyzTBfYfIJ9irgNeT36UMlUaEsA+q3EupSNLh2XP18Ea8CfEMw85CeGbc/4bTpyWLgdmF27Mro6K/6x8fanJffzekbEv/2dqT15hk0gkvwO+4PTvcz7dT/AOl/Tkp4WCNct8QAtts9qa+olQunydTemDPYEniJxIDl7F6kFIuCbzILmpzqM9i5HrhpGxHid3LGo5/A2BiCgHlH2Eov99fRRwx7D/NJn+LUinZO+RagaDpUNyAy9U7jTwoC8RTGow="
+								Value: "ewogICJ0aW1lc3RhbXAiIDogMTcxMDA1MTEyNzAyNywKICAicHJvZmlsZUlkIiA6ICIyNmQzZmUwZGFmNTI0ZmVlOTc5YmM0YzYzNDZiMTBhMiIsCiAgInByb2ZpbGVOYW1lIiA6ICJMaW53ZWl4aWFuZzU5OSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8zNWVmNjY3ZWE4NTc2ZTM2OTZjNTljYTJhMDgyOWFiYTg4MmI5MzVjNmY5MzMxYTY3ZTVhYzBjM2E1NjhmMjg0IgogICAgfQogIH0KfQ=="
+							}]
+						}
+					}
+				}
+			}
+			id: "2A102A24CB43A361"
+			rewards: [{
+				id: "60AE9EB21209772C"
+				item: {
+					Count: 1
+					id: "minecraft:player_head"
+					tag: {
+						SkullOwner: {
+							Id: [I;
+								651427341
+								-1353560082
+								-1751399226
+								879431842
+							]
+							Name: "Linweixiang599"
+							Properties: {
+								textures: [{
+									Signature: "uOpVhGCJxxgKuZ/BGWr++XCqytp3Kd8UgE1eZNeimaV0eCcslsyJSmEnawZwHsisEEh2WzQZjiuDHJpK7MIQwj0zcurtaxcM4ScsH3xFoB893fkJH3/+bp3HmRE8TMbeB8EgojC5w51Fron1KcqNBuxctcR2EHWh/KT0cId69YfM64X2kTJV4hyMk1xQY1+WmBFoyCh3OyfWdCyFAXbjrDyHclb85f4Lg0iKYnsio+ehGBDIWjUlq1IIY1ilUFNT0HRc7B2bkuIrTX+EcIXK8bnpJphbRgzKkFQyG6XgCt9QotAV/hNQk4qi7xJkYT53SwvwZ72HUpwiQVBvNoFNpFoDRkR7POrwMLFHI76OcEokSaZ5gWuMqrxQEHg8xKzafQ2KUNm8SEO/Fnv6IXc85q8Vogpsa/PwLTGVfmTSXGrFyzTBfYfIJ9irgNeT36UMlUaEsA+q3EupSNLh2XP18Ea8CfEMw85CeGbc/4bTpyWLgdmF27Mro6K/6x8fanJffzekbEv/2dqT15hk0gkvwO+4PTvcz7dT/AOl/Tkp4WCNct8QAtts9qa+olQunydTemDPYEniJxIDl7F6kFIuCbzILmpzqM9i5HrhpGxHid3LGo5/A2BiCgHlH2Eov99fRRwx7D/NJn+LUinZO+RagaDpUNyAy9U7jTwoC8RTGow="
+									Value: "ewogICJ0aW1lc3RhbXAiIDogMTcxMDA1MTEyNzAyNywKICAicHJvZmlsZUlkIiA6ICIyNmQzZmUwZGFmNTI0ZmVlOTc5YmM0YzYzNDZiMTBhMiIsCiAgInByb2ZpbGVOYW1lIiA6ICJMaW53ZWl4aWFuZzU5OSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8zNWVmNjY3ZWE4NTc2ZTM2OTZjNTljYTJhMDgyOWFiYTg4MmI5MzVjNmY5MzMxYTY3ZTVhYzBjM2E1NjhmMjg0IgogICAgfQogIH0KfQ=="
+								}]
+							}
+						}
+					}
+				}
+				title: "Linweixiang599"
+				type: "item"
+			}]
+			shape: "circle"
+			size: 2.0d
+			tasks: [{
+				consume_items: true
+				id: "054A08E1B89E16E4"
+				item: "minecraft:sunflower"
+				type: "item"
+			}]
+			title: "Linweixiang599"
+			x: -3.5d
+			y: -14.0d
+		}
+		{
+			can_repeat: true
+			description: [""]
+			icon: {
+				Count: 1
+				id: "minecraft:player_head"
+				tag: {
+					SkullOwner: {
+						Id: [I;
+							1691971739
+							-1494335398
+							-1854755441
+							-1861819091
+						]
+						Name: "MuYu_"
+						Properties: {
+							textures: [{
+								Signature: "E62q/hQpW5KGZtkAVjzYgSnBmgJZ39G/5fkblqj1HSm4sJq4n8dSMGvxLJGWnGs8QVbSct+h/yibTlCH2Cu6y+84gnwpyY1tbxQWaKIZ0UF89cEmQb1AUT2LgaGBdFHFYpgvd4+4ckSc1oYDMpcO1kQNHoX4svSKdlTVXi0bXCZNRXp9hNKNPY2GXcReAYLvKOtRrr+jbnlTwhQQY7bvN+tZxPNTUaCd+7jtzTGK+BxGZLVfofKqCLMjMLgYfPB+Vkb/VzaCrBP0Esjg/k8ZlsFwRuzeymVhZFBohN4kHHN0EnKJ+KCpu9yTjNshf24Q1M10+8KBETw0Kk4bCTMebPbYYBzqaPd/+5MQexJaEneFo0bl0EH6tCK/5pWdS0EU8aiH1yogWdyciy9V97AD1/Wk3BO8Z8wxP/w2SF124ZemR9iQy9duR3jLdv45RSlxcRJHoldWs1zPz07a0Ej+0q5vHP7EoOH/oKlHknh8afiQLB045IGIOezr80E8O+MoQVn0XHT0darIlru+QhmIMUOaCKB8PXa7zl4M+L3I19r2aF9Qr6TgN1ts9SIltTKEoKB2dDdXA1ayqA7+O9MQJX5mraMyk3j3YjutRF2qzupNfTaY31UiPMHwqKnV4T9qqqEMpzDRkQbAUUpQHtL3SXUZK1mKDjwOP3zgFmzf2bw="
+								Value: "ewogICJ0aW1lc3RhbXAiIDogMTcxMjQ2NjA1ODg2NCwKICAicHJvZmlsZUlkIiA6ICI2NGQ5NzA5YmE2ZWU0MDVhOTE3MmFkOGY5MTA2ZTUyZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJNdVl1XyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8xYjY1ZjUwNzQwNmI3OTQyMDIwZGIwYzViYTY3MDRlYjI5ZWZjZTY2ZWU3ODQwYWQ1MGY3Nzg3ZWUwYzQ4NzMyIgogICAgfQogIH0KfQ=="
+							}]
+						}
+					}
+				}
+			}
+			id: "512DFD38718F8085"
+			rewards: [{
+				id: "2922BB35A52738DC"
+				item: {
+					Count: 1
+					id: "minecraft:player_head"
+					tag: {
+						SkullOwner: {
+							Id: [I;
+								1691971739
+								-1494335398
+								-1854755441
+								-1861819091
+							]
+							Name: "MuYu_"
+							Properties: {
+								textures: [{
+									Signature: "E62q/hQpW5KGZtkAVjzYgSnBmgJZ39G/5fkblqj1HSm4sJq4n8dSMGvxLJGWnGs8QVbSct+h/yibTlCH2Cu6y+84gnwpyY1tbxQWaKIZ0UF89cEmQb1AUT2LgaGBdFHFYpgvd4+4ckSc1oYDMpcO1kQNHoX4svSKdlTVXi0bXCZNRXp9hNKNPY2GXcReAYLvKOtRrr+jbnlTwhQQY7bvN+tZxPNTUaCd+7jtzTGK+BxGZLVfofKqCLMjMLgYfPB+Vkb/VzaCrBP0Esjg/k8ZlsFwRuzeymVhZFBohN4kHHN0EnKJ+KCpu9yTjNshf24Q1M10+8KBETw0Kk4bCTMebPbYYBzqaPd/+5MQexJaEneFo0bl0EH6tCK/5pWdS0EU8aiH1yogWdyciy9V97AD1/Wk3BO8Z8wxP/w2SF124ZemR9iQy9duR3jLdv45RSlxcRJHoldWs1zPz07a0Ej+0q5vHP7EoOH/oKlHknh8afiQLB045IGIOezr80E8O+MoQVn0XHT0darIlru+QhmIMUOaCKB8PXa7zl4M+L3I19r2aF9Qr6TgN1ts9SIltTKEoKB2dDdXA1ayqA7+O9MQJX5mraMyk3j3YjutRF2qzupNfTaY31UiPMHwqKnV4T9qqqEMpzDRkQbAUUpQHtL3SXUZK1mKDjwOP3zgFmzf2bw="
+									Value: "ewogICJ0aW1lc3RhbXAiIDogMTcxMjQ2NjA1ODg2NCwKICAicHJvZmlsZUlkIiA6ICI2NGQ5NzA5YmE2ZWU0MDVhOTE3MmFkOGY5MTA2ZTUyZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJNdVl1XyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8xYjY1ZjUwNzQwNmI3OTQyMDIwZGIwYzViYTY3MDRlYjI5ZWZjZTY2ZWU3ODQwYWQ1MGY3Nzg3ZWUwYzQ4NzMyIgogICAgfQogIH0KfQ=="
+								}]
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "circle"
+			size: 2.0d
+			tasks: [{
+				consume_items: true
+				id: "3F1BC2FDC9EC276F"
+				item: "minecraft:sunflower"
+				type: "item"
+			}]
+			title: "木鱼"
+			x: 1.5d
+			y: -14.0d
+		}
+		{
+			can_repeat: true
+			description: [""]
+			icon: "candlelight:hearth"
+			id: "25F432C39D4D980F"
+			rewards: [{
+				id: "627C733FCA49E9AC"
+				item: "candlelight:hearth"
+				type: "item"
+			}]
+			shape: "circle"
+			size: 2.0d
+			tasks: [{
+				consume_items: true
+				id: "5860F1A1A68841D0"
+				item: "minecraft:sunflower"
+				type: "item"
+			}]
+			title: "艾杳"
+			x: 6.5d
+			y: -14.0d
+		}
+		{
+			can_repeat: true
+			description: [""]
+			icon: {
+				Count: 1
+				id: "minecraft:player_head"
+				tag: {
+					SkullOwner: {
+						Id: [I;
+							1458187696
+							-190952731
+							-1958236151
+							1770452095
+						]
+						Name: "Ekithy"
+						Properties: {
+							textures: [{
+								Signature: "d+++u3t5rBPnXmdwrkyn6x3Aag01Gvzbe5I1V06Sp3rjw38oCPc9D4N9sirBCtSSwvEsd1huNFXfznOU/42KinX1KPPPCOWsfhJ3AV98sXtl/Fke139jvL4T7AkDSByfBn22rr5mr5YYLLnfZIKjk/tvvszdeT2qPHw48mIBqdmfwV5RW3VWxyuoxdtBkEH+UAhqcMaTdZCa9WIv/ipT7iX3KDC+3Bu0PNQ3W84V4IS2dJtq3Omaq/SiTkI6WgwxKcqeIqiyeqrjinEJ3ODsxpFzllrS+kOwEuOAocdaZJ3qtdpPeDbmZa3ipViYKS3YGPeg+bplRW7NtU8jB/QMVnvlIqnXxS8riNOQxOhNaIYdGh+5wBXWQ376PqmqXMgI9Q15PTcmCj+pFMt7f6y78Qnl4JEq7v49zMu7t73vLIgwEpWffTWZ5GvCPEYHVoBBA3GJ/T4FpbaC4zs7ClegElcfnc2XwbpAt2ERoR6eWdQCL7W+ALRq5fMUhaSAoQVg8gWtsjE5wrVyKySjYANamx1467CgiRljXFXlQovswiVh4c7eee5PQ08fJtzEnlTqplg+h8g9qSAgFr+FQuuzAuqIAhn7b4BtUzs+Cy2GL29HeryTOkddBLJsTrrkvTazYv5KSXsfgdEpPa5zm18Gnmf4haigRLZVk/5lcjkbVjU="
+								Value: "ewogICJ0aW1lc3RhbXAiIDogMTcxODI2NzMyMjM0MSwKICAicHJvZmlsZUlkIiA6ICI1NmVhMmRiMGY0OWU0YWU1OGI0N2IwMDk2OTg2ZjQ3ZiIsCiAgInByb2ZpbGVOYW1lIiA6ICJFa2l0aHkiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODVmZmYyNWQ2NjcyMDZmMmU0NmQ0NDJjZjM1OGIzZjFlYzM2MTM4MzkxNzUxYmE2ZWRmOTY1ZmZjODNiODYwMyIKICAgIH0KICB9Cn0="
+							}]
+						}
+					}
+				}
+			}
+			id: "78C44063D790D67B"
+			rewards: [{
+				id: "04208ECF33EB39B2"
+				item: {
+					Count: 1
+					id: "minecraft:player_head"
+					tag: {
+						SkullOwner: {
+							Id: [I;
+								1458187696
+								-190952731
+								-1958236151
+								1770452095
+							]
+							Name: "Ekithy"
+							Properties: {
+								textures: [{
+									Signature: "d+++u3t5rBPnXmdwrkyn6x3Aag01Gvzbe5I1V06Sp3rjw38oCPc9D4N9sirBCtSSwvEsd1huNFXfznOU/42KinX1KPPPCOWsfhJ3AV98sXtl/Fke139jvL4T7AkDSByfBn22rr5mr5YYLLnfZIKjk/tvvszdeT2qPHw48mIBqdmfwV5RW3VWxyuoxdtBkEH+UAhqcMaTdZCa9WIv/ipT7iX3KDC+3Bu0PNQ3W84V4IS2dJtq3Omaq/SiTkI6WgwxKcqeIqiyeqrjinEJ3ODsxpFzllrS+kOwEuOAocdaZJ3qtdpPeDbmZa3ipViYKS3YGPeg+bplRW7NtU8jB/QMVnvlIqnXxS8riNOQxOhNaIYdGh+5wBXWQ376PqmqXMgI9Q15PTcmCj+pFMt7f6y78Qnl4JEq7v49zMu7t73vLIgwEpWffTWZ5GvCPEYHVoBBA3GJ/T4FpbaC4zs7ClegElcfnc2XwbpAt2ERoR6eWdQCL7W+ALRq5fMUhaSAoQVg8gWtsjE5wrVyKySjYANamx1467CgiRljXFXlQovswiVh4c7eee5PQ08fJtzEnlTqplg+h8g9qSAgFr+FQuuzAuqIAhn7b4BtUzs+Cy2GL29HeryTOkddBLJsTrrkvTazYv5KSXsfgdEpPa5zm18Gnmf4haigRLZVk/5lcjkbVjU="
+									Value: "ewogICJ0aW1lc3RhbXAiIDogMTcxODI2NzMyMjM0MSwKICAicHJvZmlsZUlkIiA6ICI1NmVhMmRiMGY0OWU0YWU1OGI0N2IwMDk2OTg2ZjQ3ZiIsCiAgInByb2ZpbGVOYW1lIiA6ICJFa2l0aHkiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODVmZmYyNWQ2NjcyMDZmMmU0NmQ0NDJjZjM1OGIzZjFlYzM2MTM4MzkxNzUxYmE2ZWRmOTY1ZmZjODNiODYwMyIKICAgIH0KICB9Cn0="
+								}]
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "circle"
+			size: 2.0d
+			tasks: [{
+				consume_items: true
+				id: "4205C91D04BA9578"
+				item: "minecraft:sunflower"
+				type: "item"
+			}]
+			title: "Ek1thy"
+			x: 11.5d
+			y: -14.0d
+		}
+		{
+			can_repeat: true
+			description: [""]
+			icon: {
+				Count: 1
+				id: "minecraft:player_head"
+				tag: {
+					SkullOwner: {
+						Id: [I;
+							676432531
+							2032746599
+							-1906393549
+							10539936
+						]
+						Name: "MuBlingFox"
+						Properties: {
+							textures: [{
+								Signature: "T5WQ9iyFsrjiThxt5G4ZCihHZfk2zME4i4bmhVGCO++8BmVW2Y+1ZWR6GpUHpouY/aIi1TnryCvOyJzt3ITs7p896MLhJT78X9/eSP35XMS6icA51oS9BhQtCX1htZyu9P/8xrF7bObLgywhke0+DVo0PH69OdpP1CIQOdH09rS2BumzDzvr9G2I+JJaDyk/xXmaCvtxZElsd8/d3zdQq1eDlwegNz0ro5AeIi8v/PmFWP4rNDNumiVPK0nAgzAkACiykh410kGFmvDpya4zjgWZhPzTs3Fou3W46Ci471FdEV0TkDkQISDUOXMkTw+rKoiDSALIWyAFVS7RHcMRyE3/E5X/+aq6HoPeP7NX4Mxo1qc8/RWUCU34hoxU2MEyEk8/LoPNHW7zZ0Nh6mL3HsNz2xvn5zVtEdRCEASbnYVAbaiq570OBnTYt3607PFQ9tCQf6dq2YeLxdsVEScA+jr2E0tZ3Wf1CKGfwESKHfaRgdH5cyuW9gDjCV/nZWVxVWLXRuReZ5qvQIUWlNaUDFt6TVn2DWNVF/OI/wcv7T7jD6caX0+xbLy5h5b9Oys8cSteePFb5/FHztWGm81n0AmqH1Oc5gWw4OljZQmw9Y7w4uXdIHrzwoMJiztumbF1M9tjF3byyb2atNWDrw2sjiU9lz9l90QELc9Fm7ukiT4="
+								Value: "ewogICJ0aW1lc3RhbXAiIDogMTcxODI3OTYwMjU0NiwKICAicHJvZmlsZUlkIiA6ICIyODUxOGE5Mzc5Mjk0MDY3OGU1ZWJlMzMwMGEwZDNhMCIsCiAgInByb2ZpbGVOYW1lIiA6ICJNdUJsaW5nRm94IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzRhMjMxM2U0MGMwM2JiYzYwYjZmMjg1MmRmMTVjZmI2MjY3MDE4NmJhNmQ5ZWZmNDY0ZWMxMWMxMDE2NWY2ZjMiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ=="
+							}]
+						}
+					}
+				}
+			}
+			id: "07B422F8202E93BC"
+			rewards: [{
+				id: "0F5480B9E518335F"
+				item: {
+					Count: 1
+					id: "minecraft:player_head"
+					tag: {
+						SkullOwner: {
+							Id: [I;
+								676432531
+								2032746599
+								-1906393549
+								10539936
+							]
+							Name: "MuBlingFox"
+							Properties: {
+								textures: [{
+									Signature: "T5WQ9iyFsrjiThxt5G4ZCihHZfk2zME4i4bmhVGCO++8BmVW2Y+1ZWR6GpUHpouY/aIi1TnryCvOyJzt3ITs7p896MLhJT78X9/eSP35XMS6icA51oS9BhQtCX1htZyu9P/8xrF7bObLgywhke0+DVo0PH69OdpP1CIQOdH09rS2BumzDzvr9G2I+JJaDyk/xXmaCvtxZElsd8/d3zdQq1eDlwegNz0ro5AeIi8v/PmFWP4rNDNumiVPK0nAgzAkACiykh410kGFmvDpya4zjgWZhPzTs3Fou3W46Ci471FdEV0TkDkQISDUOXMkTw+rKoiDSALIWyAFVS7RHcMRyE3/E5X/+aq6HoPeP7NX4Mxo1qc8/RWUCU34hoxU2MEyEk8/LoPNHW7zZ0Nh6mL3HsNz2xvn5zVtEdRCEASbnYVAbaiq570OBnTYt3607PFQ9tCQf6dq2YeLxdsVEScA+jr2E0tZ3Wf1CKGfwESKHfaRgdH5cyuW9gDjCV/nZWVxVWLXRuReZ5qvQIUWlNaUDFt6TVn2DWNVF/OI/wcv7T7jD6caX0+xbLy5h5b9Oys8cSteePFb5/FHztWGm81n0AmqH1Oc5gWw4OljZQmw9Y7w4uXdIHrzwoMJiztumbF1M9tjF3byyb2atNWDrw2sjiU9lz9l90QELc9Fm7ukiT4="
+									Value: "ewogICJ0aW1lc3RhbXAiIDogMTcxODI3OTYwMjU0NiwKICAicHJvZmlsZUlkIiA6ICIyODUxOGE5Mzc5Mjk0MDY3OGU1ZWJlMzMwMGEwZDNhMCIsCiAgInByb2ZpbGVOYW1lIiA6ICJNdUJsaW5nRm94IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzRhMjMxM2U0MGMwM2JiYzYwYjZmMjg1MmRmMTVjZmI2MjY3MDE4NmJhNmQ5ZWZmNDY0ZWMxMWMxMDE2NWY2ZjMiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ=="
+								}]
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "circle"
+			size: 2.0d
+			tasks: [{
+				consume_items: true
+				id: "2D8F1BE68D18C0A3"
+				item: "minecraft:sunflower"
+				type: "item"
+			}]
+			title: "狐不令"
+			x: -13.5d
+			y: -5.5d
+		}
+	]
+	title: "感谢各位小太阳的赞助支持"
+}

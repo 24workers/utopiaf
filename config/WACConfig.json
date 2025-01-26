@@ -1,0 +1,76 @@
+{
+    "worldConfigs": {
+        "minecells:prison": {
+            "id": "minecells:prison",
+            "height": 1024,
+            "min_y": -64,
+            "logical_height": 256
+        },
+        "me:middle-earth": {
+            "id": "me:middle-earth",
+            "height": 1024,
+            "min_y": -64,
+            "logical_height": 256
+        },
+        "minecraft:overworld": {
+            "id": "minecraft:overworld",
+            "height": 1024,
+            "min_y": -64,
+            "logical_height": 256
+        },
+        "minecells:insufferable_crypt": {
+            "id": "minecells:insufferable_crypt",
+            "height": 1024,
+            "min_y": -64,
+            "logical_height": 256
+        },
+        "minecells:promenade": {
+            "id": "minecells:promenade",
+            "height": 1024,
+            "min_y": -64,
+            "logical_height": 256
+        },
+        "minecells:black_bridge": {
+            "id": "minecells:black_bridge",
+            "height": 1024,
+            "min_y": -64,
+            "logical_height": 256
+        },
+        "the_bumblezone:the_bumblezone": {
+            "id": "the_bumblezone:the_bumblezone",
+            "height": 1024,
+            "min_y": -64,
+            "logical_height": 256
+        },
+        "minecells:ramparts": {
+            "id": "minecells:ramparts",
+            "height": 1024,
+            "min_y": -64,
+            "logical_height": 256
+        },
+        "minecraft:the_nether": {
+            "id": "minecraft:the_nether",
+            "height": 1024,
+            "min_y": -64,
+            "logical_height": 128
+        },
+        "edenring:edenring": {
+            "id": "edenring:edenring",
+            "height": 1024,
+            "min_y": -64,
+            "logical_height": 256
+        },
+        "minecraft:the_end": {
+            "id": "minecraft:the_end",
+            "height": 1024,
+            "min_y": -64,
+            "logical_height": 256
+        },
+        "deeperdarker:otherside": {
+            "id": "deeperdarker:otherside",
+            "height": 1024,
+            "min_y": -64,
+            "logical_height": 256
+        }
+    }
+}
